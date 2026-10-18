@@ -19,7 +19,7 @@ export const notificationInfo = {
     "hasNotification": true,
     "notificationCount": 1,
     "currentNotificationId": 13,
-    "notificationHTML":"<h5>维护需要时间，感谢您的理解，更新维护中……<h5>"
+    "notificationHTML":"<h3>感谢您的理解，更新维护中……</h3>"
     //  "关于 coc 本次更新的内容，网站的同步情况如下：<br><br>" +
     //     "1. 重做后的隐形弹簧（已完成）。另外，由于重做后的隐形弹簧需要判断英雄、战宠和攻城机器的人口数，为了方便大家判断，我们在英雄、战宠和攻城机器页面添加了占用人口属性。<br>" +
     //     "2. 14 本额外解锁的 5 级英雄（已完成）<br>" +
