@@ -12,20 +12,20 @@ export default defineConfig({
     head: [
         ["meta", { name: "format-detection", content: "telephone=no"}],
         ["link", { rel: "preconnect", href: "https://www.googletagmanager.com" }],
-        ["link", { rel: "icon", href: "https://static.clashpost.com/favicon.ico" }],
-        ["link", { rel: "icon", href: "https://static.clashpost.com/favicon.svg", type: "image/svg+xml" }],
-        ["link", { rel: "apple-touch-icon", href: "https://static.clashpost.com/apple-touch-icon.png"}],
-        ["link", { rel: "manifest", href: "https://static.clashpost.com/manifest.webmanifest"}],
-        ['script', { defer: "", src: "https://static.clashpost.com/global/very-old-browser-check-v11.min.js"}],
-        ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-HB8QGTVX7H"}],
+        ["link", { rel: "icon", href: "/favicon.ico" }],
+        ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
+        ["link", { rel: "apple-touch-icon", href: "/apple-touch-icon.png"}],
+        ["link", { rel: "manifest", href: "/manifest.webmanifest"}],
+        ['script', { defer: "", src: "/browser-check/very-old-browser-check-v11.min.js"}],
+        ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-X77YZJSYGH"}],
         [
             'script',
             {},
             `window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-HB8QGTVX7H');`
-        ],
+            gtag('config', 'G-X77YZJSYGH');`
+      ],
     ],
     transformHead: ({ pageData }) => {
         const head: HeadConfig[] = [];
@@ -34,9 +34,9 @@ export default defineConfig({
         }
         const canonical = pageData.frontmatter.canonical;
         if (canonical === "/") {
-            head.push(["link", { rel: "canonical", content: "https://clashpost.com" }]);
+            head.push(["link", { rel: "canonical", content: "https://cocservice.top" }]);
         } else {
-            head.push(["link", { rel: "canonical", content: "https://clashpost.com" + canonical }]);
+            head.push(["link", { rel: "canonical", content: "https://cocservice.top" + canonical }]);
         }
         return head;
     },
@@ -51,7 +51,7 @@ export default defineConfig({
         }
     },
     sitemap: {
-        hostname: "https://clashpost.com",
+        hostname: "https://www.cocservice.top",
         transformItems: (items) => {
             const excludedUrls = [
                 "/faq",
@@ -72,11 +72,12 @@ export default defineConfig({
         build: {
             target: ["es2020", "chrome71", "edge79", "firefox75", "safari13"]
         },
-        resolve: {
-            alias: {
-                "@": path.resolve(__dirname, "./theme"),
-                "#": path.resolve(__dirname, "../..")
-            }
-        }
+        // 修改后：
+resolve: {
+    alias: {
+        "@": path.resolve(import.meta.dirname, "./theme"),
+        "#": path.resolve(import.meta.dirname, "../..")
+    }
+}
     }
 });
