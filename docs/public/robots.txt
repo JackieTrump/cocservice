@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /cdn-cgi/
 
-Sitemap: https://clashpost.com/sitemap.xml
+Sitemap: https://www.cocservice.top/sitemap.xml
