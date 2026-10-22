@@ -36,6 +36,8 @@ export default defineConfig({
               s.parentNode.insertBefore(hm, s);
             })();
         `],
+      // 百度站长工具
+        ['meta', { name: 'baidu-site-verification', content: 'codeva-W40JwrssEQ' }],
     ],
     transformHead: ({ pageData }) => {
         const head: HeadConfig[] = [];
