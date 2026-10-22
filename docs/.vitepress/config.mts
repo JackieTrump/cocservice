@@ -26,6 +26,16 @@ export default defineConfig({
             gtag('js', new Date());
             gtag('config', 'G-X77YZJSYGH');`
       ],
+        // 2. 新增：百度统计配置
+        ['script', {}, `
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?fb3c5a0c37fe4b5419860a50401d1969";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+        `],
     ],
     transformHead: ({ pageData }) => {
         const head: HeadConfig[] = [];
