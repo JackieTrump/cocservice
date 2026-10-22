@@ -62,10 +62,17 @@ onMounted(() => {
 
 <template>
     <div class="cp-post-details">
-        <a class="cp-post-detail cp-post-detail-author" :href="author.link">
+      <!-- 
+          【SEO 优化修改记录】
+          原先这里是一个 <a> 标签，带有 :href="author.link"，会指向不存在的 /p/author/xxx 页面，
+          导致 Google Search Console (GSC) 产生大量 404 错误。
+          现已将 <a> 改为普通的 <div> 容器，并彻底删除了 :href 属性，
+          只保留头像显示和名字纯文本展示，从网页源码层面彻底断开死链。
+        -->
+        <div class="cp-post-detail cp-post-detail-author" >
             <Pic class="cp-post-detail-author-avatar" :src="author.avatarSm" />
             <div class="cp-post-detail-author-name">{{ author.nickName }}</div>
-        </a>
+        </div>
         <div class="cp-post-detail cp-post-detail-time" ref="createTimeRef"></div>
         <div class="cp-post-detail cp-post-detail-time" ref="updateTimeRef"></div>
     </div>
@@ -144,12 +151,12 @@ onMounted(() => {
     .cp-post-detail-author-name {
         color: var(--cp-grey-text-light);
     }
-
-    &:hover, &:focus {
-        .cp-post-detail-author-name {
-            text-decoration: underline;
-        }
-    }
+// 作者超链接已替换为div，因为已经不可点击了，不需要鼠标放上去显示下划线,故注释之
+    // &:hover, &:focus {
+    //     .cp-post-detail-author-name {
+    //         text-decoration: underline;
+    //     }
+    // }
 }
 
 .cp-theme-dark .cp-post-detail-author {

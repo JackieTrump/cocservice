@@ -74,10 +74,16 @@ onMounted(() => {
             </a>
             <div class="cp-post-item-bottom">
                 <div class="cp-post-item-info">
-                    <a class="cp-post-item-author" :href="author.link">
+                  <!-- 
+      【SEO 优化修改记录】
+      同样将此处指向作者归档页的 <a> 标签改为 <div> 容器，
+      移除 :href 属性，杜绝生成指向 /p/author/xxx 的无效超链接，
+      确保头像（avatarSm）正常加载的同时，作者栏不可点击。
+    -->
+                    <div class="cp-post-item-author">
                         <Pic class="cp-post-item-author-avatar" :src="author.avatarSm" />
                         <div class="cp-post-item-author-name">{{ author.nickName }}</div>
-                    </a>
+                    </div>
                 </div>
                 <div class="cp-post-item-info cp-post-item-time" ref="updateTimeRef"></div>
             </div>
@@ -300,12 +306,12 @@ onMounted(() => {
     .cp-post-item-author-name {
         color: var(--cp-grey-text-light);
     }
-
-    &:hover, &:focus {
-        .cp-post-item-author-name {
-            text-decoration: underline;
-        }
-    }
+// 注释掉路径'/p'页面的hover作者时链接下划线
+    // &:hover, &:focus {
+    //     .cp-post-item-author-name {
+    //         text-decoration: underline;
+    //     }
+    // }
 }
 
 .cp-theme-dark .cp-post-item-author {
