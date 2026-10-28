@@ -13,13 +13,22 @@ export function isNumber(num) {
  * @returns Cookie 的域名
  */
 function getDomain() {
-    let domain;
-    if (window.location.origin.indexOf("localhost") >= 0) {
-        domain = "localhost";
-    } else {
-        domain = ".clashpost.com";
-    }
-    return domain;
+  // let domain;
+  // if (window.location.origin.indexOf("localhost") >= 0) {
+  //     domain = "localhost";
+  // } else {
+  //     domain = '.cocservice.top';
+  // }
+  // return domain;
+
+  // 1. 如果当前访问的是线上正式域名，就返回 .cocservice.top
+  if (window.location.origin.indexOf('cocservice.top') >= 0) {
+    return '.cocservice.top';
+  }
+
+  // 2. 如果不是线上域名（不管是 localhost、127.0.0.1 还是局域网 IP），
+  // 直接返回空字符串，让浏览器默认绑定当前主机，绝对不会报错！
+  return '';
 }
 
 /**
@@ -74,8 +83,17 @@ export function getCookie(name) {
 }
 
 export function deleteCookie(name, path = "/") {
-    const domain = getDomain();
-    document.cookie = name + "=;expires=" + new Date().toUTCString() + ";path=" + path + ";domain=" + domain;
+    // const domain = getDomain();
+  // document.cookie = name + "=;expires=" + new Date().toUTCString() + ";path=" + path + ";domain=" + domain;
+ const domain = getDomain();
+ let cookieStr = name + '=;max-age=0;path=' + path;
+
+  // 只有当 domain 有值（线上环境）时，才拼接 domain
+  if (domain) {
+    cookieStr += ';domain=' + domain;
+  }
+
+  document.cookie = cookieStr;
 }
 
 /**
