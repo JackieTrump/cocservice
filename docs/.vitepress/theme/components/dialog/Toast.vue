@@ -1,90 +1,94 @@
 <script>
 /**
  * 根据提示信息的类型给出 div 的 class 字符串
- * 
- * @param {String} type 提示信息的类型，含 info、warning、error 三种
+ *
+ * @param {String} type 提示信息的类型，含 info、success、warning、error 四种
  * @returns div 的 class 字符串
  */
- function getToastClassFromType(type) {
-    let returnedClass = "cp-toast";
-    switch (type) {
-        case "success":
-            returnedClass += " cp-toast-success";
-            break;
-        case "warning":
-            returnedClass += " cp-toast-warning";
-            break;
-        case "error":
-            returnedClass += " cp-toast-error";
-            break;
-        default:
-            returnedClass += " cp-toast-info";
-    }
+function getToastClassFromType(type) {
+    const map = {
+        success: "cp-toast-success",
+        warning: "cp-toast-warning",
+        error: "cp-toast-error"
+    };
+    return "cp-toast " + (map[type] ?? "cp-toast-info");
+}
 
-    return returnedClass;
+const TOAST_HEIGHT_REM = 3.5;
+const LEAVE_ANIMATION_MS = 300;
+
+// 模块级定时器：新 Toast 出现时可以取消旧的，避免旧定时器误删新内容
+let hideTimer = null;
+let removeTimer = null;
+
+function hideToast(container) {
+    container.classList.remove("cp-toast-show");
+    container.style.height = "0rem";
+    // 等离场动画播完再移除
+    removeTimer = setTimeout(() => {
+        container.remove(); // 已被移除时 remove() 不会报错
+        removeTimer = null;
+    }, LEAVE_ANIMATION_MS);
 }
 
 /**
- * 生成一个提示信息
- * 
+ * 生成一个提示信息（同一时间只显示一条，新的会替换旧的）
+ *
  * @param {String} text 提示信息的文字
  * @param {Object} options 设置项
+ * @param {Boolean} options.blocking 为 true 时，页面已有 Toast 则不再生成
+ * @param {String} options.type info | success | warning | error
+ * @param {Number} options.showDuration 显示时长（毫秒）
+ * @param {String} options.position top | bottom
+ * @param {Boolean} options.html 为 true 时按 HTML 渲染 text（默认按纯文本，避免 XSS）
  */
 export function generateToast(text, options = {}) {
     const blocking = options.blocking ?? false;
     const type = options.type ?? "info";
     const showDuration = options.showDuration ?? 5000;
     const position = options.position ?? "bottom";
+    const asHtml = options.html ?? false;
 
-    // 如果设置为阻塞的 Toast，当页面中有其他 Toast 时，则不再生成
-    if (blocking) return;
+    let container = document.querySelector(".cp-toast-container");
 
-    // 生成 toast 的 DOM 元素
-    // 如果已有 container，则重新生成时直接在已有的 container 上加新的 toast
-    let toastContainer = document.querySelector(".cp-toast-container");
-    if (!toastContainer) {
-        toastContainer = document.createElement("div");
-        toastContainer.setAttribute("class", "cp-toast-container");
-        document.body.appendChild(toastContainer);
-        // 加个定时器，让动画播放完
-        setTimeout(() => {
-            toastContainer.classList.add("cp-toast-show");
-        }, 10);
-    }
-    const toastDiv = document.createElement("div");
-    toastDiv.innerHTML = text;
-    const toastClass = getToastClassFromType(type, position);
-    toastDiv.setAttribute("class", toastClass);
-    toastContainer.appendChild(toastDiv);
+    // 阻塞型：已有 Toast 时直接放弃，不能动已有的
+    if (blocking && container && container.classList.contains("cp-toast-show")) return;
 
-    // 给不同位置的 div 添加 class
-    if (position === "top") {
-        toastContainer.classList.add("cp-fixed-top");
+    // 取消旧定时器，防止它们对新内容生效
+    clearTimeout(hideTimer);
+    clearTimeout(removeTimer);
+    removeTimer = null;
+
+    if (container) {
+        // 复用已有容器，只清空里面旧的 toast
+        container.replaceChildren();
     } else {
-        toastContainer.classList.add("cp-fixed-bottom");
+        container = document.createElement("div");
+        container.className = "cp-toast-container";
+        document.body.appendChild(container);
     }
 
-    // 给 container 设置高度
-    const containerChildCount = toastContainer.childElementCount;
-    const containerHeightRem = containerChildCount * 3.5;
-    toastContainer.style.height =  containerHeightRem + "rem";
+    // 位置
+    container.classList.toggle("cp-fixed-top", position === "top");
+    container.classList.toggle("cp-fixed-bottom", position !== "top");
 
-    setTimeout(() => {
-        setTimeout(() => {
-            const containerChildCount = toastContainer.childElementCount;
-            const containerHeightRem = (containerChildCount - 1) * 3.5;
-            toastContainer.style.height =  containerHeightRem + "rem";
-            toastContainer.removeChild(toastDiv);
-            // 如果 toastContainer 没有子元素了，则移除整个 container
-            if (containerChildCount - 1 === 0) {
-                toastContainer.classList.remove("cp-toast-show");
-                // 为了动画播放完毕，需要延迟一段时间后移除
-                setTimeout(() => {
-                    document.body.removeChild(toastContainer);
-                }, 300);
-            }
-        }, showDuration);
+    // 新的 toast
+    const toastDiv = document.createElement("div");
+    toastDiv.className = getToastClassFromType(type);
+    if (asHtml) {
+        toastDiv.innerHTML = text;
+    } else {
+        toastDiv.textContent = text;
+    }
+    container.appendChild(toastDiv);
+    container.style.height = TOAST_HEIGHT_REM + "rem";
+
+    // 触发入场动画（新建容器时需要先让浏览器渲染初始状态）
+    requestAnimationFrame(() => {
+        requestAnimationFrame(() => container.classList.add("cp-toast-show"));
     });
+
+    hideTimer = setTimeout(() => hideToast(container), showDuration);
 }
 </script>
 
@@ -108,29 +112,40 @@ const toastClass = getToastClassFromType(props.type);
 <style lang="scss">
 .cp-toast-container {
     width: 100%;
-    height: 0;
-    display: flex; /* 展示出来时为 flex */
+    height: auto;
+    display: flex;
     flex-direction: column;
-    align-items: center; /* 让 div 居中 */
+    align-items: center;
     position: fixed;
     top: unset;
     bottom: -4rem;
     z-index: 9999;
     transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);
-}
+    pointer-events: none; // 容器本身不挡住下方按钮
 
-.cp-toast-container.cp-fixed-top {
-    flex-direction: column-reverse;
-    top: -4rem;
-    bottom: unset;
-}
+    > div {
+        pointer-events: auto; // toast 本身仍可交互
+    }
 
-.cp-toast-container.cp-toast-show {
-    bottom: 1.5rem;
-}
+    &.cp-fixed-top {
+        flex-direction: column-reverse;
+        top: -4rem;
+        bottom: unset;
+    }
 
-.cp-toast-container.cp-fixed-top.cp-toast-show {
-    top: 4.5rem;
+    &.cp-toast-show {
+        bottom: 1.5rem;
+    }
+
+    &.cp-fixed-top.cp-toast-show {
+        top: 4.5rem;
+        bottom: unset;
+    }
+
+    &.cp-fixed-top .cp-toast {
+        top: 0;
+        bottom: unset;
+    }
 }
 
 .cp-toast {
@@ -140,14 +155,8 @@ const toastClass = getToastClassFromType(props.type);
     padding: 0.375rem 0.5rem;
     border-radius: 0.5rem;
     position: relative;
-    /* top 和 bottom 实际上是由 js 设置的，-100vh 是为了防止动画播放完毕后 div 走出屏幕 */
     top: unset;
     bottom: 0;
-}
-
-.cp-toast-container.cp-fixed-top .cp-toast {
-    top: 0;
-    bottom: unset;
 }
 
 .cp-toast-info {
