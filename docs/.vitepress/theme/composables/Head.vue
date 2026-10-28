@@ -67,7 +67,7 @@ function showSearchDialogEvent() {
 // 开始搜索
 function startSearching() {
     const inputText = document.getElementById("cp-search-input").value;
-    const searchText = inputText + " site:clashpost.com";
+    const searchText = inputText + " site:cocservice.top";
     const searchTextEncoded = encodeURI(searchText.replaceAll(" ", "+"));
 
     // 确定搜索服务提供商，并跳转到指定网站
