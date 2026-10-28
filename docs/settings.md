@@ -37,14 +37,60 @@ function getDiscountFromOptionValue(value) {
 }
 
 /*
- * 重置设置
+ * 重置设置, 【新增】无感知刷新
+ * 【优化版】重置设置：增加防冗余检测，如果本来就是默认状态则直接拦截
  */
+
 function resetSettings() {
-    window.location.reload();
+  // 1. 获取当前 Cookie 状态
+    const oldGpCookie = getCookie("cp-gp-discount");
+    const oldTheme = getCookie("cp-preferred-theme");
+    const oldSearch = getCookie("cp-search-provider");
+    // 2. 获取当前下拉菜单的选中值
+    const trainVal = getSelectValue("cp-select-gp-training");
+    const researchVal = getSelectValue("cp-select-gp-research");
+    const buildingVal = getSelectValue("cp-select-gp-building");
+    const themeVal = getSelectValue("cp-select-page-theme");
+    const searchVal = getSelectValue("cp-select-search-provider");
+    // 3. 判断是否“本来就已经全部是默认状态”
+    // 条件：所有 Cookie 都不存在，且所有下拉菜单的值都为 "0"
+    const isAlreadyDefault = !oldGpCookie && !oldTheme && !oldSearch &&
+        trainVal === "0" && researchVal === "0" && buildingVal === "0" &&
+        themeVal === "0" && searchVal === "0";
+        // 4. 如果本来就是默认状态，直接拦截，不执行任何无用操作
+    if (isAlreadyDefault) {
+        generateToast("当前已经是默认设置，无需重置", {
+            type: "warning",
+            showDuration: 2600
+        });
+        return;
+    }
+    // 5. 只有在确实需要重置时，才执行清理和恢复操作，清除所有设置相关的 Cookie
+    deleteCookie("cp-gp-discount");
+    deleteCookie("cp-preferred-theme");
+    deleteCookie("cp-search-provider");
+
+    // 2. 使用前端组件的设置方法，将所有下拉菜单瞬间恢复为默认值 "0"
+    setSelectValue("cp-select-gp-training", "0");
+    setSelectValue("cp-select-gp-research", "0");
+    setSelectValue("cp-select-gp-building", "0");
+    setSelectValue("cp-select-page-theme", "0");
+    setSelectValue("cp-select-search-provider", "0");
+
+    // 3. 立即让网站主题恢复默认（跟随系统）
+    if (typeof setUserTheme === 'function') {
+        setUserTheme();
+    }
+
+    // 4. 弹出成功提示（全程无刷新）
+    generateToast("已重置为默认设置", {
+        type: "success",
+        showDuration: 3000
+    });
 }
 
 /*
- * 保存设置
+ *  【新增】无感保存设置,防冗余变更检测,存储前检测数据是否变化
  */
 function saveSettings() {
     // 月卡减免比例的设置
@@ -57,26 +103,57 @@ function saveSettings() {
     const gpDiscountBuildingValue = getSelectValue("cp-select-gp-building");
     const gpDiscountBuilding = getDiscountFromOptionValue(gpDiscountBuildingValue);
 
-    let gpCookieValue;
-    if (gpDiscountTraining === "0" && gpDiscountResearch === "0" && gpDiscountBuilding === "0") {
-        deleteCookie("cp-gp-discount");
-    } else {
-        gpCookieValue = gpDiscountTraining + "-" + gpDiscountResearch + "-" + gpDiscountBuilding;
-        setCookie("cp-gp-discount", gpCookieValue, "90", "days");
-    }
+    // let gpCookieValue;
+    // if (gpDiscountTraining === "0" && gpDiscountResearch === "0" && gpDiscountBuilding === "0") {
+    //     deleteCookie("cp-gp-discount");
+    // } else {
+    //     gpCookieValue = gpDiscountTraining + "-" + gpDiscountResearch + "-" + gpDiscountBuilding;
+    //     setCookie("cp-gp-discount", gpCookieValue, "90", "days");
+    // }
 
     // 网站主题设置
     const pageThemeValue = getSelectValue("cp-select-page-theme");
-    if (pageThemeValue === "1") {
+    // if (pageThemeValue === "1") {
+    //     setCookie("cp-preferred-theme", "light", "10", "years");
+    // } else if (pageThemeValue === "2") {
+    //     setCookie("cp-preferred-theme", "dark", "10", "years");
+    // } else {
+    //     deleteCookie("cp-preferred-theme");
+    // }
+
+    // 搜索服务提供商设置
+    const searchProviderValue = getSelectValue("cp-select-search-provider");
+    // 【新增】检测新旧值是否变化并拦截
+    const oldGpCookieValue = getCookie("cp-gp-discount") || null;
+    const oldTheme = getCookie("cp-preferred-theme") || null;
+    const oldSearch = getCookie("cp-search-provider") || null;
+
+    let newGpCookieValue = (gpDiscountTraining === "0" && gpDiscountResearch === "0" && gpDiscountBuilding === "0") ? null : (gpDiscountTraining + "-" + gpDiscountResearch + "-" + gpDiscountBuilding);
+    let newTheme = pageThemeValue === "1" ? "light" : (pageThemeValue === "2" ? "dark" : null);
+    let newSearch = searchProviderValue === "1" ? "Google" : (searchProviderValue === "2" ? "DuckDuckGo" : (searchProviderValue === "3" ? "Yandex" : (searchProviderValue === "4" ? "Yahoo" : null)));
+
+    // 2. 【直接取反 / 只要有一项发生改变】
+    const hasChanged = (newGpCookieValue !== oldGpCookieValue) || (newTheme !== oldTheme) || (newSearch !== oldSearch);
+
+    // 3. 如果没有任何地方改变，直接拦截
+    if (!hasChanged) {
+        generateToast("当前设置未发生更改,无须保存", { type: "warning", showDuration: 2600 });
+        return;
+    }
+    // 修复bug，修改参数后无法保存
+    if (gpDiscountTraining === "0" && gpDiscountResearch === "0" && gpDiscountBuilding === "0") {
+        deleteCookie("cp-gp-discount");
+    } else {
+       let gpCookieValue = gpDiscountTraining + "-" + gpDiscountResearch + "-" + gpDiscountBuilding;
+        setCookie("cp-gp-discount", gpCookieValue, "90", "days");
+    }
+     if (pageThemeValue === "1") {
         setCookie("cp-preferred-theme", "light", "10", "years");
     } else if (pageThemeValue === "2") {
         setCookie("cp-preferred-theme", "dark", "10", "years");
     } else {
         deleteCookie("cp-preferred-theme");
     }
-
-    // 搜索服务提供商设置
-    const searchProviderValue = getSelectValue("cp-select-search-provider");
     if (searchProviderValue === "1") {
         setCookie("cp-search-provider", "Google", "10", "years");
     } else if (searchProviderValue === "2") {
@@ -88,12 +165,18 @@ function saveSettings() {
     } else {
         deleteCookie("cp-search-provider");
     }
-
     // 弹出提示信息
     generateToast("设置保存成功", {
         type: "success",
         showDuration: 3000
     });
+    
+/**
+ * 【关键优化】保存完主题 Cookie 后，立即让全局主题生效，实现无感知切换！
+ */
+    if (typeof setUserTheme === 'function') {
+        setUserTheme();
+    }
 }
 </script>
 
@@ -104,7 +187,7 @@ import SelectContainer from "@/components/select/SelectContainer.vue";
 import Select, { getSelectValue, setSelectValue } from "@/components/select/Select.vue";
 import Option from "@/components/select/Option.vue";
 import { generateToast } from "@/components/dialog/Toast.vue";
-import { getCookie, setCookie, deleteCookie, isNumber } from "@/assets/global/utils.js";
+import { getCookie, setCookie, deleteCookie, isNumber,setUserTheme } from "@/assets/global/utils.js";
 
 /*
  * 获取三个月卡减免比例
