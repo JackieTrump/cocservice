@@ -95,9 +95,9 @@ export function changeHeader(robotsMetaValue, canonicalLink) {
         // 确定完整的规范链接
         let canonicalLinkFull;
         if (canonicalLink === "/") {
-            canonicalLinkFull = "https://clashpost.com";
+          canonicalLinkFull = "https://www.cocservice.top";
         } else {
-            canonicalLinkFull = "https://clashpost.com" + canonicalLink;
+          canonicalLinkFull = "https://www.cocservice.top" + canonicalLink;
         }
         // 查找网页 head 中规范链接所在的 link
         let canonicalLinkHead = null;
