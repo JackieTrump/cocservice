@@ -104,7 +104,7 @@ function browserTooOldCheck(minChromeVer, minFirefoxVer, minSafariVer) {
  * 确定用户的浏览器版本是否过低。
  * 这是传统的 userAgent 方案，没有谷歌主推的 userAgentData API 准确，
  * 因此 Chromium 系浏览器使用上方的 browserTooOldCheck() 函数，这个函数作为 Fallback.
- * 网站的浏览器版本要求见：https://clashpost.com/p/1828
+ * 网站的浏览器版本要求见：https://www.cocservice.top/p/1828
  * 
  * 各浏览器的 UA：
  * Chrome (Windows): Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
