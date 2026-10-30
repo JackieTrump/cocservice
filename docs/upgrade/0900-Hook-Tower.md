@@ -3,15 +3,25 @@ title: "部落冲突 coc 钩索塔升级数据"
 navTitle: "钩索塔"
 shownTitle: "钩索塔"
 description: "建筑大师应该不会介意我们借用他船上的绳索吧？钩索塔可将远处的敌人拖拽过来并击晕。不过攻城机器实在太重了，这招对它们无效！"
-module: upgrade-home
-imgFolder: home_buildings/0900
+module: upgrade-temp
+imgFolder: temp_crafted/0900
 wiki: https://clashofclans.fandom.com/wiki/Hook_Tower
 canonical: /upgrade/0900-Hook-Tower
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hook_Tower4_hd.png" :imgAlt="$frontmatter.navTitle"
-    description="建筑大师应该不会介意我们借用他船上的绳索吧？<br>钩索塔可将远处的敌人拖拽过来并击晕。不过攻城机器实在太重了，这招对它们无效！"
-    :isSmallImg="true" />
+    description="建筑大师应该不会介意我们借用他船上的绳索吧？<br>钩索塔可将远处的敌人拖拽过来并击晕。不过攻城机器实在太重了，这招对它们无效！" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="3 - 11 级" imgSrc="Hook_Tower1.png" />
+        <UnitImg imgTitle="12 - 20 级" imgSrc="Hook_Tower2.png" />
+        <UnitImg imgTitle="21 - 29 级" imgSrc="Hook_Tower3.png" />
+        <UnitImg imgTitle="30 级" imgSrc="Hook_Tower4.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -34,63 +44,66 @@ canonical: /upgrade/0900-Hook-Tower
     <UnitProperty pKey="推出时的最高大本等级" pValue="17" />
 </UnitProperties>
 
-<SmallTitle>可升级模组 1：生命值模组</SmallTitle>
+<SmallTitle>可升级模组 1：提升建筑的生命值</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo1">
 
-| 等级 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验|
-| ---- |   ---  |   ---   |   ---   |         ---        |
-|   1  |   500  |     \   |    \    |                    |
-|   2  |  1000  |    4M   |   1     |                    |
-|   3  |  1500  |    5M   |   1, 6  |                    |
-|   4  |  2000  |    6M   |   1,12  |                    |
-|   5  |  2500  |    7M   |   1,18  |                    |
-|   6  |  3000  |    8M   |   2     |                    |
-|   7  |  3500  |    9M   |   2, 6  |                    |
-|   8  |  4000  |   10M   |   2,12  |                    |
-|   9  |  4500  |   11M   |   2,18  |                    |
-|  10  |  5000  |   12M   |   3     |                    |
+| 等级 | 生命值 | 升级费用 | 升级时间 | 升级后可<br>获得的经验 |
+| ---- | ------ | -------- | -------- | ---------------------- |
+| 1    | 500    | \        | \        |                        |
+| 2    | 1000   | 4M       | 1        |                        |
+| 3    | 1500   | 5M       | 1, 6     |                        |
+| 4    | 2000   | 6M       | 1,12     |                        |
+| 5    | 2500   | 7M       | 1,18     |                        |
+| 6    | 3000   | 8M       | 2        |                        |
+| 7    | 3500   | 9M       | 2, 6     |                        |
+| 8    | 4000   | 10M      | 2,12     |                        |
+| 9    | 4500   | 11M      | 2,18     |                        |
+| 10   | 5000   | 12M      | 3        |                        |
 </UnitTable>
 
-<SmallTitle>可升级模组 2：攻击力模组（减少攻击冷却时间）</SmallTitle>
+<SmallTitle>可升级模组 2：减少攻击冷却时间</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo2">
 
-| 等级 | 攻击<br>冷却时间 | 升级费用 | 升级时间 |升级后可<br>获得的经验|
-| ---- |       ---       |    ---  |   ---   |         ---        |
-|   1  |      7.1 秒     |      \  |    \    |                    |
-|   2  |      6.9 秒     |     5M  |   0,12  |                    |
-|   3  |      6.7 秒     |     6M  |   0,16  |                    |
-|   4  |      6.5 秒     |     7M  |   0,20  |                    |
-|   5  |      6.3 秒     |     8M  |   1     |                    |
-|   6  |      6.1 秒     |     9M  |   1, 6  |                    |
-|   7  |      5.9 秒     |    10M  |   1,12  |                    |
-|   8  |      5.7 秒     |    11M  |   2     |                    |
-|   9  |      5.5 秒     |  11.5M  |   2,12  |                    |
-|  10  |      5.3 秒     |    12M  |   3     |                    |
+| 等级 | 攻击<br>冷却时间 | 升级费用 | 升级时间 | 升级后可<br>获得的经验 |
+| ---- | ---------------- | -------- | -------- | ---------------------- |
+| 1    | 7.1 秒           | \        | \        |                        |
+| 2    | 6.9 秒           | 5M       | 0,12     |                        |
+| 3    | 6.7 秒           | 6M       | 0,16     |                        |
+| 4    | 6.5 秒           | 7M       | 0,20     |                        |
+| 5    | 6.3 秒           | 8M       | 1        |                        |
+| 6    | 6.1 秒           | 9M       | 1, 6     |                        |
+| 7    | 5.9 秒           | 10M      | 1,12     |                        |
+| 8    | 5.7 秒           | 11M      | 2        |                        |
+| 9    | 5.5 秒           | 11.5M    | 2,12     |                        |
+| 10   | 5.3 秒           | 12M      | 3        |                        |
 </UnitTable>
 
-<SmallTitle>可升级模组 3：效果模组（增加眩晕时间）</SmallTitle>
+<SmallTitle>可升级模组 3：增加攻击后的眩晕时间</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo3">
 
-| 等级 | 眩晕时间 | 升级费用 | 升级时间 |升级后可<br>获得的经验|
-| ---- |   ---   |    ---  |   ---   |         ---        |
-|   1  |  2.7 秒 |      \  |    \    |                    |
-|   2  |  2.8 秒 |    25k  |   1,12  |                    |
-|   3  |  2.9 秒 |    30k  |   2     |                    |
-|   4  |  3.0 秒 |    35k  |   2,12  |                    |
-|   5  |  3.1 秒 |    40k  |   2,14  |                    |
-|   6  |  3.2 秒 |    55k  |   2,16  |                    |
-|   7  |  3.3 秒 |    70k  |   2,18  |                    |
-|   8  |  3.4 秒 |    85k  |   2,20  |                    |
-|   9  |  3.5 秒 |   100k  |   2,22  |                    |
-|  10  |  3.6 秒 |   115k  |   3     |                    |
+| 等级 | 眩晕时间 | 升级费用 | 升级时间 | 升级后可<br>获得的经验 |
+| ---- | -------- | -------- | -------- | ---------------------- |
+| 1    | 2.7 秒   | \        | \        |                        |
+| 2    | 2.8 秒   | 25k      | 1,12     |                        |
+| 3    | 2.9 秒   | 30k      | 2        |                        |
+| 4    | 3.0 秒   | 35k      | 2,12     |                        |
+| 5    | 3.1 秒   | 40k      | 2,14     |                        |
+| 6    | 3.2 秒   | 55k      | 2,16     |                        |
+| 7    | 3.3 秒   | 70k      | 2,18     |                        |
+| 8    | 3.4 秒   | 85k      | 2,20     |                        |
+| 9    | 3.5 秒   | 100k     | 2,22     |                        |
+| 10   | 3.6 秒   | 115k     | 3        |                        |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/16">
+        <TimelineRow>该精工防御失效。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>新精工防御：钩索塔。</TimelineRow>
     </TimelineItem>
