@@ -48,9 +48,9 @@ export default defineConfig({
         }
         const canonical = pageData.frontmatter.canonical;
         if (canonical === "/") {
-            head.push(["link", { rel: "canonical", content: "https://cocservice.top" }]);
+            head.push(["link", { rel: "canonical", content: "https://www.cocservice.top" }]);
         } else {
-            head.push(["link", { rel: "canonical", content: "https://cocservice.top" + canonical }]);
+            head.push(["link", { rel: "canonical", content: "https://www.cocservice.top" + canonical }]);
         }
         return head;
     },
