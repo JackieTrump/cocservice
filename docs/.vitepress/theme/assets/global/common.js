@@ -111,10 +111,10 @@ export function changeHeader(robotsMetaValue, canonicalLink) {
         if (canonicalLinkHead === null) {
             const newDom = document.createElement("link");
             newDom.setAttribute("rel", "canonical");
-            newDom.setAttribute("content", canonicalLinkFull);
+            newDom.setAttribute('href', canonicalLinkFull);
             document.head.appendChild(newDom);
         } else {
-            canonicalLinkHead.setAttribute("content", canonicalLinkFull);
+            canonicalLinkHead.setAttribute('href', canonicalLinkFull);
         }
     } else {
         document.head.querySelectorAll("link").forEach(el => {
