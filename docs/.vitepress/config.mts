@@ -43,8 +43,11 @@ export default defineConfig({
   ],
   transformHead: ({ pageData }) => {
     const head: HeadConfig[] = [];
-    if (pageData.frontmatter.robots) {
-      head.push(["meta", { name: "robots", content: pageData.frontmatter.robots }]);
+    const robots = pageData.frontmatter.robots;
+    if (robots) {
+      head.push(["meta", { name: "robots", content: robots }]);
+      // 禁止收录的页面不生成规范链接，避免 noindex 和 canonical 同时出现
+      if (String(robots).includes("noindex")) return head;
     }
     const canonical = pageData.frontmatter.canonical;
     if (canonical) {
