@@ -1,8 +1,8 @@
 ---
 title: "联系我们"
 module: faq
-canonical: /faq
-robots: noindex, nofollow
+# canonical: /faq   #已禁止收录，不设置规范链接
+robots: noindex, 
 hasUpdateTime: false
 ---
 
