@@ -19,7 +19,7 @@ export const notificationInfo = {
     "hasNotification": true,
     "notificationCount": 1,
     "currentNotificationId": 13,
-    "notificationHTML":"请耐心等待，更新维护中……"
+  "notificationHTML": " 本站域名于2026年10月已完成续费,网站仍然会运行,作者精力有限,陆续维护更新,同时欢迎大家通过<a href=\"/faq\">联系我们</a>。提交反馈或内容投稿,请耐心等待,更新维护中……"
     //  "关于 coc 本次更新的内容，网站的同步情况如下：<br><br>" +
     //     "1. 重做后的隐形弹簧（已完成）。另外，由于重做后的隐形弹簧需要判断英雄、战宠和攻城机器的人口数，为了方便大家判断，我们在英雄、战宠和攻城机器页面添加了占用人口属性。<br>" +
     //     "2. 14 本额外解锁的 5 级英雄（已完成）<br>" +
