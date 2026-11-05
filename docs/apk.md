@@ -13,10 +13,10 @@ import { generateToast } from "@/components/dialog/Toast.vue";
 import Download from "@/components/icon/Download.vue";
 
 const disableDownloading = false;
-const apkVersion = "17.477.9";
-const apkUploadDate = "2025-10-13";
-const apkFileSize = "643.8 MB";
-const apkFileName = "Clash_of_Clans_v17.477.9_m74sZ6H7ZEnZIO4Q.apk";
+const apkVersion = "18.647.5";
+const apkUploadDate = "2026-10-22";
+const apkFileSize = "901.2 MB";
+const apkFileName = "Clash_of_Clans_v18.647.5_wKgWDBrV9KOv3Qbn.apk";
 const systemRequirement = "Android 7.0+";
 
 function downloadCocApk() {
