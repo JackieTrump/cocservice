@@ -3,13 +3,24 @@ title: "部落冲突 coc 碎岩迫击炮升级数据"
 navTitle: "碎岩迫击炮"
 shownTitle: "碎岩迫击炮"
 description: "世界各地的巨石投手都排着队要它的签名！碎岩迫击炮会发射带有尖刺的巨石，石头如戈仑石人般优雅坠落，落地后还会继续弹跳、造成附带伤害。建议佩戴安全帽！"
-module: upgrade-home
-imgFolder: home_buildings/0902
+module: upgrade-temp
+imgFolder: temp_crafted/0902
 wiki: https://clashofclans.fandom.com/wiki/Crusher_Mortar
-canonical: /upgrade/0902-Crusher-Mortar
+canonical: /upgrade/crusher-mortar
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Crusher_Mortar4_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Crusher_Mortar4_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="3 - 11 级" imgSrc="Crusher_Mortar1.png" />
+        <UnitImg imgTitle="12 - 20 级" imgSrc="Crusher_Mortar2.png" />
+        <UnitImg imgTitle="21 - 29 级" imgSrc="Crusher_Mortar3.png" />
+        <UnitImg imgTitle="30 级" imgSrc="Crusher_Mortar4.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -26,7 +37,7 @@ canonical: /upgrade/0902-Crusher-Mortar
 
 \* 碎岩迫击炮扔出去的石头落地后还能再次弹起来，石头最多落地 3 次。上方所说的 2.5 - 9 格指的是石头的第一个落点与碎岩迫击炮的距离，每次弹跳距离上一个落点 3 格。
 
-<SmallTitle>可升级模组 1：生命值模组</SmallTitle>
+<SmallTitle>可升级模组 1：提升建筑的生命值</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo1">
 
@@ -44,7 +55,7 @@ canonical: /upgrade/0902-Crusher-Mortar
 |  10  |  4900  |   115k  |   3     |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 2：攻击力模组</SmallTitle>
+<SmallTitle>可升级模组 2：提升建筑的伤害</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo2">
 
@@ -62,7 +73,7 @@ canonical: /upgrade/0902-Crusher-Mortar
 |  10  |   240   |   432   |    12M  |   3     |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 3：效果模组（增加溅射半径）</SmallTitle>
+<SmallTitle>可升级模组 3：增加溅射半径</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo3">
 
@@ -83,6 +94,9 @@ canonical: /upgrade/0902-Crusher-Mortar
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/16">
+        <TimelineRow>该精工防御失效。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>新精工防御：碎岩迫击炮。</TimelineRow>
     </TimelineItem>
