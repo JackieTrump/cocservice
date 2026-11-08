@@ -249,12 +249,13 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="英雄殿堂" imgSrc="0489/Hero_Hall11.png" link="0489-Hero-Hall" />
         <ListItem name="精制台" imgSrc="048a/Crafting_Station_thumb.png" link="048a-Crafting-Station" />
     </ListItems>
-    <ListItems title="精工防御" imgFolder="home_buildings">
+     <!-- 移动至临时单位 /upgrade/category/temp -->
+    <!-- <ListItems title="精工防御" imgFolder="home_buildings">
         <ListItem name="钩索塔" imgSrc="0900/Hook_Tower4.png" link="0900-Hook-Tower" />
         <ListItem name="旋转喷火器" imgSrc="0901/Flame_Spinner4.png" link="0901-Flame-Spinner" />
-        <ListItem name="碎岩迫击炮" imgSrc="0902/Crusher_Mortar4.png" link="0902-Crusher-Mortar" />
-    </ListItems>
-    <ListItems title="其他" imgFolder="home_buildings">
+        <ListItem name="碎岩迫击炮" imgSrc="0902/Crusher_Mortar4.png" link="crusher-mortar" />
+    </ListItems> -->
+    <ListItems title="其他建筑" imgFolder="home_buildings">
         <ListItem name="小博木屋" imgSrc="0501/B.O.Bs_Hut.png" link="0501-B.O.Bs-Hut" />
         <ListItem name="帮手小屋" imgSrc="0502/Helper_Hut.png" link="0502-Helper-Hut" />
     </ListItems>
