@@ -41,7 +41,7 @@ if (activeTabCookieValue === "temp-troops") {
         <ListItem name="碎岩迫击炮" imgSrc="0902/Crusher_Mortar4.png" link="crusher-mortar" :lazyLoading="false" />
         <ListItem name="英雄警钟" imgSrc="0903/Hero_Bell4.png" link="hero-bell" :lazyLoading="false" />
         <ListItem name="炸弹蜂巢" imgSrc="0904/Bomb_Hive4.png" link="bomb-hive" :lazyLoading="false" />
-        <ListItem name="圣光灯塔" imgSrc="0905/Light_Beam4.png" link="0905-Light-Beam" :lazyLoading="false" />
+        <ListItem name="圣光灯塔" imgSrc="0905/Light_Beam4.png" link="light-beam" :lazyLoading="false" />
     </ListItems>
     <div class="cp-upgrade-index-tip">
         <SmallTitle>注意</SmallTitle>
