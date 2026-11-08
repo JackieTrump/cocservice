@@ -38,8 +38,8 @@ if (activeTabCookieValue === "temp-troops") {
     <ListItems title="2025 - 2026" imgFolder="temp_crafted">
         <ListItem name="钩索塔" imgSrc="0900/Hook_Tower4.png" link="0900-Hook-Tower" :lazyLoading="false" />
         <ListItem name="旋转喷火器" imgSrc="0901/Flame_Spinner4.png" link="0901-Flame-Spinner" :lazyLoading="false" />
-        <ListItem name="碎岩迫击炮" imgSrc="0902/Crusher_Mortar4.png" link="0902-Crusher-Mortar" :lazyLoading="false" />
-        <ListItem name="英雄警钟" imgSrc="0903/Hero_Bell4.png" link="0903-Hero-Bell" :lazyLoading="false" />
+        <ListItem name="碎岩迫击炮" imgSrc="0902/Crusher_Mortar4.png" link="crusher-mortar" :lazyLoading="false" />
+        <ListItem name="英雄警钟" imgSrc="0903/Hero_Bell4.png" link="hero-bell" :lazyLoading="false" />
         <ListItem name="炸弹蜂巢" imgSrc="0904/Bomb_Hive4.png" link="0904-Bomb-Hive" :lazyLoading="false" />
         <ListItem name="圣光灯塔" imgSrc="0905/Light_Beam4.png" link="0905-Light-Beam" :lazyLoading="false" />
     </ListItems>
