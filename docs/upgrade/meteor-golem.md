@@ -1,16 +1,16 @@
 ---
-title: "部落冲突 coc 陨石戈仑（临时兵种）升级数据"
+title: "部落冲突 coc 陨石戈仑升级数据"
 navTitle: "陨石戈仑"
-shownTitle: "陨石戈仑（临时兵种）"
+shownTitle: "陨石戈仑"
 description: "来自宇宙的它们，将加入您的军队！这对热衷投掷的组合，会将自己扔向任何目标，造成近战伤害。当它们分开时，小陨石戈仑会攻击附近目标，或者寻找同伴重新合体变成陨石戈仑！"
-module: upgrade-temp
-imgFolder: temp_troops/0e1b
+module: upgrade-home
+imgFolder: home_tech/0012
 wiki: https://clashofclans.fandom.com/wiki/Meteor_Golem
 canonical: /upgrade/meteor-golem
 ---
 
 - *如想查看陨石戈仑的设计原型，请访问：[戈仑石人](/upgrade/0083-Golem)。*
-- *如想查看作为永久兵种的陨石戈仑数据，请访问：[陨石戈仑](/upgrade/0012-Meteor-Golem)。*
+- *如想查看作为临时兵种的陨石戈仑数据，请访问：[陨石戈仑（临时兵种）](/upgrade/meteor-golem-temp)。*
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
     <SwitchTab tabId="cp-unit-item-0" :activeTab="true">陨石戈仑</SwitchTab>
@@ -26,21 +26,29 @@ canonical: /upgrade/meteor-golem
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="所有等级" imgSrc="Meteor_Golem1.png" />
+        <UnitImg imgTitle="1 级" imgSrc="Meteor_Golem1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Meteor_Golem2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Meteor_Golem3.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
 1. 陨石戈仑最初在 2025/10 的宇宙摇滚活动中作为临时兵种推出，在 2025/11 的 18 本版本更新后成为永久兵种。
-2. 陨石戈仑和小陨石戈仑的机制已在 [陨石戈仑（永久兵种）](/upgrade/0012-Meteor-Golem) 页面中写出，这里不再重复。
+2. 陨石戈仑由两只小陨石戈仑组成，其攻击方式是让其中一只小陨石戈仑将另一只投掷到目标身上，造成范围伤害。这种攻击方式会使两只小陨石戈仑分开，但只要两只小陨石戈仑相遇即可再次合体。
+    - 任意两只小陨石戈仑都能合体，不需要来自同一母体。
+    - 小陨石戈仑的生命值为陨石戈仑分离那一刻的一半生命值。
+    - 小陨石戈仑合体后的生命值由两只小陨石戈仑的剩余生命值决定，如果其中一个或两个受到伤害，则总生命值减少。
+    - [镜像法术](/upgrade/0105-Clone-Spell) 复制的陨石戈仑一旦分离就不能再合体。
+3. 小陨石戈仑可以跳过 [城墙](/upgrade/0300-Walls)，但陨石戈仑不能。
+4. 两只小陨石戈仑合体后有短暂的无敌状态。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
-    <UnitProperty pKey="伤害加成" pValue="对墙 10 倍伤害" />
+    <UnitProperty pKey="伤害加成" pValue="对墙 5 倍伤害" />
     <UnitProperty pKey="伤害类型" pValue="投掷后造成范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="1 格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
@@ -48,28 +56,37 @@ canonical: /upgrade/meteor-golem
     <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
     <UnitProperty pKey="进攻时机" pValue="到达目标 1 秒后" />
     <UnitProperty pKey="最远投掷距离" pValue="5 格" />
-    <UnitProperty pKey="所需训练营等级" pValue="1" />
-    <UnitProperty pKey="所需大本等级" pValue="6" />
+    <UnitProperty pKey="所需训练营等级" pValue="19" />  
+    <UnitProperty pKey="所需大本等级" pValue="17" />    
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="20,20,60000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
 
-<UnitTable>
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
 
-| 等级 | 投掷伤害 | 生命值 | 所需大本等级 |
-| ---- | -------- | ------ | ------------ |
-| 1    | 160      | 4000   | 6            |
-| 2    | 185      | 5000   | 7            |
-| 3    | 210      | 6000   | 8            |
-| 4    | 235      | 7000   | 9            |
-| 5    | 260      | 8000   | 10           |
-| 6    | 285      | 9000   | 11           |
-| 7    | 310      | 10000  | 12           |
-| 8    | 335      | 11000  | 13           |
-| 9    | 360      | 12000  | 14           |
-| 10   | 400      | 13000  | 15           |
-| 11   | 450      | 14000  | 16           |
-| 12   | 500      | 15000  | 17           |
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 投掷伤害 | 生命值 | 升级花费 | 升级时间 | 所需实验室等级 | 所需大本等级 |
+| ---- | -------- | ------ | -------- | -------- | -------------- | ------------ |
+| 1    | 450      | 13000  | \        | \        | 1              | 17           |
+| 2    | 500      | 14500  | 28M      | 14       | 15             | 17           |
+| 3    | 550      | 16000  | 30M      | 16       | 16             | 18           |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -82,7 +99,9 @@ canonical: /upgrade/meteor-golem
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="所有等级" imgSrc="Meteormite1.png" />
+        <UnitImg imgTitle="1 级" imgSrc="Meteormite1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Meteormite2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Meteormite3.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -106,24 +125,21 @@ canonical: /upgrade/meteor-golem
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 |
 | ---- | -------- | -------- | ------ |
-| 1    | 80       | 120      | 2000   |
-| 2    | 93       | 139.5    | 2500   |
-| 3    | 105      | 157.5    | 3000   |
-| 4    | 118      | 177      | 3500   |
-| 5    | 130      | 195      | 4000   |
-| 6    | 143      | 214.5    | 4500   |
-| 7    | 155      | 232.5    | 5000   |
-| 8    | 168      | 252      | 5500   |
-| 9    | 180      | 270      | 6000   |
-| 10   | 193      | 289.5    | 6500   |
-| 11   | 205      | 307.5    | 7000   |
-| 12   | 218      | 327      | 7500   |
+| 1    | 180      | 270      | 6500   |
+| 2    | 200      | 300      | 7250   |
+| 3    | 220      | 330      | 8000   |
 </UnitTable>
 </SwitchTabGroup>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/01/28">
+        <TimelineRow>所有等级陨石戈仑和小陨石戈仑的生命值和伤害降低。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/01/12">
+        <TimelineRow>陨石戈仑对城墙的伤害降低 50%（现在对墙只有 5 倍伤害了）。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，陨石戈仑成为永久兵种，共推出 3 个等级。</TimelineRow>
     </TimelineItem>
