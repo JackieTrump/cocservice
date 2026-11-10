@@ -33,7 +33,7 @@ canonical: /upgrade/meteor-golem-temp
 <SmallTitle>重要说明</SmallTitle>
 
 1. 陨石戈仑最初在 2025/10 的宇宙摇滚活动中作为临时兵种推出，在 2025/11 的 18 本版本更新后成为永久兵种。
-2. 陨石戈仑和小陨石戈仑的机制已在 [陨石戈仑（永久兵种）](/upgrade/0012-Meteor-Golem) 页面中写出，这里不再重复。
+2. 陨石戈仑和小陨石戈仑的机制已在 [陨石戈仑（永久兵种）](/upgrade/meteor-golem) 页面中写出，这里不再重复。
 
 <SmallTitle>属性</SmallTitle>
 
