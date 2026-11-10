@@ -6,7 +6,7 @@ description: "收债哥布林贪婪无比，喜欢直奔资源建筑，夺取的
 module: upgrade-temp
 imgFolder: temp_troops/0e1a
 wiki: https://clashofclans.fandom.com/wiki/Debt_Collector
-canonical: /upgrade/debt-collector
+canonical: /upgrade/debt-collector-temp
 ---
 
 - *如想查看收债哥布林的设计原型，请访问：[哥布林](/upgrade/0003-Goblin)。*
