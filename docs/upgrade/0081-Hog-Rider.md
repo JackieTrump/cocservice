@@ -31,6 +31,7 @@ canonical: /upgrade/0081-Hog-Rider
         <UnitImg imgTitle="12 级" imgSrc="Hog_Rider12.png" />
         <UnitImg imgTitle="13 级" imgSrc="Hog_Rider13.png" />
         <UnitImg imgTitle="14 级" imgSrc="Hog_Rider14.png" />
+        <UnitImg imgTitle="15 级" imgSrc="Hog_Rider15.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -86,12 +87,19 @@ const tableExtraInfo = [
 |  11  |    187   |   187   |  1080 | 107.5K  |    5      |     12     |    14     |
 |  12  |    200   |   200   |  1230 |   125K  |    5,12   |     13     |    15     |
 |  13  |    213   |   213   |  1380 |   175K  |    6,12   |     14     |    16     |
-|  14  |    225   |   225   |  1500 |   280K  |   14      |     15     |    17     |
+|  14  |    225   |   225   |  1500 |   240K  |   10      |     15     |    17     |
+|  15  |    250   |   250   |  1750 |   340K  |   14,12   |     16     |    18     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>在 18 本新增 15 级野猪骑士。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>14 级野猪骑士的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>9 ~ 13 级野猪骑士的升级时间减少。</TimelineRow>
     </TimelineItem>

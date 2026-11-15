@@ -20,6 +20,7 @@ canonical: /upgrade/0240-Wall-Wrecker
         <UnitImg imgTitle="3 级" imgSrc="Wall_Wrecker3.png" />
         <UnitImg imgTitle="4 级" imgSrc="Wall_Wrecker4.png" />
         <UnitImg imgTitle="5 级" imgSrc="Wall_Wrecker5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Wall_Wrecker6.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -72,12 +73,19 @@ const tableExtraInfo = [
 |   2  |    300   |   390   |  6000  |  2.5M  |    2    |       10        |      12       |
 |   3  |    350   |   455   |  6500  |  3.5M  |    3    |       10        |      12       |
 |   4  |    400   |   520   |  7000  |  6.5M  |    7    |       11        |      13       |
-|   5  |    450   |   585   |  7500  |   10M  |    9    |       13        |      15       |
+|   5  |    580   |   754   |  8500  |   10M  |    9    |       13        |      15       |
+|   6  |    670   |   871   | 10000  |   26M  | 13,12   |       16        |      18       |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/01/12">
+        <TimelineRow>5 ~ 6 级攻城战车的每秒伤害和生命值增加。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 6 级攻城战车。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
     </TimelineItem>

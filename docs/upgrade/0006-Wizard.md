@@ -28,6 +28,7 @@ canonical: /upgrade/0006-Wizard
         <UnitImg imgTitle="11 级" imgSrc="Wizard11.png" />
         <UnitImg imgTitle="12 级" imgSrc="Wizard12.png" />
         <UnitImg imgTitle="13 级" imgSrc="Wizard13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Wizard14.png" imgHd="Wizard14_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -83,12 +84,17 @@ const tableExtraInfo = [
 |  10  |    245   |   367.5 |  250  |   5.5M  |    3,12   |     11      |    13     |
 |  11  |    260   |   390   |  270  |    10M  |    5,12   |     13      |    15     |
 |  12  |    275   |   412.5 |  290  |  11.5M  |    7      |     14      |    16     |
-|  13  |    290   |   435   |  310  |    21M  |   14      |     15      |    17     |
+|  13  |    290   |   435   |  310  |    16M  |   10,12   |     15      |    17     |
+|  14  |    310   |   465   |  330  |    27M  |   14      |     16      |    18     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 14 级法师。</TimelineRow>
+        <TimelineRow>13 级法师的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>8 ~ 11 级法师的升级时间减少。</TimelineRow>
     </TimelineItem>

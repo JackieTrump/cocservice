@@ -12,7 +12,7 @@ canonical: /upgrade/0307-Hidden-Tesla
 - *如想查看 12 本的自带武器，请访问 [巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)。*
 - *如想查看夜世界的特斯拉电磁塔，请访问：[夜世界特斯拉电磁塔](/upgrade/1103-Hidden-Tesla)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hidden_Tesla16.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hidden_Tesla17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -34,13 +34,14 @@ canonical: /upgrade/0307-Hidden-Tesla
         <UnitImg imgTitle="14 级" imgSrc="Hidden_Tesla14.png" />
         <UnitImg imgTitle="15 级" imgSrc="Hidden_Tesla15.png" />
         <UnitImg imgTitle="16 级" imgSrc="Hidden_Tesla16.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Hidden_Tesla17.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9 - 11, 12 - 17" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9 - 11, 12 - 18" />
     <BuildingNumRow title="建筑数量" num="    0, 2, 3,      4,       5" />
 </BuildingNum>
 
@@ -98,14 +99,21 @@ const tableExtraInfo = [
 |  13  |   150   |   90    |  1350  |  5.1M   |   3,12    |                     |       14       |
 |  14  |   160   |   96    |  1450  |  6.5M   |   4       |                     |       15       |
 |  15  |   170   |  102    |  1550  |  8.2M   |   5       |                     |       16       |
-|  16  |   180   |  108    |  1650  | 20.5M   |  15       |                     |       17       |
-| ⚡1  |   185   |  111    |  1650  |   10M   |   4       |                     |       17       |
-| ⚡2  |   185   |  111    |  1700  |    6M   |   6       |                     |       17       |
+|  16  |   180   |  108    |  1650  |   15M   |   9       |                     |       17       |
+|  17  |   190   |  114    |  1750  |   25M   |  13       |                     |       18       |
+
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>在 18 本添加了 17 级特斯拉电磁塔。</TimelineRow>
+        <TimelineRow>移除了特斯拉电磁塔的充能等级。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>16 级及两个充能等级的特斯拉电磁塔的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>13 ~ 15 级特斯拉电磁塔的升级时间减少。</TimelineRow>
     </TimelineItem>

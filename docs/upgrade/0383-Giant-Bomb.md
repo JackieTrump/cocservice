@@ -37,8 +37,8 @@ canonical: /upgrade/0383-Giant-Bomb
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 5, 6, 7, 8, 9, 10 - 11, 12 - 13, 14 - 16, 17" />
-    <BuildingNumRow title="建筑数量" num="    0, 1, 2, 3, 4,       5,       6,       7,  8" />
+    <BuildingNumRow title="大本等级" num="1 - 5, 6, 7, 8, 9, 10 - 11, 12 - 13, 14 - 16, 17 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0, 1, 2, 3, 4,       5,       6,       7,       8" />
 </BuildingNum>
 
 <SmallTitle>属性</SmallTitle>
@@ -88,12 +88,15 @@ const tableExtraInfo = [
 |   8  |   400   |   4 格  |     2M  |  1        |                    |       14      |
 |   9  |   425   |   4 格  |   3.2M  |  2        |                    |       15      |
 |  10  |   450   |   4 格  |   5.5M  |  4        |                    |       16      |
-|  11  |   475   |   4 格  |    12M  |  9        |                    |       17      |
+|  11  |   475   |   4 格  |    10M  |  5        |                    |       17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>11 级巨型炸弹的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>8 ~ 9 级巨型炸弹的升级时间减少。</TimelineRow>
         <TimelineRow>8 ~ 9 级巨型炸弹的升级费用降低。</TimelineRow>

@@ -96,6 +96,7 @@ const tableExtraInfo = [
 | 2024/05 | 并肩哈兰德 | 3 100 金靴奖章 |   商人   |
 | 2025/02 |  灵蛇庆典  | 3 100 灵蛇奖章 |   商人   |
 | 2025/08 |  水花大赛  | 3 100 水花奖章 |   商人   |
+| 2025/12 |  熔岩危机  | 3 100 火苗奖章 |   商人   |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
@@ -105,7 +106,7 @@ const tableExtraInfo = [
         <TimelineRow>所有等级（18 级除外）尖刺足球装备可弹跳的目标数量减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/05/07">
-        <TimelineRow>新装备：尖刺足球，有效期至 2024/05/24。</TimelineRow>
+        <TimelineRow>新装备：尖刺足球。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

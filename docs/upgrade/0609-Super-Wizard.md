@@ -57,16 +57,23 @@ canonical: /upgrade/0609-Super-Wizard
 
 | 等级 |  每秒伤害  | 直接伤害 | 连锁伤害 | 生命值 |所需大本等级|
 | ---- |    ----   |  ----   |   ---   |  ----  |    ----   |
-|   9  |    220    |   440   |   176   |   450  |     12    |
-|  10  |    240    |   480   |   192   |   500  |     13    |
-|  11  |    265    |   530   |   212   |   540  |     15    |
-|  12  |    285    |   570   |   228   |   580  |     16    |
-|  13  |    305    |   610   |   244   |   620  |     17    |
+|   9  |    220    |   440   |   176   |   545  |     12    |
+|  10  |    240    |   480   |   192   |   705  |     13    |
+|  11  |    265    |   530   |   212   |   760  |     15    |
+|  12  |    285    |   570   |   228   |   815  |     16    |
+|  13  |    305    |   610   |   244   |   870  |     17    |
+|  14  |    335    |   670   |   268   |   925  |     18    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/01/28">
+        <TimelineRow>所有等级超级法师的生命值提升。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>18 本推出，并在 18 本新增 14 级法师，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/30">
         <TimelineRow>11 ~ 13 级超级法师的每秒伤害提升。</TimelineRow>
     </TimelineItem>
@@ -83,7 +90,7 @@ canonical: /upgrade/0609-Super-Wizard
         <TimelineRow>15 本推出，并在 15 本新增 11 级法师，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/01/20">
-    <TimelineRow>超级法师连锁后的伤害由 60%降低到 40%。</TimelineRow>
+    <TimelineRow>超级法师连锁后的伤害由 60% 降低到 40%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
     <TimelineRow>新超级兵：超级法师。</TimelineRow>

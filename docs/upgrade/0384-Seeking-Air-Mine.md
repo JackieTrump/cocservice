@@ -20,7 +20,7 @@ canonical: /upgrade/0384-Seeking-Air-Mine
         <UnitImg imgTitle="1 - 2 级" imgSrc="Seeking_Air_Mine1.png" />
         <UnitImg imgTitle="3 - 4 级" imgSrc="Seeking_Air_Mine3.png" />
         <UnitImg imgTitle="5 - 6 级" imgSrc="Seeking_Air_Mine5.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Seeking_Air_Mine7.png" />
+        <UnitImg imgTitle="7 - 8 级" imgSrc="Seeking_Air_Mine7.png" />
         <UnitImg imgTitle="未重新布置" imgSrc="Seeking_Air_Mine_unarmed.png" />
     </UnitImgGroup>
 </Panel>
@@ -28,8 +28,8 @@ canonical: /upgrade/0384-Seeking-Air-Mine
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9, 10 - 11, 12, 13, 14 - 16, 17" />
-    <BuildingNumRow title="建筑数量" num="    0, 1, 2, 4,       5,  6,  7,       8,  9" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9, 10 - 11, 12, 13, 14 - 16, 17 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0, 1, 2, 4,       5,  6,  7,       8,       9" />
 </BuildingNum>
 
 <SmallTitle>属性</SmallTitle>
@@ -70,19 +70,25 @@ const tableExtraInfo = [
 
 | 等级 | 爆炸伤害 | 升级费用 |  升级时间  |升级后可<br>获得的经验|所需<br>大本等级|
 | ---- |    ---  |   ---   |    ---    |         ---         |       ---     |
-|   1  |   1500  |    12k  |    0      |                     |        7      |
-|   2  |   1800  |   600k  |    0,12   |                     |        9      |
-|   3  |   2100  |   1.2M  |    1      |                     |       10      |
-|   4  |   2500  |   2.5M  |    1,12   |                     |       13      |
-|   5  |   2800  |     5M  |    3      |                     |       15      |
-|   6  |   3000  |   6.5M  |    4,12   |                     |       16      |
-|   7  |   3200  |    14M  |   10      |                     |       17      |
-
+|   1  |   1500  |    12k  |    0      |         ---            |        7      |
+|   2  |   1800  |   600k  |    0,12   |         207            |        9      |
+|   3  |   2100  |   1.2M  |    1      |         293            |       10      |
+|   4  |   2500  |   2.5M  |    1,12   |         360            |       13      |
+|   5  |   2800  |     5M  |    3      |         509            |       15      |
+|   6  |   3000  |   6.5M  |    4,12   |         623            |       16      |
+|   7  |   3200  |    12M  |    5,12   |         689            |       17      |
+|   8  |   3350  |    19M  |    11,12   |        996             |       18      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>在 18 本推出 8 级搜空地雷。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>7 级搜空地雷的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>4 ~ 6 级搜空地雷的升级时间减少。</TimelineRow>
     </TimelineItem>

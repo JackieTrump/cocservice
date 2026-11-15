@@ -10,6 +10,7 @@ canonical: /upgrade/0083-Golem
 ---
 
 - *本页面的内容不是戈仑冰人，如想查看戈仑冰人的页面，请访问：[戈仑冰人](/upgrade/0087-Ice-Golem)。*
+- *如想查看陨石戈仑，请访问：[陨石戈仑](/upgrade/meteor-golem)、[陨石戈仑（临时兵种）](/upgrade/meteor-golem-temp)。*
 - *如想查看都城的高山戈仑，请访问：[都城高山戈仑](/upgrade/200d-Mountain-Golem)。*
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
@@ -101,7 +102,7 @@ const tableExtraInfo = [
 |  11  |     85   |    204  |       850     |              3           |  8500 |   105K |    5      |       12        |      14       |
 |  12  |     90   |    216  |       900     |              3           |  8800 | 122.5K |    5,12   |       13        |      15       |
 |  13  |     95   |    228  |       950     |              4           |  9200 |   175K |    6,10   |       14        |      16       |
-|  14  |    100   |    240  |      1000     |              4           |  9600 |   270K |   14      |       15        |      17       |
+|  14  |    100   |    240  |      1000     |              4           |  9600 |   230K |   10      |       15        |      17       |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -177,6 +178,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>14 级戈仑石人的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>3 ~ 13 级戈仑石人的升级时间减少。</TimelineRow>
     </TimelineItem>

@@ -39,7 +39,7 @@ canonical: /upgrade/0500-Builders-Hut
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1, 2 - 17" />
+    <BuildingNumRow title="大本等级" num="1, 2 - 18" />
     <BuildingNumRow title="建筑数量" num="2,      5" />
 </BuildingNum>
 
@@ -66,9 +66,9 @@ canonical: /upgrade/0500-Builders-Hut
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="建筑工人小屋的最大数量" pValue="5" />
     <UnitProperty pKey="射程" pValue="7 格" />
-    <UnitProperty pKey="工人小屋的攻速" pValue="0.4 秒/次" />
-    <UnitProperty pKey="防守时工人的移动速度" pValue="3.5 秒/格" />
-    <UnitProperty pKey="工人的修复速度" pValue="0.75 秒/次" />
+    <UnitProperty pKey="建筑工人小屋的攻速" pValue="0.4 秒/次" />
+    <UnitProperty pKey="建筑工人的移动速度" pValue="2.5 秒/格" />
+    <UnitProperty pKey="建筑工人的修复速度" pValue="0.75 秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -104,7 +104,7 @@ const tableExtraInfo = [
 |   4  |   120   |    48   |      70     |        52.5         |  1600 |     6M  |   4     |                    |      14       |
 |   5  |   135   |    54   |      80     |        60           |  1800 |     7M  |   5     |                    |      15       |
 |   6  |   150   |    60   |      85     |        63.75        |  1900 |     8M  |   5,12  |                    |      16       |
-|   7  |   165   |    66   |      90     |        67.5         |  2000 |    21M  |  15, 6  |                    |      17       |
+|   7  |   165   |    66   |      90     |        67.5         |  2000 |  15.5M  |   9,12  |                    |      17       |
 | ⚡1  |   172   |   68.8  |      90     |        67.5         |  2000 |    10M  |   4     |                    |      17       |
 | ⚡2  |   172   |   68.8  |      90     |        67.5         |  2050 |     5M  |   6     |                    |      17       |
 </UnitTable>
@@ -125,6 +125,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/01/28">
+        <TimelineRow>建筑工人的移动速度由 3.5 格/秒 降低到 2.5 格/秒。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/11/17">
+        <TimelineRow>7 级建筑工人小屋的升级时间和升级费用减少。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>2 ~ 6 级建筑工人小屋的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 6 级建筑工人小屋的升级费用降低。</TimelineRow>
