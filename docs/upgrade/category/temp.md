@@ -61,7 +61,7 @@ if (activeTabCookieValue === "temp-troops") {
         <ListItem name="南瓜野蛮人" imgSrc="0e02/Pumpkin_Barbarian_thumb.png" link="0e02-Pumpkin-Barbarian" />
         <ListItem name="骷髅巨人" imgSrc="0e03/Giant_Skeleton_thumb.png" link="0e03-Giant-Skeleton" />
         <ListItem name="骷髅飞桶" imgSrc="0e04/Skeleton_Barrel_thumb.png" link="0e04-Skeleton-Barrel" />
-        <ListItem name="艾尔普里莫" imgSrc="0e05/El_Primo_thumb.png" link="0e05-El-Primo" />
+        <ListItem name="艾尔普里莫" imgSrc="0e05/El_Primo_thumb.png" link="el-primo-temp" />
         <ListItem name="派对法师" imgSrc="0e06/Party_Wizard_thumb.png" link="0e06-Party-Wizard" />
         <ListItem name="皇家幽灵" imgSrc="0e07/Royal_Ghost_thumb.png" link="0e07-Royal-Ghost" />
     </ListItems>
@@ -82,7 +82,7 @@ if (activeTabCookieValue === "temp-troops") {
     </ListItems>
     <ListItems title="2025 - 2026" imgFolder="temp_troops">
         <ListItem name="灵蛇飞桶" imgSrc="0e15/Snake_Barrel_thumb.png" link="0e15-Snake-Barrel" />
-        <ListItem name="战吼狂人" imgSrc="0e16/YEETer_thumb.png" link="0e16-YEETer" />
+        <ListItem name="战吼狂人" imgSrc="0e16/YEETer_thumb.png" link="yeeter-temp" />
         <ListItem name="霸天巨人" imgSrc="0e17/Giant_Giant_thumb.png" link="0e17-Giant-Giant" />
         <ListItem name="皮卡凯恩" imgSrc="0e18/K.A.N.E_thumb.png" link="0e18-K.A.N.E" />
         <ListItem name="铁臂终结者" imgSrc="0e19/Disarmer_thumb.png" link="0e19-The-Disarmer" />
@@ -112,7 +112,7 @@ if (activeTabCookieValue === "temp-troops") {
         <ListItem name="南瓜炸弹" imgSrc="0f00/Pumpkin_Bomb.png" link="0f00-Pumpkin-Bomb" />
         <ListItem name="圣诞陷阱" imgSrc="0f01/Santa_Strike.png" link="0f01-Santa-Strike" />
         <ListItem name="冰冻陷阱" imgSrc="0f02/Freeze_Trap.png" link="0f02-Freeze-Trap" />
-        <ListItem name="玲珑陷阱" imgSrc="0f03/Shrink_Trap.png" link="0f03-Shrink-Trap" />
+        <ListItem name="玲珑陷阱" imgSrc="0f03/Shrink_Trap.png" link="shrink-trap-temp" />
     </ListItems>
     <div class="cp-upgrade-index-tip">
         <SmallTitle>注意</SmallTitle>

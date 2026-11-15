@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Multi-Archer_Tower
 canonical: /upgrade/0314-Multi-Archer-Tower
 ---
 
-- *如想查看合并前的建筑，请访问 [箭塔](/upgrade/0302-Archer-Tower)。*
+- *如想查看合并前的建筑，请访问 [箭塔](/upgrade/archer-tower)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Archer_Tower4.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
@@ -34,7 +34,7 @@ canonical: /upgrade/0314-Multi-Archer-Tower
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 多人箭塔不能直接建造，必须由两个 [箭塔](/upgrade/0302-Archer-Tower) 合并而成，两座用来合并的建筑必须已达到最高等级。
+1. 多人箭塔不能直接建造，必须由两个 [箭塔](/upgrade/archer-tower) 合并而成，两座用来合并的建筑必须已达到最高等级。
     - 合并一旦开始就无法取消。
     - 合并建筑的操作是永久性的，一旦合并就无法拆开。
     - 升本前必须合并完所有可以合并的建筑。

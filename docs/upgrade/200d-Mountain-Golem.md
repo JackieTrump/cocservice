@@ -23,7 +23,7 @@ canonical: /upgrade/200d-Mountain-Golem
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 高山戈仑的解锁条件是建造 [ 高山戈仑石场](/upgrade/234d-Mountain-Golem-Quarry)，而这需要部落解锁戈仑石厂，且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 7 级。
+1. 高山戈仑的解锁条件是建造 [ 高山戈仑石场](/upgrade/mountain-golem-quarry-capital)，而这需要部落解锁戈仑石厂，且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 7 级。
 2. 高山戈仑可以越过宽度 2 格以内的河流。
 3. 高山戈仑的技能（一碰就倒）：轻轻一碰就可以推倒城墙。另外，高山戈仑无法通过弹跳法术获得跳墙能力（直接推倒了还需要跳吗）。
 

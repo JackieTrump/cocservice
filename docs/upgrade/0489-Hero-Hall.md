@@ -85,9 +85,9 @@ const tableExtraInfo = [
 |   2  |        1        |  2400 |   1.6M   |  2      |                      |        8         |<a href="/upgrade/0201-Archer-Queen">弓箭女皇</a>|
 |   3  |        2        |  2800 |   2.3M   |  3      |                      |        9         |<a href="/upgrade/0204-Minion-Prince">亡灵王子</a>|
 |   4  |        2        |  3200 |   2.5M   |  4      |                      |       10         | 无 |
-|   5  |        3        |  3600 |   4.5M   |  4,12   |                      |       11         |<a href="/upgrade/0202-Grand-Warden">大守护者</a>|
+|   5  |        3        |  3600 |   4.5M   |  4,12   |                      |       11         |<a href="/upgrade/grand-warden">大守护者</a>|
 |   6  |        3        |  3800 |   5.5M   |  5      |                      |       12         | 无 |
-|   7  |        4        |  4200 |   8.5M   |  6      |                      |       13         |<a href="/upgrade/0203-Royal-Champion">飞盾战神</a>|
+|   7  |        4        |  4200 |   8.5M   |  6      |                      |       13         |<a href="/upgrade/royal-champion">飞盾战神</a>|
 |   8  |        4        |  4600 |   9.5M   |  6,12   |                      |       14         | 无 |
 |   9  |        4        |  5000 |    11M   |  7      |                      |       15         | 无 |
 |  10  |        4        |  5400 |    13M   |  8      |                      |       16         | 无 |

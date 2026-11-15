@@ -13,7 +13,7 @@ canonical: /upgrade/07c3-Haste-Vial
 
 <SmallTitle>说明</SmallTitle>
 
-1. 急速药水瓶是 [飞盾战神](/upgrade/0203-Royal-Champion) 的一件普通装备。
+1. 急速药水瓶是 [飞盾战神](/upgrade/royal-champion) 的一件普通装备。
 2. 急速药水瓶可以让飞盾战神在开启技能后获得更快的移动速度和攻击速度。
 3. 即使不开启技能，急速药水瓶也可以提升飞盾战神在常规状态下的每秒伤害和攻击速度。
 

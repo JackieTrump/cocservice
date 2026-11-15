@@ -13,7 +13,7 @@ canonical: /upgrade/07c2-Hog-Rider-Puppet
 
 <SmallTitle>说明</SmallTitle>
 
-1. 野猪骑士木偶是 [飞盾战神](/upgrade/0203-Royal-Champion) 的一件普通装备。
+1. 野猪骑士木偶是 [飞盾战神](/upgrade/royal-champion) 的一件普通装备。
 2. 野猪骑士木偶装备可以让飞盾战神使用技能时召唤出一定数量的 [野猪骑士](/upgrade/0081-Hog-Rider)。
    - 召唤出的野猪骑士等级取决于装备等级，而非 [实验室](/upgrade/0483-Laboratory) 中野猪骑士的等级。
 3. 带上野猪骑士木偶时，开启技能后，飞盾战神会在短时间内隐形，因此野猪骑士可以为她扛伤害。

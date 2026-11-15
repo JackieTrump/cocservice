@@ -15,7 +15,7 @@ canonical: /upgrade/0743-Healer-Puppet
 
 1. 天使木偶是 [弓箭女皇](/upgrade/0201-Archer-Queen) 的一件普通装备。
 2. 天使木偶可以使弓箭女皇在使用技能使召唤 [天使](/upgrade/0007-Healer)。
-   - 和 [野蛮人木偶](/upgrade/0700-Barbarian-Puppet) 和 [弓箭手木偶](/upgrade/0740-Archer-Puppet) 不同，天使的等级取决于装备等级，而非你在 [实验室](/upgrade/0483-Laboratory) 中的天使等级。
+   - 和 [野蛮人木偶](/upgrade/barbarian-puppet) 和 [弓箭手木偶](/upgrade/0740-Archer-Puppet) 不同，天使的等级取决于装备等级，而非你在 [实验室](/upgrade/0483-Laboratory) 中的天使等级。
 3. 除了召唤天使外，天使木偶还可以给女王提供额外的生命值，并赋予女王自愈能力。
 
 <SmallTitle>属性</SmallTitle>

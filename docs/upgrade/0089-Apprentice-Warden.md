@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Apprentice_Warden
 canonical: /upgrade/0089-Apprentice-Warden
 ---
 
-- *如想查看大守护者，请访问：[大守护者（咏王）](/upgrade/0202-Grand-Warden)。*
+- *如想查看大守护者，请访问：[大守护者（咏王）](/upgrade/grand-warden)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Apprentice_Warden_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
@@ -26,8 +26,8 @@ canonical: /upgrade/0089-Apprentice-Warden
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 守护者学徒拥有和 [大守护者](/upgrade/0202-Grand-Warden)<sup>*</sup> 类似的生命光环效果，这个光环效果可以为周围的部队提供生命值加成。
-   - \* 这里指带上 [生命宝石](/upgrade/0781-Life-Gem) 这个初始装备后的大守护者，下同。
+1. 守护者学徒拥有和 [大守护者](/upgrade/grand-warden)<sup>*</sup> 类似的生命光环效果，这个光环效果可以为周围的部队提供生命值加成。
+   - \* 这里指带上 [生命宝石](/upgrade/life-gem) 这个初始装备后的大守护者，下同。
 2. 和大守护者类似，守护者学徒的光环对自己无效，但对附近的其他守护者学徒有效。如果使用多个守护者学徒，他们可以互相加血。
 3. 守护者学徒的光环对英雄有效。
 4. 守护者学徒的光环加成没有上限，4 级守护者学徒能实实在在地给 95 级 [蛮王](/upgrade/0200-Barbarian-King) 加 2900 多血，而大守护者由于上限的存在，只能给加 575 血。

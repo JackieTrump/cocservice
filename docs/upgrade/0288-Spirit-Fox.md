@@ -24,8 +24,8 @@ canonical: /upgrade/0288-Spirit-Fox
 1. 灵狐的技能（灵隐诡步）：每隔一段时间使自己和跟随的英雄隐身。
 2. 只有当灵狐在场上时，隐形效果才会生效，如果灵狐死亡或被 [回溯法术](/upgrade/0107-Recall-Spell) 召回，则英雄无法隐身。如果灵狐跟随的英雄阵亡，则它只能让自己隐形。
 3. 如果主人被召回或者阵亡，灵狐会变成一个自由单位，此时没有偏好。
-4. 灵狐的隐形效果激活时可重置单头 [地狱塔](/upgrade/030a-Inferno-Tower) 和防守方 [地狱飞龙](/upgrade/0604-Inferno-Dragon) 的伤害。
-5. 灵狐的移动速度较快，很容易跑在英雄前面导致过早死亡，因此灵狐很适合搭配移动速度同样较快的 [飞盾战神](/upgrade/0203-Royal-Champion)。另外，灵狐也可以搭配 [蛮王](/upgrade/0200-Barbarian-King)，延长蛮王的存活时间，让蛮王的坦克潜力充分发挥。
+4. 灵狐的隐形效果激活时可重置单头 [地狱塔](/upgrade/inferno-tower) 和防守方 [地狱飞龙](/upgrade/0604-Inferno-Dragon) 的伤害。
+5. 灵狐的移动速度较快，很容易跑在英雄前面导致过早死亡，因此灵狐很适合搭配移动速度同样较快的 [飞盾战神](/upgrade/royal-champion)。另外，灵狐也可以搭配 [蛮王](/upgrade/0200-Barbarian-King)，延长蛮王的存活时间，让蛮王的坦克潜力充分发挥。
 
 <SmallTitle>属性</SmallTitle>
 

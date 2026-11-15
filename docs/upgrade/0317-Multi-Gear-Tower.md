@@ -31,7 +31,7 @@ const tableExtraInfoLongRageMode = [
 const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 </script>
 
-- *如想查看合并前的建筑，请移步：[加农炮](/upgrade/0301-Cannon)、[箭塔](/upgrade/0302-Archer-Tower)。*
+- *如想查看合并前的建筑，请移步：[加农炮](/upgrade/0301-Cannon)、[箭塔](/upgrade/archer-tower)。*
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
     <SwitchTab tabId="cp-unit-item-0" :activeTab="true">远程攻击模式</SwitchTab>
@@ -62,7 +62,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 复合机械塔由一个改装后的 21 级 [加农炮](/upgrade/0301-Cannon) 和一个改装后的 21 级 [箭塔](/upgrade/0302-Archer-Tower) 合并而来。
+1. 复合机械塔由一个改装后的 21 级 [加农炮](/upgrade/0301-Cannon) 和一个改装后的 21 级 [箭塔](/upgrade/archer-tower) 合并而来。
     - 合并一旦开始就无法取消。
     - 合并建筑的操作是永久性的，一旦合并就无法拆开。
     - 如果你的加农炮或箭塔未改装，则无法合并。
@@ -118,7 +118,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 复合机械塔由一个改装后的 21 级 [加农炮](/upgrade/0301-Cannon) 和一个改装后的 21 级 [箭塔](/upgrade/0302-Archer-Tower) 合并而来。
+1. 复合机械塔由一个改装后的 21 级 [加农炮](/upgrade/0301-Cannon) 和一个改装后的 21 级 [箭塔](/upgrade/archer-tower) 合并而来。
     - 合并一旦开始就无法取消。
     - 如果你的加农炮或箭塔未改装，则无法合并。
     - 升本前必须合并完所有可以合并的建筑。

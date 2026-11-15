@@ -9,9 +9,9 @@ wiki: https://clashofclans.fandom.com/wiki/Air_Bomb
 canonical: /upgrade/0382-Air-Bomb
 ---
 
-- 本页内容不是搜空地雷，如想查看搜空地雷的数据，请访问：[搜空地雷](/upgrade/0384-Seeking-Air-Mine)。
-- 如想查看夜世界的空中炸弹发射器，请访问：[夜世界空中炸弹发射器](/upgrade/1107-Air-Bombs)。
-- 如想查看都城的空中炸弹发射器，请访问：[都城空中炸弹发射器](/upgrade/2208-Air-Bombs)。
+- 本页内容不是搜空地雷，如想查看搜空地雷的数据，请访问：[搜空地雷](/upgrade/seeking-air-mine)。
+- 如想查看夜世界的空中炸弹发射器，请访问：[夜世界空中炸弹发射器](/upgrade/air-bombs-bh)。
+- 如想查看都城的空中炸弹发射器，请访问：[都城空中炸弹发射器](/upgrade/air-bombs-capital)。
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Air_Bomb_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 

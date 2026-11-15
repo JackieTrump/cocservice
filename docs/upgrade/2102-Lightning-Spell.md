@@ -17,7 +17,7 @@ canonical: /upgrade/2102-Lightning-Spell
 
 <SmallTitle>重要说明</SmallTitle>
 
-当部落解锁雷电法术工厂时，系统会自动建造 [雷电法术工厂](/upgrade/2382-Lightning-Spell-Factory)，而这需要气球环礁这个子城的大本营升到 2 级。
+当部落解锁雷电法术工厂时，系统会自动建造 [雷电法术工厂](/upgrade/lightning-spell-factory-capital)，而这需要气球环礁这个子城的大本营升到 2 级。
 
 <SmallTitle>属性</SmallTitle>
 

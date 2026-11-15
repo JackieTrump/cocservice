@@ -9,8 +9,8 @@ wiki: https://clashofclans.fandom.com/wiki/Dark_Barracks
 canonical: /upgrade/0482-Dark-Barracks
 ---
 
-- *如想查看训练圣水兵的训练营，请访问：[训练营](/upgrade/0481-Barracks)。*
-- *如想查看夜世界的建筑大师训练营，请访问：[夜世界建筑大师训练营](/upgrade/1280-Builder-Barracks)。*
+- *如想查看训练圣水兵的训练营，请访问：[训练营](/upgrade/barracks)。*
+- *如想查看夜世界的建筑大师训练营，请访问：[夜世界建筑大师训练营](/upgrade/builder-barracks-bh)。*
 - *都城的训练营比较多，这里就不放链接了，如有需求请自行前往相关页面查看。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Barracks12_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -85,7 +85,7 @@ const tableExtraInfo = [
 |    8 |   850 |     7M  |   6      |                      |        11       |<a href="/upgrade/0087-Ice-Golem">戈仑冰人</a>|
 |    9 |   900 |   7.2M  |   7      |                      |        12       |<a href="/upgrade/0088-Headhunter">英雄猎手</a>|
 |   10 |   950 |    10M  |   7,12   |                      |        13       |<a href="/upgrade/0089-Apprentice-Warden">守护者学徒</a>|
-|   11 |  1000 |    12M  |   8      |                      |        14       |<a href="/upgrade/008a-Druid">德鲁伊</a>|
+|   11 |  1000 |    12M  |   8      |                      |        14       |<a href="/upgrade/druid">德鲁伊</a>|
 |   12 |  1050 |    20M  |  12      |                      |        15       |<a href="/upgrade/008b-Furnace">烈焰熔炉</a>|
 </UnitTable>
 

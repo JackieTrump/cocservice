@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Lavaloon
 canonical: /upgrade/0e0b-Lavaloon
 ---
 
-- *如想查看熔岩气球玩偶装备派生出来的同名兵种，请访问：[熔岩气球玩偶](/upgrade/0785-Lavaloon-Puppet)。*
+- *如想查看熔岩气球玩偶装备派生出来的同名兵种，请访问：[熔岩气球玩偶](/upgrade/lavaloon-puppet)。*
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
     <SwitchTab tabId="cp-unit-item-0" :activeTab="true">熔岩气球</SwitchTab>

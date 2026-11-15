@@ -9,8 +9,8 @@ wiki: https://clashofclans.fandom.com/wiki/Super_Miner
 canonical: /upgrade/060e-Super-Miner
 ---
 
-- *如想查看该兵种的普通版本，请访问：[掘地矿工](/upgrade/000b-Miner)。*
-- *如想查看都城的超级矿工，请访问：[都城超级矿工](/upgrade/200f-Super-Miner)。*
+- *如想查看该兵种的普通版本，请访问：[掘地矿工](/upgrade/miner)。*
+- *如想查看都城的超级矿工，请访问：[都城超级矿工](/upgrade/super-miner-capital)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Miner_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 

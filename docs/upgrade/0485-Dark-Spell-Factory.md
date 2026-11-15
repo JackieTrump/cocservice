@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Dark_Spell_Factory
 canonical: /upgrade/0485-Dark-Spell-Factory
 ---
 
-- *如想查看配置圣水法术的法术工厂，请访问：[法术工厂](/upgrade/0484-Spell-Factory)。*
+- *如想查看配置圣水法术的法术工厂，请访问：[法术工厂](/upgrade/spell-factory)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Spell_Factory7_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 

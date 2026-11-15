@@ -9,8 +9,8 @@ wiki: https://clashofclans.fandom.com/wiki/Air_Defense
 canonical: /upgrade/0304-Air-Defense
 ---
 
-- *如想查看夜世界的多管防空火炮，请访问：[夜世界防空火炮](/upgrade/1104-Firecrackers)。*
-- *如想查看都城的多管防空火箭，请访问：[都城防空火箭](/upgrade/2203-Air-Defense)。*
+- *如想查看夜世界的多管防空火炮，请访问：[夜世界防空火炮](/upgrade/firecrackers-bh)。*
+- *如想查看都城的多管防空火箭，请访问：[都城防空火箭](/upgrade/air-defense-capital)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Air_Defense16.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 

@@ -10,7 +10,7 @@ canonical: /upgrade/2401-District-Hall
 ---
 
 - *如想查看家乡的大本营，请访问：[大本营](/upgrade/0400-Town-Hall)。*
-- *如想查看夜世界的大本营，请访问：[建筑大师大本营](/upgrade/1200-Builder-Hall)，[夜世界奥仔哨站](/upgrade/1240-O.T.T.O's-Outpost)。*
+- *如想查看夜世界的大本营，请访问：[建筑大师大本营](/upgrade/builder-hall-bh)，[夜世界奥仔哨站](/upgrade/1240-O.T.T.O's-Outpost)。*
 - *如想查看都城大本营，请访问：[都城大本营](/upgrade/2400-Capital-Hall)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="District_Hall5.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />

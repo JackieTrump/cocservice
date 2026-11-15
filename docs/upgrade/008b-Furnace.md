@@ -32,12 +32,12 @@ canonical: /upgrade/008b-Furnace
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 和 [攻城训练营](/upgrade/0243-Siege-Barracks) 等攻城机器类似，烈焰熔炉部署后无法移动，并且会随时间推移自动掉血。[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止它自动掉血。
-2. 和 [大雪怪](/upgrade/000d-Yeti) 不同，烈焰熔炉释放小火怪的速度是固定的，与烈焰熔炉受到的伤害值和剩余生命值均无关。
+1. 和 [攻城训练营](/upgrade/0243-Siege-Barracks) 等攻城机器类似，烈焰熔炉部署后无法移动，并且会随时间推移自动掉血。[大守护者](/upgrade/grand-warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止它自动掉血。
+2. 和 [大雪怪](/upgrade/yeti) 不同，烈焰熔炉释放小火怪的速度是固定的，与烈焰熔炉受到的伤害值和剩余生命值均无关。
 3. 如果烈焰熔炉被摧毁时仍有未释放完的小火怪，则未释放出的小火怪会直接消失。
 4. 当烈焰熔炉作为进攻部队时，即使场上没有目标供小火怪攻击，烈焰熔炉也不会停止释放小火怪，此时烈焰熔炉释放出的小火怪会停留在生成地。
 5. 当烈焰熔炉作为防守部队时，如果场上没有目标供小火怪攻击，烈焰熔炉会停止释放小火怪，此时烈焰熔炉仍然会自动掉血。如果这种无目标状态持续足够久，就会出现烈焰熔炉解体时都没有释放完全部小火怪的现象。
-6. 烈焰熔炉可以被治疗单位治愈，但 [天使](/upgrade/0007-Healer) 和 [独角](/upgrade/0283-Unicorn) 都不会将它定为治疗目标。由于 [部队发射器](/upgrade/0247-Troop-Launcher) 有跟天使类似的 AI，部队发射器也不会向它发射部队。
+6. 烈焰熔炉可以被治疗单位治愈，但 [天使](/upgrade/0007-Healer) 和 [独角](/upgrade/unicorn) 都不会将它定为治疗目标。由于 [部队发射器](/upgrade/0247-Troop-Launcher) 有跟天使类似的 AI，部队发射器也不会向它发射部队。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -102,7 +102,7 @@ const tableExtraInfo = [
 2. 和小雪怪类似，小火怪可以跳过城墙。
 3. 小火怪攻击后会留下一个火坑，并对目标造成持续伤害。
 4. 和 [毒药法术](/upgrade/0180-Poison-Spell) 类似，这个火坑的伤害是递增的，多个火坑不能叠加伤害，但能更快到达最高伤害。
-5. 小火怪攻击一次后就会死亡，[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备也无法阻止。
+5. 小火怪攻击一次后就会死亡，[大守护者](/upgrade/grand-warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备也无法阻止。
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面辅助单位" />

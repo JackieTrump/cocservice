@@ -13,7 +13,7 @@ canonical: /upgrade/0740-Archer-Puppet
 
 <SmallTitle>说明</SmallTitle>
 
-1. 弓箭手木偶是 [弓箭女皇](/upgrade/0201-Archer-Queen) 的两件初始装备之一，另一件是 [隐形药水瓶](/upgrade/0741-Invisibility-Vial)。
+1. 弓箭手木偶是 [弓箭女皇](/upgrade/0201-Archer-Queen) 的两件初始装备之一，另一件是 [隐形药水瓶](/upgrade/invisibility-vial)。
 2. 弓箭手木偶装备可以让弓箭女皇使用技能时召唤出一定数量的 [弓箭手](/upgrade/0001-Archer)。
     - 装备召唤出的弓箭手有隐身效果，持续时间随装备等级增加而增加。
     - 弓箭手木偶的召唤速度为每秒 5 个弓箭手。

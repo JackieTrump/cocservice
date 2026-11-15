@@ -10,7 +10,7 @@ canonical: /upgrade/060b-Rocket-Balloon
 ---
 
 - *如想查看该兵种的普通版本，请访问：[气球兵](/upgrade/0005-Balloon)。*
-- *如想查看都城的火箭气球兵，请访问：[都城火箭气球兵](/upgrade/2006-Rocket-Balloon)。*
+- *如想查看都城的火箭气球兵，请访问：[都城火箭气球兵](/upgrade/rocket-balloon-capital)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Rocket_Balloon_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 

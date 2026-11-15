@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Gold_Mine
 canonical: /upgrade/0401-Gold-Mine
 ---
 
-- *如想查看夜世界的金矿，请访问：[夜世界金矿](/upgrade/1201-Gold-Mine)。*
+- *如想查看夜世界的金矿，请访问：[夜世界金矿](/upgrade/gold-mine-bh)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gold_Mine17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 

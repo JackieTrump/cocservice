@@ -17,7 +17,7 @@ canonical: /upgrade/2100-Healing-Spell
 
 <SmallTitle>重要说明</SmallTitle>
 
-当部落重建法师山谷的废墟时，系统会自动建造 [疗伤法术工厂](/upgrade/2380-Heal-Spell-Factory)，重建后即可解锁疗伤法术。
+当部落重建法师山谷的废墟时，系统会自动建造 [疗伤法术工厂](/upgrade/heal-spell-factory-capital)，重建后即可解锁疗伤法术。
 
 <SmallTitle>属性</SmallTitle>
 

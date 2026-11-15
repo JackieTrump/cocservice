@@ -87,7 +87,7 @@ canonical: /upgrade/0e13-Broom-Witch
 
 <SmallTitle>重要说明</SmallTitle>
 
-与小雪怪类似，女巫精灵攻击一次后就会死亡，[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备也无法阻止。
+与小雪怪类似，女巫精灵攻击一次后就会死亡，[大守护者](/upgrade/grand-warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备也无法阻止。
 
 <SmallTitle>属性</SmallTitle>
 

@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Barbarian/Clan_Capital
 canonical: /upgrade/20c0-Barbarian
 ---
 
-- *如想查看家乡的野蛮人，请访问：[野蛮人](/upgrade/0000-Barbarian)。*
+- *如想查看家乡的野蛮人，请访问：[野蛮人](/upgrade/barbarian)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Barbarian_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 

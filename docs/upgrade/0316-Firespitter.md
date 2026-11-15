@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Firespitter
 canonical: /upgrade/0316-Firespitter
 ---
 
-- 如想查看夜世界的一座机制类似的建筑，请访问：[夜世界熔岩火炮](/upgrade/1109-Roaster)。
+- 如想查看夜世界的一座机制类似的建筑，请访问：[夜世界熔岩火炮](/upgrade/roaster-bh)。
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Firespitter3.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
@@ -32,7 +32,7 @@ canonical: /upgrade/0316-Firespitter
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 火焰喷射器的攻击方式是先以极快的速度打出 20 发子弹（熔化的铁球），休息 1 秒后再发起下一轮攻击，其机制类似于夜世界的 [熔岩火炮](/upgrade/1109-Roaster)。
+1. 火焰喷射器的攻击方式是先以极快的速度打出 20 发子弹（熔化的铁球），休息 1 秒后再发起下一轮攻击，其机制类似于夜世界的 [熔岩火炮](/upgrade/roaster-bh)。
 2. 每发子弹可以击中两个目标。
     - 火焰喷射器的子弹可以同时击中地面和空中目标，不像 [投石炮](/upgrade/030e-Scattershot) 一样，瞄准地面就无法溅射到空中。
     - 火焰喷射器的子弹击中两个目标后就会自动消失。

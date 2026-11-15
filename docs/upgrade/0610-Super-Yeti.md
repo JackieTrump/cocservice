@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Super_Yeti
 canonical: /upgrade/0610-Super-Yeti
 ---
 
-- *如想查看该兵种的普通版本，请访问：[大雪怪](/upgrade/000d-Yeti)。*
+- *如想查看该兵种的普通版本，请访问：[大雪怪](/upgrade/yeti)。*
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
     <SwitchTab tabId="cp-unit-item-0" :activeTab="true">超级大雪怪</SwitchTab>
@@ -89,7 +89,7 @@ canonical: /upgrade/0610-Super-Yeti
 <SmallTitle>重要说明</SmallTitle>
 
 1. 雷电小雪怪可以跳过城墙。
-2. 雷电小雪怪攻击一次后就会死亡，[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备也无法阻止。
+2. 雷电小雪怪攻击一次后就会死亡，[大守护者](/upgrade/grand-warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备也无法阻止。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -109,7 +109,7 @@ canonical: /upgrade/0610-Super-Yeti
     <UnitProperty pKey="攻击距离" pValue="2.5 格" />
 </UnitProperties>
 
-① 雷电小雪怪优先攻击建筑（注意并不一定是防御建筑），如果有城堡部队或英雄攻击它，它可以反击，反击完后继续攻击建筑。如果所有的建筑均被 [隐形法术](/upgrade/0106-Invisibility-Spell) 隐形，或被 [蔓生法术](/upgrade/0185-Overgrowth-Spell) 缠绕，则雷电小雪怪会攻击最近的目标。<br>
+① 雷电小雪怪优先攻击建筑（注意并不一定是防御建筑），如果有城堡部队或英雄攻击它，它可以反击，反击完后继续攻击建筑。如果所有的建筑均被 [隐形法术](/upgrade/invisibility-spell) 隐形，或被 [蔓生法术](/upgrade/0185-Overgrowth-Spell) 缠绕，则雷电小雪怪会攻击最近的目标。<br>
 ② 在考虑雷电小雪怪与 [隐形弹簧](/upgrade/0381-Spring-Trap)、[镜像法术](/upgrade/0105-Clone-Spell) 或 [回溯法术](/upgrade/0107-Recall-Spell) 的相互作用时，雷电小雪怪应被视为 3 人口。<br>
 ③ 根据解析安装包的结果，雷电小雪怪的攻击速度是一秒一次，但实际上雷电小雪怪的首次攻击时机为到达目标后 0.5 秒，且攻击一次后就会死亡，因此其攻速值无意义。
 

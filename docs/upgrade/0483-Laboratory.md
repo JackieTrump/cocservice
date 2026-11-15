@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Laboratory
 canonical: /upgrade/0483-Laboratory
 ---
 
-- *如想查看夜世界的星空实验室，请访问：[夜世界星空实验室](/upgrade/1282-Star-Laboratory)。*
+- *如想查看夜世界的星空实验室，请访问：[夜世界星空实验室](/upgrade/star-laboratory-bh)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Laboratory16_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 

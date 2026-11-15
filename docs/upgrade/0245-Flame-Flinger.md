@@ -31,7 +31,7 @@ canonical: /upgrade/0245-Flame-Flinger
 2. 攻城烈焰车部署后会投掷烈焰精灵，对敌方建筑造成持续伤害。
 3. 攻城烈焰车的伤害机制比较复杂，我们只能得出定性结论，具体伤害无法计算。目前已经确定的是，攻城烈焰车有 3 种伤害：直接高额伤害、直接溅射伤害、后续持续伤害。由于这几种伤害的大小不一样，伤害范围也不是完全重叠，所以实战中烈焰范围内的建筑可能不是同时被摧毁的。
 4. 烈焰精灵命中目标后的那一下攻击对墙有 8 倍伤害，但烈焰精灵的灼烧效果对 [城墙](/upgrade/0300-Walls) 没有额外伤害。
-5. 攻城烈焰车部署后不能移动，即使没有受到伤害也会自动掉血。[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止它自动掉血。
+5. 攻城烈焰车部署后不能移动，即使没有受到伤害也会自动掉血。[大守护者](/upgrade/grand-warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止它自动掉血。
 6. 当攻城烈焰车的血量清零时，攻城烈焰车就会自动解体并释放部落城堡内的部队。
 
 <SmallTitle>属性</SmallTitle>
@@ -90,7 +90,7 @@ const tableExtraInfo = [
 </UnitTable>
 
 ④ 攻城烈焰车发射出的熔岩伤害类似于 [毒药法术](/upgrade/0180-Poison-Spell)，也就是前期伤害低，兵种或建筑待在熔岩里的时间越长瞬时伤害越高。<br>
-⑤ 攻城烈焰车和 [攻城训练营](/upgrade/0243-Siege-Barracks) 及 [滚木车](/upgrade/0244-Log-Launcher) 一样会自己掉血，这个最大存活时间指的是未受到伤害时的存活时间。同样，[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止烈焰车自身掉血。
+⑤ 攻城烈焰车和 [攻城训练营](/upgrade/0243-Siege-Barracks) 及 [滚木车](/upgrade/0244-Log-Launcher) 一样会自己掉血，这个最大存活时间指的是未受到伤害时的存活时间。同样，[大守护者](/upgrade/grand-warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止烈焰车自身掉血。
 
 <SmallTitle>更新历史</SmallTitle>
 

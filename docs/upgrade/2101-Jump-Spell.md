@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Jump_Spell/Clan_Capital
 canonical: /upgrade/2101-Jump-Spell
 ---
 
-- *如想查看家乡的弹跳法术，请访问：[弹跳法术](/upgrade/0103-Jump-Spell)。*
+- *如想查看家乡的弹跳法术，请访问：[弹跳法术](/upgrade/jump-spell)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Jump_Spell_info.png" :imgAlt="$frontmatter.navTitle"
     :description="$frontmatter.description"

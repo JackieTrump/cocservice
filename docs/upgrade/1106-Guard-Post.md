@@ -44,7 +44,7 @@ canonical: /upgrade/1106-Guard-Post
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="追击距离" pValue="7 格<sup>①</sup>" />
     <UnitProperty pKey="巡逻距离" pValue="3 格<sup>②</sup>" />
-    <UnitProperty pKey="防守的部队" pValue="<div style='line-height: 2'><a href='/upgrade/1000-Raged-Barbarian'>狂暴野蛮人</a> ×1<br><a href='/upgrade/1001-Sneaky-Archer'>隐秘弓箭手</a> ×1</div>" />
+    <UnitProperty pKey="防守的部队" pValue="<div style='line-height: 2'><a href='/upgrade/raged-barbarian-bh'>狂暴野蛮人</a> ×1<br><a href='/upgrade/sneaky-archer-bh'>隐秘弓箭手</a> ×1</div>" />
 </UnitProperties>
 
 ① 当敌军进入这个范围时，守卫岗哨中的部队会追击敌军。<br>

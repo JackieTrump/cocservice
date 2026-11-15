@@ -9,8 +9,8 @@ wiki: https://clashofclans.fandom.com/wiki/Super_Barbarian
 canonical: /upgrade/0600-Super-Barbarian
 ---
 
-- *如想查看该兵种的普通版本，请访问：[野蛮人](/upgrade/0000-Barbarian)。*
-- *如想查看都城的超级野蛮人，请访问：[都城超级野蛮人](/upgrade/2000-Super-Barbarian)。*
+- *如想查看该兵种的普通版本，请访问：[野蛮人](/upgrade/barbarian)。*
+- *如想查看都城的超级野蛮人，请访问：[都城超级野蛮人](/upgrade/super-barbarian-capital)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Barbarian_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 

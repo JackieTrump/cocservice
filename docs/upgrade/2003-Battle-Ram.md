@@ -25,7 +25,7 @@ canonical: /upgrade/2003-Battle-Ram
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 野蛮人攻城槌的解锁条件是建造 [野蛮人攻城槌训练营](/upgrade/2343-Battle-Ram-Barracks)，而这需要部落解锁野蛮人兵营，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 2 级。
+1. 野蛮人攻城槌的解锁条件是建造 [野蛮人攻城槌训练营](/upgrade/battle-ram-barracks-capital)，而这需要部落解锁野蛮人兵营，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 2 级。
 2. 野蛮人攻城槌炸墙后会爆出 [野蛮人](/upgrade/20c0-Barbarian)。
 
 <SmallTitle>属性</SmallTitle>

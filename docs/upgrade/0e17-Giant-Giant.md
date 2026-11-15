@@ -11,7 +11,7 @@ canonical: /upgrade/0e17-Giant-Giant
 
 - *如想查看普通巨人，请访问：[巨人](/upgrade/0002-Giant)。*
 - *如想查看巨人的强化版本，请访问：[超级巨人](/upgrade/0602-Super-Giant)。*
-- *如想查看夜世界的巨人拳击手，请访问：[夜世界巨人拳击手](/upgrade/1002-Boxer-Giant)。*
+- *如想查看夜世界的巨人拳击手，请访问：[夜世界巨人拳击手](/upgrade/boxer-giant-bh)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giant_Giant_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 

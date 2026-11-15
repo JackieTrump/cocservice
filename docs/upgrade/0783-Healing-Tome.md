@@ -13,7 +13,7 @@ canonical: /upgrade/0783-Healing-Tome
 
 <SmallTitle>说明</SmallTitle>
 
-1. 治疗书卷是 [大守护者](/upgrade/0202-Grand-Warden) 的一件普通装备。
+1. 治疗书卷是 [大守护者](/upgrade/grand-warden) 的一件普通装备。
 2. 治疗书卷装备可以在大守护者技能生效期间使周围的部队获得 [疗伤法术](/upgrade/0101-Healing-Spell) 的效果。
 3. 与疗伤法术不同的是，治疗书卷的范围会随着大守护者的位置变化而变化，大守护者是治疗圈的圆心。
 4. 在治疗书卷的范围内，英雄可以获得全额治疗效果，攻城机器不能获得治疗效果。

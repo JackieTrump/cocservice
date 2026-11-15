@@ -9,8 +9,8 @@ wiki: https://clashofclans.fandom.com/wiki/Town_Hall
 canonical: /upgrade/0400-Town-Hall
 ---
 
-- *如想查看大本营的自带武器，请访问：[巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)、[巨型地狱之塔](/upgrade/030d-Giga-Inferno)、[地狱火炮](/upgrade/0315-Inferno-Artillery)。*
-- *如想查看夜世界的大本营，请访问：[建筑大师大本营](/upgrade/1200-Builder-Hall)、[夜世界奥仔哨站](/upgrade/1240-O.T.T.O's-Outpost)。*
+- *如想查看大本营的自带武器，请访问：[巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)、[巨型地狱之塔](/upgrade/giga-inferno)、[地狱火炮](/upgrade/0315-Inferno-Artillery)。*
+- *如想查看夜世界的大本营，请访问：[建筑大师大本营](/upgrade/builder-hall-bh)、[夜世界奥仔哨站](/upgrade/1240-O.T.T.O's-Outpost)。*
 - *如想查看都城的大本营，请访问：[都城大本营](/upgrade/2400-Capital-Hall)、[子城大本营](/upgrade/2401-District-Hall)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Town_Hall18_hd.png" :imgAlt="$frontmatter.navTitle"
@@ -142,7 +142,7 @@ const tableExtraInfo2 = [
 **\* 关于建筑数量和陷阱数量的说明：**
 
 1. 这里的建筑数量包含大本营本身以及 5 个 [建筑工人小屋](/upgrade/0500-Builders-Hut)，在 10 级及以上大本营还包含 [小博木屋](/upgrade/0501-B.O.Bs-Hut)。
-2. 理论上来说，[部落城堡](/upgrade/0407-Clan-Castle) 在 2 级大本营也有可能解锁，但这种情况过于刁钻，为了让数据更具普遍性，这里将城堡视为 3 级大本营解锁。
+2. 理论上来说，[部落城堡](/upgrade/clan-castle) 在 2 级大本营也有可能解锁，但这种情况过于刁钻，为了让数据更具普遍性，这里将城堡视为 3 级大本营解锁。
 3. 当商店里的所有建筑都已建造，且所有可以合并的建筑都已经合并时，建筑数量才会等于表格中的数字。
 4. [战旗](/p/6827) 不视为建筑。
 

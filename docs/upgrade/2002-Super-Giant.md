@@ -10,7 +10,7 @@ canonical: /upgrade/2002-Super-Giant
 ---
 
 - *如想查看家乡的超级巨人，请访问：[超级巨人](/upgrade/0602-Super-Giant)。*
-- *如想查看夜世界的巨人拳击手，请访问：[夜世界巨人拳击手](/upgrade/1002-Boxer-Giant)。*
+- *如想查看夜世界的巨人拳击手，请访问：[夜世界巨人拳击手](/upgrade/boxer-giant-bh)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Giant_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 

@@ -10,7 +10,7 @@ canonical: /upgrade/000a-Baby-Dragon
 ---
 
 - *如想查看该兵种的强化版本，请访问：[地狱飞龙](/upgrade/0604-Inferno-Dragon)。*
-- *如想查看夜世界的飞龙宝宝，请访问：[夜世界飞龙宝宝](/upgrade/1005-Baby-Dragon)。*
+- *如想查看夜世界的飞龙宝宝，请访问：[夜世界飞龙宝宝](/upgrade/baby-dragon-bh)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Baby_Dragon_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 

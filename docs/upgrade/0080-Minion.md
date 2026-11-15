@@ -11,8 +11,8 @@ canonical: /upgrade/0080-Minion
 
 - *如想查看该兵种的强化版本，请访问：[超级亡灵（马云）](/upgrade/0608-Super-Minion)。*
 - *如想查看以亡灵为原型的英雄，请访问：[亡灵王子（苍蝇王）](/upgrade/0204-Minion-Prince)。*
-- *如想查看夜世界的异变亡灵，请访问：[夜世界异变亡灵](/upgrade/1003-Beta-Minion)。*
-- *如想查看都城的亡灵大军，请访问：[都城亡灵大军](/upgrade/2004-Minion-Horde)。*
+- *如想查看夜世界的异变亡灵，请访问：[夜世界异变亡灵](/upgrade/beta-minion-bh)。*
+- *如想查看都城的亡灵大军，请访问：[都城亡灵大军](/upgrade/minion-horde-capital)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Minion_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
@@ -36,7 +36,7 @@ canonical: /upgrade/0080-Minion
 
 <SmallTitle>重要说明</SmallTitle>
 
-注：亡灵不能触发 [搜空地雷](/upgrade/0384-Seeking-Air-Mine)。
+注：亡灵不能触发 [搜空地雷](/upgrade/seeking-air-mine)。
 
 <SmallTitle>属性</SmallTitle>
 

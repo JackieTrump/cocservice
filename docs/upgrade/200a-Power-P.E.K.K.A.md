@@ -24,7 +24,7 @@ canonical: /upgrade/200a-Power-P.E.K.K.A
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 雷霆皮卡的解锁条件是建造 [雷霆皮卡训练营](/upgrade/234a-Power-P.E.K.K.A-Barracks)，而这需要部落将建筑工人工坊这个子城的大本营升到 2 级，并且 [都城大本营](/upgrade/2400-Capital-Hall) 需要达到 6 级。
+1. 雷霆皮卡的解锁条件是建造 [雷霆皮卡训练营](/upgrade/power-pekka-barracks-capital)，而这需要部落将建筑工人工坊这个子城的大本营升到 2 级，并且 [都城大本营](/upgrade/2400-Capital-Hall) 需要达到 6 级。
 2. 雷霆皮卡的技能（能量过载）：在死亡时产生巨大的爆炸。
 
 <SmallTitle>属性</SmallTitle>

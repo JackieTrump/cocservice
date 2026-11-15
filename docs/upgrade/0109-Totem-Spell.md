@@ -20,9 +20,9 @@ canonical: /upgrade/0109-Totem-Spell
 3. 图腾法术无法触发陷阱、法术塔及引出部落城堡内的部队。
     - 如果其他部队触发了陷阱，图腾仍会受到除了位移效果外的影响。
 4. [镜像法术](/upgrade/0105-Clone-Spell)、[回溯法术](/upgrade/0107-Recall-Spell)、[冰障法术](/upgrade/0186-Ice-Block-Spell) 无法对图腾造成影响。
-5. 虽然 [治疗法术](/upgrade/0101-Healing-Spell) 能治疗图腾，但是图腾不会被 [天使](/upgrade/0007-Healer) 和 [德鲁伊](/upgrade/008a-Druid) 锁定。
+5. 虽然 [治疗法术](/upgrade/0101-Healing-Spell) 能治疗图腾，但是图腾不会被 [天使](/upgrade/0007-Healer) 和 [德鲁伊](/upgrade/druid) 锁定。
 6. 图腾被计作 20 人口，可以用作 [暗黑王冠](/upgrade/0724-Dark-Crown) 的人口计算，也可以免疫 [隐形弹簧](/upgrade/0381-Spring-Trap) 的**弹飞**效果。但是，对于 [天鹰火炮](/upgrade/030b-Eagle-Artillery)，图腾法术与其他 1 单位的法术一样只会计作 5 人口。
-7. [大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备不能令图腾免疫伤害。
+7. [大守护者](/upgrade/grand-warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备不能令图腾免疫伤害。
 8. 2026/02 更新后，图腾落地时不能对地方建筑和部队造成伤害了，但游戏内的简介仍然保留了相关表述。本页暂时采用官方表述。
 
 <SmallTitle>属性</SmallTitle>

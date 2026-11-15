@@ -13,7 +13,7 @@ canonical: /upgrade/0780-Eternal-Tome
 
 <SmallTitle>说明</SmallTitle>
 
-1. 永恒书卷是 [大守护者](/upgrade/0202-Grand-Warden) 的两件初始装备之一，另一件是 [生命宝石](/upgrade/0781-Life-Gem)。
+1. 永恒书卷是 [大守护者](/upgrade/grand-warden) 的两件初始装备之一，另一件是 [生命宝石](/upgrade/life-gem)。
 2. 永恒书卷装备可以在大守护者技能生效期间使他周围的单位（包括他自己）在短时间内拥有无敌效果。
 3. 无敌只能抵消直接伤害，不能抵消减速和击退效果，例如：
    - [毒药法术塔](/upgrade/0311-Spell-Tower) 和 [英雄猎手](/upgrade/0088-Headhunter) 的减速效果；
