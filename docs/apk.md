@@ -13,10 +13,10 @@ import { generateToast } from "@/components/dialog/Toast.vue";
 import Download from "@/components/icon/Download.vue";
 
 const disableDownloading = false;
-const apkVersion = "18.647.5";
-const apkUploadDate = "2026-10-22";
-const apkFileSize = "901.2 MB";
-const apkFileName = "Clash_of_Clans_v18.647.5_wKgWDBrV9KOv3Qbn.apk";
+const apkVersion = "19.32.4";
+const apkUploadDate = "2026-11-16";
+const apkFileSize = "1.00 GB";
+const apkFileName = "Clash_of_Clans_v19.32.4_F5OVypoe4xmLk51i.apk";
 const systemRequirement = "Android 7.0+";
 
 function downloadCocApk() {
@@ -98,8 +98,7 @@ function downloadCocApk() {
 如果你人在国外，或者有条件翻墙，那么你还可以选择以下渠道：
 
 - [Google Play 下载](https://play.google.com/store/apps/details?id=com.supercell.clashofclans) - Google Play 下载的安装包只适配你自己的手机，无法分享给他人，如需分享请勿下载这个版本。
-- [Apkpure 下载](https://apkpure.net/cn/clash-of-clans-android/com.supercell.clashofclans) - 这个渠道更新最快，更新后大家可以去这个地方蹲新版本安装包。
-- [APKMirror 下载](https://www.apkmirror.com/apk/supercell/clash-of-clans/) - 这个渠道更新也相当快。
+- [APKMirror 下载](https://www.apkmirror.com/apk/supercell/clash-of-clans/) - 网站的安装包通常是从这里来的，更新后大家可以去这里蹲新版本安装包。
 
 ## 私服
 
@@ -109,9 +108,8 @@ function downloadCocApk() {
 
 ### 下载前必读
 
-- 下方的下载地址中不包含 iOS 版本的私服，苹果用户请使用官网链接。
-- 在下方的下载地址中，如果某文件带有“模拟器”字样，说明这个安装包需要在模拟器上安装，带有“手机”字样说明这个安装包需要在实体机上安装。
-- 原版的意思是兵种、建筑这些和原版游戏一样，原版游戏能造几个，这个版本也只能造几个，就是有无限宝石和无限资源罢了。魔改版就是把什么皇室战争、海岛奇兵的兵种也给加进来了，一种兵能造 999 个的那种。
+- 下方的网盘链接不包含 iOS 版本的私服，苹果用户请使用官网链接。
+- 原版（Original）的意思是兵种、建筑这些和原版游戏一样，原版游戏能造几个，这个版本也只能造几个，就是有无限宝石和无限资源罢了。魔改版（Ultimate）就是把什么皇室战争、海岛奇兵的兵种也给加进来了，一种兵能造 999 个的那种。
 - 私服问题请进入官网查找联系方式。
 
 ### 下载地址
@@ -152,14 +150,15 @@ function downloadCocApk() {
 - 账号绑定工具是分渠道的，如果你分服前是用九游账号登录游戏的，那么你就需要去下载九游版，以前是用果盘账号登录的就下载果盘版，不能混用。
 - 下文中，如果某链接被删除线划掉，则该链接已失效。如果你所在渠道的所有线路的链接均已失效，但你尚未绑定 QQ/微信，那么你可以认为自己的账号丢失了，只能节哀。理论上来说你可以联系客服处理，但腾讯大一统的事情都过去这么久了，小渠道商的运营公司说不定都倒闭了，就算你能找到负责这一块的客服，客服很可能也没办法帮你对接。
 - 下载部分版本（如小米版）时会自动下载一个插件，下载完成后请给这个插件必要的权限，否则游戏无法运行。如果提示缺少插件，请到对应应用商店自行下载。
-- 部分浏览器（如 UC 浏览器、VIVO 自带浏览器）可能会劫持你的连接，导致你最终下载的不是你要的版本，这种现象与本网站无关。为了避免这种劫持，请使用 Chrome 或 Firefox 国际版下载。
-- 如果绑定时提示这个 QQ/微信 已经被绑定过了，请换一个号继续绑定。每个手机号可以注册五个 QQ 和两个微信，只要你号不是特别多就够用。请注意短时间内不要注册太多，隔天注册比较好，而且注册后一定要进行实名认证，不然你新注册的号第二天就会被封。如果你把自己的 COC 账号绑定到被封的 QQ 上，那就真的无力回天了。
+- 部分浏览器（如 UC 浏览器、VIVO 自带浏览器）可能会劫持你的连接，导致你最终下载的不是你要的版本，这种现象与本网站无关。为了避免这种劫持，请使用 Chrome 或 Firefox 下载。
+- 如果绑定时提示这个 QQ/微信 已经被绑定过了，请换一个号继续绑定。每个手机号可以注册五个 QQ 和两个微信，只要你号不是特别多就够用。请注意短时间内不要注册太多，隔天注册比较好，而且注册后一定要实名认证，不然你新注册的号第二天就会被封。如果你把自己的 COC 账号绑定到被封的 QQ 上，那就真的无力回天了。
 
 ### 下载地址
 
 - [~~昆仑（线路一）~~](http://update.coc.gameark.cn/?channel=kunlun)
 - [~~昆仑（线路二）~~](https://coc.arkgames.com/)
-  - 根据用户反馈，截至 2025 年 5 月，昆仑渠道的账号已无法绑定。
+- [昆仑（线路三）](https://www.taptap.cn/app/10497?os=android)
+  - 目前昆仑版本的账号绑定工具只能通过第三方渠道下载（需下载 Taptap），官方链接早已失效。
 - [九游/豌豆荚（线路一）](http://update.coc.gameark.cn/?channel=wandoujia)
 - [九游/豌豆荚（线路二）](https://www.wandoujia.com/apps/6632360)
 - [~~九游~~](https://a.9game.cn/coc/)
@@ -174,26 +173,28 @@ function downloadCocApk() {
   - 线路二必须下载 OPPO 软件商店，不推荐选用。
 - [小米（线路一）](https://game.xiaomi.com/game/62231040)
 - [小米（线路二）](https://app.mi.com/details?id=com.supercell.clashofclans.mi)
-- [百度（线路一）](http://update.coc.gameark.cn/?channel=baidu)
-- [百度（线路二）](https://mobile.baidu.com/item?docid=5001672440)
-  - 进入之后请选择“普通下载”，否则会下载到百度手机助手。
-- [华为](https://appgallery.huawei.com/#/app/C10329573)
-  - 华为版比较特殊，在下载绑定工具之前请先下载 [华为应用市场](https://appgallery.huawei.com/#/app/C27162)、[华为移动服务 (HMS Core)](https://appgallery.huawei.com/#/app/C10132067) 和 [华为游戏中心](https://appgallery.huawei.com/#/app/C10059090)，否则会提示登录谷歌。
-- [夜神](https://app.yeshen.com/games/single/9360)
-  - 进去之后请选择“下载安卓版”，否则下载到的不是安装包，而是夜神模拟器。
+- [~~百度（线路一）~~](http://update.coc.gameark.cn/?channel=baidu)
+- [~~百度（线路二）~~](https://mobile.baidu.com/item?docid=5001672440)
+  - 2025 年开始陆续有人反馈百度版无法再绑定，我们将其视为已失效。
+- [~~华为~~](https://appgallery.huawei.com/#/app/C10329573)
+  - 根据网站维护人员的测试，在 2026 年 11 月之前，华为渠道就已下架安装包，无法再绑定。
+  - 如果你想玩华为渠道商的游戏，请先下载 [华为应用市场](https://appgallery.huawei.com/#/app/C27162)、[华为移动服务 (HMS Core)](https://appgallery.huawei.com/#/app/C10132067) 和 [华为游戏中心](https://appgallery.huawei.com/#/app/C10059090)，否则会提示登录谷歌。
+- [~~夜神~~](https://app.yeshen.com/games/single/9360)
+  - 根据网站维护人员的测试，截至 2026 年 2 月，夜神应用中心已无法打开，夜神游戏中心搜不到正确的版本，因此我们认为该渠道的链接已失效。
 - [~~逍遥安卓~~](https://www.xyaz.cn/gc/apps-586-1.html)
   - 根据用户反馈，截至 2024 年 12 月，逍遥安卓渠道已无法绑定。
 - [~~一号玩家（原益玩版）~~](https://www.1gamer.cn/game-id-11162.html)
   - 根据网站维护人员的测试，在 2024 年 5 月之前，一号玩家渠道就已下架安装包，无法再绑定。
 - [联想（线路一）](http://update.coc.gameark.cn/?channel=lenovo)
-- [联想（线路二）](https://www.lenovomm.com/appdetail/com.supercell.clashofclans.lenovo/1224)
+- [~~联想（线路二）~~](https://www.lenovomm.com/appdetail/com.supercell.clashofclans.lenovo/1224)
 - [~~雷电~~](https://www.ldmnq.com/app/7361.html)
   - 根据用户反馈，截至 2025 年 5 月，雷电模拟器渠道已无法绑定。
 - [B 站（线路一）](http://update.coc.gameark.cn/?channel=bili)
 - [~~B 站（线路二）~~](https://app.biligame.com/page/detail_game.html?id=103536)
-- [~~果盘（仅适用于手机端）~~](https://game.guopan.cn/m/gamedetail/43182?channelid=40540)
-- [~~果盘（仅适用于电脑端）~~](https://game.guopan.cn/detail/43182?channelid=40540)
-  - 根据网站维护人员的测试，截至 2023 年 12 月，果盘渠道就已下架安装包，无法再绑定。
+- [果盘（仅适用于手机端）](https://game.guopan.cn/m/gamedetail/28139?channelid=40540)
+  - 上述链接必须在手机端打开，否则会直接跳到网站首页。作者未发现在电脑端下载安装包的方法。
+  - 该渠道强制要求下载果盘 App，没有无套路的下载地址。
+  - 在果盘 App 内搜索时，直接搜“部落冲突”是搜不到的，请搜索神秘代码 116454，那一串搜索结果都一样，随便选一个即可。
 - [~~魅族~~](https://game.flyme.cn/game/detail/3239713?contentId=3239713)
   - 根据用户反馈，截至 2025 年 5 月，魅族渠道已无法绑定。
 - [4399 版本](https://a.4399.cn/game-id-251473.html)
@@ -217,7 +218,7 @@ function downloadCocApk() {
 
 ## 结语
 
-账号绑定工具的版本一大堆，好多平台的账号网站内部根本没有，所以我们没能力逐一测试。如果你发现哪个版本的链接不能用了，或者发现了新的有效链接，请前往“常见问题解答”版块查找作者的联系方式，并向作者反馈，我们会依据你的反馈进行更新。网站内容的准确性离不开大家的贡献。
+账号绑定工具的版本一大堆，好多平台的账号网站内部根本没有，所以我们没能力逐一测试。如果你发现哪个版本的链接不能用了，或者发现了新的有效链接，请通过[联系我们](/faq)页面查找作者的联系方式，并向作者反馈，我们会依据你的反馈进行更新。网站内容的准确性离不开大家的贡献。
 
 <style lang="scss">
 @use '@/assets/mixins.scss' as *;
