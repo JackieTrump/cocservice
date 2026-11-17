@@ -62,7 +62,7 @@ onMounted(() => {
     <a class="cp-unit-card" :href="link" ref="unitLinkRef">
         <picture class="cp-unit-media">
             <source srcset="https://static.clashpost.com/global/image-placeholder.svg" type="image/webp" v-if="hasAdditionalSource" />
-            <img :loading="loadingValue" src="https://static.clashpost.com/global/image-placeholder.svg" alt="" />
+            <img :loading="loadingValue" src="https://static.clashpost.com/global/image-placeholder.svg" :alt="name" width="64" height="64" />
         </picture>
         <div class="cp-unit-text">{{ name }}</div>
     </a>
@@ -116,6 +116,14 @@ onMounted(() => {
     width: 100%;
     height: 4.5rem;
     padding: 0.375rem 0;
+    // 图标按原比例缩放
+    img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
 }
 
 @media (min-width: 600px) {

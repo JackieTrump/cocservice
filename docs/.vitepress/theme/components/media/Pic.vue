@@ -76,7 +76,7 @@ if (maxWidth) {
 }
 if (maxHeight) {
     if (maxHeight.endsWith("%") || maxHeight.startsWith("min") || maxHeight.startsWith("max")) {
-        imgStyle += "max-height: " + maxHeight + ");";
+        imgStyle += "max-height: " + maxHeight + ";";
     } else {
         imgStyle += "max-height: min(" + maxHeight + ", 100%);";
     }
@@ -106,7 +106,7 @@ const imgSrcWebp = replaceFileExtension(imgSrcOriginal, ".webp");
             <source :srcset="imgSrcWebp" type="image/webp" v-if="hasAdditionalSource" />
             <img :loading="loadingValue" :src="imgSrcOriginal" :alt="alt" :width="width" :height="height" :style="imgStyle" />
         </picture>
-        <figcaption v-if="caption" v-html="caption"</figcaption>
+        <figcaption v-if="caption" v-html="caption"></figcaption>
     </figure>
 </template>
 

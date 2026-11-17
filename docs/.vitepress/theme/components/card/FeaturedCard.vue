@@ -35,7 +35,7 @@ const props = defineProps({
                 <div class="cp-featured-card-subtitle" v-if="props.subtitle">{{ props.subtitle }}</div>
             </div>
             <div class="cp-featured-card-img-container" v-if="imgSrc">
-                <Pic :src="props.imgSrc" :alt="props.title" width="720" height="480" />
+                <Pic :src="props.imgSrc" :alt="props.title" :lazyLoading="props.lazyLoading" width="720" height="480" />
             </div>
         </div>
     </a>
@@ -45,7 +45,7 @@ const props = defineProps({
             <div class="cp-featured-card-subtitle" v-if="props.subtitle">{{ props.subtitle }}</div>
         </div>
         <div class="cp-featured-card-img-container" v-if="imgSrc">
-            <Pic :src="props.imgSrc" :alt="props.title" width="720" height="480" />
+            <Pic :src="props.imgSrc" :alt="props.title" :lazyLoading="props.lazyLoading" width="720" height="480" />
         </div>
     </div>
 </template>
