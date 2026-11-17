@@ -1,5 +1,5 @@
 <script setup>
-import { inBrowser, useRouter } from "vitepress";
+import { inBrowser, useRouter, useData } from "vitepress";
 import SelectContainer from "@/components/select/SelectContainer.vue";
 import Option from "@/components/select/Option.vue";
 import { getCookie, setCookie, deleteCookie } from "@/assets/global/utils.js";
@@ -21,16 +21,27 @@ const props = defineProps({
  * 
  * @param {String} link 页面的规范链接
  */
+// 从 imgFolder 末尾提取 4 位编号（如 home_buildings/0302 → 0302）
+// 页面路径改名后 URL 中不再包含编号，因此优先使用 imgFolder
+const { frontmatter } = useData();
+
+function unitIdFromImgFolder(folder) {
+    const m = String(folder || "").match(/([0-9a-fA-F]{4})$/);
+    return m ? m[1].toLowerCase() : "";
+}
+
 function hasGoldPassItem(link) {
-    if (link && (link.startsWith("/upgrade/0") || link.startsWith("/upgrade/1"))) {
-        const unitId = link.substring(9, 13);
-        const excludedId = ["0501"];
-        // 英雄装备的升级花费以及特殊角色的升级不受月卡影响，特意排除
-        return unitId.match(/^[0-9a-f][0-9a-f][0-9a-f][0-9a-f]$/) &&
-            !unitId.startsWith("07") && !unitId.startsWith("08") &&
-            !excludedId.includes(unitId);
+    let unitId = unitIdFromImgFolder(frontmatter.value && frontmatter.value.imgFolder);
+    if (!unitId && link && (link.startsWith("/upgrade/0") || link.startsWith("/upgrade/1"))) {
+        unitId = link.substring(9, 13);
     }
-    return false;
+    if (!/^[01][0-9a-f]{3}$/.test(unitId)) {
+        return false;
+    }
+    const excludedId = ["0501"];
+    // 英雄装备（07xx）与特殊角色（08xx）的升级不受月卡影响
+    return !unitId.startsWith("07") && !unitId.startsWith("08") &&
+        !excludedId.includes(unitId);
 }
 
 const link = props.link;
