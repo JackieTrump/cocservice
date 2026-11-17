@@ -1,7 +1,7 @@
 ---
 title: "部落冲突升级数据（都城）"
 shownTitle: "升级数据"
-description: "在这里，你可以查到部落冲突的各种数据，每个兵种和建筑有哪些属性、升级要多久、多少资源这些东西写得清清楚楚。本页面是部落都城（部落首都）的数据。"
+description: "部落冲突（COC）部落都城（部落首都）升级详细数据汇总：涵盖17种都城兵种、派生兵种与7种法术科技，以及都城大本营、子城大本营、防御建筑与陷阱的升级时间和资源消耗查询。"
 module: upgrade-capital
 canonical: /upgrade/category/capital
 ---

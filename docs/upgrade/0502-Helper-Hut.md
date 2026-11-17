@@ -40,7 +40,7 @@ canonical: /upgrade/0502-Helper-Hut
 | 解锁帮手 | 所需大本等级 |
 |    :--  |     ---     |
 | <a href="/upgrade/0800-Lab-Assistant">实验助手</a> |  9 |
-| <a href="/upgrade/0801-Builder%27s-Apprentice">建筑工人学徒</a> | 10 |
+| <a href="/upgrade/builders-apprentice">建筑工人学徒</a> | 10 |
 | <a href="/upgrade/alchemist">炼金术士</a> | 11 |
 
 </UnitTable>

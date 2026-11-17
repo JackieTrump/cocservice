@@ -86,8 +86,8 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="暗黑魔球" imgSrc="0721/Dark_Orb_thumb.png" link="0721-Dark-Orb" />
         <ListItem name="铁甲短裤" imgSrc="0722/Metal_Pants_thumb.png" link="0722-Metal-Pants" />
         <ListItem name="贵族哑铃" imgSrc="0723/Noble_Iron_thumb.png" link="0723-Noble-Iron" />
-        <listItem name="暗黑皇冠" imgSrc="0724/Dark_Crown.png" link="0724-Dark-Crown" />
-        <listItem name="陨石法杖" imgSrc="0725/Meteor_Staff_thumb.png" link="0725-Meteor-Staff" />
+        <ListItem name="暗黑皇冠" imgSrc="0724/Dark_Crown.png" link="0724-Dark-Crown" />
+        <ListItem name="陨石法杖" imgSrc="0725/Meteor_Staff_thumb.png" link="0725-Meteor-Staff" />
     </ListItems>
     <ListItems title="装备（大守护者）" imgFolder="home_heroes">
         <ListItem name="永恒书卷" imgSrc="0780/Eternal_Tome_thumb.png" link="0780-Eternal-Tome" />
@@ -203,7 +203,7 @@ if (activeTabCookieValue === "home-techniques") {
     </ListItems>
     <ListItems title="非战斗人员" imgFolder="home_tech">
         <ListItem name="实验助理" imgSrc="0800/Lab_Assistant_thumb.png" link="0800-Lab-Assistant" />
-        <ListItem name="建筑工人学徒" imgSrc="0801/Builder%27s_Apprentice_thumb.png" link="0801-Builder%27s-Apprentice" />
+        <ListItem name="建筑工人学徒" imgSrc="0801/Builder%27s_Apprentice_thumb.png" link="builders-apprentice" />
         <ListItem name="炼金术士" imgSrc="0802/Alchemist_thumb.png" link="alchemist" />
     </ListItems>
 </SwitchTabGroup>

@@ -1,7 +1,7 @@
 ---
 title: "部落冲突升级数据（临时单位）"
 shownTitle: "升级数据"
-description: "这里归档了部分《部落冲突》游戏数据，包括升级时间、资源消耗等内容，可供玩家查询和参考。本页面是部落冲突临时兵种的数据。"
+description: "部落冲突（COC）精工防御与限时临时单位数据汇总：涵盖钩索塔、旋转喷火器、圣光灯塔等赛季精工防御建筑升级数据，以及历年活动临时兵种、法术与陷阱全等级属性图鉴。"
 module: upgrade-temp
 canonical: /upgrade/category/temp
 ---

@@ -4,6 +4,7 @@ shownTitle: "升级数据"
 description: "在这里，你可以查到部落冲突的各种数据，每个兵种和建筑有哪些属性、升级要多久、多少资源这些东西写得清清楚楚。本页面是按大本等级分类的数据。"
 module: upgrade-level
 canonical: /upgrade/category/level
+robots: noindex, follow
 ---
 
 <script setup>
