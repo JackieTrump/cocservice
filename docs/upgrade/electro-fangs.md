@@ -6,14 +6,14 @@ description: "雷电獠牙是飞龙公爵的普通装备。带上它后，飞龙
 module: upgrade-home
 imgFolder: home_heroes/07e4
 wiki: https://clashofclans.fandom.com/wiki/Electro_Fangs
-canonical: /upgrade/07e4-Electro-Fangs
+canonical: /upgrade/electro-fangs
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Electro_Fangs_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>说明</SmallTitle>
 
-1. 雷电獠牙是 [飞龙公爵](/upgrade/0205-Dragon-Duke) 的一件普通装备，在 [铁匠铺](/upgrade/0488-Blacksmith) 10 级时解锁，需要 17 本。
+1. 雷电獠牙是 [飞龙公爵](/upgrade/dragon-duke) 的一件普通装备，在 [铁匠铺](/upgrade/0488-Blacksmith) 10 级时解锁，需要 17 本。
 2. 带上雷电獠牙装备后，飞龙公爵的攻击会附带连锁闪电效果，对初始目标附近的单位造成伤害；后续目标会依次承受更低的伤害，每跳减少 20%。
    - 第一个被连锁击中的目标会承受完整伤害，原本的初始目标不会额外吃到这段连锁伤害。
    - 如果附近没有可连锁的目标，连锁闪电不会触发。

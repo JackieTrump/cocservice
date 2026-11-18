@@ -6,7 +6,7 @@ description: "超级法师的首次攻击最多可电击附近 15 个敌人，�
 module: upgrade-home
 imgFolder: home_buildings/0318
 wiki: https://clashofclans.fandom.com/wiki/Super_Wizard_Tower
-canonical: /upgrade/0318-Super-Wizard-Tower
+canonical: /upgrade/super-wizard-tower
 ---
 
 - *如想查看合并前的建筑，请移步：[法师塔](/upgrade/0305-Wizard-Tower)。*

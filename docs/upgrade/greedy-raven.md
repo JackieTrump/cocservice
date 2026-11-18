@@ -6,7 +6,7 @@ description: "更可怕的稻草人，也挡不住贪婪渡鸦扑向闪亮的战
 module: upgrade-home
 imgFolder: home_heroes/028b
 wiki: https://clashofclans.fandom.com/wiki/Greedy_Raven
-canonical: /upgrade/028b-Greedy-Raven
+canonical: /upgrade/greedy-raven
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Greedy_Raven_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

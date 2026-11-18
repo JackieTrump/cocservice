@@ -6,7 +6,7 @@ description: "空中战车会在空中投放装有援军的木桶，木桶落地
 module: upgrade-home
 imgFolder: home_tech/0248
 wiki: https://clashofclans.fandom.com/wiki/Sky_Wagon
-canonical: /upgrade/0248-Sky-Wagon
+canonical: /upgrade/sky-wagon
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Sky_Wagon_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

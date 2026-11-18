@@ -6,7 +6,7 @@ description: "动动脑子！远袭者能从颅骨发射远程爆炸弩箭，让
 module: upgrade-home
 imgFolder: home_th/0840
 wiki: https://clashofclans.fandom.com/wiki/Longshot
-canonical: /upgrade/0840-Longshot
+canonical: /upgrade/longshot
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Longshot_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

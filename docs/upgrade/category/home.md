@@ -46,7 +46,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="亡灵王子" imgSrc="0204/Minion_Prince_thumb.png" link="0204-Minion-Prince" :lazyLoading="false" />
         <ListItem name="大守护者" imgSrc="0202/Grand_Warden_thumb.png" link="grand-warden" :lazyLoading="false" />
         <ListItem name="飞盾战神" imgSrc="0203/Royal_Champion_thumb.png" link="royal-champion" :lazyLoading="false" />
-        <ListItem name="飞龙公爵" imgSrc="0205/Dragon_Duke_thumb.png" link="0205-Dragon-Duke" :lazyLoading="false" /> 
+        <ListItem name="飞龙公爵" imgSrc="0205/Dragon_Duke_thumb.png" link="dragon-duke" :lazyLoading="false" /> 
     </ListItems>
     <ListItems title="战宠" imgFolder="home_heroes">
         <ListItem name="莱希" imgSrc="0280/L.A.S.S.I_thumb.png" link="0280-L.A.S.S.I" :lazyLoading="false" />
@@ -60,7 +60,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="灵狐" imgSrc="0288/Spirit_Fox_thumb.png" link="0288-Spirit-Fox" :lazyLoading="false" />
         <ListItem name="愤怒水母" imgSrc="0289/Angry_Jelly_thumb.png" link="0289-Angry-Jelly" :lazyLoading="false" />
         <ListItem name="阿啾" imgSrc="028a/Sneezy_thumb.png" link="028a-Sneezy" :lazyLoading="false" />
-        <ListItem name="贪婪渡鸦" imgSrc="028b/Greedy_Raven_thumb.png" link="028b-Greedy-Raven" :lazyLoading="false" />
+        <ListItem name="贪婪渡鸦" imgSrc="028b/Greedy_Raven_thumb.png" link="greedy-raven" :lazyLoading="false" />
     </ListItems>
     <ListItems title="装备（野蛮人之王）" imgFolder="home_heroes">
         <ListItem name="野蛮人木偶" imgSrc="0700/Barbarian_Puppet_thumb.png" link="barbarian-puppet" :lazyLoading="false" />
@@ -70,7 +70,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="巨型手套" imgSrc="0704/Giant_Gauntlet_thumb.png" link="0704-Giant-Gauntlet" :lazyLoading="false" />
         <ListItem name="尖刺足球" imgSrc="0705/Spiky_Ball_thumb.png" link="0705-Spiky-Ball" :lazyLoading="false" />
         <ListItem name="灵蛇手镯" imgSrc="0706/Snake_Bracelet_thumb.png" link="0706-Snake-Bracelet" :lazyLoading="false" />
-        <ListItem name="木棍马驹" imgSrc="0707/Stick_Horse_thumb.png" link="0707-Stick-Horse" :lazyLoading="false" />
+        <ListItem name="木棍马驹" imgSrc="0707/Stick_Horse_thumb.png" link="stick-horse" :lazyLoading="false" />
     </ListItems>
     <ListItems title="装备（弓箭女皇）" imgFolder="home_heroes">
         <ListItem name="弓箭手木偶" imgSrc="0740/Archer_Puppet_thumb.png" link="0740-Archer-Puppet" />
@@ -87,7 +87,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="铁甲短裤" imgSrc="0722/Metal_Pants_thumb.png" link="0722-Metal-Pants" />
         <ListItem name="贵族哑铃" imgSrc="0723/Noble_Iron_thumb.png" link="0723-Noble-Iron" />
         <ListItem name="暗黑皇冠" imgSrc="0724/Dark_Crown.png" link="0724-Dark-Crown" />
-        <ListItem name="陨石法杖" imgSrc="0725/Meteor_Staff_thumb.png" link="0725-Meteor-Staff" />
+        <ListItem name="陨石法杖" imgSrc="0725/Meteor_Staff_thumb.png" link="meteor-staff" />
     </ListItems>
     <ListItems title="装备（大守护者）" imgFolder="home_heroes">
         <ListItem name="永恒书卷" imgSrc="0780/Eternal_Tome_thumb.png" link="0780-Eternal-Tome" />
@@ -105,14 +105,14 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="急速药水瓶" imgSrc="07c3/Haste_Vial_thumb.png" link="07c3-Haste-Vial" />
         <ListItem name="火箭飞矛" imgSrc="07c4/Rocket_Spear_thumb.png" link="07c4-Rocket-Spear" />
         <ListItem name="雷电战靴" imgSrc="07c5/Electro_Boots_thumb.png" link="07c5-Electro-Boots" />
-        <ListItem name="冷冽冰晶" imgSrc="07c6/Frost_Flake_thumb.png" link="07c6-Frost-Flake" />
+        <ListItem name="冷冽冰晶" imgSrc="07c6/Frost_Flake_thumb.png" link="frost-flake" />
     </ListItems>
     <ListItems title="装备（飞龙公爵）" imgFolder="home_heroes">
-        <ListItem name="烈焰之心" imgSrc="07e0/Fire_Heart_thumb.png" link="07e0-Fire-Heart" />
-        <ListItem name="助燃器" imgSrc="07e1/Flame_Blower_thumb.png" link="07e1-Flame-Blower" />
-        <ListItem name="爆震器" imgSrc="07e2/Stun_Blaster_thumb.png" link="07e2-Stun-Blaster" />
-        <ListItem name="雷电獠牙" imgSrc="07e4/Electro_Fangs_thumb.png" link="07e4-Electro-Fangs" />
-        <ListItem name="火箭背包" imgSrc="07e3/Rocket_Backpack_thumb.png" link="07e3-Rocket-Backpack" />
+        <ListItem name="烈焰之心" imgSrc="07e0/Fire_Heart_thumb.png" link="fire-heart" />
+        <ListItem name="助燃器" imgSrc="07e1/Flame_Blower_thumb.png" link="flame-blower" />
+        <ListItem name="爆震器" imgSrc="07e2/Stun_Blaster_thumb.png" link="stun-blaster" />
+        <ListItem name="雷电獠牙" imgSrc="07e4/Electro_Fangs_thumb.png" link="electro-fangs" />
+        <ListItem name="火箭背包" imgSrc="07e3/Rocket_Backpack_thumb.png" link="rocket-backpack" />
     </ListItems>
 </SwitchTabGroup>
 
@@ -181,7 +181,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="隐形法术" imgSrc="0106/Invisibility_Spell.png" link="invisibility-spell" />
         <ListItem name="回溯法术" imgSrc="0107/Recall_Spell.png" link="0107-Recall-Spell" />
         <ListItem name="复苏法术" imgSrc="0108/Revive_Spell_thumb.png" link="0108-Revive-Spell" />
-        <ListItem name="图腾法术" imgSrc="0109/Totem_Spell_thumb.png" link="0109-Totem-Spell"/>
+        <ListItem name="图腾法术" imgSrc="0109/Totem_Spell_thumb.png" link="totem-spell"/>
         <ListItem name="毒药法术" imgSrc="0180/Poison_Spell.png" link="0180-Poison-Spell" />
         <ListItem name="地震法术" imgSrc="0181/Earthquake_Spell.png" link="0181-Earthquake-Spell" />
         <ListItem name="急速法术" imgSrc="0182/Haste_Spell.png" link="0182-Haste-Spell" />
@@ -199,7 +199,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="攻城烈焰车" imgSrc="0245/Flame_Flinger_thumb.png" link="0245-Flame-Flinger" />
         <ListItem name="攻城钻机" imgSrc="0246/Battle_Drill_thumb.png" link="0246-Battle-Drill" />
         <ListItem name="部队发射器" imgSrc="0247/Troop_Launcher_thumb.png" link="0247-Troop-Launcher" />
-        <ListItem name="空中战车" imgSrc="0248/Sky_Wagon_thumb.png" link="0248-Sky-Wagon" />
+        <ListItem name="空中战车" imgSrc="0248/Sky_Wagon_thumb.png" link="sky-wagon" />
     </ListItems>
     <ListItems title="非战斗人员" imgFolder="home_tech">
         <ListItem name="实验助理" imgSrc="0800/Lab_Assistant_thumb.png" link="0800-Lab-Assistant" />
@@ -216,8 +216,8 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="地狱火炮" imgSrc="0315/Inferno_Artillery5.png" link="0315-Inferno-Artillery" />
     </ListItems>
     <ListItems title="守卫" imgFolder="home_th">
-        <ListItem name="远袭者" imgSrc="0840/Longshot_thumb.png" link="0840-Longshot" />
-        <ListItem name="粉碎者" imgSrc="0841/Smasher_thumb.png" link="0841-Smasher" />
+        <ListItem name="远袭者" imgSrc="0840/Longshot_thumb.png" link="longshot" />
+        <ListItem name="粉碎者" imgSrc="0841/Smasher_thumb.png" link="smasher" />
     </ListItems>
 </SwitchTabGroup>
 
@@ -243,8 +243,8 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="多人箭塔" imgSrc="0314/Multi-Archer_Tower4.png" link="0314-Multi-Archer-Tower" />
         <ListItem name="火焰喷射器" imgSrc="0316/Firespitter3.png" link="0316-Firespitter" />
         <ListItem name="复合机械塔" imgSrc="0317/Multi-Gear_Tower3_LongRange.png" link="0317-Multi-Gear-Tower" />
-        <ListItem name="超级法师塔" imgSrc="0318/Super_Wizard_Tower2.png" link="0318-Super-Wizard-Tower" />
-        <ListItem name="复仇之塔" imgSrc="0319/Revenge_Tower2_Dormant.png" link="0319-Revenge-Tower" />
+        <ListItem name="超级法师塔" imgSrc="0318/Super_Wizard_Tower2.png" link="super-wizard-tower" />
+        <ListItem name="复仇之塔" imgSrc="0319/Revenge_Tower2_Dormant.png" link="revenge-tower" />
     </ListItems>
     <ListItems title="陷阱" imgFolder="home_buildings">
         <ListItem name="隐形炸弹" imgSrc="0380/Bomb13.png" link="bomb" />

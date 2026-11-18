@@ -6,7 +6,7 @@ description: "木棍马驹是野蛮人之王的第四件史诗装备，它在 20
 module: upgrade-home
 imgFolder: home_heroes/0707
 wiki: https://clashofclans.fandom.com/wiki/Stick_Horse
-canonical: /upgrade/0707-Stick-Horse
+canonical: /upgrade/stick-horse
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Stick_Horse_info.png" :imgAlt="$frontmatter.navTitle" description="部署后可直接跃过城墙，同时移动速度与攻击速度加快。" />

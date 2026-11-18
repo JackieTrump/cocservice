@@ -6,7 +6,7 @@ description: "嘿，看那边！施放图腾法术吸引地面和空中防御的
 module: upgrade-home
 imgFolder: home_tech/0109
 wiki: https://clashofclans.fandom.com/wiki/Totem_Spell
-canonical: /upgrade/0109-Totem-Spell
+canonical: /upgrade/totem-spell
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Totem_Spell_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

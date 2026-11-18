@@ -6,14 +6,14 @@ description: "助燃器是飞龙公爵的两件初始装备之一，另一件是
 module: upgrade-home
 imgFolder: home_heroes/07e1
 wiki: https://clashofclans.fandom.com/wiki/Flame_Blower
-canonical: /upgrade/07e1-Flame-Blower
+canonical: /upgrade/flame-blower
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Flame_Blower_info.png" :imgAlt="$frontmatter.navTitle" description="吹出炽热烈焰，灼烧敌人和建筑。" />
 
 <SmallTitle>说明</SmallTitle>
 
-1. 助燃器是 [飞龙公爵](/upgrade/0205-Dragon-Duke) 的两件初始装备之一，另一件是 [烈焰之心](/upgrade/07e0-Fire-Heart)。
+1. 助燃器是 [飞龙公爵](/upgrade/dragon-duke) 的两件初始装备之一，另一件是 [烈焰之心](/upgrade/fire-heart)。
 2. 开启技能后，飞龙公爵面前会喷出锥形火焰，可造成大量伤害。
 3. 烈焰之心装备还可以增加飞龙公爵生命值以及技能状态下的生命值恢复量。
 

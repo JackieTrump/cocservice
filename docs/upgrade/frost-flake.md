@@ -6,7 +6,7 @@ description: "冷冽冰晶是飞盾战神的第三件史诗装备，它在 2025 
 module: upgrade-home
 imgFolder: home_heroes/07c6
 wiki: https://clashofclans.fandom.com/wiki/Frost_Flake
-canonical: /upgrade/07c6-Frost-Flake
+canonical: /upgrade/frost-flake
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Frost_Flake_info.png" :imgAlt="$frontmatter.navTitle" description="向距离最近的防御建筑投掷冰晶，将其冻住。" :isSmallImg="true" />

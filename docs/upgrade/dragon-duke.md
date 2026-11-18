@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 飞龙公爵升级数据"
 navTitle: "飞龙公爵"
 shownTitle: "飞龙公爵"
@@ -6,7 +6,7 @@ description: "这名坦克型飞行英雄因为情绪管理问题被关了起来
 module: upgrade-home
 imgFolder: home_heroes/0205
 wiki: https://clashofclans.fandom.com/wiki/Dragon_Duke
-canonical: /upgrade/0205-Dragon-Duke
+canonical: /upgrade/dragon-duke
 ---
 
 - *如想查看飞龙公爵的创作原型，请访问：[飞龙](/upgrade/0008-Dragon)。*

@@ -6,7 +6,7 @@ description: "如果你摧毁了它的建筑伙伴，复仇之塔就会锁定你
 module: upgrade-home
 imgFolder: home_buildings/0319
 wiki: https://clashofclans.fandom.com/wiki/Revenge_Tower
-canonical: /upgrade/0319-Revenge-Tower
+canonical: /upgrade/revenge-tower
 ---
 
 <script setup>

@@ -6,7 +6,7 @@ description: "陨石法杖是亡灵王子的第二件史诗装备。当亡灵王
 module: upgrade-home
 imgFolder: home_heroes/0725
 wiki: https://clashofclans.fandom.com/wiki/Meteor_Staff
-canonical: /upgrade/0725-Meteor-Staff
+canonical: /upgrade/meteor-staff
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Meteor_Staff_info.png" :imgAlt="$frontmatter.navTitle" description="召唤出神秘的陨石，反复轰击最近的防御建筑。"  />

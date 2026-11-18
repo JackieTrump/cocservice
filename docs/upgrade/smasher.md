@@ -6,7 +6,7 @@ description: "这位重型守卫会对地面和空中部队造成溅射伤害。
 module: upgrade-home
 imgFolder: home_th/0841
 wiki: https://clashofclans.fandom.com/wiki/Smasher
-canonical: /upgrade/0841-Smasher
+canonical: /upgrade/smasher
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Smasher_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
