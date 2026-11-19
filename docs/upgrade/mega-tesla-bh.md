@@ -6,12 +6,12 @@ description: "如果特斯拉电磁塔变得超级庞大会怎样？即使面对
 module: upgrade-bh
 imgFolder: bh_buildings/110b
 wiki: https://clashofclans.fandom.com/wiki/Mega_Tesla
-canonical: /upgrade/110b-Mega-Tesla
+canonical: /upgrade/mega-tesla-bh
 ---
 
 - *如想查看夜世界的特斯拉电磁塔，请访问：[夜世界特斯拉电磁塔](/upgrade/1103-Hidden-Tesla)。*
 - *如想查看家乡的巨型特斯拉电磁塔（12 本自带武器），请访问：[巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)。*
-- *如想查看都城的超级特斯拉电磁塔，请访问：，请访问：[超级特斯拉电磁塔](/upgrade/220b-Hidden-Mega-Tesla)。*
+- *如想查看都城的超级特斯拉电磁塔，请访问：，请访问：[超级特斯拉电磁塔](/upgrade/hidden-mega-tesla-capital)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Mega_Tesla10.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 

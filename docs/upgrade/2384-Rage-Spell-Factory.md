@@ -41,7 +41,7 @@ canonical: /upgrade/2384-Rage-Spell-Factory
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" />
-    <UnitProperty pKey="可配置的法术" pValue="<a href='/upgrade/2104-Rage-Spell'>狂暴法术</a>" />
+    <UnitProperty pKey="可配置的法术" pValue="<a href='/upgrade/rage-spell-capital'>狂暴法术</a>" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Hidden_Tesla/Builder_Base
 canonical: /upgrade/1103-Hidden-Tesla
 ---
 
-- *如想查看夜世界的超级特斯拉电磁塔，请访问：[夜世界超级特斯拉电磁塔](/upgrade/110b-Mega-Tesla)。*
+- *如想查看夜世界的超级特斯拉电磁塔，请访问：[夜世界超级特斯拉电磁塔](/upgrade/mega-tesla-bh)。*
 - *如想查看家乡的特斯拉电磁塔，请访问：[特斯拉电磁塔](/upgrade/hidden-tesla)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hidden_Tesla10.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />

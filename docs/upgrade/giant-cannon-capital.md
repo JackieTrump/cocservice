@@ -6,7 +6,7 @@ description: "什么都无法阻挡巨型加农炮的攻击。它发射的巨型
 module: upgrade-capital
 imgFolder: capital_buildings/220c
 wiki: https://clashofclans.fandom.com/wiki/Giant_Cannon/Clan_Capital
-canonical: /upgrade/220c-Giant-Cannon
+canonical: /upgrade/giant-cannon-capital
 ---
 
 - *如想查看都城的加农炮，请访问：[都城加农炮](/upgrade/2201-Cannon)。*

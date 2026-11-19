@@ -93,7 +93,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="永恒书卷" imgSrc="0780/Eternal_Tome_thumb.png" link="0780-Eternal-Tome" />
         <ListItem name="生命宝石" imgSrc="0781/Life_Gem_thumb.png" link="life-gem" />
         <ListItem name="狂暴宝石" imgSrc="0782/Rage_Gem_thumb.png" link="0782-Rage-Gem" />
-        <ListItem name="治疗书卷" imgSrc="0783/Healing_Tome_thumb.png" link="0783-Healing-Tome" />
+        <ListItem name="治疗书卷" imgSrc="0783/Healing_Tome_thumb.png" link="healing-tome" />
         <ListItem name="巨大火球" imgSrc="0784/Fireball_thumb.png" link="0784-Fireball" />
         <ListItem name="熔岩气球玩偶" imgSrc="0785/Lavaloon_Puppet_thumb.png" link="lavaloon-puppet" />
         <ListItem name="英雄火炬" imgSrc="0786/Heroic_Torch_thumb.png" link="0786-Heroic-Torch" />

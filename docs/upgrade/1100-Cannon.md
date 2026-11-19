@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Cannon/Builder_Base
 canonical: /upgrade/1100-Cannon
 ---
 
-- *如想查看夜世界的双管加农炮，请访问：[夜世界双管加农炮](/upgrade/1101-Double-Cannon)。*
+- *如想查看夜世界的双管加农炮，请访问：[夜世界双管加农炮](/upgrade/double-cannon-bh)。*
 - *如想查看夜世界的巨型加农炮，请访问：[夜世界巨型加农炮](/upgrade/110a-Giant-Cannon)。*
 - *如想查看家乡的加农炮，请访问：[加农炮](/upgrade/0301-Cannon)。*
 - *如想查看都城的加农炮，请访问：[都城加农炮](/upgrade/2201-Cannon)。*

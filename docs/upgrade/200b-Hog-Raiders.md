@@ -26,7 +26,7 @@ canonical: /upgrade/200b-Hog-Raiders
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 野猪突袭队的解锁条件是建造 [野猪突袭队训练营](/upgrade/234b-Hog-Raider-Barracks)，而这需要部落解锁飞龙悬崖，且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 6 级。
+1. 野猪突袭队的解锁条件是建造 [野猪突袭队训练营](/upgrade/hog-raider-barracks-capital)，而这需要部落解锁飞龙悬崖，且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 6 级。
 2. 野猪突袭队在部署之前是一个整体，你不能把野猪飞骑和野猪骑士分开部署。
 
 <SmallTitle>属性</SmallTitle>

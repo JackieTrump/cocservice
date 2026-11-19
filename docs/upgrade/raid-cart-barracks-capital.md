@@ -6,7 +6,7 @@ description: "制造突袭炮车的工坊。突袭炮车是如何组装起来的
 module: upgrade-capital
 imgFolder: capital_buildings/2349
 wiki: https://clashofclans.fandom.com/wiki/Clan_Capital_Barracks#Raid_Cart_Barracks
-canonical: /upgrade/2349-Raid-Cart-Barracks
+canonical: /upgrade/raid-cart-barracks-capital
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Raid_Cart_Barracks5.png" :imgAlt="$frontmatter.navTitle"

@@ -6,7 +6,7 @@ description: "屋子里的尖叫声就没停过，我猜野猪骑士和野猪飞
 module: upgrade-capital
 imgFolder: capital_buildings/234b
 wiki: https://clashofclans.fandom.com/wiki/Clan_Capital_Barracks#Hog_Raider_Barracks
-canonical: /upgrade/234b-Hog-Raider-Barracks
+canonical: /upgrade/hog-raider-barracks-capital
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hog_Raider_Barracks5.png" :imgAlt="$frontmatter.navTitle"

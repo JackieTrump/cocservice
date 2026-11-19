@@ -96,7 +96,7 @@ const tableExtraInfo = [
 |   3  |   900  |        20k      |       2000      |       400      |   2.3M   |   2     |                     |       10      |<a href="/upgrade/0703-Vampstache">嗜血胡须</a><br><a href="/upgrade/0722-Metal-Pants">铁甲短裤</a>|
 |   4  |  1000  |        25k      |       2500      |       500      |     3M   |   3     |                     |       11      |<a href="/upgrade/0782-Rage-Gem">狂暴宝石</a>|
 |   5  |  1100  |        30k      |       3000      |       600      |     5M   |   4     |                     |       12      |<a href="/upgrade/0743-Healer-Puppet">天使木偶</a><br><a href="/upgrade/0723-Noble-Iron">贵族哑铃</a>|
-|   6  |  1200  |        35k      |       3500      |       700      |   6.2M   |   4,12  |                     |       13      |<a href="/upgrade/0783-Healing-Tome">治疗书卷</a>|
+|   6  |  1200  |        35k      |       3500      |       700      |   6.2M   |   4,12  |                     |       13      |<a href="/upgrade/healing-tome">治疗书卷</a>|
 |   7  |  1300  |        40k      |       4000      |       800      |   9.2M   |   5     |                     |       14      |<a href="/upgrade/07c2-Hog-Rider-Puppet">野猪骑士木偶</a>|
 |   8  |  1400  |        45k      |       4500      |       900      |    10M   |   6     |                     |       15      |<a href="/upgrade/07c3-Haste-Vial">急速药水瓶</a>|
 |   9  |  1500  |        50k      |       5000      |      1000      |    11M   |   7     |                     |       16      |     无    |

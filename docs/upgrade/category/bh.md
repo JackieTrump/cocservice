@@ -54,12 +54,12 @@ if (activeTabCookieValue === "bh-buildings") {
     <ListItems title="大本营及武器" imgFolder="bh_buildings">
         <ListItem name="建筑大师大本营" imgSrc="1200/Builder_Hall10.png" link="builder-hall-bh" />
         <ListItem name="奥仔哨站" imgSrc="1240/O.T.T.O's_Outpost10.png" link="1240-O.T.T.O's-Outpost" />
-        <ListItem name="电击车" imgSrc="1241/Zappy_thumb.png" link="1241-Zappy" />
+        <ListItem name="电击车" imgSrc="1241/Zappy_thumb.png" link="zappy-bh" />
     </ListItems>
     <ListItems title="防御建筑" imgFolder="bh_buildings">
         <ListItem name="城墙" imgSrc="110c/Wall10.png" link="110c-Walls" />
         <ListItem name="加农炮" imgSrc="1100/Cannon10.png" link="1100-Cannon" />
-        <ListItem name="双管加农炮" imgSrc="1101/Double_Cannon10.png" link="1101-Double-Cannon" />
+        <ListItem name="双管加农炮" imgSrc="1101/Double_Cannon10.png" link="double-cannon-bh" />
         <ListItem name="箭塔" imgSrc="1102/Archer_Tower10.png" link="archer-tower-bh" />
         <ListItem name="特斯拉电磁塔" imgSrc="1103/Hidden_Tesla10.png" link="1103-Hidden-Tesla" />
         <ListItem name="防空火炮" imgSrc="1104/Firecrackers10.png" link="firecrackers-bh" />
@@ -69,7 +69,7 @@ if (activeTabCookieValue === "bh-buildings") {
         <ListItem name="多管迫击炮" imgSrc="1108/Multi_Mortar10.png" link="1108-Multi-Mortar" />
         <ListItem name="熔岩火炮" imgSrc="1109/Roaster10.png" link="roaster-bh" />
         <ListItem name="巨型加农炮" imgSrc="110a/Giant_Cannon10.png" link="110a-Giant-Cannon" />
-        <ListItem name="超级特斯拉电磁塔" imgSrc="110b/Mega_Tesla10.png" link="110b-Mega-Tesla" />
+        <ListItem name="超级特斯拉电磁塔" imgSrc="110b/Mega_Tesla10.png" link="mega-tesla-bh" />
         <ListItem name="熔岩发射器" imgSrc="110d/Lava_Launcher10.png" link="lava-launcher-bh" />
         <ListItem name="X连弩" imgSrc="110e/X-Bow5_Ground.png" link="110e-X-Bow" />
     </ListItems>
@@ -95,6 +95,6 @@ if (activeTabCookieValue === "bh-buildings") {
     </ListItems>
     <ListItems title="其他建筑" imgFolder="bh_buildings">
         <ListItem name="时光钟楼" imgSrc="1283/Clock_Tower10.png" link="clock-tower-bh" />
-        <ListItem name="小博实验室" imgSrc="1284/B.O.B_Control5.png" link="1284-B.O.B-Control" />
+        <ListItem name="小博实验室" imgSrc="1284/B.O.B_Control5.png" link="bob-control-bh" />
     </ListItems>
 </SwitchTabGroup>

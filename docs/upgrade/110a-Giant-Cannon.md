@@ -9,8 +9,8 @@ wiki: https://clashofclans.fandom.com/wiki/Giant_Cannon
 canonical: /upgrade/110a-Giant-Cannon
 ---
 
-- *如想查看夜世界的双管加农炮，请访问：[夜世界双管加农炮](/upgrade/1101-Double-Cannon)。*
-- *如想查看都城的巨型加农炮，请访问：[都城巨型加农炮](/upgrade/220c-Giant-Cannon)。*
+- *如想查看夜世界的双管加农炮，请访问：[夜世界双管加农炮](/upgrade/double-cannon-bh)。*
+- *如想查看都城的巨型加农炮，请访问：[都城巨型加农炮](/upgrade/giant-cannon-capital)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giant_Cannon10.png" :imgAlt="$frontmatter.navTitle"
     description="什么都无法阻挡巨型加农炮的攻击。<br>它发射的巨型加农炮弹可以射穿任何东西，并一直向前飞行，一直向前……"

@@ -58,7 +58,7 @@ if (activeTabCookieValue === "capital-buildings") {
         <ListItem name="弹跳法术" imgSrc="2101/Jump_Spell_thumb.png" link="2101-Jump-Spell" :lazyLoading="false" />
         <ListItem name="雷电法术" imgSrc="2102/Lightning_Spell_thumb.png" link="2102-Lightning-Spell" :lazyLoading="false" />
         <ListItem name="冰霜法术" imgSrc="2103/Frost_Spell_thumb.png" link="2103-Frost-Spell" :lazyLoading="false" />
-        <ListItem name="狂暴法术" imgSrc="2104/Rage_Spell_thumb.png" link="2104-Rage-Spell" :lazyLoading="false" />
+        <ListItem name="狂暴法术" imgSrc="2104/Rage_Spell_thumb.png" link="rage-spell-capital" :lazyLoading="false" />
         <ListItem name="骷髅召唤法术" imgSrc="2105/Graveyard_Spell_thumb.png" link="graveyard-spell-capital" :lazyLoading="false" />
         <ListItem name="永恒急速法术" imgSrc="2106/Endless_Haste_Spell_thumb.png" link="endless-haste-spell-capital" :lazyLoading="false" />
     </ListItems>
@@ -81,8 +81,8 @@ if (activeTabCookieValue === "capital-buildings") {
         <ListItem name="空中炸弹发射器" imgSrc="2208/Air_Bombs5.png" link="air-bombs-capital" />
         <ListItem name="疾速火箭" imgSrc="2209/Rapid_Rockets5.png" link="rapid-rockets-capital" />
         <ListItem name="撼地巨石" imgSrc="220a/Crusher5.png" link="crusher-capital" />
-        <ListItem name="超级特斯拉电磁塔" imgSrc="220b/Hidden_Mega_Tesla5.png" link="220b-Hidden-Mega-Tesla" />
-        <ListItem name="巨型加农炮" imgSrc="220c/Giant_Cannon5.png" link="220c-Giant-Cannon" />
+        <ListItem name="超级特斯拉电磁塔" imgSrc="220b/Hidden_Mega_Tesla5.png" link="hidden-mega-tesla-capital" />
+        <ListItem name="巨型加农炮" imgSrc="220c/Giant_Cannon5.png" link="giant-cannon-capital" />
         <ListItem name="火箭炮" imgSrc="220d/Rocket_Artillery5.png" link="rocket-artillery-capital" />
         <ListItem name="地狱之塔" imgSrc="220e/Inferno_Tower5_thumb.png" link="inferno-tower-capital" />
         <ListItem name="爆炸强弩" imgSrc="220f/Blast_Bow5_thumb.png" link="220f-Blast-Bow" />
@@ -112,9 +112,9 @@ if (activeTabCookieValue === "capital-buildings") {
         <ListItem name="火箭气球兵训练营" imgSrc="2346/Rocket_Balloon_Barracks5.png" link="rocket-balloon-barracks-capital" />
         <ListItem name="骷髅飞桶训练营" imgSrc="2347/Skeleton_Barrel_Barracks5.png" link="2347-Skeleton-Barrel-Barracks" />
         <ListItem name="飞行堡垒工坊" imgSrc="2348/Flying_Fortress_Yard5.png" link="2348-Flying-Fortress-Yard" />
-        <ListItem name="突袭炮车训练营" imgSrc="2349/Raid_Cart_Barracks5.png" link="2349-Raid-Cart-Barracks" />
+        <ListItem name="突袭炮车训练营" imgSrc="2349/Raid_Cart_Barracks5.png" link="raid-cart-barracks-capital" />
         <ListItem name="雷霆皮卡训练营" imgSrc="234a/Power_P.E.K.K.A_Barracks5.png" link="power-pekka-barracks-capital" />
-        <ListItem name="野猪突袭队训练营" imgSrc="234b/Hog_Raider_Barracks5.png" link="234b-Hog-Raider-Barracks" />
+        <ListItem name="野猪突袭队训练营" imgSrc="234b/Hog_Raider_Barracks5.png" link="hog-raider-barracks-capital" />
         <ListItem name="超级飞龙训练营" imgSrc="234c/Super_Dragon_Barracks5.png" link="234c-Super-Dragon-Barracks" />
         <ListItem name="高山戈仑石场" imgSrc="234d/Mountain_Golem_Quarry5.png" link="mountain-golem-quarry-capital" />
         <ListItem name="地狱飞龙训练营" imgSrc="234e/Inferno_Dragon_Barracks4.png" link="inferno-dragon-barracks-capital" />

@@ -6,7 +6,7 @@ description: "让部队士气飙涨，变得更快、更强！施放狂暴法术
 module: upgrade-capital
 imgFolder: capital_tech/2104
 wiki: https://clashofclans.fandom.com/wiki/Rage_Spell/Clan_Capital
-canonical: /upgrade/2104-Rage-Spell
+canonical: /upgrade/rage-spell-capital
 ---
 
 - *如想查看家乡的狂暴法术，请访问：[狂暴法术](/upgrade/0102-Rage-Spell)。*

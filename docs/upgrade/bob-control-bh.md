@@ -6,7 +6,7 @@ description: "建筑大师最新发明的控制中心！全面升级后，小博
 module: upgrade-bh
 imgFolder: bh_buildings/1284
 wiki: https://clashofclans.fandom.com/wiki/B.O.B_Control
-canonical: /upgrade/1284-B.O.B-Control
+canonical: /upgrade/bob-control-bh
 ---
 
 - 如想查看家乡的小博木屋，请访问：[小博木屋](/upgrade/0501-B.O.Bs-Hut)。

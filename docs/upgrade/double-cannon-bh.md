@@ -6,7 +6,7 @@ description: "双管加农炮，每管二连发。四倍炮弹，四倍火力！
 module: upgrade-bh
 imgFolder: bh_buildings/1101
 wiki: https://clashofclans.fandom.com/wiki/Double_Cannon
-canonical: /upgrade/1101-Double-Cannon
+canonical: /upgrade/double-cannon-bh
 ---
 
 - *如想查看夜世界的加农炮，请访问：[夜世界加农炮](/upgrade/1100-Cannon)。*

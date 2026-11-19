@@ -6,7 +6,7 @@ description: "治疗书卷是大守护者的一件普通装备。治疗书卷装
 module: upgrade-home
 imgFolder: home_heroes/0783
 wiki: https://clashofclans.fandom.com/wiki/Healing_Tome
-canonical: /upgrade/0783-Healing-Tome
+canonical: /upgrade/healing-tome
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Healing_Tome_info.png" :imgAlt="$frontmatter.navTitle" description="治疗大守护者和所有附近友军单位。" />

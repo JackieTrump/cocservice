@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Rage_Spell
 canonical: /upgrade/0102-Rage-Spell
 ---
 
-- *如想查看都城的狂暴法术，请访问：[都城狂暴法术](/upgrade/2104-Rage-Spell)。*
+- *如想查看都城的狂暴法术，请访问：[都城狂暴法术](/upgrade/rage-spell-capital)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Rage_Spell.png" :imgAlt="$frontmatter.navTitle"
     description="让部队士气飙涨，变得更快、更强！<br>施放狂暴法术会产生一个狂暴效果光环！在此光环中的部队速度增快，攻击力增强。"

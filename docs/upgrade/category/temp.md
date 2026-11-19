@@ -111,7 +111,7 @@ if (activeTabCookieValue === "temp-troops") {
     <ListItems title="陷阱" imgFolder="temp_others">
         <ListItem name="南瓜炸弹" imgSrc="0f00/Pumpkin_Bomb.png" link="0f00-Pumpkin-Bomb" />
         <ListItem name="圣诞陷阱" imgSrc="0f01/Santa_Strike.png" link="0f01-Santa-Strike" />
-        <ListItem name="冰冻陷阱" imgSrc="0f02/Freeze_Trap.png" link="0f02-Freeze-Trap" />
+        <ListItem name="冰冻陷阱" imgSrc="0f02/Freeze_Trap.png" link="freeze-trap-temp" />
         <ListItem name="玲珑陷阱" imgSrc="0f03/Shrink_Trap.png" link="shrink-trap-temp" />
     </ListItems>
     <div class="cp-upgrade-index-tip">

@@ -6,7 +6,7 @@ description: "冻住进攻中的敌军，冻起来！"
 module: upgrade-temp
 imgFolder: temp_others/0f02
 wiki: https://clashofclans.fandom.com/wiki/Freeze_Trap
-canonical: /upgrade/0f02-Freeze-Trap
+canonical: /upgrade/freeze-trap-temp
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Freeze_Trap.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />

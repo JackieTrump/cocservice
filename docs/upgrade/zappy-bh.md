@@ -6,11 +6,11 @@ description: "电击车永远充满能量，随时做好防御准备！谁要敢
 module: upgrade-bh
 imgFolder: bh_buildings/1241
 wiki: https://clashofclans.fandom.com/wiki/Zappy
-canonical: /upgrade/1241-Zappy
+canonical: /upgrade/zappy-bh
 ---
 
 - 如想查看夜世界的另一个大本营，请访问：[建筑大师大本营](/upgrade/builder-hall-bh)。
-- 如想查看奥仔哨站被摧毁后释放的电击车，请访问：[夜世界电击车](/upgrade/1241-Zappy)。
+- 如想查看奥仔哨站被摧毁后释放的电击车，请访问：[夜世界电击车](/upgrade/zappy-bh)。
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Zappy_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 

@@ -23,7 +23,7 @@ canonical: /upgrade/2009-Raid-Cart
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 突袭炮车的解锁条件是建造 [突袭炮车训练营](/upgrade/2349-Raid-Cart-Barracks)，而这需要部落解锁建筑工人工坊，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 5 级。
+1. 突袭炮车的解锁条件是建造 [突袭炮车训练营](/upgrade/raid-cart-barracks-capital)，而这需要部落解锁建筑工人工坊，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 5 级。
 2. 攻城炮车类似于夜世界的 [加农炮战车](/upgrade/1006-Cannon-Cart)，只不过血量更高，攻速更慢。
 3. 加农炮战车还可以作为防守部队驻扎在 [突袭炮车岗哨](/upgrade/2211-Raid-Cart-Post) 附近。
 4. 加农炮战车的技能（奋战到底）：被摧毁后获得一些临时生命值。
