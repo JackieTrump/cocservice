@@ -2,7 +2,7 @@
 title: "部落驿站"
 customTitle: true
 titleTemplate: "下载游戏、查数据、看攻略的好帮手"
-description: "部落驿站（原部落冲突指导）是一个百科类网站，不管是下载游戏、查数据，还是看攻略，这个网站都能满足你，快来看看吧！"
+description: "部落驿站（原部落冲突指导）是一个《部落冲突》资料归档网站，保留了安装包下载、游戏数据、机制讲解与攻略文章等历史内容，供有需要的玩家查阅参考。"
 module: home
 canonical: /
 hasUpdateTime: false
@@ -88,22 +88,23 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>你知道吗</SmallTitle>
 
-- [空气炮](/upgrade/0306-Air-Sweeper) 是唯一一个在 11 本就达到最高等级的防御建筑。
-- 随着 2024 年 9 月战场寻宝活动的推出，coc 也有了 [开箱](/p/6932) 功能。
-- 除 [英雄火炬](/upgrade/0786-Heroic-Torch) 外，[暗夜女巫](/upgrade/1007-Night-Witch) 也曾在正式推出之前就被削弱。
-- 即使玩家不做 [新手挑战](/p/6699) 任务，升到 7 本后也能拿到全部奖励。
-- 装饰和障碍物是不同的东西，[如何区分呢？](/p/6993)
+- 2026/02 更新是地震的狂欢：
+    - 现在 [地震法术](/upgrade/0181-Earthquake-Spell) 和 [地震金靴](/upgrade/0702-Earthquake-Boots) 可以对地面部队造成伤害了。
+    - [法术塔](/upgrade/0311-Spell-Tower) 中新增了地震法术。
+- [飞龙公爵](/upgrade/dragon-duke) 落单后狂暴的机制类似于 [飞龙宝宝](/upgrade/000a-Baby-Dragon)。
+- 如果 [愤怒水母](/upgrade/0289-Angry-Jelly) 和 [阿啾](/upgrade/sneezy) 跟随的英雄未被击倒，则不占用回溯法术的空间。
 
 </div>
 
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
-- [部落冲突英雄皮肤（造型）一览](/p/6540)
-- [在 2025 年的今天，coc 还有前途吗？](/p/6778)
-- [部落冲突 2024 年更新](/p/6885)
-- [coc 英雄火炬装备升级数据](/upgrade/0786-Heroic-Torch)
-- [什么是奖章活动？活动令牌又有什么用？](/p/7015)
+- 新英雄：[飞龙公爵](/upgrade/dragon-duke)
+- 新战宠：[贪婪渡鸦](/upgrade/greedy-raven)
+- 新装备：[木棍马驹](/upgrade/stick-horse)、[烈焰之心](/upgrade/fire-heart)、[助燃器](/upgrade/flame-blower)、[爆震器](/upgrade/stun-blaster)
+- 新文章：
+    - [老版本 coc 的杯段是怎么分的？有相关数据留存吗？](/p/7029)
+    - [部落冲突 2025 年更新](/p/7005)
 
 </div>
 </div>
