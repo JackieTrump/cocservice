@@ -74,7 +74,7 @@ const tableExtraInfo = [
 |   5  |           3          |  1400 |     9M   |   5     |                    |       13      |<a href="/upgrade/0244-Log-Launcher">攻城滚木车</a>|
 |   6  |           3          |  1500 |    10M   |   5,12  |                    |       14      |<a href="/upgrade/0245-Flame-Flinger">攻城烈焰车</a>|
 |   7  |           3          |  1600 |    11M   |   6     |                    |       15      |<a href="/upgrade/0246-Battle-Drill">攻城钻机</a>|
-|   8  |           3          |  1700 |    13M   |   7     |                    |       16      |<a href="/upgrade/0247-Troop-Launcher">部队发射器</a>|
+|   8  |           3          |  1700 |    13M   |   7     |                    |       16      |<a href="/upgrade/troop-launcher">部队发射器</a>|
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

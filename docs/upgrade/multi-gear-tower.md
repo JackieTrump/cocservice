@@ -6,7 +6,7 @@ description: "复合机械塔是两种经典防御建筑的强力结合体！选
 module: upgrade-home
 imgFolder: home_buildings/0317
 wiki: https://clashofclans.fandom.com/wiki/Multi-Gear_Tower
-canonical: /upgrade/0317-Multi-Gear-Tower
+canonical: /upgrade/multi-gear-tower
 ---
 
 <script setup>

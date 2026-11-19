@@ -13,7 +13,7 @@ canonical: /upgrade/invisibility-vial
 
 <SmallTitle>说明</SmallTitle>
 
-1. 隐形药水瓶是 [弓箭女皇](/upgrade/0201-Archer-Queen) 的两件初始装备之一，另一件是 [弓箭手木偶](/upgrade/0740-Archer-Puppet)。
+1. 隐形药水瓶是 [弓箭女皇](/upgrade/archer-queen) 的两件初始装备之一，另一件是 [弓箭手木偶](/upgrade/0740-Archer-Puppet)。
 2. 隐形药水瓶可以使弓箭女皇在技能生效期间短暂隐形。在技能生效期间，弓箭女皇的每次射击伤害会大幅增加。
 3. 此外，隐形药水瓶还可以为女王提供额外生命值。
 4. 和 [隐形法术](/upgrade/invisibility-spell) 类似，隐形药水瓶的隐形效果只是不会被建筑锁定，并非无敌。隐形期间女王仍然会被隐形前已经打出去的子弹打中，也会受到溅射伤害。

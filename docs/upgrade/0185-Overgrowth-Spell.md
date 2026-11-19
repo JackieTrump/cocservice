@@ -17,7 +17,7 @@ canonical: /upgrade/0185-Overgrowth-Spell
 2. 部队会无视被藤蔓缠住的建筑。
    - 如果法术正好部署到部队的目标身上，则部队会重新选择目标。
 3. 被藤蔓缠住的建筑是无敌的。
-   - 被藤蔓缠住的建筑免疫各种法术伤害、范围溅射伤害以及 [雷霆泰坦](/upgrade/000f-Electro-Titan) 的光环伤害，因此它是真正的无敌，不是 [女王](/upgrade/0201-Archer-Queen) 隐形时的假无敌。
+   - 被藤蔓缠住的建筑免疫各种法术伤害、范围溅射伤害以及 [雷霆泰坦](/upgrade/000f-Electro-Titan) 的光环伤害，因此它是真正的无敌，不是 [女王](/upgrade/archer-queen) 隐形时的假无敌。
    - 它不能直接成为部队的目标，但可以被 [雷电飞龙](/upgrade/000c-Electro-Dragon) 和 [超级法师](/upgrade/0609-Super-Wizard) 的闪电链击中。即使被击中，这些建筑也不会受到任何伤害。
 4. 蔓生法术对 [城墙](/upgrade/0300-Walls)、陷阱、防守方的部队、英雄、[建筑工人](/upgrade/0500-Builders-Hut)
    和 [部落城堡](/upgrade/clan-castle) 无效。在蔓生法术生效期间，这些建筑仍然会保留其原始功能。

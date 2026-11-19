@@ -42,7 +42,7 @@ if (activeTabCookieValue === "home-techniques") {
 <SwitchTabGroup id="cp-upgrade-heroes" class="cp-upgrade-item">
     <ListItems title="英雄" imgFolder="home_heroes">
         <ListItem name="野蛮人之王" imgSrc="0200/Barbarian_King_thumb.png" link="0200-Barbarian-King" :lazyLoading="false" />
-        <ListItem name="弓箭女皇" imgSrc="0201/Archer_Queen_thumb.png" link="0201-Archer-Queen" :lazyLoading="false" />
+        <ListItem name="弓箭女皇" imgSrc="0201/Archer_Queen_thumb.png" link="archer-queen" :lazyLoading="false" />
         <ListItem name="亡灵王子" imgSrc="0204/Minion_Prince_thumb.png" link="0204-Minion-Prince" :lazyLoading="false" />
         <ListItem name="大守护者" imgSrc="0202/Grand_Warden_thumb.png" link="grand-warden" :lazyLoading="false" />
         <ListItem name="飞盾战神" imgSrc="0203/Royal_Champion_thumb.png" link="royal-champion" :lazyLoading="false" />
@@ -59,7 +59,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="凤凰" imgSrc="0287/Phoenix_thumb.png" link="0287-Phoenix" :lazyLoading="false" />
         <ListItem name="灵狐" imgSrc="0288/Spirit_Fox_thumb.png" link="0288-Spirit-Fox" :lazyLoading="false" />
         <ListItem name="愤怒水母" imgSrc="0289/Angry_Jelly_thumb.png" link="0289-Angry-Jelly" :lazyLoading="false" />
-        <ListItem name="阿啾" imgSrc="028a/Sneezy_thumb.png" link="028a-Sneezy" :lazyLoading="false" />
+        <ListItem name="阿啾" imgSrc="028a/Sneezy_thumb.png" link="sneezy" :lazyLoading="false" />
         <ListItem name="贪婪渡鸦" imgSrc="028b/Greedy_Raven_thumb.png" link="greedy-raven" :lazyLoading="false" />
     </ListItems>
     <ListItems title="装备（野蛮人之王）" imgFolder="home_heroes">
@@ -79,7 +79,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="天使木偶" imgSrc="0743/Healer_Puppet_thumb.png" link="0743-Healer-Puppet" />
         <ListItem name="冰封箭矢" imgSrc="0744/Frozen_Arrow_thumb.png" link="0744-Frozen-Arrow" />
         <ListItem name="克隆魔镜" imgSrc="0745/Magic_Mirror_thumb.png" link="0745-Magic-Mirror" />
-        <ListItem name="动作人偶" imgSrc="0746/Action_Figure_thumb.png" link="0746-Action-Figure" />
+        <ListItem name="动作人偶" imgSrc="0746/Action_Figure_thumb.png" link="action-figure" />
     </ListItems>
     <ListItems title="装备（亡灵王子）" imgFolder="home_heroes">
         <ListItem name="护卫玩偶" imgSrc="0720/Henchmen_Puppet_thumb.png" link="henchmen-puppet" />
@@ -198,7 +198,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="攻城滚木车" imgSrc="0244/Log_Launcher_thumb.png" link="0244-Log-Launcher" />
         <ListItem name="攻城烈焰车" imgSrc="0245/Flame_Flinger_thumb.png" link="0245-Flame-Flinger" />
         <ListItem name="攻城钻机" imgSrc="0246/Battle_Drill_thumb.png" link="0246-Battle-Drill" />
-        <ListItem name="部队发射器" imgSrc="0247/Troop_Launcher_thumb.png" link="0247-Troop-Launcher" />
+        <ListItem name="部队发射器" imgSrc="0247/Troop_Launcher_thumb.png" link="troop-launcher" />
         <ListItem name="空中战车" imgSrc="0248/Sky_Wagon_thumb.png" link="sky-wagon" />
     </ListItems>
     <ListItems title="非战斗人员" imgFolder="home_tech">
@@ -242,7 +242,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="跳弹加农炮" imgSrc="0313/Ricochet_Cannon4.png" link="0313-Ricochet-Cannon" />
         <ListItem name="多人箭塔" imgSrc="0314/Multi-Archer_Tower4.png" link="0314-Multi-Archer-Tower" />
         <ListItem name="火焰喷射器" imgSrc="0316/Firespitter3.png" link="0316-Firespitter" />
-        <ListItem name="复合机械塔" imgSrc="0317/Multi-Gear_Tower3_LongRange.png" link="0317-Multi-Gear-Tower" />
+        <ListItem name="复合机械塔" imgSrc="0317/Multi-Gear_Tower3_LongRange.png" link="multi-gear-tower" />
         <ListItem name="超级法师塔" imgSrc="0318/Super_Wizard_Tower2.png" link="super-wizard-tower" />
         <ListItem name="复仇之塔" imgSrc="0319/Revenge_Tower2_Dormant.png" link="revenge-tower" />
     </ListItems>

@@ -6,7 +6,7 @@ description: "这是一台无法移动的机器，它会向友军发射装满部
 module: upgrade-home
 imgFolder: home_tech/0247
 wiki: https://clashofclans.fandom.com/wiki/Troop_Launcher
-canonical: /upgrade/0247-Troop-Launcher
+canonical: /upgrade/troop-launcher
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Troop_Launcher_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

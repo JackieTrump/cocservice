@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Archer
 canonical: /upgrade/0001-Archer
 ---
 
-- *如想查看以弓箭手为原型的英雄，请访问：[弓箭女皇（女王）](/upgrade/0201-Archer-Queen)。*
+- *如想查看以弓箭手为原型的英雄，请访问：[弓箭女皇（女王）](/upgrade/archer-queen)。*
 - *如想查看该兵种的强化版本，请访问：[超级弓箭手](/upgrade/super-archer)。*
 - *如想查看夜世界的隐秘弓箭手，请访问：[夜世界隐秘弓箭手](/upgrade/sneaky-archer-bh)。*
 

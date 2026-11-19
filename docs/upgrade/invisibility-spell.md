@@ -19,7 +19,7 @@ canonical: /upgrade/invisibility-spell
 2. 即使部队或建筑被隐形法术覆盖，[雷霆泰坦](/upgrade/000f-Electro-Titan) 仍然可以对其造成伤害。
 3. 隐形法术对敌我双方目标均有效，但 [城墙](/upgrade/0300-Walls) 和攻城机器例外。法术覆盖范围内我方看不到敌方，敌方也看不到我方，但是我方自己可以看到自己，比如说隐形的天使能看到自家的隐形女王。
 4. 你可以利用隐形法术敌我不分的特性引导部队攻击其他目标，也可以让法术范围内的部队输出。
-5. 隐形不等于无敌，仅仅是不被锁定，这一点和 [女王](/upgrade/0201-Archer-Queen) 的 [隐形药水瓶](/upgrade/invisibility-vial) 装备类似。被隐形法术覆盖的部队无法避免被已经打出去的子弹打中，也无法免疫溅射伤害。
+5. 隐形不等于无敌，仅仅是不被锁定，这一点和 [女王](/upgrade/archer-queen) 的 [隐形药水瓶](/upgrade/invisibility-vial) 装备类似。被隐形法术覆盖的部队无法避免被已经打出去的子弹打中，也无法免疫溅射伤害。
 
 <SmallTitle>属性</SmallTitle>
 

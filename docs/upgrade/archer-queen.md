@@ -6,7 +6,7 @@ description: "这位优雅的女猎手掌握着毁灭性的力量，实力碾压
 module: upgrade-home
 imgFolder: home_heroes/0201
 wiki: https://clashofclans.fandom.com/wiki/Archer_Queen
-canonical: /upgrade/0201-Archer-Queen
+canonical: /upgrade/archer-queen
 ---
 
 - *如想查看弓箭女皇的创作原型，请访问：[弓箭手](/upgrade/0001-Archer)。*

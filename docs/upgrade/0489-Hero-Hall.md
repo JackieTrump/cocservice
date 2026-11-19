@@ -82,7 +82,7 @@ const tableExtraInfo = [
 | 等级 | 英雄栏位<br>数量 | 生命值 | 升级费用 | 升级时间 | 升级后可<br>获得的经验 | 所需<br>大本等级 |   解锁英雄   |
 |  --- |       ---       |  ---- |   ----   |    ---  |          ---         |       ---        |     ----     |
 |   1  |        1        |  2000 |   800k   |  1      |                      |        7         |<a href="/upgrade/0200-Barbarian-King">野蛮人之王</a>|
-|   2  |        1        |  2400 |   1.6M   |  2      |                      |        8         |<a href="/upgrade/0201-Archer-Queen">弓箭女皇</a>|
+|   2  |        1        |  2400 |   1.6M   |  2      |                      |        8         |<a href="/upgrade/archer-queen">弓箭女皇</a>|
 |   3  |        2        |  2800 |   2.3M   |  3      |                      |        9         |<a href="/upgrade/0204-Minion-Prince">亡灵王子</a>|
 |   4  |        2        |  3200 |   2.5M   |  4      |                      |       10         | 无 |
 |   5  |        3        |  3600 |   4.5M   |  4,12   |                      |       11         |<a href="/upgrade/grand-warden">大守护者</a>|

@@ -6,7 +6,7 @@ description: "她的鼻子堵住了，随时准备打喷嚏！阿啾因过敏躲
 module: upgrade-home
 imgFolder: home_heroes/028a
 wiki: https://clashofclans.fandom.com/wiki/Sneezy
-canonical: /upgrade/028a-Sneezy
+canonical: /upgrade/sneezy
 ---
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
