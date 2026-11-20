@@ -42,8 +42,9 @@ export default defineConfig({
     // 加上这一行，解决第三方外链图片防盗链/裂开问题
     ['meta', { name: 'referrer', content: 'no-referrer' }],
   ],
-  transformHead: ({ pageData }) => {
+  transformHead: ({ pageData, siteData }) => {
     const head: HeadConfig[] = [];
+    const SITE_HOST = "https://www.cocservice.top";
     const robots = pageData.frontmatter.robots;
     if (robots) {
       head.push(["meta", { name: "robots", content: robots }]);
@@ -51,12 +52,37 @@ export default defineConfig({
       if (String(robots).includes("noindex")) return head;
     }
     const canonical = pageData.frontmatter.canonical;
+    let pageUrl = "";
     if (canonical) {
-      const url = canonical === "/"
-        ? "https://www.cocservice.top"
-        : "https://www.cocservice.top" + canonical;
-      head.push(["link", { rel: "canonical", href: url }]);
+      pageUrl = canonical === "/"
+        ? SITE_HOST
+        : SITE_HOST + canonical;
+      head.push(["link", { rel: "canonical", href: pageUrl }]);
     }
+    else {
+      // 未显式配置 canonical 的页面，自动根据相对路径拼接出完整网址
+      const cleanPath = pageData.relativePath
+        .replace(/(^|\/)index\.md$/, "$1")
+        .replace(/\.md$/, "");
+      pageUrl = cleanPath ? `${SITE_HOST}/${cleanPath}` : SITE_HOST;
+      head.push(["link", { rel: "canonical", href: pageUrl }]);
+    }
+    // 动态生成 Open Graph (OG) 社交分享标签
+    const isHome = pageData.frontmatter.module === "home" || canonical === "/";
+    const ogTitle =
+      isHome || !pageData.title || pageData.title === siteData.title
+        ? siteData.title
+        : `${pageData.title} - ${siteData.title}`;
+    const ogDescription = pageData.description || siteData.description;
+    const ogImage = pageData.frontmatter.featuredImg
+      ? `https://static.clashpost.com${pageData.frontmatter.featuredImg}`
+      : `${SITE_HOST}/apple-touch-icon.png`;
+
+    head.push(["meta", { property: "og:type", content: isHome ? "website" : "article" }]);
+    head.push(["meta", { property: "og:title", content: ogTitle }]);
+    head.push(["meta", { property: "og:description", content: ogDescription }]);
+    head.push(["meta", { property: "og:url", content: pageUrl }]);
+    head.push(["meta", { property: "og:image", content: ogImage }]);
     return head;
   },
   markdown: {
