@@ -2,10 +2,21 @@
 title: "部落驿站"
 customTitle: true
 titleTemplate: "下载游戏、查数据、看攻略的好帮手"
-description: "部落驿站（原部落冲突指导）是一个《部落冲突》资料归档网站，保留了安装包下载、游戏数据、机制讲解与攻略文章等历史内容，供有需要的玩家查阅参考。"
+description: "部落驿站（原部落冲突指导）是专注部落冲突（COC）的综合资料与攻略站，提供国际服及私服安装包下载、全兵种建筑升级数据、机制讲解与流派攻略，方便玩家随时查阅。"
 module: home
 canonical: /
 hasUpdateTime: false
+head:
+  - - script
+    - type: application/ld+json
+    - |
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "部落驿站",
+        "alternateName": ["部落冲突指导", "部落冲突资料站", "COC资料站"],
+        "url": "https://www.cocservice.top"
+      }
 ---
 
 <script setup>

@@ -11,6 +11,7 @@ export default defineConfig({
   metaChunk: true,
   head: [
     ["meta", { name: "format-detection", content: "telephone=no" }],
+    ["meta", { property: "og:site_name", content: "部落驿站" }],
     ["link", { rel: "preconnect", href: "https://www.googletagmanager.com" }],
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
