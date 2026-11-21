@@ -37,11 +37,11 @@ onMounted(() => {
     let imgOriginalLink;
 
     if (imgSrcOriginal === "") {
-        imgWebpLink = "https://static.clashpost.com/global/None.webp";
-        imgOriginalLink = "https://static.clashpost.com/global/None.png";
+        imgWebpLink = "https://static.cocservice.top/global/None.webp";
+        imgOriginalLink = "https://static.cocservice.top/global/None.png";
     } else {
         const folder = refDom.parentNode.getAttribute("data-folder");
-        const linkPrefix = "https://static.clashpost.com/upgrade/" + folder + "/";
+        const linkPrefix = "https://static.cocservice.top/upgrade/" + folder + "/";
         const imgSrcWebp = replaceFileExtension(imgSrcOriginal, ".webp");
         imgWebpLink = linkPrefix + imgSrcWebp;
         imgOriginalLink = linkPrefix + imgSrcOriginal;
@@ -61,8 +61,8 @@ onMounted(() => {
 <template>
     <a class="cp-unit-card" :href="link" ref="unitLinkRef">
         <picture class="cp-unit-media">
-            <source srcset="https://static.clashpost.com/global/image-placeholder.svg" type="image/webp" v-if="hasAdditionalSource" />
-            <img :loading="loadingValue" src="https://static.clashpost.com/global/image-placeholder.svg" :alt="name" width="64" height="64" />
+            <source srcset="https://static.cocservice.top/global/image-placeholder.svg" type="image/webp" v-if="hasAdditionalSource" />
+            <img :loading="loadingValue" src="https://static.cocservice.top/global/image-placeholder.svg" :alt="name" width="64" height="64" />
         </picture>
         <div class="cp-unit-text">{{ name }}</div>
     </a>

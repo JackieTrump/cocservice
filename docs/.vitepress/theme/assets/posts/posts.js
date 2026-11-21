@@ -172,14 +172,14 @@ export function getAuthorInfo(authorId) {
     const avatarMd = authorRawData.avatarMd;
     let avatarUrlSm, avatarUrlMd;
     if (avatarSm && avatarSm !== "") {
-        avatarUrlSm = "https://static.clashpost.com/p/author/" + authorId + "/" + avatarSm;
+        avatarUrlSm = "https://static.cocservice.top/p/author/" + authorId + "/" + avatarSm;
     } else {
-        avatarUrlSm = "https://static.clashpost.com/p/author/default.png";
+        avatarUrlSm = "https://static.cocservice.top/p/author/default.png";
     }
     if (avatarMd && avatarMd !== "") {
-        avatarUrlMd = "https://static.clashpost.com/p/author/" + authorId + "/" + avatarSm;
+        avatarUrlMd = "https://static.cocservice.top/p/author/" + authorId + "/" + avatarSm;
     } else {
-        avatarUrlMd = "https://static.clashpost.com/p/author/default.png";
+        avatarUrlMd = "https://static.cocservice.top/p/author/default.png";
     }
 
     // 作者的其他信息

@@ -274,8 +274,8 @@ export function getGoldPassValueArr(numType, timeValue, costValue) {
  * 给定资源类型，获取资源的链接和图片 alt 值
  */
 export function getResourceInfo(type) {
-    let imgSrc = "https://static.clashpost.com/resources/";
-    let imgSrcWithoutExtension = "https://static.clashpost.com/resources/";
+    let imgSrc = "https://static.cocservice.top/resources/";
+    let imgSrcWithoutExtension = "https://static.cocservice.top/resources/";
     switch (type) {
         case "Gold":
         case "Elixir":

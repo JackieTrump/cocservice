@@ -43,7 +43,7 @@ router.onAfterRouteChange = () => {
 
 <template>
     <div class="cp-loading-icon" ref="networkWarningRef">
-        <Pic :lazyLoading="false" src="https://static.clashpost.com/global/WiFiIcon.png" alt="网络连接慢" :convertWebp="false" />
+        <Pic :lazyLoading="false" src="https://static.cocservice.top/global/WiFiIcon.png" alt="网络连接慢" :convertWebp="false" />
     </div>
 </template>
 

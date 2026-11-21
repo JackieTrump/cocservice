@@ -19,19 +19,19 @@ import FeaturedCard from "@/components/card/FeaturedCard.vue";
 <FeaturedCardGrid>
     <FeaturedCard link="/upgrade/category/home" style="background: radial-gradient(ellipse at 50% 80%,rgba(144,238,144,0.15),hsla(0,0%,100%,0));"
         title="家乡" subtitle="英雄战宠、科技、大本与建筑全数据"
-        imgSrc="https://static.clashpost.com/upgrade/upgrade_home.jpg" />
+        imgSrc="https://static.cocservice.top/upgrade/upgrade_home.jpg" />
     <FeaturedCard link="/upgrade/category/bh" style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
         title="夜世界" subtitle="建筑大师基地科技与建筑全数据"
-        imgSrc="https://static.clashpost.com/upgrade/upgrade_bh.jpg" />
+        imgSrc="https://static.cocservice.top/upgrade/upgrade_bh.jpg" />
     <FeaturedCard link="/upgrade/category/capital" style="background: radial-gradient(ellipse at 50% 80%,rgba(255,99,71,0.15),hsla(0,0%,100%,0));"
         title="部落都城" subtitle="都城与子城科技、建筑全数据"
-        imgSrc="https://static.clashpost.com/upgrade/upgrade_capital.jpg" />
+        imgSrc="https://static.cocservice.top/upgrade/upgrade_capital.jpg" />
     <FeaturedCard link="/upgrade/category/temp" style="background: radial-gradient(ellipse at 50% 80%,rgba(1,87,226,0.15),hsla(0,0%,100%,0));"
         title="临时单位" subtitle="精工防御及限时兵种、法术与陷阱"
-        imgSrc="https://static.clashpost.com/upgrade/upgrade_temp.jpg" />
+        imgSrc="https://static.cocservice.top/upgrade/upgrade_temp.jpg" />
     <FeaturedCard link="/upgrade/category/level" style="background: radial-gradient(ellipse at 50% 80%,rgba(128,0,128,0.15),hsla(0,0%,100%,0));"
         title="按大本等级分类" subtitle="暂时停止维护"
-        imgSrc="https://static.clashpost.com/upgrade/upgrade_level.jpg" />
+        imgSrc="https://static.cocservice.top/upgrade/upgrade_level.jpg" />
 </FeaturedCardGrid>
 
 ## 升级数据说明

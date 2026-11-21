@@ -24,7 +24,7 @@ const props = defineProps({
     }
 });
 
-const linkPrefix = "https://static.clashpost.com/upgrade/" + props.folder + "/";
+const linkPrefix = "https://static.cocservice.top/upgrade/" + props.folder + "/";
 const imgSrcOriginal = props.imgSrc;
 const imgExtension = getFileExtension(imgSrcOriginal);
 const hasAdditionalSource = getConvertWebpInfo(imgExtension);

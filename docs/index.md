@@ -51,15 +51,15 @@ onBeforeUnmount(() => {
     <FeaturedCard link="/apk"
         style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
         title="安装包下载" subtitle="国际服、私服"
-        imgSrc="https://static.clashpost.com/homepage/homepage_apk.jpg" />
+        imgSrc="https://static.cocservice.top/homepage/homepage_apk.jpg" />
     <FeaturedCard link="/upgrade"
         style="background: radial-gradient(ellipse at 50% 80%,rgba(144,238,144,0.15),hsla(0,0%,100%,0));"
         title="升级数据" subtitle="升级时间、所需资源"
-        imgSrc="https://static.clashpost.com/homepage/homepage_upgrade.jpg" />
+        imgSrc="https://static.cocservice.top/homepage/homepage_upgrade.jpg" />
     <FeaturedCard link="/p"
         style="background: radial-gradient(ellipse at 50% 80%,rgba(1,87,226,0.15),hsla(0,0%,100%,0));"
         title="攻略教程" subtitle="流派打法、游戏机制"
-        imgSrc="https://static.clashpost.com/homepage/homepage_strategy_v2.jpg" />
+        imgSrc="https://static.cocservice.top/homepage/homepage_strategy_v2.jpg" />
 </FeaturedCardGrid>
 
 <SmallTitle>倒计时</SmallTitle>

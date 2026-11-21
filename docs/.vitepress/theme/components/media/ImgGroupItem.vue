@@ -34,8 +34,8 @@ const props = defineProps({
     }
 });
 
-const imgSrc = "https://static.clashpost.com" + props.imgSrc;
-const link = props.link ? "https://static.clashpost.com" + props.link : null;
+const imgSrc = "https://static.cocservice.top" + props.imgSrc;
+const link = props.link ? "https://static.cocservice.top" + props.link : null;
 
 // 未传入 imgAlt 时，使用 caption 的值作为 alt.
 // 如果传入了 imgAlt，但未传入 caption，或两个参数都未传入，则不做任何操作

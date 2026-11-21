@@ -26,7 +26,7 @@ onMounted(() => {
     // 确定图片链接
     const refDom = imgItemRef.value;
     const folder = refDom.parentNode.getAttribute("data-folder");
-    const linkPrefix = "https://static.clashpost.com/upgrade/" + folder + "/";
+    const linkPrefix = "https://static.cocservice.top/upgrade/" + folder + "/";
     
     const imgSrcWebp = replaceFileExtension(imgSrcOriginal, ".webp");
     const imgLinkOriginal = linkPrefix + imgSrcOriginal;

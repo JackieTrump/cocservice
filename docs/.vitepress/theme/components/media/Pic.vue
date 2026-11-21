@@ -88,7 +88,7 @@ let imgSrcOriginal;
 if (srcProp.startsWith("http://") || srcProp.startsWith("https://")) {
     imgSrcOriginal = srcProp;
 } else {
-    imgSrcOriginal = "https://static.clashpost.com" + srcProp;
+    imgSrcOriginal = "https://static.cocservice.top" + srcProp;
 }
 
 // 如果调用时明确说明不转化，则不进行其他判断

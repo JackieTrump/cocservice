@@ -90,7 +90,7 @@ let srcOriginal;
 if (srcProp.startsWith("http://") || srcProp.startsWith("https://")) {
     srcOriginal = srcProp;
 } else {
-    srcOriginal = "https://static.clashpost.com" + srcProp;
+    srcOriginal = "https://static.cocservice.top" + srcProp;
 }
 
 // 视频封面
@@ -99,7 +99,7 @@ let posterOriginal;
 if (posterProp.startsWith("http://") || posterProp.startsWith("https://")) {
     posterOriginal = posterProp;
 } else {
-    posterOriginal = "https://static.clashpost.com" + posterProp;
+    posterOriginal = "https://static.cocservice.top" + posterProp;
 }
 if (isSupportWebp) {
     posterOriginal = replaceFileExtension(posterOriginal, ".webp");
