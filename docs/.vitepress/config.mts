@@ -80,16 +80,19 @@ export default defineConfig({
     if (!isNoindex) {
       head.push(["link", { rel: "canonical", href: pageUrl }]);
     }
-
     const isHome = pageData.frontmatter.module === "home" || canonical === "/";
+    const navTitle = pageData.frontmatter.navTitle;
     const ogTitle =
       isHome || !pageData.title || pageData.title === siteTitle
         ? siteTitle
-        : `${pageData.title} | ${siteTitle}`;
+        : navTitle
+          ? `${navTitle}升级数据 | ${siteTitle}`
+          : `${pageData.title} | ${siteTitle}`;
     const ogDescription = pageData.description || siteDesc;
 
     // 按 module 使用现成的分类配图（均为 720x480，满足社交平台最低要求）
     const MODULE_OG: Record<string, string> = {
+      "home": "/homepage/homepage_apk.jpg",
       "upgrade": "/upgrade/upgrade_home.jpg",
       "upgrade-home": "/upgrade/upgrade_home.jpg",
       "upgrade-bh": "/upgrade/upgrade_bh.jpg",
