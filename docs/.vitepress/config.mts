@@ -40,42 +40,53 @@ export default defineConfig({
     // 百度站长工具
     ['meta', { name: 'baidu-site-verification', content: 'codeva-W40JwrssEQ' }],
     // 加上这一行，解决第三方外链图片防盗链/裂开问题
-    ['meta', { name: 'referrer', content: 'no-referrer' }],
+    // ['meta', { name: 'referrer', content: 'no-referrer' }],
   ],
-  transformHead: ({ pageData, siteData }) => {
-    const head: HeadConfig[] = [];
-    const SITE_HOST = "https://www.cocservice.top";
+  transformPageData(pageData, { siteConfig }) {
+    const SITE_HOST = "https://www.cocservice.top"; // 替换为你的主站完整域名（带 www，末尾无斜杠）
+    const STATIC_HOST = "https://static.cocservice.top"; // 替换为你的 R2 静态域名（带 static，末尾无斜杠）
+    const siteTitle = siteConfig.site.title || "部落驿站";
+    const siteDesc = siteConfig.site.description || "";
+
+    pageData.frontmatter.head ??= [];
+    // transformPageData 在 dev 模式的 HMR 下可能对同一页面重复调用，导致 frontmatter.head 里出现重复的 og 标签。
+    const isManagedTag = (tag: any) => {
+      if (tag[0] === "link" && tag[1]?.rel === "canonical") return true;
+      if (tag[0] === "meta" && tag[1]?.name === "robots") return true;
+      if (tag[0] === "meta" && typeof tag[1]?.property === "string" && tag[1].property.startsWith("og:")) return true;
+      return false;
+    };
+    pageData.frontmatter.head = pageData.frontmatter.head.filter((t: any) => !isManagedTag(t));
+    const head = pageData.frontmatter.head;
+
     const robots = pageData.frontmatter.robots;
     if (robots) {
       head.push(["meta", { name: "robots", content: robots }]);
-      // 禁止收录的页面不生成规范链接，避免 noindex 和 canonical 同时出现
-      if (String(robots).includes("noindex")) return head;
+      if (String(robots).includes("noindex")) return;
     }
+
     const canonical = pageData.frontmatter.canonical;
     let pageUrl = "";
     if (canonical) {
-      pageUrl = canonical === "/"
-        ? SITE_HOST
-        : SITE_HOST + canonical;
-      head.push(["link", { rel: "canonical", href: pageUrl }]);
-    }
-    else {
-      // 未显式配置 canonical 的页面，自动根据相对路径拼接出完整网址
+      pageUrl = canonical === "/" ? SITE_HOST : SITE_HOST + canonical;
+    } else {
       const cleanPath = pageData.relativePath
         .replace(/(^|\/)index\.md$/, "$1")
         .replace(/\.md$/, "");
       pageUrl = cleanPath ? `${SITE_HOST}/${cleanPath}` : SITE_HOST;
-      head.push(["link", { rel: "canonical", href: pageUrl }]);
     }
-    // 动态生成 Open Graph (OG) 社交分享标签
+    head.push(["link", { rel: "canonical", href: pageUrl }]);
+
     const isHome = pageData.frontmatter.module === "home" || canonical === "/";
     const ogTitle =
-      isHome || !pageData.title || pageData.title === siteData.title
-        ? siteData.title
-        : `${pageData.title} - ${siteData.title}`;
-    const ogDescription = pageData.description || siteData.description;
-    const ogImage = pageData.frontmatter.featuredImg
-      ? `https://static.clashpost.com${pageData.frontmatter.featuredImg}`
+      isHome || !pageData.title || pageData.title === siteTitle
+        ? siteTitle
+        : `${pageData.title} | ${siteTitle}`;
+    const ogDescription = pageData.description || siteDesc;
+
+    const featuredImg = pageData.frontmatter.featuredImg;
+    const ogImage = featuredImg
+      ? (featuredImg.startsWith("http") ? featuredImg : `${STATIC_HOST}${featuredImg}`)
       : `${SITE_HOST}/apple-touch-icon.png`;
 
     head.push(["meta", { property: "og:type", content: isHome ? "website" : "article" }]);
@@ -83,8 +94,8 @@ export default defineConfig({
     head.push(["meta", { property: "og:description", content: ogDescription }]);
     head.push(["meta", { property: "og:url", content: pageUrl }]);
     head.push(["meta", { property: "og:image", content: ogImage }]);
-    return head;
   },
+
   markdown: {
     math: true,
     image: {
