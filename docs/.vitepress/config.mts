@@ -40,7 +40,7 @@ export default defineConfig({
     // 百度站长工具
     ['meta', { name: 'baidu-site-verification', content: 'codeva-W40JwrssEQ' }],
     // 加上这一行，解决第三方外链图片防盗链/裂开问题
-    // ['meta', { name: 'referrer', content: 'no-referrer' }],
+    ['meta', { name: 'referrer', content: 'no-referrer' }],
   ],
   transformPageData(pageData, { siteConfig }) {
     const SITE_HOST = "https://www.cocservice.top"; // 替换为你的主站完整域名（带 www，末尾无斜杠）
