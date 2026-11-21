@@ -1,5 +1,6 @@
 import { defineConfig, HeadConfig } from "vitepress";
 import path from "path";
+import fs from "fs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -89,6 +90,7 @@ export default defineConfig({
 
     // 按 module 使用现成的分类配图（均为 720x480，满足社交平台最低要求）
     const MODULE_OG: Record<string, string> = {
+      "upgrade": "/upgrade/upgrade_home.jpg",
       "upgrade-home": "/upgrade/upgrade_home.jpg",
       "upgrade-bh": "/upgrade/upgrade_bh.jpg",
       "upgrade-capital": "/upgrade/upgrade_capital.jpg",
@@ -97,14 +99,27 @@ export default defineConfig({
     };
     const moduleOg = MODULE_OG[pageData.frontmatter.module as string];
     const featuredImg = pageData.frontmatter.featuredImg || "";
+    // 单位页：从 <UnitInfo imgSrc> 取单位图，配合 imgFolder 拼完整路径
+    let unitImg = "";
+    const imgFolder = pageData.frontmatter.imgFolder;
+    if (!featuredImg && imgFolder && pageData.filePath) {
+      const absPath = path.resolve(siteConfig.srcDir, pageData.filePath);
+      if (fs.existsSync(absPath)) {
+        const body = fs.readFileSync(absPath, "utf-8").replace(/^---[\s\S]*?---/, "");
+        const um = body.match(/<UnitInfo[^>]*\bimgSrc=["']([^"']+)["']/i);
+        if (um) unitImg = `/upgrade/${imgFolder}/${um[1]}`;
+      }
+    }
     const fallbackOg = String(pageData.frontmatter.module || "").startsWith("posts-")
       ? "/homepage/homepage_strategy_v2.jpg"
       : "/homepage/homepage_upgrade.jpg";
 
     const ogImage = featuredImg
       ? (featuredImg.startsWith("http") ? featuredImg : `${STATIC_HOST}${featuredImg}`)
-      : moduleOg
-        ? `${STATIC_HOST}${moduleOg}`
+      : unitImg
+        ? `${STATIC_HOST}${unitImg}`
+        : moduleOg
+          ? `${STATIC_HOST}${moduleOg}`
         : `${STATIC_HOST}${fallbackOg}`;
     head.push(["meta", { property: "og:type", content: isHome ? "website" : "article" }]);
     head.push(["meta", { property: "og:title", content: ogTitle }]);
