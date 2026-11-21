@@ -60,9 +60,9 @@ export default defineConfig({
     const head = pageData.frontmatter.head;
 
     const robots = pageData.frontmatter.robots;
+    const isNoindex = !!robots && String(robots).includes("noindex");
     if (robots) {
       head.push(["meta", { name: "robots", content: robots }]);
-      if (String(robots).includes("noindex")) return;
     }
 
     const canonical = pageData.frontmatter.canonical;
@@ -75,7 +75,10 @@ export default defineConfig({
         .replace(/\.md$/, "");
       pageUrl = cleanPath ? `${SITE_HOST}/${cleanPath}` : SITE_HOST;
     }
-    head.push(["link", { rel: "canonical", href: pageUrl }]);
+    // noindex 页面不输出 canonical（避免与收录指令冲突），但仍输出 OG 供社交分享
+    if (!isNoindex) {
+      head.push(["link", { rel: "canonical", href: pageUrl }]);
+    }
 
     const isHome = pageData.frontmatter.module === "home" || canonical === "/";
     const ogTitle =
@@ -84,11 +87,25 @@ export default defineConfig({
         : `${pageData.title} | ${siteTitle}`;
     const ogDescription = pageData.description || siteDesc;
 
-    const featuredImg = pageData.frontmatter.featuredImg;
+    // 按 module 使用现成的分类配图（均为 720x480，满足社交平台最低要求）
+    const MODULE_OG: Record<string, string> = {
+      "upgrade-home": "/upgrade/upgrade_home.jpg",
+      "upgrade-bh": "/upgrade/upgrade_bh.jpg",
+      "upgrade-capital": "/upgrade/upgrade_capital.jpg",
+      "upgrade-temp": "/upgrade/upgrade_temp.jpg",
+      "upgrade-level": "/upgrade/upgrade_level.jpg",
+    };
+    const moduleOg = MODULE_OG[pageData.frontmatter.module as string];
+    const featuredImg = pageData.frontmatter.featuredImg || "";
+    const fallbackOg = String(pageData.frontmatter.module || "").startsWith("posts-")
+      ? "/homepage/homepage_strategy_v2.jpg"
+      : "/homepage/homepage_upgrade.jpg";
+
     const ogImage = featuredImg
       ? (featuredImg.startsWith("http") ? featuredImg : `${STATIC_HOST}${featuredImg}`)
-      : `${SITE_HOST}/apple-touch-icon.png`;
-
+      : moduleOg
+        ? `${STATIC_HOST}${moduleOg}`
+        : `${STATIC_HOST}${fallbackOg}`;
     head.push(["meta", { property: "og:type", content: isHome ? "website" : "article" }]);
     head.push(["meta", { property: "og:title", content: ogTitle }]);
     head.push(["meta", { property: "og:description", content: ogDescription }]);
