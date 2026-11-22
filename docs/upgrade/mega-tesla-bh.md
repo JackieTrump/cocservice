@@ -10,7 +10,7 @@ canonical: /upgrade/mega-tesla-bh
 ---
 
 - *如想查看夜世界的特斯拉电磁塔，请访问：[夜世界特斯拉电磁塔](/upgrade/1103-Hidden-Tesla)。*
-- *如想查看家乡的巨型特斯拉电磁塔（12 本自带武器），请访问：[巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)。*
+- *如想查看家乡的巨型特斯拉电磁塔（12 本自带武器），请访问：[巨型特斯拉电磁塔](/upgrade/giga-tesla)。*
 - *如想查看都城的超级特斯拉电磁塔，请访问：，请访问：[超级特斯拉电磁塔](/upgrade/hidden-mega-tesla-capital)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Mega_Tesla10.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />

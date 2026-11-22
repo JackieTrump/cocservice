@@ -211,9 +211,9 @@ if (activeTabCookieValue === "home-techniques") {
 <SwitchTabGroup id="cp-upgrade-town-hall" class="cp-upgrade-item">
     <ListItems title="大本及武器" imgFolder="home_buildings">
         <ListItem name="大本营" imgSrc="0400/Town_Hall18.png" link="town-hall" />
-        <ListItem name="巨型特斯拉电磁塔" imgSrc="030c/Giga_Tesla_thumb.png" link="030c-Giga-Tesla" />
+        <ListItem name="巨型特斯拉电磁塔" imgSrc="030c/Giga_Tesla_thumb.png" link="giga-tesla" />
         <ListItem name="巨型地狱之塔" imgSrc="030d/Giga_Inferno16_thumb.png" link="giga-inferno" />
-        <ListItem name="地狱火炮" imgSrc="0315/Inferno_Artillery5.png" link="0315-Inferno-Artillery" />
+        <ListItem name="地狱火炮" imgSrc="0315/Inferno_Artillery5.png" link="inferno-artillery" />
     </ListItems>
     <ListItems title="守卫" imgFolder="home_th">
         <ListItem name="远袭者" imgSrc="0840/Longshot_thumb.png" link="longshot" />

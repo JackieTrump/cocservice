@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Hidden_Mega_Tesla
 canonical: /upgrade/hidden-mega-tesla-capital
 ---
 
-- *如想查看家乡的巨型特斯拉电磁塔（12 本自带武器），请访问：[巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)。*
+- *如想查看家乡的巨型特斯拉电磁塔（12 本自带武器），请访问：[巨型特斯拉电磁塔](/upgrade/giga-tesla)。*
 - *如想查看夜世界的超级特斯拉电磁塔，请访问：[夜世界超级特斯拉电磁塔](/upgrade/mega-tesla-bh)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hidden_Mega_Tesla5.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />

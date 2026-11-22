@@ -6,7 +6,7 @@ description: "只要敌方敢碰大本营，作为特斯拉家族中的暴脾气
 module: upgrade-home
 imgFolder: home_buildings/030c
 wiki: https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Tesla
-canonical: /upgrade/030c-Giga-Tesla
+canonical: /upgrade/giga-tesla
 ---
 
 - 如想查看大本营的相关数据，请访问：[大本营](/upgrade/town-hall)。

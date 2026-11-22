@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Eagle_Artillery
 canonical: /upgrade/030b-Eagle-Artillery
 ---
 
-- *如想查看大本营和天鹰火炮合并后的大本武器，请移步：[地狱火炮](/upgrade/0315-Inferno-Artillery)。*
+- *如想查看大本营和天鹰火炮合并后的大本武器，请移步：[地狱火炮](/upgrade/inferno-artillery)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Eagle_Artillery7_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
@@ -62,7 +62,7 @@ canonical: /upgrade/030b-Eagle-Artillery
 4. 镜像法术复制出来的部队不算人口，但是别忘了镜像法术本身算 15 人口（**注意镜像是 3 格**）。
 5. 天鹰火炮必须装弹才能工作，这个装弹操作会在玩家登录游戏时自动进行，但如果玩家长时间不登录，弹药就会用完，从而导致防御失效。
     - 用完天鹰火炮的弹药需要 5 分 46 秒（这里按实际攻速算）。
-6. 升级 17 级 [大本营](/upgrade/town-hall) 时，天鹰火炮会与大本营合并为 [地狱火炮](/upgrade/0315-Inferno-Artillery)，此时天鹰火炮不再是独立建筑，而是作为大本附带的武器存在。
+6. 升级 17 级 [大本营](/upgrade/town-hall) 时，天鹰火炮会与大本营合并为 [地狱火炮](/upgrade/inferno-artillery)，此时天鹰火炮不再是独立建筑，而是作为大本附带的武器存在。
     - 升级 17 级大本营时要求天鹰火炮达到 7 级，升级完成后天鹰火炮会被移除。
     - 合并建筑的操作是永久性的，一旦合并就无法拆开。
 7. 如想了解天鹰火炮的更多机制，请访问：[【天鹰火炮机制讲解】跟随“我们”揭示火炮的运作规律](/p/2140)。

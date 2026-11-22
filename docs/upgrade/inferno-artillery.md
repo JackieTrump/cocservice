@@ -6,7 +6,7 @@ description: "火力全开！地狱火炮会发射 4 枚追踪敌人的炮弹，
 module: upgrade-home
 imgFolder: home_buildings/0315
 wiki: https://clashofclans.fandom.com/wiki/Town_Hall/Inferno_Artillery
-canonical: /upgrade/0315-Inferno-Artillery
+canonical: /upgrade/inferno-artillery
 ---
 
 - 如想查看大本营的相关数据，请访问：[大本营](/upgrade/town-hall)。
