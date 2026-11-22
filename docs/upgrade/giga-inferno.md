@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno
 canonical: /upgrade/giga-inferno
 ---
 
-- 如想查看大本营的相关数据，请访问：[大本营](/upgrade/0400-Town-Hall)。
+- 如想查看大本营的相关数据，请访问：[大本营](/upgrade/town-hall)。
 - 如想查看地狱之塔，请访问：[地狱之塔](/upgrade/inferno-tower)。
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">

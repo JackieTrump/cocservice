@@ -17,7 +17,7 @@ canonical: /upgrade/0e83-Yellow-Card
    - 非防御建筑与 [部落城堡](/upgrade/clan-castle) 内的援军不能被禁赛。
    - 被禁赛的单位并非无敌，只是不会被锁定，比如说 [雷电法术](/upgrade/0100-Lightning-Spell) 和 [地震法术](/upgrade/0181-Earthquake-Spell) 可以对被禁赛的建筑造成伤害。
    - 被禁赛的单位被摧毁后，其死亡效果会正常触发，比如说被禁赛的 [炸弹塔](/upgrade/0308-Bomb-Tower) 被摧毁后仍然会爆炸。
-   - [大本营](/upgrade/0400-Town-Hall) 和 [建筑工人小屋](/upgrade/0500-Builders-Hut) 需要有武器才能被禁赛（武器没有被触发也行），[特斯拉电磁塔](/upgrade/hidden-tesla) 如果没有跳出来则不能被禁赛。
+   - [大本营](/upgrade/town-hall) 和 [建筑工人小屋](/upgrade/0500-Builders-Hut) 需要有武器才能被禁赛（武器没有被触发也行），[特斯拉电磁塔](/upgrade/hidden-tesla) 如果没有跳出来则不能被禁赛。
 2. 根据部落驿站团队的测试，黄牌法术锁定目标的距离上限约为 2.3 格<sup>\*</sup>，如果法术落点 2.3 格内没有防御建筑或英雄，那么法术就放空了。
    - \* 指的是法术落点到目标边缘的距离。
 3. 对同一单位重复使用黄牌法术后，该单位的禁赛时间不会叠加，只会被重置为 15 秒。

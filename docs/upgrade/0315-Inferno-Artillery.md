@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Town_Hall/Inferno_Artillery
 canonical: /upgrade/0315-Inferno-Artillery
 ---
 
-- 如想查看大本营的相关数据，请访问：[大本营](/upgrade/0400-Town-Hall)。
+- 如想查看大本营的相关数据，请访问：[大本营](/upgrade/town-hall)。
 - 如想合并前的建筑，请访问：[天鹰火炮](/upgrade/030b-Eagle-Artillery)。
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Inferno_Artillery5_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -28,7 +28,7 @@ canonical: /upgrade/0315-Inferno-Artillery
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 升到 17 级 [大本营](/upgrade/0400-Town-Hall) 后，[天鹰火炮](/upgrade/030b-Eagle-Artillery) 会与大本营合并为地狱火炮。此时天鹰火炮不再是独立建筑，而是作为大本附带的武器存在。
+1. 升到 17 级 [大本营](/upgrade/town-hall) 后，[天鹰火炮](/upgrade/030b-Eagle-Artillery) 会与大本营合并为地狱火炮。此时天鹰火炮不再是独立建筑，而是作为大本附带的武器存在。
     - 升级 17 级大本营时要求天鹰火炮达到 7 级，升级完成后天鹰火炮会被移除。
     - 合并建筑的操作是永久性的，一旦合并就无法拆开。
 2. 当玩家升到 17 本后，就拥有了一个地狱火炮，而 [巨型地狱之塔](/upgrade/giga-inferno) 会消失。如果玩家将大本营升到 18 级，则地狱火炮会被守卫系统替代。

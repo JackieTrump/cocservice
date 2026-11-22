@@ -11,7 +11,7 @@ canonical: /upgrade/builder-hall-bh
 ---
 
 - 如想查看夜世界的另一个大本营，请访问：[夜世界奥仔哨站](/upgrade/1240-O.T.T.O's-Outpost)。
-- 如想查看家乡的大本营，请访问：[大本营](/upgrade/0400-Town-Hall)。
+- 如想查看家乡的大本营，请访问：[大本营](/upgrade/town-hall)。
 - 如想查看都城的大本营，请访问：[都城大本营](/upgrade/2400-Capital-Hall)、[子城大本营](/upgrade/2401-District-Hall)。
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Builder_Hall10.png" :imgAlt="$frontmatter.navTitle"

@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/District_Hall
 canonical: /upgrade/2401-District-Hall
 ---
 
-- *如想查看家乡的大本营，请访问：[大本营](/upgrade/0400-Town-Hall)。*
+- *如想查看家乡的大本营，请访问：[大本营](/upgrade/town-hall)。*
 - *如想查看夜世界的大本营，请访问：[建筑大师大本营](/upgrade/builder-hall-bh)，[夜世界奥仔哨站](/upgrade/1240-O.T.T.O's-Outpost)。*
 - *如想查看都城大本营，请访问：[都城大本营](/upgrade/2400-Capital-Hall)。*
 

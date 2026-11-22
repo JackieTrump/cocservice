@@ -27,7 +27,7 @@ canonical: /upgrade/0240-Wall-Wrecker
 <SmallTitle>重要说明</SmallTitle>
 
 1. 如果你不了解攻城机器的基础设定，请阅读这篇文章：[浅谈攻城机器的一些基础设定](/p/6912)。
-2. 攻城战车部署后会直线前往 [大本营](/upgrade/0400-Town-Hall) 方向，并攻击碰到的防御。
+2. 攻城战车部署后会直线前往 [大本营](/upgrade/town-hall) 方向，并攻击碰到的防御。
 3. 当攻城战车的血量清零或到达大本营时，攻城战车就会解体并释放里面的援军。
 
 <SmallTitle>属性</SmallTitle>

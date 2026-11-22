@@ -6,7 +6,7 @@ description: "大本营是村庄的核心。升级大本营，可解锁新的防
 module: upgrade-home
 imgFolder: home_buildings/0400
 wiki: https://clashofclans.fandom.com/wiki/Town_Hall
-canonical: /upgrade/0400-Town-Hall
+canonical: /upgrade/town-hall
 ---
 
 - *如想查看大本营的自带武器，请访问：[巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)、[巨型地狱之塔](/upgrade/giga-inferno)、[地狱火炮](/upgrade/0315-Inferno-Artillery)。*

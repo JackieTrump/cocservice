@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Tesla
 canonical: /upgrade/030c-Giga-Tesla
 ---
 
-- 如想查看大本营的相关数据，请访问：[大本营](/upgrade/0400-Town-Hall)。
+- 如想查看大本营的相关数据，请访问：[大本营](/upgrade/town-hall)。
 - 如想查看特斯拉电磁塔，请访问：[特斯拉电磁塔](/upgrade/hidden-tesla)。
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giga_Tesla.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
