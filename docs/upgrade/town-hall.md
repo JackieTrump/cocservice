@@ -13,7 +13,7 @@ canonical: /upgrade/town-hall
 - *如想查看夜世界的大本营，请访问：[建筑大师大本营](/upgrade/builder-hall-bh)、[夜世界奥仔哨站](/upgrade/1240-O.T.T.O's-Outpost)。*
 - *如想查看都城的大本营，请访问：[都城大本营](/upgrade/2400-Capital-Hall)、[子城大本营](/upgrade/2401-District-Hall)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Town_Hall18_hd.png" :imgAlt="$frontmatter.navTitle"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="town-hall-19.webp" :imgAlt="$frontmatter.navTitle"
     description="大本营是村庄的核心。升级大本营，可解锁新的防御、建筑、陷阱和更多内容。<br>在战斗中摧毁敌军大本营，您将获得一颗星。<br>把大本营建在村庄中心，并在其周围建造城墙、陷阱以及其他防御是最安全的举措。" />
 
 <SmallTitle>各等级图片</SmallTitle>
@@ -42,6 +42,10 @@ canonical: /upgrade/town-hall
         <UnitImg imgTitle="17 本 4 星" imgSrc="Town_Hall17_4.png" imgHd="Town_Hall17_4_hd.png" />
         <UnitImg imgTitle="17 本 5 星" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
         <UnitImg imgTitle="18 本" imgSrc="Town_Hall18.png" imgHd="Town_Hall18_hd.png" />
+        <UnitImg imgTitle="19 本（原始）" imgSrc="town-hall-19.webp" />
+        <UnitImg imgTitle="19 本（野蛮人）" imgSrc="town-hall-19-barbarian.webp" />
+        <UnitImg imgTitle="19 本（弓箭手）" imgSrc="town-hall-19-archer.webp" />
+        <UnitImg imgTitle="19 本（法师）" imgSrc="town-hall-19-wizard.webp" />
     </UnitImgGroup>
     <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
         <UnitImg imgTitle="12 本 1 星" imgSrc="Town_Hall12_1.png" imgHd="Town_Hall12_1_hd.png" />
@@ -68,8 +72,8 @@ canonical: /upgrade/town-hall
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
-
-[雷电法术](/upgrade/0100-Lightning-Spell) 不能对大本营造成伤害，[地震法术](/upgrade/0181-Earthquake-Spell) 可以。
+1. 升到 19 本后，每套阵型都能单独设置大本营驻军。野蛮人大厅直接开放，可驻扎 15 名野蛮人。研究出 15 级弓箭手或 15 级法师后，可分别选择驻扎 15 名弓箭手或 4 名法师。保留原始外观时没有驻军。敌军进入大本营 13 格范围后，驻军按玩家已研究的兵种等级出战。防守的守卫在守卫神殿中选择。
+2. [雷电法术](/upgrade/0100-Lightning-Spell) 不能对大本营造成伤害，[地震法术](/upgrade/0181-Earthquake-Spell) 可以。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -136,7 +140,8 @@ const tableExtraInfo2 = [
 |  15  |   9600 |    13M  |  8         |                    |     98     |     44    |
 |  16  |  10000 |    15M  |  9         |                    |     94     |     44    |
 |  17  |  10400 |    16M  | 10         |                    |     93     |     47    |
-|  18  |  10800 |    25M  | 14         |                    |     94     |     47    |
+|  18  |  10800 |    20M  | 10         |                    |     95     |     48    |
+|  19  |  11200 |    27M  | 13         |                    |     97     |     49    |
 </UnitTable>
 
 **\* 关于建筑数量和陷阱数量的说明：**
@@ -165,7 +170,7 @@ const tableExtraInfo2 = [
 | 11 - 13 |          2M       |        20k      |
 | 14 - 15 |          3M       |        30k      |
 | 16 - 17 |          4M       |        40k      |
-|   18    |          5M       |        50k      |
+| 18 - 19 |          5M       |        50k      |
 </UnitTable>
 
 <SmallTitle>大本营升级提速情况一览</SmallTitle>
@@ -184,6 +189,11 @@ const tableExtraInfo2 = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>推出 19 级大本营，新增大本营驻防部队与外观切换功能（原始 / 野蛮人 / 弓箭手 / 法师），守护者功能移至新建筑「守卫神殿」。</TimelineRow>
+        <TimelineRow>18 级大本营升级费用由 25M 降至 20M，升级时间由 14 天降至 10 天。</TimelineRow>
+        <TimelineRow>17 级大本营武器（地狱火炮）移除星级划分，统一合并为满级属性。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>游戏新增 18 级大本营。</TimelineRow>
     </TimelineItem>
