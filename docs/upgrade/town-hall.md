@@ -43,9 +43,9 @@ canonical: /upgrade/town-hall
         <UnitImg imgTitle="17 本 5 星" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
         <UnitImg imgTitle="18 本" imgSrc="Town_Hall18.png" imgHd="Town_Hall18_hd.png" />
         <UnitImg imgTitle="19 本（原始）" imgSrc="town-hall-19.webp" />
-        <UnitImg imgTitle="19 本（野蛮人）" imgSrc="town-hall-19-barbarian.webp" />
-        <UnitImg imgTitle="19 本（弓箭手）" imgSrc="town-hall-19-archer.webp" />
-        <UnitImg imgTitle="19 本（法师）" imgSrc="town-hall-19-wizard.webp" />
+        <UnitImg imgTitle="19 本（野蛮人大厅）" imgSrc="town-hall-19-barbarian.webp" />
+        <UnitImg imgTitle="19 本（弓箭手大厅）" imgSrc="town-hall-19-archer.webp" />
+        <UnitImg imgTitle="19 本（法师大厅）" imgSrc="town-hall-19-wizard.webp" />
     </UnitImgGroup>
     <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
         <UnitImg imgTitle="12 本 1 星" imgSrc="Town_Hall12_1.png" imgHd="Town_Hall12_1_hd.png" />
@@ -190,7 +190,7 @@ const tableExtraInfo2 = [
 
 <Timeline>
     <TimelineItem date="2026/11/16">
-        <TimelineRow>推出 19 级大本营，新增大本营驻防部队与外观切换功能（原始 / 野蛮人 / 弓箭手 / 法师），守护者功能移至新建筑「守卫神殿」。</TimelineRow>
+        <TimelineRow>推出 19 级大本营，新增大本营驻防部队与外观切换功能（原始 / 野蛮人大厅 / 弓箭手大厅 / 法师大厅），守护者功能移至新建筑「守卫神殿」。</TimelineRow>
         <TimelineRow>18 级大本营升级费用由 25M 降至 20M，升级时间由 14 天降至 10 天。</TimelineRow>
         <TimelineRow>17 级大本营武器（地狱火炮）移除星级划分，统一合并为满级属性。</TimelineRow>
     </TimelineItem>
