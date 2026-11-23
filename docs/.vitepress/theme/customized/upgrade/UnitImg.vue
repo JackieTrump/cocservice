@@ -1,5 +1,6 @@
 <script setup>
-import { onMounted, ref, nextTick } from "vue";
+import { onMounted, ref, nextTick, computed } from "vue";
+import { useData } from "vitepress";
 import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from "@/assets/global/utils.js";
 
 const props = defineProps({
@@ -17,6 +18,14 @@ const props = defineProps({
     }
 });
 
+const { frontmatter } = useData();
+const imgAlt = computed(() => {
+    const unit = frontmatter.value.navTitle || "";
+    const title = String(props.imgTitle).replace(/\s+/g, "");
+    return unit ? unit + title : title;
+});
+// 可见标题：连字符两侧的空格去掉，数字与汉字之间保留
+const displayTitle = computed(() => String(props.imgTitle).replace(/\s+/g, ""));
 const imgItemRef = ref();
 const imgSrcOriginal = props.imgSrc;
 const imgExtension = getFileExtension(imgSrcOriginal);
@@ -50,10 +59,10 @@ onMounted(() => {
 
 <template>
     <div class="cp-unit-img-item" ref="imgItemRef">
-        <div class="cp-unit-img-title">{{ props.imgTitle }}</div>
+        <div class="cp-unit-img-title">{{ displayTitle }}</div>
         <picture>
             <source srcset="" type="image/webp" v-if="hasAdditionalSource" />
-            <img loading="lazy" class="cp-unit-img" src="" alt="" />
+            <img loading="lazy" class="cp-unit-img" src="" :alt="imgAlt" />
         </picture>
     </div>
 </template>
