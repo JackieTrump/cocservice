@@ -25,21 +25,21 @@ canonical: /upgrade/2003-Battle-Ram
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 野蛮人攻城槌的解锁条件是建造 [野蛮人攻城槌训练营](/upgrade/battle-ram-barracks-capital)，而这需要部落解锁野蛮人兵营，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 2 级。
+1. 野蛮人攻城槌的解锁条件是建造 [野蛮人攻城槌训练营](/upgrade/battle-ram-barracks-capital)，而这需要部落解锁野蛮人兵营，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到2级。
 2. 野蛮人攻城槌炸墙后会爆出 [野蛮人](/upgrade/20c0-Barbarian)。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="城墙 (20 倍伤害)" />
+    <UnitProperty pKey="攻击偏好" pValue="城墙 (20倍伤害)" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.6 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.6格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="配兵人口" pValue="5" />
     <UnitProperty pKey="防守人口" pValue="0" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击距离" pValue="0.75 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击距离" pValue="0.75格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -64,7 +64,7 @@ canonical: /upgrade/2003-Battle-Ram
     <TimelineItem date="2022/12/12">
         <TimelineRow>所有等级野蛮人攻城槌的生命值增加。</TimelineRow>
         <TimelineRow>所有等级野蛮人攻城槌的伤害减少。</TimelineRow>
-        <TimelineRow>增加野蛮人攻城槌对城墙 20 倍伤害增加至 40 倍。</TimelineRow>
+        <TimelineRow>增加野蛮人攻城槌对城墙20倍伤害增加至40倍。</TimelineRow>
         <TimelineRow>野蛮人攻城槌不再计算防守人口。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">

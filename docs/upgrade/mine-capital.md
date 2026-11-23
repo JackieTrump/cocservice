@@ -18,18 +18,18 @@ canonical: /upgrade/mine-capital
 <Panel>
     <UnitImgGroup title="地面模式" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Small_Trap_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Mine1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Mine2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Mine3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Mine4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Mine5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Mine1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Mine2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Mine3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Mine4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Mine5.png" />
     </UnitImgGroup>
     <UnitImgGroup title="空中模式" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Mine1_Air.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Mine2_Air.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Mine3_Air.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Mine4_Air.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Mine5_Air.png" />
+        <UnitImg imgTitle="1级" imgSrc="Mine1_Air.png" />
+        <UnitImg imgTitle="2级" imgSrc="Mine2_Air.png" />
+        <UnitImg imgTitle="3级" imgSrc="Mine3_Air.png" />
+        <UnitImg imgTitle="4级" imgSrc="Mine4_Air.png" />
+        <UnitImg imgTitle="5级" imgSrc="Mine5_Air.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -63,8 +63,8 @@ canonical: /upgrade/mine-capital
     <UnitProperty pKey="占地面积" pValue="1×1" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害目标" pValue="可调对地和对空" />
-    <UnitProperty pKey="触发距离" pValue="1.5 格" />
-    <UnitProperty pKey="爆炸半径" pValue="3 格" />
+    <UnitProperty pKey="触发距离" pValue="1.5格" />
+    <UnitProperty pKey="爆炸半径" pValue="3格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

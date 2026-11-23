@@ -18,11 +18,11 @@ canonical: /upgrade/2348-Flying-Fortress-Yard
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Flying_Fortress_Yard_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Flying_Fortress_Yard1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Flying_Fortress_Yard2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Flying_Fortress_Yard3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Flying_Fortress_Yard4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Flying_Fortress_Yard5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Flying_Fortress_Yard1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Flying_Fortress_Yard2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Flying_Fortress_Yard3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Flying_Fortress_Yard4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Flying_Fortress_Yard5.png" />
     </UnitImgGroup>
 </Panel>
 

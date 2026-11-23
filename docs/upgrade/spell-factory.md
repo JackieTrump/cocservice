@@ -17,24 +17,24 @@ canonical: /upgrade/spell-factory
 
 <Panel>
     <UnitImgGroup title="闲置状态" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Spell_Factory1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Spell_Factory2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Spell_Factory3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Spell_Factory4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Spell_Factory5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Spell_Factory6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Spell_Factory7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Spell_Factory8.png" />
+        <UnitImg imgTitle="1级" imgSrc="Spell_Factory1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Spell_Factory2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Spell_Factory3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Spell_Factory4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Spell_Factory5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Spell_Factory6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Spell_Factory7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Spell_Factory8.png" />
     </UnitImgGroup>
     <UnitImgGroup title="法术配置中" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Spell_Factory1_Active.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Spell_Factory2_Active.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Spell_Factory3_Active.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Spell_Factory4_Active.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Spell_Factory5_Active.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Spell_Factory6_Active.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Spell_Factory7_Active.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Spell_Factory8_Active.png" />
+        <UnitImg imgTitle="1级" imgSrc="Spell_Factory1_Active.png" />
+        <UnitImg imgTitle="2级" imgSrc="Spell_Factory2_Active.png" />
+        <UnitImg imgTitle="3级" imgSrc="Spell_Factory3_Active.png" />
+        <UnitImg imgTitle="4级" imgSrc="Spell_Factory4_Active.png" />
+        <UnitImg imgTitle="5级" imgSrc="Spell_Factory5_Active.png" />
+        <UnitImg imgTitle="6级" imgSrc="Spell_Factory6_Active.png" />
+        <UnitImg imgTitle="7级" imgSrc="Spell_Factory7_Active.png" />
+        <UnitImg imgTitle="8级" imgSrc="Spell_Factory8_Active.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -93,33 +93,33 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>1 ~ 5、7 ~ 8 级法术工厂的升级时间减少。</TimelineRow>
-        <TimelineRow>8 级法术工厂的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 5、7 ~ 8级法术工厂的升级时间减少。</TimelineRow>
+        <TimelineRow>8级法术工厂的升级费用降低。</TimelineRow>
     </TimelineItem> 
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 15 本新增 8 级法术工厂。</TimelineRow>    
-        <TimelineRow>4 ~ 5、7 级法术工厂的升级时间减少。</TimelineRow>
+        <TimelineRow>17本推出，并在15本新增8级法术工厂。</TimelineRow>    
+        <TimelineRow>4 ~ 5、7级法术工厂的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>7 级法术工厂的升级时间 9 天减少至 8 天。</TimelineRow>
+        <TimelineRow>7级法术工厂的升级时间9天减少至8天。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
         <TimelineRow>法术工厂升级时兵种可继续配置法术，但配置速度减半（配置时间翻倍）。</TimelineRow>
-        <TimelineRow>15 本推出，并在 13 本新增 7 级法术工厂，可解锁新法术：回溯法术（召回法术）。</TimelineRow>
-        <TimelineRow>5 ~ 7 级法术工厂的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在13本新增7级法术工厂，可解锁新法术：回溯法术（召回法术）。</TimelineRow>
+        <TimelineRow>5 ~ 7级法术工厂的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>1 ~ 3 级法术工厂的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 3级法术工厂的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>4 ~ 5 级法术工厂的升级费用降低。</TimelineRow>
-        <TimelineRow>5 级法术工厂的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 5级法术工厂的升级费用降低。</TimelineRow>
+        <TimelineRow>5级法术工厂的升级时间减少。</TimelineRow>
     </TimelineItem> 
     <TimelineItem date="2020/12/07">
-        <TimelineRow>11 本新增 6 级法术工厂，新法术：隐形法术。</TimelineRow>   
+        <TimelineRow>11本新增6级法术工厂，新法术：隐形法术。</TimelineRow>   
     </TimelineItem> 
         <TimelineItem date="2019/04/02">
-        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中 1 ~ 3 级法术工厂的升级时间减少。</TimelineRow>     
+        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中1 ~ 3级法术工厂的升级时间减少。</TimelineRow>     
     </TimelineItem>    
     <TimelineItem :historyBottom="true" />
 </Timeline>

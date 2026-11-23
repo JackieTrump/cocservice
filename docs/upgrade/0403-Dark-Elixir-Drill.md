@@ -15,17 +15,17 @@ canonical: /upgrade/0403-Dark-Elixir-Drill
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Dark_Elixir_Drill1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Dark_Elixir_Drill2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Dark_Elixir_Drill3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Dark_Elixir_Drill4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Dark_Elixir_Drill5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Dark_Elixir_Drill6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Dark_Elixir_Drill7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Dark_Elixir_Drill8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Dark_Elixir_Drill9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Dark_Elixir_Drill10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Dark_Elixir_Drill11.png" />
+        <UnitImg imgTitle="1级" imgSrc="Dark_Elixir_Drill1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Dark_Elixir_Drill2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Dark_Elixir_Drill3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Dark_Elixir_Drill4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Dark_Elixir_Drill5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Dark_Elixir_Drill6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Dark_Elixir_Drill7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Dark_Elixir_Drill8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Dark_Elixir_Drill9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Dark_Elixir_Drill10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Dark_Elixir_Drill11.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -105,36 +105,36 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>新增 11 级暗黑重油钻井，16 本可解锁。</TimelineRow>
+        <TimelineRow>新增11级暗黑重油钻井，16本可解锁。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>9 ~ 10 级暗黑重油钻井的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 10级暗黑重油钻井的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>1 ~ 5、7 ~ 10 级暗黑重油钻井的升级费用降低。</TimelineRow>
-        <TimelineRow>7 ~ 10 级暗黑重油钻井的升级时间减少。</TimelineRow>       
+        <TimelineRow>1 ~ 5、7 ~ 10级暗黑重油钻井的升级费用降低。</TimelineRow>
+        <TimelineRow>7 ~ 10级暗黑重油钻井的升级时间减少。</TimelineRow>       
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>1 ~ 6、9 级暗黑重油钻井的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 6、9级暗黑重油钻井的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
         <TimelineRow>超级充能推出，暗黑重油钻井是第一批可以充能的建筑之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>新增 10 级暗黑重油钻井，14 本可解锁。</TimelineRow>
+        <TimelineRow>新增10级暗黑重油钻井，14本可解锁。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>新增 9 级暗黑重油钻井，12 本可解锁。</TimelineRow>
+        <TimelineRow>新增9级暗黑重油钻井，12本可解锁。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
         <TimelineRow>所有等级暗黑重油钻井的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>新增 8 级暗黑重油钻井，11 本可解锁。</TimelineRow>
-        <TimelineRow>9 本（之前是 10 本）即可建造第 3 个暗黑重油钻井。</TimelineRow>
+        <TimelineRow>新增8级暗黑重油钻井，11本可解锁。</TimelineRow>
+        <TimelineRow>9本（之前是10本）即可建造第3个暗黑重油钻井。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>2 ~ 7 级暗黑重油钻井的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 7级暗黑重油钻井的升级费用降低。</TimelineRow>
         <TimelineRow>所有等级暗黑重油钻井的升级时间减少。</TimelineRow>       
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

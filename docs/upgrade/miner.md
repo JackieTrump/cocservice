@@ -17,23 +17,23 @@ canonical: /upgrade/miner
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Miner1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Miner3.png" />
-        <UnitImg imgTitle="5 - 6 级" imgSrc="Miner5.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Miner7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Miner8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Miner9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Miner10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Miner11.png" imgHd="Miner11_hd.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Miner12.png" imgHd="Miner12_hd.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Miner1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Miner3.png" />
+        <UnitImg imgTitle="5 - 6级" imgSrc="Miner5.png" />
+        <UnitImg imgTitle="7级" imgSrc="Miner7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Miner8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Miner9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Miner10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Miner11.png" imgHd="Miner11_hd.png" />
+        <UnitImg imgTitle="12级" imgSrc="Miner12.png" imgHd="Miner12_hd.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
 1. 掘地矿工在地底下不会受到伤害，但是依然可以受到法术的增益效果。
-2. 掘地矿工击败目标后，需要 1 到 1.25 秒才会再次钻地。这个延时依然能够躲避 12 到 16 级 [大本营](/upgrade/town-hall) 的爆炸伤害，但不能躲避 [炸弹塔](/upgrade/0308-Bomb-Tower) 被摧毁后的爆炸伤害。
-3. 13 到 16 级 [大本营](/upgrade/town-hall) 自爆后的毒雾伤害对处于地底的掘地矿工无效。
+2. 掘地矿工击败目标后，需要1到1.25秒才会再次钻地。这个延时依然能够躲避12到16级 [大本营](/upgrade/town-hall) 的爆炸伤害，但不能躲避 [炸弹塔](/upgrade/0308-Bomb-Tower) 被摧毁后的爆炸伤害。
+3. 13到16级 [大本营](/upgrade/town-hall) 自爆后的毒雾伤害对处于地底的掘地矿工无效。
 4. 掘地矿工能免疫 [飓风陷阱](/upgrade/0386-Tornado-Trap) 的转圈效果。
 5. 掘地矿工在防守时不会钻地。
 6. 掘地矿工仅在移动时会钻地，攻击时不会钻地，因此归类为地面近战单位。
@@ -46,9 +46,9 @@ canonical: /upgrade/miner
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="6" />
-    <UnitProperty pKey="移动速度" pValue="4 格/秒 (进攻)<br>2.8 格/秒 (防守)" />
-    <UnitProperty pKey="攻击速度" pValue="1.7 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.5 格" />
+    <UnitProperty pKey="移动速度" pValue="4格/秒 (进攻)<br>2.8格/秒 (防守)" />
+    <UnitProperty pKey="攻击速度" pValue="1.7秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.5格" />
     <UnitProperty pKey="所需训练营等级" pValue="12" />
     <UnitProperty pKey="所需大本等级" pValue="10" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -95,66 +95,66 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 12 级掘地矿工。</TimelineRow>
-        <TimelineRow>11 级掘地矿工的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增12级掘地矿工。</TimelineRow>
+        <TimelineRow>11级掘地矿工的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>4 ~ 10 级掘地矿工的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 10级掘地矿工的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/30">
-        <TimelineRow>8 ~ 11 级掘地矿工的生命值增加。</TimelineRow>
-        <TimelineRow>10 ~ 11 级掘地矿工的每秒伤害提升。</TimelineRow>
+        <TimelineRow>8 ~ 11级掘地矿工的生命值增加。</TimelineRow>
+        <TimelineRow>10 ~ 11级掘地矿工的每秒伤害提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>4 ~ 10 级掘地矿工的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 4、6 ~ 10 级掘地矿工的升级费用降低。</TimelineRow>
+        <TimelineRow>4 ~ 10级掘地矿工的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4、6 ~ 10级掘地矿工的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>17 本新增 11 级掘地矿工。</TimelineRow>
+        <TimelineRow>17本新增11级掘地矿工。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 10 级掘地矿工的升级时间减少。</TimelineRow>
-        <TimelineRow>5 ~ 10 级掘地矿工的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 10级掘地矿工的升级时间减少。</TimelineRow>
+        <TimelineRow>5 ~ 10级掘地矿工的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>6、8、9 级掘地矿工的升级时间减少。</TimelineRow>
-        <TimelineRow>8、9 级掘地矿工的升级费用降低。</TimelineRow>
+        <TimelineRow>6、8、9级掘地矿工的升级时间减少。</TimelineRow>
+        <TimelineRow>8、9级掘地矿工的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，同时在 16 本新增 10 级掘地矿工。</TimelineRow>
-        <TimelineRow>2 ~ 3、5 ~ 9 级掘地矿工的升级时间减少。</TimelineRow>
-        <TimelineRow>8 级掘地矿工的升级费用降低。</TimelineRow>
+        <TimelineRow>16本推出，同时在16本新增10级掘地矿工。</TimelineRow>
+        <TimelineRow>2 ~ 3、5 ~ 9级掘地矿工的升级时间减少。</TimelineRow>
+        <TimelineRow>8级掘地矿工的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>6 ~ 7 级掘地矿工的升级费用和升级时间减少。</TimelineRow>
-    <TimelineRow>9 级掘地矿工的生命值由 1200 提升到 1250。</TimelineRow>
+        <TimelineRow>6 ~ 7级掘地矿工的升级费用和升级时间减少。</TimelineRow>
+    <TimelineRow>9级掘地矿工的生命值由1200提升到1250。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/12/12">
-        <TimelineRow>地下单位于地面上行走（不包含进攻半身冒出地面）的移动速度降低 30%，会影响防守时的掘地矿工和参观村庄时在兵营等地方看到的地下单位。</TimelineRow>
+        <TimelineRow>地下单位于地面上行走（不包含进攻半身冒出地面）的移动速度降低30%，会影响防守时的掘地矿工和参观村庄时在兵营等地方看到的地下单位。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>2 ~ 8 级掘地矿工的升级费用和升级时间减少。</TimelineRow>
-        <TimelineRow>15 本推出，并在 15 本新增 9 级掘地矿工。</TimelineRow>
+        <TimelineRow>2 ~ 8级掘地矿工的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增9级掘地矿工。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 7 级掘地矿工的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 6 级掘地矿工的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 7级掘地矿工的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 6级掘地矿工的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/09/27">
-        <TimelineRow>14 本新增 8 级掘地矿工。</TimelineRow>
+        <TimelineRow>14本新增8级掘地矿工。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>2 ~ 5 级掘地矿工的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5级掘地矿工的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>2 ~ 3 级掘地矿工的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 3级掘地矿工的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本新增 7 级掘地矿工。</TimelineRow>
-        <TimelineRow>6 级掘地矿工的生命值由 870 增加到 900。</TimelineRow>
+        <TimelineRow>13本新增7级掘地矿工。</TimelineRow>
+        <TimelineRow>6级掘地矿工的生命值由870增加到900。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

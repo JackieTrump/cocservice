@@ -32,7 +32,7 @@ canonical: /upgrade/meteor-golem-temp
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 陨石戈仑最初在 2025/10 的宇宙摇滚活动中作为临时兵种推出，在 2025/11 的 18 本版本更新后成为永久兵种。
+1. 陨石戈仑最初在2025/10的宇宙摇滚活动中作为临时兵种推出，在2025/11的18本版本更新后成为永久兵种。
 2. 陨石戈仑和小陨石戈仑的机制已在 [陨石戈仑（永久兵种）](/upgrade/meteor-golem) 页面中写出，这里不再重复。
 
 <SmallTitle>属性</SmallTitle>
@@ -40,14 +40,14 @@ canonical: /upgrade/meteor-golem-temp
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
-    <UnitProperty pKey="伤害加成" pValue="对墙 10 倍伤害" />
+    <UnitProperty pKey="伤害加成" pValue="对墙10倍伤害" />
     <UnitProperty pKey="伤害类型" pValue="投掷后造成范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1 格" />
+    <UnitProperty pKey="伤害半径" pValue="1格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="40" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="进攻时机" pValue="到达目标 1 秒后" />
-    <UnitProperty pKey="最远投掷距离" pValue="5 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="进攻时机" pValue="到达目标1秒后" />
+    <UnitProperty pKey="最远投掷距离" pValue="5格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />
 </UnitProperties>
@@ -94,10 +94,10 @@ canonical: /upgrade/meteor-golem-temp
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.5 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.8 格" />
-    <UnitProperty pKey="合体时的最大距离" pValue="0.5 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.5秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.8格" />
+    <UnitProperty pKey="合体时的最大距离" pValue="0.5格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -125,10 +125,10 @@ canonical: /upgrade/meteor-golem-temp
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，陨石戈仑成为永久兵种，共推出 3 个等级。</TimelineRow>
+        <TimelineRow>18本推出，陨石戈仑成为永久兵种，共推出3个等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/10">
-        <TimelineRow>推出临时兵种：陨石戈仑，有效期至 2025/11/01.</TimelineRow>
+        <TimelineRow>推出临时兵种：陨石戈仑，有效期至2025/11/01.</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

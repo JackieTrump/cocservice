@@ -23,10 +23,10 @@ canonical: /upgrade/008b-Furnace
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Furnace1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Furnace2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Furnace3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Furnace4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Furnace1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Furnace2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Furnace3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Furnace4.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -45,7 +45,7 @@ canonical: /upgrade/008b-Furnace
     <UnitProperty pKey="部队类型" pValue="地面辅助单位" />
     <UnitProperty pKey="占据人口" pValue="18" />
     <UnitProperty pKey="移动速度" pValue="0 (无法移动)" />
-    <UnitProperty pKey="最长存活时间" pValue="60 秒<sup>*</sup>" />
+    <UnitProperty pKey="最长存活时间" pValue="60秒<sup>*</sup>" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="12" />
     <UnitProperty pKey="所需大本等级" pValue="15" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -110,15 +110,15 @@ const tableExtraInfo = [
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="1<sup>①</sup>" />
-    <UnitProperty pKey="攻击时机" pValue="到达目标后 0.5 秒<sup>②</sup>" />
-    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
-    <UnitProperty pKey="火坑持续时间" pValue="10 秒" />
-    <UnitProperty pKey="普攻伤害半径" pValue="0.1 格" />
-    <UnitProperty pKey="火坑灼烧半径" pValue="0.8 格" />
+    <UnitProperty pKey="攻击时机" pValue="到达目标后0.5秒<sup>②</sup>" />
+    <UnitProperty pKey="移动速度" pValue="4格/秒" />
+    <UnitProperty pKey="火坑持续时间" pValue="10秒" />
+    <UnitProperty pKey="普攻伤害半径" pValue="0.1格" />
+    <UnitProperty pKey="火坑灼烧半径" pValue="0.8格" />
 </UnitProperties>
 
-① 在考虑小火怪与 [隐形弹簧](/upgrade/0381-Spring-Trap)、[镜像法术](/upgrade/0105-Clone-Spell) 或 [回溯法术](/upgrade/0107-Recall-Spell) 的相互作用时，小火怪应被视为 1 人口。<br>
-② 根据解析安装包的结果，小火怪的攻击速度是一秒一次，但实际上小火怪的首次攻击时机为到达目标后 0.5 秒，且攻击一次后就会死亡，因此其攻速值无意义。
+① 在考虑小火怪与 [隐形弹簧](/upgrade/0381-Spring-Trap)、[镜像法术](/upgrade/0105-Clone-Spell) 或 [回溯法术](/upgrade/0107-Recall-Spell) 的相互作用时，小火怪应被视为1人口。<br>
+② 根据解析安装包的结果，小火怪的攻击速度是一秒一次，但实际上小火怪的首次攻击时机为到达目标后0.5秒，且攻击一次后就会死亡，因此其攻速值无意义。
 
 <UnitTable>
 
@@ -139,6 +139,6 @@ const tableExtraInfo = [
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>新兵种：烈焰熔炉，15 本可解锁。</TimelineRow>
+        <TimelineRow>新兵种：烈焰熔炉，15本可解锁。</TimelineRow>
     </TimelineItem>
 </Timeline>

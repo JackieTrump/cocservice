@@ -34,7 +34,7 @@ canonical: /upgrade/henchmen-puppet
     <UnitProperty pKey="装备稀有度" pValue="普通" />
     <UnitProperty pKey="解锁条件" pValue="有亡灵王子即可" />
     <UnitProperty pKey="召唤的护卫数量" pValue="2" />
-    <UnitProperty pKey="开启技能后亡灵王子的隐身时长" pValue="1 秒" />
+    <UnitProperty pKey="开启技能后亡灵王子的隐身时长" pValue="1秒" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -83,7 +83,7 @@ const tableExtraInfo = [
 注意：
 
 1. 如果升级费用中有多种资源，则同时需要多种资源才能升级。
-2. 如果玩家升级到了 9 本并解锁了亡灵王子，即使玩家没有马上升 [铁匠铺](/upgrade/0488-Blacksmith) 也可以升级护卫玩偶装备。
+2. 如果玩家升级到了9本并解锁了亡灵王子，即使玩家没有马上升 [铁匠铺](/upgrade/0488-Blacksmith) 也可以升级护卫玩偶装备。
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 空中护卫 ↓↓↓ -->
@@ -110,9 +110,9 @@ const tableExtraInfo = [
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="10" />
-    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1 格" />
+    <UnitProperty pKey="移动速度" pValue="4格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -136,7 +136,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>现在亡灵王子的所有装备都提供 500 生命值加成。</TimelineRow>
+        <TimelineRow>现在亡灵王子的所有装备都提供500生命值加成。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>亡灵王子的初始装备随英雄的推出而同步推出。</TimelineRow>

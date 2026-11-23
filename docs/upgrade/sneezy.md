@@ -30,7 +30,7 @@ canonical: /upgrade/sneezy
 <SmallTitle>重要说明</SmallTitle>
 
 1. 阿啾的技能（哈啾！）：喷出空中支援部队。跟随的英雄被击倒后，她仍会继续战斗。
-2. 当阿啾跟随的英雄被击倒时，阿啾会进入愤怒状态。愤怒状态大约有 1% 的微小伤害加成，持续 5 分钟，比每局游戏的持续时间都长，因此可视为永久性加成。这个愤怒状态可被 [狂暴法术](/upgrade/0102-Rage-Spell) 覆盖。
+2. 当阿啾跟随的英雄被击倒时，阿啾会进入愤怒状态。愤怒状态大约有1% 的微小伤害加成，持续5分钟，比每局游戏的持续时间都长，因此可视为永久性加成。这个愤怒状态可被 [狂暴法术](/upgrade/0102-Rage-Spell) 覆盖。
 3. 当阿啾跟随的英雄未被击倒时，使用 [回溯法术](/upgrade/0107-Recall-Spell) 召回英雄时可一并召回阿啾，而无需占用回溯法术的空间。当阿啾跟随的英雄被击倒时，召回阿啾时就和其他战宠一样要占用空间了。
 
 <SmallTitle>属性</SmallTitle>
@@ -40,16 +40,16 @@ canonical: /upgrade/sneezy
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="0.8 秒/次" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.8秒/次" />
     <UnitProperty pKey="攻击距离" pValue="见说明<sup>①</sup>" />
     <UnitProperty pKey="每次召唤的鼻涕小怪数量" pValue="2" />
-    <UnitProperty pKey="召唤频率" pValue="10 秒/次" />
+    <UnitProperty pKey="召唤频率" pValue="10秒/次" />
     <UnitProperty pKey="所需战宠小屋等级" pValue="11" />
     <UnitProperty pKey="所需大本等级" pValue="17" />
 </UnitProperties>
 
-① 当阿啾跟随英雄未被击败时，它的攻击距离为 5.5 格，反之则为 1.5 格。
+① 当阿啾跟随英雄未被击败时，它的攻击距离为5.5格，反之则为1.5格。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -115,9 +115,9 @@ const tableExtraInfo = [
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="4" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.9 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.9格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

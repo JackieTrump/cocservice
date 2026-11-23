@@ -18,23 +18,23 @@ canonical: /upgrade/000a-Baby-Dragon
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Baby_Dragon1.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Baby_Dragon3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Baby_Dragon4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Baby_Dragon5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Baby_Dragon6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Baby_Dragon7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Baby_Dragon8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Baby_Dragon9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Baby_Dragon10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Baby_Dragon11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Baby_Dragon12.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Baby_Dragon1.png" />
+        <UnitImg imgTitle="3级" imgSrc="Baby_Dragon3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Baby_Dragon4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Baby_Dragon5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Baby_Dragon6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Baby_Dragon7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Baby_Dragon8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Baby_Dragon9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Baby_Dragon10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Baby_Dragon11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Baby_Dragon12.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
-如果飞龙宝宝附近 4.5 格无空军会触发狂暴，狂暴时秒伤为原来的 3 倍，攻速为 0.67 秒/次，即每次伤害为原来的 2 倍。
+如果飞龙宝宝附近4.5格无空军会触发狂暴，狂暴时秒伤为原来的3倍，攻速为0.67秒/次，即每次伤害为原来的2倍。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -42,12 +42,12 @@ canonical: /upgrade/000a-Baby-Dragon
     <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.3 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.3格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="10" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="2.25 格" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.25格" />
     <UnitProperty pKey="所需训练营等级" pValue="11" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -94,66 +94,66 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>在 18 本新增 12 级飞龙宝宝。</TimelineRow>
+        <TimelineRow>在18本新增12级飞龙宝宝。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>11 级飞龙宝宝的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>11级飞龙宝宝的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>5 ~ 10 级飞龙宝宝的升级时间减少。</TimelineRow>
+        <TimelineRow>5 ~ 10级飞龙宝宝的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>3 ~ 10 级飞龙宝宝的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 7、9 ~ 10 级飞龙宝宝的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 10级飞龙宝宝的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 7、9 ~ 10级飞龙宝宝的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>飞龙宝宝的训练时间由 1:30 改为 1:25</TimelineRow>
+        <TimelineRow>飞龙宝宝的训练时间由 1:30改为 1:25</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 11 级飞龙宝宝。</TimelineRow>
-        <TimelineRow>2 ~ 10 级飞龙宝宝的升级时间减少。</TimelineRow>
-        <TimelineRow>5、8 ~ 10 级飞龙宝宝的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增11级飞龙宝宝。</TimelineRow>
+        <TimelineRow>2 ~ 10级飞龙宝宝的升级时间减少。</TimelineRow>
+        <TimelineRow>5、8 ~ 10级飞龙宝宝的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>9 级飞龙宝宝的升级时间减少。</TimelineRow>
-        <TimelineRow>9 级飞龙宝宝的升级费用降低。</TimelineRow>
+        <TimelineRow>9级飞龙宝宝的升级时间减少。</TimelineRow>
+        <TimelineRow>9级飞龙宝宝的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>16 本新增 10 级飞龙宝宝。</TimelineRow>
+        <TimelineRow>16本新增10级飞龙宝宝。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>4 ~ 9 级飞龙宝宝的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 9级飞龙宝宝的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 9 级飞龙宝宝。</TimelineRow>
-        <TimelineRow>6 ~ 7 级飞龙宝宝的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本新增9级飞龙宝宝。</TimelineRow>
+        <TimelineRow>6 ~ 7级飞龙宝宝的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>3 ~ 8 级飞龙宝宝的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 8级飞龙宝宝的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
-        <TimelineRow>家乡所有空军的攻击距离减少 0.5 格（超级飞龙除外，这玩意削了 1 格）。</TimelineRow>
+        <TimelineRow>家乡所有空军的攻击距离减少0.5格（超级飞龙除外，这玩意削了1格）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 5、7 级飞龙宝宝的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 4、7 级飞龙宝宝的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5、7级飞龙宝宝的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 4、7级飞龙宝宝的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 8 级飞龙宝宝。</TimelineRow>
-        <TimelineRow>2 ~ 5 级飞龙宝宝的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 3、5 ~ 6 级飞龙宝宝的升级时间减少。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增8级飞龙宝宝。</TimelineRow>
+        <TimelineRow>2 ~ 5级飞龙宝宝的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 3、5 ~ 6级飞龙宝宝的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>13 本新增 7 级飞龙宝宝。</TimelineRow>
+        <TimelineRow>13本新增7级飞龙宝宝。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>2 ~ 4 级飞龙宝宝的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 4级飞龙宝宝的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>2 ~ 6 级飞龙宝宝的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 6级飞龙宝宝的升级时间减少。</TimelineRow>
         <TimelineRow>所有等级飞龙宝宝的训练费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

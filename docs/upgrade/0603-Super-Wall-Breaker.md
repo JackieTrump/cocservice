@@ -33,7 +33,7 @@ canonical: /upgrade/0603-Super-Wall-Breaker
 5. 即使超级炸弹人被 [弹簧](/upgrade/0381-Spring-Trap) 弹飞，炸弹仍然可以爆炸，满级超级炸弹人的死亡伤害可以直接炸掉最高级城墙。
 6. [狂暴法术](/upgrade/0102-Rage-Spell) 只对主动伤害有效，对死亡伤害无效。
 7. [大守护者](/upgrade/grand-warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法让超级炸弹人攻击后存活。
-8. 2020 年 10 月更新后，对超级炸弹人而言，[弹跳法术](/upgrade/jump-spell) 覆盖的城墙，等价于城墙消失。
+8. 2020年10月更新后，对超级炸弹人而言，[弹跳法术](/upgrade/jump-spell) 覆盖的城墙，等价于城墙消失。
 9. 超级炸弹人的寻路机制和普通炸弹人一样，可参考这篇文章：[【炸弹人机制讲解】揭示寻路和炸弹的真相](/p/1957)，文章老但结论不变。
 10. 部分高本玩家会用“炸弹人”指代超级炸弹人，而非普通炸弹人，在看解说视频的时候需要注意一下。
 
@@ -41,19 +41,19 @@ canonical: /upgrade/0603-Super-Wall-Breaker
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面辅助单位" />
-    <UnitProperty pKey="攻击偏好" pValue="城墙 (40 倍伤害)" />
+    <UnitProperty pKey="攻击偏好" pValue="城墙 (40倍伤害)" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="主动伤害爆炸半径" pValue="0.8 格" />
-    <UnitProperty pKey="死亡伤害爆炸半径" pValue="1.5 格" />
+    <UnitProperty pKey="主动伤害爆炸半径" pValue="0.8格" />
+    <UnitProperty pKey="死亡伤害爆炸半径" pValue="1.5格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="8" />
-    <UnitProperty pKey="移动速度" pValue="3.5 格/秒" />
-    <UnitProperty pKey="到达目标后的停顿时间" pValue="1 秒" />
-    <UnitProperty pKey="攻击距离" pValue="0.6 格" />
+    <UnitProperty pKey="移动速度" pValue="3.5格/秒" />
+    <UnitProperty pKey="到达目标后的停顿时间" pValue="1秒" />
+    <UnitProperty pKey="攻击距离" pValue="0.6格" />
     <UnitProperty pKey="最低炸弹人等级" pValue="7" />
     <UnitProperty pKey="最低大本等级" pValue="11" />
-    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
-    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="强化费用" pValue="2.5万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="4,4,12000,Elixir" :isDonationCost="true" />
 </UnitProperties>
@@ -76,43 +76,43 @@ canonical: /upgrade/0603-Super-Wall-Breaker
 |      14       | 170 / 413 |          413        |         583        |        16520        |        23320        |  575  |     18    |
 </UnitTable>
 
-\* 5 - 6 级超级炸弹人只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
+\* 5 - 6级超级炸弹人只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
 
 注意：
 
-- 上方的“面板伤害”解释："78/175"表示主动伤害为 78，死亡伤害为 175。
-- 上方的“中途死亡”指的是超级炸弹人中途死亡的爆炸伤害，“成功爆破”指的是超级炸弹人成功自爆的伤害。 成功爆破的伤害是两个面板伤害加起来，再算上对城墙的 40 倍伤害。
+- 上方的“面板伤害”解释："78/175"表示主动伤害为78，死亡伤害为175。
+- 上方的“中途死亡”指的是超级炸弹人中途死亡的爆炸伤害，“成功爆破”指的是超级炸弹人成功自爆的伤害。 成功爆破的伤害是两个面板伤害加起来，再算上对城墙的40倍伤害。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 14 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增14级炸弹人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 13 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增13级炸弹人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 12 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增12级炸弹人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 11 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增11级炸弹人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
-        <TimelineRow>为配合城墙的生命值调整，7 ~ 9 级超级炸弹人被摧毁时造成的伤害也一起降低。</TimelineRow>
+        <TimelineRow>为配合城墙的生命值调整，7 ~ 9级超级炸弹人被摧毁时造成的伤害也一起降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 10 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增10级炸弹人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
-        <TimelineRow>超级部队的有效时间从 7 天缩短为 3 天。</TimelineRow>
-        <TimelineRow>所有部队的强化费用统一调整为 25,000 暗黑重油。</TimelineRow>
+        <TimelineRow>超级部队的有效时间从7天缩短为3天。</TimelineRow>
+        <TimelineRow>所有部队的强化费用统一调整为25,000暗黑重油。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/05/20">
-        <TimelineRow>超级炸弹人的炸弹爆炸范围从 2 格缩小至 1.6 格。</TimelineRow>
+        <TimelineRow>超级炸弹人的炸弹爆炸范围从2格缩小至1.6格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
         <TimelineRow>部落冲突新增“超级兵种”玩法，超级炸弹人是首批推出的超级兵种之一。</TimelineRow>

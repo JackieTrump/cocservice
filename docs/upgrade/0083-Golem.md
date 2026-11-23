@@ -2,7 +2,7 @@
 title: "部落冲突 coc 戈仑石人（石头人）升级数据"
 navTitle: "戈仑石人"
 shownTitle: "戈仑石人（石头人）"
-description: "戈仑石人乐于吸收伤害。被摧毁时，他们会爆炸并分裂成小戈仑石人。每个小戈仑石人拥有原戈仑石人 1/5 的攻击力和生命值。"
+description: "戈仑石人乐于吸收伤害。被摧毁时，他们会爆炸并分裂成小戈仑石人。每个小戈仑石人拥有原戈仑石人1/5的攻击力和生命值。"
 module: upgrade-home
 imgFolder: home_tech/0083
 wiki: https://clashofclans.fandom.com/wiki/Golem
@@ -21,45 +21,45 @@ canonical: /upgrade/0083-Golem
 <!-- ↓↓↓ 戈仑石人 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Golem_info.png" imgAlt="戈仑石人"
-    description="戈仑石人乐于吸收伤害。被摧毁时，他们会爆炸并分裂成小戈仑石人。每个小戈仑石人拥有原戈仑石人 1/5 的攻击力和生命值。" />
+    description="戈仑石人乐于吸收伤害。被摧毁时，他们会爆炸并分裂成小戈仑石人。每个小戈仑石人拥有原戈仑石人1/5的攻击力和生命值。" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
     <UnitImgGroup title="戈仑石人和小戈仑石人的模型是一样的，只是大小不同。" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Golem1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Golem3.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Golem5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Golem6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Golem7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Golem8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Golem9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Golem10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Golem11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Golem12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Golem13.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Golem14.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Golem1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Golem3.png" />
+        <UnitImg imgTitle="5级" imgSrc="Golem5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Golem6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Golem7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Golem8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Golem9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Golem10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Golem11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Golem12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Golem13.png" />
+        <UnitImg imgTitle="14级" imgSrc="Golem14.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
 1. 戈仑石人死亡后会分裂成若干小戈仑石人（小石头人）。
-2. 根据玩家解安装包的结果，小石头人占用 6 空间，可被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹飞。
-3. 自 2024 年 6 月平衡性调整起，小石头人的生命值不再固定为大石头人的五分之一，但游戏内的介绍还是保留了五分之一这个说法。
+2. 根据玩家解安装包的结果，小石头人占用6空间，可被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹飞。
+3. 自2024年6月平衡性调整起，小石头人的生命值不再固定为大石头人的五分之一，但游戏内的介绍还是保留了五分之一这个说法。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="30" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2.4 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1 格" />
-    <UnitProperty pKey="死亡伤害半径" pValue="1.5 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2.4秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1格" />
+    <UnitProperty pKey="死亡伤害半径" pValue="1.5格" />
     <UnitProperty pKey="死亡溅射延迟" pValue="无" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="4" />
     <UnitProperty pKey="所需大本等级" pValue="8" />
@@ -115,39 +115,39 @@ const tableExtraInfo = [
 
 <Panel>
     <UnitImgGroup title="戈仑石人和小戈仑石人的模型是一样的，只是大小不同。" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Golem1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Golem3.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Golem5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Golem6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Golem7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Golem8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Golem9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Golem10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Golem11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Golem12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Golem13.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Golem14.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Golem1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Golem3.png" />
+        <UnitImg imgTitle="5级" imgSrc="Golem5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Golem6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Golem7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Golem8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Golem9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Golem10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Golem11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Golem12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Golem13.png" />
+        <UnitImg imgTitle="14级" imgSrc="Golem14.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
 1. 戈仑石人死亡后会分裂成若干小戈仑石人（小石头人）。
-2. 根据玩家解安装包的结果，小石头人占用 6 空间，可被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹飞。
-3. 自 2024 年 6 月平衡性调整起，小石头人的生命值不再固定为大石头人的五分之一，但游戏内的介绍还是保留了五分之一这个说法。
+2. 根据玩家解安装包的结果，小石头人占用6空间，可被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹飞。
+3. 自2024年6月平衡性调整起，小石头人的生命值不再固定为大石头人的五分之一，但游戏内的介绍还是保留了五分之一这个说法。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="6" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="3 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.5 格" />
-    <UnitProperty pKey="死亡伤害半径" pValue="1.5 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="3秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.5格" />
+    <UnitProperty pKey="死亡伤害半径" pValue="1.5格" />
     <UnitProperty pKey="死亡溅射延迟" pValue="无" />
 </UnitProperties>
 
@@ -179,74 +179,74 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>14 级戈仑石人的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>14级戈仑石人的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>3 ~ 13 级戈仑石人的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 13级戈仑石人的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>在 17 本新增 14 级戈仑石人。</TimelineRow>
-        <TimelineRow>2、7 ~ 13 级戈仑石人的升级时间减少。</TimelineRow>
+        <TimelineRow>在17本新增14级戈仑石人。</TimelineRow>
+        <TimelineRow>2、7 ~ 13级戈仑石人的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>戈仑石人的训练时间由 5:00 改为 4:20</TimelineRow>
+        <TimelineRow>戈仑石人的训练时间由 5:00改为 4:20</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 13 级戈仑石人的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 13级戈仑石人的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>11 ~ 12 级戈仑石人的升级时间减少。</TimelineRow>
-        <TimelineRow>11 ~ 12 级戈仑石人的升级费用降低。</TimelineRow>
+        <TimelineRow>11 ~ 12级戈仑石人的升级时间减少。</TimelineRow>
+        <TimelineRow>11 ~ 12级戈仑石人的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/03">
-        <TimelineRow>7 ~ 11 级戈仑石人的生命值提升，小戈仑石人的数据没有变化，因此现在小石头人的生命值不再固定为大石头人的五分之一。</TimelineRow>
+        <TimelineRow>7 ~ 11级戈仑石人的生命值提升，小戈仑石人的数据没有变化，因此现在小石头人的生命值不再固定为大石头人的五分之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>新增 16 本，并在 16 本新增 13 级戈仑石人。</TimelineRow>
-        <TimelineRow>4 ~ 12 级戈仑石人的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 5、11 级戈仑石人的升级费用降低。</TimelineRow>
+        <TimelineRow>新增16本，并在16本新增13级戈仑石人。</TimelineRow>
+        <TimelineRow>4 ~ 12级戈仑石人的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5、11级戈仑石人的升级费用降低。</TimelineRow>
         <TimelineRow>天使治疗戈仑石人、小戈仑石人、戈仑冰人的几率降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>8 ~ 10 级戈仑石人的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 10级戈仑石人的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>新增 15 本，并在 15 本新增 12 级戈仑石人。</TimelineRow>
-        <TimelineRow>5 ~ 11 级戈仑石人的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>新增15本，并在15本新增12级戈仑石人。</TimelineRow>
+        <TimelineRow>5 ~ 11级戈仑石人的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 4 级戈仑石人的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级戈仑石人的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/09/27">
-        <TimelineRow>14 本新增 11 级戈仑石人。</TimelineRow>
+        <TimelineRow>14本新增11级戈仑石人。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>2 ~ 6、8 级戈仑石人的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 9 级戈仑石人的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 6、8级戈仑石人的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 9级戈仑石人的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
-        <TimelineRow>2 ~ 8 级戈仑石人的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 8级戈仑石人的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>13 本新增 10 级戈仑石人。</TimelineRow>
+        <TimelineRow>13本新增10级戈仑石人。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>2 ~ 7 级戈仑石人的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 7级戈仑石人的升级费用降低。</TimelineRow>
         <TimelineRow>天使治疗小戈仑石人的几率降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/09/11">
-        <TimelineRow>1 ~ 3 级戈仑石人的伤害降低，5 ~ 9 级戈仑石人的伤害提高。</TimelineRow>
-        <TimelineRow>8 ~ 9 级戈仑石人爆炸后分裂的小戈仑石人从 2 个增加至 3 个。</TimelineRow>
-        <TimelineRow>1 ~ 3 级小戈仑石人的生命值提高。</TimelineRow>
+        <TimelineRow>1 ~ 3级戈仑石人的伤害降低，5 ~ 9级戈仑石人的伤害提高。</TimelineRow>
+        <TimelineRow>8 ~ 9级戈仑石人爆炸后分裂的小戈仑石人从2个增加至3个。</TimelineRow>
+        <TimelineRow>1 ~ 3级小戈仑石人的生命值提高。</TimelineRow>
         <TimelineRow>现在小戈仑石人的每秒伤害固定为戈仑石人的五分之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>12 本新增 9 级戈仑石人。</TimelineRow>
-        <TimelineRow>5 ~ 8 级戈仑石人和小戈仑石人被摧毁时造成的伤害增加。</TimelineRow>
-        <TimelineRow>戈仑石人被摧毁时造成伤害的半径从 1.2 格提升至 1.5 格。</TimelineRow>
+        <TimelineRow>12本新增9级戈仑石人。</TimelineRow>
+        <TimelineRow>5 ~ 8级戈仑石人和小戈仑石人被摧毁时造成的伤害增加。</TimelineRow>
+        <TimelineRow>戈仑石人被摧毁时造成伤害的半径从1.2格提升至1.5格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
         <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中所有等级戈仑石人的训练费用降低。</TimelineRow>

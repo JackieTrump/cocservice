@@ -21,21 +21,21 @@ canonical: /upgrade/2010-Mega-Sparky
 
 <SmallTitle>重要说明</SmallTitle>
 
-超级电磁炮的解锁条件是建造 [超级电磁炮工坊](/upgrade/2350-Mega-Sparky-Workshop)，而这需要部落解锁哥布林矿井这个子城升到 2 本，且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 9 级。
+超级电磁炮的解锁条件是建造 [超级电磁炮工坊](/upgrade/2350-Mega-Sparky-Workshop)，而这需要部落解锁哥布林矿井这个子城升到2本，且 [都城大本营](/upgrade/2400-Capital-Hall) 达到9级。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面远程单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="溅射伤害" />
-    <UnitProperty pKey="溅射半径" pValue="3 格" />
+    <UnitProperty pKey="溅射半径" pValue="3格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="配兵人口" pValue="100" />
     <UnitProperty pKey="防守人口" pValue="100" />
-    <UnitProperty pKey="移动速度" pValue="1 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="4 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="4 格" />
+    <UnitProperty pKey="移动速度" pValue="1格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="4秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="4格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

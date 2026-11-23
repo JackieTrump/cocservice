@@ -99,7 +99,7 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>你知道吗</SmallTitle>
 
-- 2026/02 更新是地震的狂欢：
+- 2026/02更新是地震的狂欢：
     - 现在 [地震法术](/upgrade/0181-Earthquake-Spell) 和 [地震金靴](/upgrade/0702-Earthquake-Boots) 可以对地面部队造成伤害了。
     - [法术塔](/upgrade/0311-Spell-Tower) 中新增了地震法术。
 - [飞龙公爵](/upgrade/dragon-duke) 落单后狂暴的机制类似于 [飞龙宝宝](/upgrade/000a-Baby-Dragon)。
@@ -115,7 +115,7 @@ onBeforeUnmount(() => {
 - 新装备：[木棍马驹](/upgrade/stick-horse)、[烈焰之心](/upgrade/fire-heart)、[助燃器](/upgrade/flame-blower)、[爆震器](/upgrade/stun-blaster)
 - 新文章：
     - [老版本 coc 的杯段是怎么分的？有相关数据留存吗？](/p/7029)
-    - [部落冲突 2025 年更新](/p/7005)
+    - [部落冲突2025年更新](/p/7005)
 
 </div>
 </div>

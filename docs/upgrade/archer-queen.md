@@ -28,12 +28,12 @@ canonical: /upgrade/archer-queen
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="25" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="0.75 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="5 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.75秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="5格" />
     <UnitProperty pKey="所需大本等级" pValue="8" />
-    <UnitProperty pKey="搜索半径" pValue="10 格<sup>①</sup>" />
-    <UnitProperty pKey="巡逻半径" pValue="3 格<sup>②</sup>" />
+    <UnitProperty pKey="搜索半径" pValue="10格<sup>①</sup>" />
+    <UnitProperty pKey="巡逻半径" pValue="3格<sup>②</sup>" />
     <UnitProperty pKey="技能持续时间" pValue="与具体装备有关" />
 </UnitProperties>
 
@@ -211,12 +211,12 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 101 ~ 105 级弓箭女皇。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增101 ~ 105级弓箭女皇。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>现在 14 级大本营即可解锁 81 ~ 85 级弓箭女皇。</TimelineRow>
-        <TimelineRow>25、31 ~ 95 级弓箭女皇的升级时间减少。</TimelineRow>
-        <TimelineRow>51 ~ 95 级弓箭女皇的升级费用降低。</TimelineRow>
+        <TimelineRow>现在14级大本营即可解锁81 ~ 85级弓箭女皇。</TimelineRow>
+        <TimelineRow>25、31 ~ 95级弓箭女皇的升级时间减少。</TimelineRow>
+        <TimelineRow>51 ~ 95级弓箭女皇的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>取消英雄的恢复时间，现在英雄可以像战宠一样瞬间恢复。</TimelineRow>
@@ -224,39 +224,39 @@ const tableExtraInfo = [
     <TimelineItem date="2024/11/25">
         <TimelineRow>英雄的升级操作被整合进英雄殿堂，取消王座，同时引入英雄栏位和战旗的概念。</TimelineRow>
         <TimelineRow>英雄不再拥有警戒半径，遇到敌人后头顶不会冒问号，而是直接反击。</TimelineRow>
-        <TimelineRow>现在 8 本就可以解锁 1 ~ 10 级弓箭女皇了。</TimelineRow>
-        <TimelineRow>在 17 本新增 96 - 100 级弓箭女皇。</TimelineRow>
-        <TimelineRow>2 ~ 3、17 ~ 40、46 级弓箭女皇的升级时间减少。</TimelineRow>
-        <TimelineRow>1 ~ 95 级弓箭女皇的升级费用降低。</TimelineRow>
+        <TimelineRow>现在8本就可以解锁1 ~ 10级弓箭女皇了。</TimelineRow>
+        <TimelineRow>在17本新增96 - 100级弓箭女皇。</TimelineRow>
+        <TimelineRow>2 ~ 3、17 ~ 40、46级弓箭女皇的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 95级弓箭女皇的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，同时在 16 本新增 91 ~ 95 级弓箭女皇。</TimelineRow>
+        <TimelineRow>16本推出，同时在16本新增91 ~ 95级弓箭女皇。</TimelineRow>
         <TimelineRow>所有等级弓箭女皇的每秒伤害和生命值降低。</TimelineRow>
         <TimelineRow>所有等级的升级时间和升级成本降低。</TimelineRow>
         <TimelineRow>废除原来的技能系统，用装备系统代替。</TimelineRow>
         <TimelineRow>现在所有英雄开启技能后都会回血了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 86 ~ 90 级弓箭女皇。</TimelineRow>
+        <TimelineRow>15本新增86 ~ 90级弓箭女皇。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 81 ~ 85 级弓箭女皇。</TimelineRow>
-        <TimelineRow>33 ~ 80 级弓箭女皇的升级费用降低。</TimelineRow>
-        <TimelineRow>35 ~ 75 级弓箭女皇的升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增81 ~ 85级弓箭女皇。</TimelineRow>
+        <TimelineRow>33 ~ 80级弓箭女皇的升级费用降低。</TimelineRow>
+        <TimelineRow>35 ~ 75级弓箭女皇的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/02/15">
         <TimelineRow>英雄引入额外生命值概念，战斗时先消耗额外生命值再消耗本身的生命值，也就是说你可以连续打两场。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>26 ~ 64 级弓箭女皇的升级花费降低。</TimelineRow>
-        <TimelineRow>20 ~ 29 级弓箭女皇的升级时间减少。</TimelineRow>
+        <TimelineRow>26 ~ 64级弓箭女皇的升级花费降低。</TimelineRow>
+        <TimelineRow>20 ~ 29级弓箭女皇的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
         <TimelineRow>现在英雄可以搭配战宠了。</TimelineRow>
-        <TimelineRow>14 本推出，并在 14 本新增 76 ~ 80 级弓箭女皇。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增76 ~ 80级弓箭女皇。</TimelineRow>
         <TimelineRow>优化弓箭女皇的寻路系统，这将改善她的 AI，比如她现在会优先往有城墙缺口的方向移动。</TimelineRow>
-        <TimelineRow>1 ~ 50 级弓箭女皇的升级花费降低。</TimelineRow>
-        <TimelineRow>2 ~ 50 级弓箭女皇的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 50级弓箭女皇的升级花费降低。</TimelineRow>
+        <TimelineRow>2 ~ 50级弓箭女皇的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
         <TimelineRow>战斗结束时，如果英雄的技能尚未使用，英雄会自动恢复一部分生命值（数值等于他们使用技能时可恢复的生命值）。这样就缩短了英雄的冷却时间，让他们可以更快投入下一场战斗！</TimelineRow>
@@ -265,18 +265,18 @@ const tableExtraInfo = [
         <TimelineRow>更新后，英雄会一直处于防御状态，而且在进行防御后会自动恢复为满血状态。“正在防御”和“正在休息”两种模式间的切换功能已被移除。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>13 本新增 71 ~ 75 级弓箭女皇。</TimelineRow>
+        <TimelineRow>13本新增71 ~ 75级弓箭女皇。</TimelineRow>
         <TimelineRow>所有等级弓箭女皇的恢复时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>2 ~ 40 级弓箭女皇的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 40级弓箭女皇的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本推出，并且在 13 本新增 66 ~ 70 级弓箭女皇。</TimelineRow>
+        <TimelineRow>13本推出，并且在13本新增66 ~ 70级弓箭女皇。</TimelineRow>
         <TimelineRow>进攻时，如果英雄技能一直没有被手动开启，英雄在即将被击败时会自动开启英雄技能进行自救。该功能可以在“设置>更多设置”中关闭。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>12 本新增 61 ~ 65 级弓箭女皇。</TimelineRow>
+        <TimelineRow>12本新增61 ~ 65级弓箭女皇。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
         <TimelineRow>为了让英雄能穿上皮肤，英雄的模型被更改。</TimelineRow>

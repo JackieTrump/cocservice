@@ -16,10 +16,10 @@ canonical: /upgrade/mini-minion-hive-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Mini-Minion_Hive_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Mini-Minion_Hive1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Mini-Minion_Hive2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Mini-Minion_Hive3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Mini-Minion_Hive4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Mini-Minion_Hive1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Mini-Minion_Hive2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Mini-Minion_Hive3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Mini-Minion_Hive4.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -41,11 +41,11 @@ canonical: /upgrade/mini-minion-hive-capital
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="14 格" />
-    <UnitProperty pKey="攻速" pValue="4.26 秒/轮*" />
+    <UnitProperty pKey="射程" pValue="14格" />
+    <UnitProperty pKey="攻速" pValue="4.26秒/轮*" />
 </UnitProperties>
 
-\* 迷你亡灵巢的攻击节奏是 0.23 秒一发，12 发后休息 1.5 秒。注意：**连发期间迷你亡灵巢不会切换目标，可使用骷髅这种小单位反制。**
+\* 迷你亡灵巢的攻击节奏是0.23秒一发，12发后休息1.5秒。注意：**连发期间迷你亡灵巢不会切换目标，可使用骷髅这种小单位反制。**
 
 <SmallTitle>升级数据</SmallTitle>
 

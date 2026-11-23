@@ -16,17 +16,17 @@ canonical: /upgrade/0900-Hook-Tower
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="3 - 11 级" imgSrc="Hook_Tower1.png" />
-        <UnitImg imgTitle="12 - 20 级" imgSrc="Hook_Tower2.png" />
-        <UnitImg imgTitle="21 - 29 级" imgSrc="Hook_Tower3.png" />
-        <UnitImg imgTitle="30 级" imgSrc="Hook_Tower4.png" />
+        <UnitImg imgTitle="3 - 11级" imgSrc="Hook_Tower1.png" />
+        <UnitImg imgTitle="12 - 20级" imgSrc="Hook_Tower2.png" />
+        <UnitImg imgTitle="21 - 29级" imgSrc="Hook_Tower3.png" />
+        <UnitImg imgTitle="30级" imgSrc="Hook_Tower4.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 钩索塔可以从远距离抓取一个部队，并将其带到钩索塔的攻击盲区内（距离钩索塔 1.5 格）。
-2. 钩索塔每次攻击可以对目标造成 1 点伤害，并眩晕一段时间。
+1. 钩索塔可以从远距离抓取一个部队，并将其带到钩索塔的攻击盲区内（距离钩索塔1.5格）。
+2. 钩索塔每次攻击可以对目标造成1点伤害，并眩晕一段时间。
 3. 钩索塔可以攻击英雄、战宠和攻城机器。不过攻城机器比较特殊，钩索塔可以对攻城机器造成伤害，也可以眩晕攻城机器，但不能把攻城机器抓到攻击盲区。
 4. 钩索塔无法瞄准 [隐形](/upgrade/invisibility-spell) 单位。
 5. 当 [掘地矿工](/upgrade/miner)、[超级矿工](/upgrade/060e-Super-Miner)、[地兽](/upgrade/diggy)、[攻城钻机](/upgrade/0246-Battle-Drill) 等单位位于地下时，钩索塔无法瞄准。
@@ -39,12 +39,12 @@ canonical: /upgrade/0900-Hook-Tower
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="攻击距离" pValue="4 - 15 格" />
+    <UnitProperty pKey="攻击距离" pValue="4 - 15格" />
     <UnitProperty pKey="每次伤害" pValue="1" />
     <UnitProperty pKey="推出时的最高大本等级" pValue="17" />
 </UnitProperties>
 
-<SmallTitle>可升级模组 1：提升建筑的生命值</SmallTitle>
+<SmallTitle>可升级模组1：提升建筑的生命值</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo1">
 
@@ -62,40 +62,40 @@ canonical: /upgrade/0900-Hook-Tower
 |  10  |  5000  |   12M   |   3     |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 2：减少攻击冷却时间</SmallTitle>
+<SmallTitle>可升级模组2：减少攻击冷却时间</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo2">
 
 | 等级 | 攻击<br>冷却时间 | 升级费用 | 升级时间 |升级后可<br>获得的经验|
 | ---- |       ---       |    ---  |   ---   |         ---        |
-|   1  |      7.1 秒     |      \  |    \    |                    |
-|   2  |      6.9 秒     |     5M  |   0,12  |                    |
-|   3  |      6.7 秒     |     6M  |   0,16  |                    |
-|   4  |      6.5 秒     |     7M  |   0,20  |                    |
-|   5  |      6.3 秒     |     8M  |   1     |                    |
-|   6  |      6.1 秒     |     9M  |   1, 6  |                    |
-|   7  |      5.9 秒     |    10M  |   1,12  |                    |
-|   8  |      5.7 秒     |    11M  |   2     |                    |
-|   9  |      5.5 秒     |  11.5M  |   2,12  |                    |
-|  10  |      5.3 秒     |    12M  |   3     |                    |
+|   1  |      7.1秒     |      \  |    \    |                    |
+|   2  |      6.9秒     |     5M  |   0,12  |                    |
+|   3  |      6.7秒     |     6M  |   0,16  |                    |
+|   4  |      6.5秒     |     7M  |   0,20  |                    |
+|   5  |      6.3秒     |     8M  |   1     |                    |
+|   6  |      6.1秒     |     9M  |   1, 6  |                    |
+|   7  |      5.9秒     |    10M  |   1,12  |                    |
+|   8  |      5.7秒     |    11M  |   2     |                    |
+|   9  |      5.5秒     |  11.5M  |   2,12  |                    |
+|  10  |      5.3秒     |    12M  |   3     |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 3：增加攻击后的眩晕时间</SmallTitle>
+<SmallTitle>可升级模组3：增加攻击后的眩晕时间</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo3">
 
 | 等级 | 眩晕时间 | 升级费用 | 升级时间 |升级后可<br>获得的经验|
 | ---- |   ---   |    ---  |   ---   |         ---        |
-|   1  |  2.7 秒 |      \  |    \    |                    |
-|   2  |  2.8 秒 |    25k  |   1,12  |                    |
-|   3  |  2.9 秒 |    30k  |   2     |                    |
-|   4  |  3.0 秒 |    35k  |   2,12  |                    |
-|   5  |  3.1 秒 |    40k  |   2,14  |                    |
-|   6  |  3.2 秒 |    55k  |   2,16  |                    |
-|   7  |  3.3 秒 |    70k  |   2,18  |                    |
-|   8  |  3.4 秒 |    85k  |   2,20  |                    |
-|   9  |  3.5 秒 |   100k  |   2,22  |                    |
-|  10  |  3.6 秒 |   115k  |   3     |                    |
+|   1  |  2.7秒 |      \  |    \    |                    |
+|   2  |  2.8秒 |    25k  |   1,12  |                    |
+|   3  |  2.9秒 |    30k  |   2     |                    |
+|   4  |  3.0秒 |    35k  |   2,12  |                    |
+|   5  |  3.1秒 |    40k  |   2,14  |                    |
+|   6  |  3.2秒 |    55k  |   2,16  |                    |
+|   7  |  3.3秒 |    70k  |   2,18  |                    |
+|   8  |  3.4秒 |    85k  |   2,20  |                    |
+|   9  |  3.5秒 |   100k  |   2,22  |                    |
+|  10  |  3.6秒 |   115k  |   3     |                    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

@@ -31,20 +31,20 @@ canonical: /upgrade/2008-Flying-Fortress
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 飞行堡垒的解锁条件是建造 [飞行堡垒工坊](/upgrade/2348-Flying-Fortress-Yard)，而这需要气球环礁这个子城升到 2 本，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 4 级。
+1. 飞行堡垒的解锁条件是建造 [飞行堡垒工坊](/upgrade/2348-Flying-Fortress-Yard)，而这需要气球环礁这个子城升到2本，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到4级。
 2. 飞行堡垒的技能（空降骷髅）：受到伤害后生成骷髅飞骑，骷髅飞骑死亡后生成大量 [骷髅](/upgrade/20c1-Skeleton)。
 
 <SmallTitle>飞行堡垒的属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="空中单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="配兵人口" pValue="100" />
     <UnitProperty pKey="防守人口" pValue="100" />
-    <UnitProperty pKey="移动速度" pValue="1.1 格/秒" />
-    <UnitProperty pKey="攻击距离" pValue="4.5 格" />
+    <UnitProperty pKey="移动速度" pValue="1.1格/秒" />
+    <UnitProperty pKey="攻击距离" pValue="4.5格" />
 </UnitProperties>
 
 <SmallTitle>飞行堡垒的升级数据</SmallTitle>
@@ -74,19 +74,19 @@ canonical: /upgrade/2008-Flying-Fortress
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 飞行堡垒的解锁条件是建造 [飞行堡垒工坊](/upgrade/2348-Flying-Fortress-Yard)，而这需要气球环礁这个子城升到 2 本，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 4 级。
+1. 飞行堡垒的解锁条件是建造 [飞行堡垒工坊](/upgrade/2348-Flying-Fortress-Yard)，而这需要气球环礁这个子城升到2本，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到4级。
 2. 飞行堡垒的技能（空降骷髅）：受到伤害后生成骷髅飞骑，骷髅飞骑死亡后生成大量 [骷髅](/upgrade/20c1-Skeleton)。
 
 <SmallTitle>骷髅飞骑的属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="攻击方式" pValue="攻击一次后爆出骷髅" />
     <UnitProperty pKey="爆出的骷髅数量" pValue="3" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="防守人口" pValue="0" />
-    <UnitProperty pKey="移动速度" pValue="2.3 格/秒" />
+    <UnitProperty pKey="移动速度" pValue="2.3格/秒" />
     <UnitProperty pKey="攻击距离" pValue="0 (建筑头顶)" />
 </UnitProperties>
 
@@ -112,7 +112,7 @@ canonical: /upgrade/2008-Flying-Fortress
         <TimelineRow>移除飞行堡垒选择目标时的随机性。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/12/09">
-        <TimelineRow>1 ~ 4 级飞行堡垒的生命值从 10000/12000/14000/16000 提高到 12000/13500/15000/16500.</TimelineRow>
+        <TimelineRow>1 ~ 4级飞行堡垒的生命值从10000/12000/14000/16000提高到12000/13500/15000/16500.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>飞行堡垒随着部落都城玩法一同推出。</TimelineRow>

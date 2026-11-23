@@ -31,7 +31,7 @@ canonical: /upgrade/0e0b-Lavaloon
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 熔岩气球在 2023 年 10 月的合体狂潮活动中首次推出，在活动中获取 35 000 酸腐圣水（任务点数）即可解锁，并在 2024 年 10 月的合体狂热活动中返场，这次只需 100 酸腐圣水即可解锁。
+1. 熔岩气球在2023年10月的合体狂潮活动中首次推出，在活动中获取35 000酸腐圣水（任务点数）即可解锁，并在2024年10月的合体狂热活动中返场，这次只需100酸腐圣水即可解锁。
 2. 熔岩气球的 AI 类似于 [熔岩猎犬](/upgrade/0085-Lava-Hound) 和 [寒冰猎犬](/upgrade/060a-Ice-Hound)，同样以防空火箭为优先攻击目标，同样有分裂功能。
 
 <SmallTitle>属性</SmallTitle>
@@ -40,12 +40,12 @@ canonical: /upgrade/0e0b-Lavaloon
     <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击偏好" pValue="防空火箭" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.8 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.8格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="35" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2.5 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0 格 (建筑头顶)" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2.5秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0格 (建筑头顶)" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />
     <UnitProperty pKey="特殊技能" pValue="爆炸分裂<sup>*</sup>" />
@@ -95,9 +95,9 @@ canonical: /upgrade/0e0b-Lavaloon
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="1" />
-    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="2 格" />
+    <UnitProperty pKey="移动速度" pValue="4格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -125,21 +125,21 @@ canonical: /upgrade/0e0b-Lavaloon
 
 <Timeline>
     <TimelineItem date="2025/10/10">
-        <TimelineRow>该兵种第 3 次推出，有效期至 2025/11/01.</TimelineRow>
-        <TimelineRow>熔岩气球占用的人口数由 23 调整为 35.</TimelineRow>
+        <TimelineRow>该兵种第3次推出，有效期至2025/11/01.</TimelineRow>
+        <TimelineRow>熔岩气球占用的人口数由23调整为35.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>迷你熔岩猎犬、迷你寒冰猎犬和迷你熔岩气球犬占用的人口数由 2 调整为 1.</TimelineRow>
+        <TimelineRow>迷你熔岩猎犬、迷你寒冰猎犬和迷你熔岩气球犬占用的人口数由2调整为1.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/10/11">
-        <TimelineRow>该兵种第 2 次推出，是 2024 年合体狂热活动中的五个临时兵种之一。</TimelineRow>
-        <TimelineRow>与 2023 版相比，该兵种新增了第 11 个等级，但 10 级的伤害和生命值降低了。</TimelineRow>
+        <TimelineRow>该兵种第2次推出，是2024年合体狂热活动中的五个临时兵种之一。</TimelineRow>
+        <TimelineRow>与2023版相比，该兵种新增了第11个等级，但10级的伤害和生命值降低了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/10/20">
-        <TimelineRow>所有等级的熔岩气球的生命值减少 10%.</TimelineRow>
+        <TimelineRow>所有等级的熔岩气球的生命值减少10%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/10/13">
-        <TimelineRow>该兵种第 1 次推出。</TimelineRow>
+        <TimelineRow>该兵种第1次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -27,16 +27,16 @@ canonical: /upgrade/el-primo-temp
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="12" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1 格" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1格" />
     <UnitProperty pKey="所需训练营等级" pValue="7" />
     <UnitProperty pKey="所需大本等级" pValue="5" />
-    <UnitProperty pKey="特殊技能" pValue="对城墙造成 20 倍伤害" />
+    <UnitProperty pKey="特殊技能" pValue="对城墙造成20倍伤害" />
     <UnitProperty pKey="训练时间" pValue="60" trainingSystem="legacy" :noGoldPass="true" />
 </UnitProperties>
 
@@ -66,7 +66,7 @@ const tableExtraInfo = [
 |   8  |   192   |   192   |      3840     |        1000       |  3550  |       12       |
 </UnitTable>
 
-\* 2022 年 6 月更新后，训练部队、配置法术、建造攻城机器不需要资源了，而该兵种最后一次推出时训练费用尚未取消。
+\* 2022年6月更新后，训练部队、配置法术、建造攻城机器不需要资源了，而该兵种最后一次推出时训练费用尚未取消。
 
 <SmallTitle>更新历史</SmallTitle>
 

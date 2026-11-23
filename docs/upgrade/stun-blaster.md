@@ -13,7 +13,7 @@ canonical: /upgrade/stun-blaster
 
 <SmallTitle>说明</SmallTitle>
 
-1. 爆震器是 [飞龙公爵](/upgrade/dragon-duke) 的一件普通装备。在铁匠铺 9 级时解锁，需要 16 本。
+1. 爆震器是 [飞龙公爵](/upgrade/dragon-duke) 的一件普通装备。在铁匠铺9级时解锁，需要16本。
 2. 使用时，爆震器创造冲击波，对周边防御部队和建筑造成伤害和击晕效果。
 3. 爆震器装备还可以增加飞龙公爵的每秒伤害和生命值。
 
@@ -24,8 +24,8 @@ canonical: /upgrade/stun-blaster
     <UnitProperty pKey="装备稀有度" pValue="普通" />
     <UnitProperty pKey="所需铁匠铺等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="16" />
-    <UnitProperty pKey="伤害和眩晕半径" pValue="8 格" />
-    <UnitProperty pKey="眩晕时长" pValue="4.5 秒" />
+    <UnitProperty pKey="伤害和眩晕半径" pValue="8格" />
+    <UnitProperty pKey="眩晕时长" pValue="4.5秒" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

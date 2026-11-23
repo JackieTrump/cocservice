@@ -15,10 +15,10 @@ canonical: /upgrade/crusher-mortar
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="3 - 11 级" imgSrc="Crusher_Mortar1.png" />
-        <UnitImg imgTitle="12 - 20 级" imgSrc="Crusher_Mortar2.png" />
-        <UnitImg imgTitle="21 - 29 级" imgSrc="Crusher_Mortar3.png" />
-        <UnitImg imgTitle="30 级" imgSrc="Crusher_Mortar4.png" />
+        <UnitImg imgTitle="3 - 11级" imgSrc="Crusher_Mortar1.png" />
+        <UnitImg imgTitle="12 - 20级" imgSrc="Crusher_Mortar2.png" />
+        <UnitImg imgTitle="21 - 29级" imgSrc="Crusher_Mortar3.png" />
+        <UnitImg imgTitle="30级" imgSrc="Crusher_Mortar4.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -30,14 +30,14 @@ canonical: /upgrade/crusher-mortar
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="随升级提升" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="攻击距离" pValue="2.5 - 9 格<sup>*</sup>" />
-    <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.5 - 9格<sup>*</sup>" />
+    <UnitProperty pKey="攻击速度" pValue="1.8秒/次" />
     <UnitProperty pKey="推出时的最高大本等级" pValue="17" />
 </UnitProperties>
 
-\* 碎岩迫击炮扔出去的石头落地后还能再次弹起来，石头最多落地 3 次。上方所说的 2.5 - 9 格指的是石头的第一个落点与碎岩迫击炮的距离，每次弹跳距离上一个落点 3 格。
+\* 碎岩迫击炮扔出去的石头落地后还能再次弹起来，石头最多落地3次。上方所说的2.5 - 9格指的是石头的第一个落点与碎岩迫击炮的距离，每次弹跳距离上一个落点3格。
 
-<SmallTitle>可升级模组 1：提升建筑的生命值</SmallTitle>
+<SmallTitle>可升级模组1：提升建筑的生命值</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo1">
 
@@ -55,7 +55,7 @@ canonical: /upgrade/crusher-mortar
 |  10  |  4900  |   115k  |   3     |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 2：提升建筑的伤害</SmallTitle>
+<SmallTitle>可升级模组2：提升建筑的伤害</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo2">
 
@@ -73,22 +73,22 @@ canonical: /upgrade/crusher-mortar
 |  10  |   240   |   432   |    12M  |   3     |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 3：增加溅射半径</SmallTitle>
+<SmallTitle>可升级模组3：增加溅射半径</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo3">
 
 | 等级 | 伤害半径 | 升级费用 | 升级时间 |升级后可<br>获得的经验|
 | ---- |   ---   |    ---  |   ---   |         ---        |
-|   1  |  0.7 格 |     \   |    \    |                    |
-|   2  |  0.9 格 |    4M   |   1     |                    |
-|   3  |  1.1 格 |    5M   |   1, 6  |                    |
-|   4  |  1.3 格 |    6M   |   1,12  |                    |
-|   5  |  1.5 格 |    7M   |   1,18  |                    |
-|   6  |  1.7 格 |    8M   |   2     |                    |
-|   7  |  1.9 格 |    9M   |   2, 6  |                    |
-|   8  |  2.1 格 |   10M   |   2,12  |                    |
-|   9  |  2.3 格 |   11M   |   2,18  |                    |
-|  10  |  2.5 格 |   12M   |   3     |                    |
+|   1  |  0.7格 |     \   |    \    |                    |
+|   2  |  0.9格 |    4M   |   1     |                    |
+|   3  |  1.1格 |    5M   |   1, 6  |                    |
+|   4  |  1.3格 |    6M   |   1,12  |                    |
+|   5  |  1.5格 |    7M   |   1,18  |                    |
+|   6  |  1.7格 |    8M   |   2     |                    |
+|   7  |  1.9格 |    9M   |   2, 6  |                    |
+|   8  |  2.1格 |   10M   |   2,12  |                    |
+|   9  |  2.3格 |   11M   |   2,18  |                    |
+|  10  |  2.5格 |   12M   |   3     |                    |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

@@ -15,10 +15,10 @@ canonical: /upgrade/hero-bell
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="3 - 11 级" imgSrc="Hero_Bell1.png" />
-        <UnitImg imgTitle="12 - 20 级" imgSrc="Hero_Bell2.png" />
-        <UnitImg imgTitle="21 - 29 级" imgSrc="Hero_Bell3.png" />
-        <UnitImg imgTitle="30 级" imgSrc="Hero_Bell4.png" />
+        <UnitImg imgTitle="3 - 11级" imgSrc="Hero_Bell1.png" />
+        <UnitImg imgTitle="12 - 20级" imgSrc="Hero_Bell2.png" />
+        <UnitImg imgTitle="21 - 29级" imgSrc="Hero_Bell3.png" />
+        <UnitImg imgTitle="30级" imgSrc="Hero_Bell4.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -26,7 +26,7 @@ canonical: /upgrade/hero-bell
 
 1. 英雄警钟可以强化范围内的防守方英雄，提高它们的伤害和生命值。
 2. 战斗加载完成几秒后，英雄警钟的强化效果就会激活，激活时有钟声音效。
-3. 如果防守方的英雄距离英雄警钟超过 50 格，强化效果会失效，不过这种情况极少发生，除非防守方把建筑和英雄放到两个对角。
+3. 如果防守方的英雄距离英雄警钟超过50格，强化效果会失效，不过这种情况极少发生，除非防守方把建筑和英雄放到两个对角。
 4. 英雄警钟的强化效果可以与困难模式叠加，但不能与其他防御的增益效果（如 [狂暴法术塔](/upgrade/0311-Spell-Tower) 中的狂暴法术）叠加。
 5. 英雄警钟不能强化 [部落城堡](/upgrade/clan-castle) 内的部队，也不能强化守卫。
 6. 使用 [冰冻法术](/upgrade/0104-Freeze-Spell) 等方式冻结英雄警钟不影响其强化效果。
@@ -37,11 +37,11 @@ canonical: /upgrade/hero-bell
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="作用类型" pValue="强化防守方的英雄" />
-    <UnitProperty pKey="作用半径" pValue="50 格" />
+    <UnitProperty pKey="作用半径" pValue="50格" />
     <UnitProperty pKey="推出时的最高大本等级" pValue="18" />
 </UnitProperties>
 
-<SmallTitle>可升级模组 1：提升建筑的生命值</SmallTitle>
+<SmallTitle>可升级模组1：提升建筑的生命值</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo1">
 
@@ -59,7 +59,7 @@ canonical: /upgrade/hero-bell
 |  10  |  4900  |   12M   |   3     |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 2：提升英雄的伤害</SmallTitle>
+<SmallTitle>可升级模组2：提升英雄的伤害</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo2">
 
@@ -77,7 +77,7 @@ canonical: /upgrade/hero-bell
 |  10  |         17%        |    12M  |   3      |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 3：提升英雄的生命值</SmallTitle>
+<SmallTitle>可升级模组3：提升英雄的生命值</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo3">
 

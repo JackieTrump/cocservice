@@ -29,14 +29,14 @@ canonical: /upgrade/smasher
 <UnitProperties>
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="2.5 格" />
+    <UnitProperty pKey="伤害半径" pValue="2.5格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1.25 格" />
-    <UnitProperty pKey="警戒半径" pValue="12 格<sup>①</sup>" />
-    <UnitProperty pKey="巡逻半径" pValue="14 格<sup>②</sup>" />
-    <UnitProperty pKey="狂暴状态下移动速度提升" pValue="1.5 格/秒" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.8秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1.25格" />
+    <UnitProperty pKey="警戒半径" pValue="12格<sup>①</sup>" />
+    <UnitProperty pKey="巡逻半径" pValue="14格<sup>②</sup>" />
+    <UnitProperty pKey="狂暴状态下移动速度提升" pValue="1.5格/秒" />
     <UnitProperty pKey="狂暴状态下伤害提升" pValue="60%" />
     <UnitProperty pKey="所需大本等级" pValue="18" />
 </UnitProperties>
@@ -78,8 +78,8 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/01/12">
-        <TimelineRow>巡逻半径从 10 格增加到 12 格。</TimelineRow>
-        <TimelineRow>警戒半径从 12 格增加到 14 格。</TimelineRow>
+        <TimelineRow>巡逻半径从10格增加到12格。</TimelineRow>
+        <TimelineRow>警戒半径从12格增加到14格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>推出守卫系统，粉碎者是第一批推出的守卫。</TimelineRow>

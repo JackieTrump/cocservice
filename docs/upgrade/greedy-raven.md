@@ -26,13 +26,13 @@ canonical: /upgrade/greedy-raven
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="英雄附近的资源类建筑<br>(5 倍伤害)" />
+    <UnitProperty pKey="攻击偏好" pValue="英雄附近的资源类建筑<br>(5倍伤害)" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="3.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="0.42 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="8 格" />
+    <UnitProperty pKey="移动速度" pValue="3.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.42秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="8格" />
     <UnitProperty pKey="所需战宠小屋等级" pValue="12" />
     <UnitProperty pKey="所需大本等级" pValue="18" />
 </UnitProperties>

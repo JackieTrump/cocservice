@@ -25,10 +25,10 @@ canonical: /upgrade/0311-Spell-Tower
 
 <Panel>
     <UnitImgGroup title="狂暴法术塔" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Spell_Tower1_Rage.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Spell_Tower2_Rage.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Spell_Tower3_Rage.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Spell_Tower4_Rage.png" />
+        <UnitImg imgTitle="1级" imgSrc="Spell_Tower1_Rage.png" />
+        <UnitImg imgTitle="2级" imgSrc="Spell_Tower2_Rage.png" />
+        <UnitImg imgTitle="3级" imgSrc="Spell_Tower3_Rage.png" />
+        <UnitImg imgTitle="4级" imgSrc="Spell_Tower4_Rage.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -51,13 +51,13 @@ canonical: /upgrade/0311-Spell-Tower
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="法术作用目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="触发半径" pValue="9 格" />
-    <UnitProperty pKey="作用半径" pValue="5 格" />
+    <UnitProperty pKey="触发半径" pValue="9格" />
+    <UnitProperty pKey="作用半径" pValue="5格" />
     <UnitProperty pKey="作用类型" pValue="为防守方的防御和部队提供加成" />
     <UnitProperty pKey="释放方式" pValue="原地释放" />
-    <UnitProperty pKey="法术持续时间" pValue="18 秒" />
+    <UnitProperty pKey="法术持续时间" pValue="18秒" />
     <UnitProperty pKey="伤害提升" pValue="60%" />
-    <UnitProperty pKey="重新装填时间" pValue="70 秒" />
+    <UnitProperty pKey="重新装填时间" pValue="70秒" />
 </UnitProperties>
 </SwitchTabGroup>
 
@@ -70,9 +70,9 @@ canonical: /upgrade/0311-Spell-Tower
 
 <Panel>
     <UnitImgGroup title="毒药法术塔" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="2 级" imgSrc="Spell_Tower2_Poison.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Spell_Tower3_Poison.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Spell_Tower4_Poison.png" />
+        <UnitImg imgTitle="2级" imgSrc="Spell_Tower2_Poison.png" />
+        <UnitImg imgTitle="3级" imgSrc="Spell_Tower3_Poison.png" />
+        <UnitImg imgTitle="4级" imgSrc="Spell_Tower4_Poison.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -89,18 +89,18 @@ canonical: /upgrade/0311-Spell-Tower
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="法术作用目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="触发半径" pValue="9 格" />
-    <UnitProperty pKey="作用半径" pValue="5 格" />
+    <UnitProperty pKey="触发半径" pValue="9格" />
+    <UnitProperty pKey="作用半径" pValue="5格" />
     <UnitProperty pKey="作用类型" pValue="对附近的敌人释放毒药法术" />
     <UnitProperty pKey="释放方式" pValue="扔到目标身上" />
     <UnitProperty pKey="毒药最高秒伤" pValue="60<sup>*</sup>" />
-    <UnitProperty pKey="法术持续时间" pValue="12 秒" />
+    <UnitProperty pKey="法术持续时间" pValue="12秒" />
     <UnitProperty pKey="移动速度降低" pValue="35%" />
     <UnitProperty pKey="攻击速度降低" pValue="25%" />
-    <UnitProperty pKey="重新装填时间" pValue="70 秒" />
+    <UnitProperty pKey="重新装填时间" pValue="70秒" />
 </UnitProperties>
 
-\* 毒药法术塔的毒药效果对英雄只有 20% 伤害，但减速效果是全额的。
+\* 毒药法术塔的毒药效果对英雄只有20% 伤害，但减速效果是全额的。
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 隐形法术塔 ↓↓↓ -->
@@ -112,8 +112,8 @@ canonical: /upgrade/0311-Spell-Tower
 
 <Panel>
     <UnitImgGroup title="隐形法术塔" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="3 级" imgSrc="Spell_Tower3_Invisibility.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Spell_Tower4_Invisibility.png" />
+        <UnitImg imgTitle="3级" imgSrc="Spell_Tower3_Invisibility.png" />
+        <UnitImg imgTitle="4级" imgSrc="Spell_Tower4_Invisibility.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -130,12 +130,12 @@ canonical: /upgrade/0311-Spell-Tower
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="法术作用目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="触发半径" pValue="4.5 格" />
-    <UnitProperty pKey="作用半径" pValue="4.5 格" />
+    <UnitProperty pKey="触发半径" pValue="4.5格" />
+    <UnitProperty pKey="作用半径" pValue="4.5格" />
     <UnitProperty pKey="作用类型" pValue="让附近的兵种和建筑暂时隐形<sup>*</sup>" />
     <UnitProperty pKey="释放方式" pValue="原地释放" />
-    <UnitProperty pKey="隐形效果持续时间" pValue="4.5 秒" />
-    <UnitProperty pKey="重新装填时间" pValue="70 秒" />
+    <UnitProperty pKey="隐形效果持续时间" pValue="4.5秒" />
+    <UnitProperty pKey="重新装填时间" pValue="70秒" />
 </UnitProperties>
 
 \* 法术塔释放的隐形法术和普通的 [隐形法术](/upgrade/invisibility-spell) 一样不分敌我，也就是说这个隐形法术会把进攻方和防守方都隐形掉。
@@ -151,7 +151,7 @@ canonical: /upgrade/0311-Spell-Tower
 
 <Panel>
     <UnitImgGroup title="地震法术塔" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="4 级" imgSrc="Spell_Tower4_Earthquake.png" />
+        <UnitImg imgTitle="4级" imgSrc="Spell_Tower4_Earthquake.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -168,12 +168,12 @@ canonical: /upgrade/0311-Spell-Tower
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="法术作用目标" pValue="地面目标" />
-    <UnitProperty pKey="触发半径" pValue="9 格" />
-    <UnitProperty pKey="作用半径" pValue="4.7 格" />
+    <UnitProperty pKey="触发半径" pValue="9格" />
+    <UnitProperty pKey="作用半径" pValue="4.7格" />
     <UnitProperty pKey="作用类型" pValue="对敌人释放地震法术" />
     <UnitProperty pKey="释放方式" pValue="扔到目标身上" />
     <UnitProperty pKey="对部队的伤害" pValue="30%" />
-    <UnitProperty pKey="重新装填时间" pValue="50 秒" />
+    <UnitProperty pKey="重新装填时间" pValue="50秒" />
 </UnitProperties>
 </SwitchTabGroup>
 
@@ -217,35 +217,35 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>在 17 本添加了 4 级法术塔。</TimelineRow>
+        <TimelineRow>在17本添加了4级法术塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>3 级法术塔的升级时间减少。</TimelineRow>
+        <TimelineRow>3级法术塔的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>1 ~ 3 级法术塔的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 3级法术塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>1 ~ 3 级法术塔的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 3级法术塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>1 ~ 3 级法术塔的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 3 级法术塔的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 3级法术塔的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3级法术塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>狂暴法术塔的法术范围从 6 格减少至 5 格。</TimelineRow>
+        <TimelineRow>狂暴法术塔的法术范围从6格减少至5格。</TimelineRow>
         <TimelineRow>狂暴法术塔的提高伤害从 +90% 减少至 +60%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>狂暴法术塔的重新填充时间增加 20 秒。</TimelineRow>
-        <TimelineRow>毒药法术塔和隐形法术塔的重新填充时间增加 10 秒。</TimelineRow>
+        <TimelineRow>狂暴法术塔的重新填充时间增加20秒。</TimelineRow>
+        <TimelineRow>毒药法术塔和隐形法术塔的重新填充时间增加10秒。</TimelineRow>
         <TimelineRow>狂暴法术塔的狂暴效果由 +100% 调整为 +90%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/12/12">
         <TimelineRow>毒药法术塔 “降低攻击速度” 的效果由 -35% 调整为 -25%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增建筑：法术塔。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增建筑：法术塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

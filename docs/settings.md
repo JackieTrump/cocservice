@@ -198,7 +198,7 @@ let gpResearchActiveValue = 0;
 let gpBuildingActiveValue = 0;
 // 如果 cookie 不存在，则认为没有减免比例，不进行任何操作
 if (gpCookieValue) {
-    // 月卡的数组长度一定是 3，如果不是则使用默认值
+    // 月卡的数组长度一定是3，如果不是则使用默认值
     let gpDiscountArr = gpCookieValue.split("-");
     if (gpDiscountArr.length !== 3) {
         gpDiscountArr = [0,0,0];
@@ -246,7 +246,7 @@ if (searchProvider) {
 
 ## 月卡减免比例
 
-在这个区域，你可以单独设置月卡的训练、研究和建筑加成。月卡减免比例的设置均保留 90 天。
+在这个区域，你可以单独设置月卡的训练、研究和建筑加成。月卡减免比例的设置均保留90天。
 
 <SelectContainer title="训练加成" selectId="cp-select-gp-training" aria-label="训练加成下拉菜单"
     :activeValue="gpTrainingActiveValue" selectWidth="12rem">

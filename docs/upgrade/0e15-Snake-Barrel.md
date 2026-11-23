@@ -31,21 +31,21 @@ canonical: /upgrade/0e15-Snake-Barrel
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 灵蛇飞桶在 2025 年 2 月的灵蛇庆典活动中首次推出，在奖励之路中获得 100 红灯笼（任务点数）即可解锁。
+1. 灵蛇飞桶在2025年2月的灵蛇庆典活动中首次推出，在奖励之路中获得100红灯笼（任务点数）即可解锁。
 2. 部署灵蛇飞桶后，它会飞向最近的防御建筑并释放灵蛇。如果在死亡前未成功释放灵蛇，则在死亡时释放。
 
 <SmallTitle>灵蛇飞桶的属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="空中单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.2 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.2格" />
     <UnitProperty pKey="攻击的目标" pValue="地面目标" />
     <UnitProperty pKey="占据人口" pValue="8" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.5 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.5格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />
     <UnitProperty pKey="训练时间" pValue="30" trainingSystem="2022" />
@@ -91,9 +91,9 @@ canonical: /upgrade/0e15-Snake-Barrel
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.4格" />
     <UnitProperty pKey="每秒伤害" pValue="50" />
     <UnitProperty pKey="每次伤害" pValue="50" />
     <UnitProperty pKey="生命值" pValue="200" />
@@ -105,7 +105,7 @@ canonical: /upgrade/0e15-Snake-Barrel
 
 <Timeline>
     <TimelineItem date="2025/02/07">
-        <TimelineRow>该兵种第 1 次推出，是 2025 年灵蛇庆典活动中的两个临时兵种之一。</TimelineRow>
+        <TimelineRow>该兵种第1次推出，是2025年灵蛇庆典活动中的两个临时兵种之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -23,8 +23,8 @@ canonical: /upgrade/200d-Mountain-Golem
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 高山戈仑的解锁条件是建造 [ 高山戈仑石场](/upgrade/mountain-golem-quarry-capital)，而这需要部落解锁戈仑石厂，且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 7 级。
-2. 高山戈仑可以越过宽度 2 格以内的河流。
+1. 高山戈仑的解锁条件是建造 [ 高山戈仑石场](/upgrade/mountain-golem-quarry-capital)，而这需要部落解锁戈仑石厂，且 [都城大本营](/upgrade/2400-Capital-Hall) 达到7级。
+2. 高山戈仑可以越过宽度2格以内的河流。
 3. 高山戈仑的技能（一碰就倒）：轻轻一碰就可以推倒城墙。另外，高山戈仑无法通过弹跳法术获得跳墙能力（直接推倒了还需要跳吗）。
 
 <SmallTitle>属性</SmallTitle>
@@ -33,13 +33,13 @@ canonical: /upgrade/200d-Mountain-Golem
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.8 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.8格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="配兵人口" pValue="160" />
     <UnitProperty pKey="防守人口" pValue="160" />
-    <UnitProperty pKey="移动速度" pValue="0.6 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="3 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="2 格" />
+    <UnitProperty pKey="移动速度" pValue="0.6格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="3秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -59,14 +59,14 @@ canonical: /upgrade/200d-Mountain-Golem
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>高山戈仑的移动速度从每秒 0.6 格增加到每秒 0.8 格，游戏内显示是从 4 到 6.</TimelineRow>
+        <TimelineRow>高山戈仑的移动速度从每秒0.6格增加到每秒0.8格，游戏内显示是从4到6.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
         <TimelineRow>移除高山戈仑选择目标时的随机性。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/30">
-        <TimelineRow>伤害半径从 0.75 增加到 0.9 格。</TimelineRow>
-        <TimelineRow>1 ~ 4 级高山戈仑的生命值由 2.8万/3.2万/3.6万/4万 增加到 3万/3.35万/3.7万/4.05万。</TimelineRow>
+        <TimelineRow>伤害半径从0.75增加到0.9格。</TimelineRow>
+        <TimelineRow>1 ~ 4级高山戈仑的生命值由2.8万/3.2万/3.6万/4万 增加到3万/3.35万/3.7万/4.05万。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>高山戈仑随着部落都城玩法一同推出。</TimelineRow>

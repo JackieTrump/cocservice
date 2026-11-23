@@ -17,18 +17,18 @@ canonical: /upgrade/0008-Dragon
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Dragon1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Dragon2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Dragon3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Dragon4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Dragon5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Dragon6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Dragon7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Dragon8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Dragon9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Dragon10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Dragon11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Dragon12.png" imgHd="Dragon12_hd.png" />
+        <UnitImg imgTitle="1级" imgSrc="Dragon1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Dragon2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Dragon3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Dragon4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Dragon5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Dragon6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Dragon7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Dragon8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Dragon9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Dragon10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Dragon11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Dragon12.png" imgHd="Dragon12_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -38,12 +38,12 @@ canonical: /upgrade/0008-Dragon
     <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.3 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.3格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.25 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="2.5 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.25秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.5格" />
     <UnitProperty pKey="所需训练营等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="7" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -90,68 +90,68 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>12 级飞龙的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>12级飞龙的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>7、8、10 级飞龙的升级时间减少。</TimelineRow>
+        <TimelineRow>7、8、10级飞龙的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>9 ~ 11 级飞龙的升级时间减少。</TimelineRow>
-        <TimelineRow>10 ~ 11 级飞龙的升级费用降低。</TimelineRow>
+        <TimelineRow>9 ~ 11级飞龙的升级时间减少。</TimelineRow>
+        <TimelineRow>10 ~ 11级飞龙的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>飞龙的训练时间由 3:00 改为 2:50</TimelineRow>
+        <TimelineRow>飞龙的训练时间由 3:00改为 2:50</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 12 级飞龙。</TimelineRow>
-        <TimelineRow>5 ~ 11 级飞龙的升级时间减少。</TimelineRow>
-        <TimelineRow>7 ~ 11 级飞龙的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增12级飞龙。</TimelineRow>
+        <TimelineRow>5 ~ 11级飞龙的升级时间减少。</TimelineRow>
+        <TimelineRow>7 ~ 11级飞龙的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>11 级飞龙的生命值提升。</TimelineRow>
+        <TimelineRow>11级飞龙的生命值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，同时在 16 本新增 11 级飞龙。</TimelineRow>
-        <TimelineRow>5 ~ 10 级飞龙的升级时间减少。</TimelineRow>
-        <TimelineRow>9 级飞龙的升级费用降低。</TimelineRow>
+        <TimelineRow>16本推出，同时在16本新增11级飞龙。</TimelineRow>
+        <TimelineRow>5 ~ 10级飞龙的升级时间减少。</TimelineRow>
+        <TimelineRow>9级飞龙的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 10 级飞龙。</TimelineRow>
-        <TimelineRow>7 ~ 8 级飞龙的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本新增10级飞龙。</TimelineRow>
+        <TimelineRow>7 ~ 8级飞龙的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>5 ~ 9 级飞龙的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>5 ~ 9级飞龙的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
-        <TimelineRow>家乡所有空军的攻击距离减少 0.5 格（超级飞龙除外，这玩意削了 1 格）。</TimelineRow>
+        <TimelineRow>家乡所有空军的攻击距离减少0.5格（超级飞龙除外，这玩意削了1格）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 6 级飞龙的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 6级飞龙的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/08/12">
-        <TimelineRow>4 级飞龙的生命值从 2600 提升至 2700。</TimelineRow>
+        <TimelineRow>4级飞龙的生命值从2600提升至2700。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/06/15">
-        <TimelineRow>14 本新增 9 级飞龙。。</TimelineRow>
+        <TimelineRow>14本新增9级飞龙。。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>2 ~ 7 级飞龙的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 6 级飞龙的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 7级飞龙的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 6级飞龙的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>3 ~ 5 级飞龙的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 5级飞龙的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本开放，新增 8 级飞龙。</TimelineRow>
+        <TimelineRow>13本开放，新增8级飞龙。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/09/11">
-        <TimelineRow>5 ~ 7 级飞龙的生命值提升。</TimelineRow>
+        <TimelineRow>5 ~ 7级飞龙的生命值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>2 ~ 6 级飞龙的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 6级飞龙的升级时间减少。</TimelineRow>
         <TimelineRow>所有等级飞龙的训练费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

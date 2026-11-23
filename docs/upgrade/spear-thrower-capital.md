@@ -16,11 +16,11 @@ canonical: /upgrade/spear-thrower-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Spear_Thrower_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Spear_Thrower1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Spear_Thrower2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Spear_Thrower3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Spear_Thrower4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Spear_Thrower5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Spear_Thrower1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Spear_Thrower2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Spear_Thrower3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Spear_Thrower4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Spear_Thrower5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -55,8 +55,8 @@ canonical: /upgrade/spear-thrower-capital
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="9 格" />
-    <UnitProperty pKey="攻速" pValue="0.9 秒/次" />
+    <UnitProperty pKey="射程" pValue="9格" />
+    <UnitProperty pKey="攻速" pValue="0.9秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -93,7 +93,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>2 ~ 5 级都城投矛器的每秒伤害降低。</TimelineRow>
+        <TimelineRow>2 ~ 5级都城投矛器的每秒伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>投矛器随着部落都城玩法一同推出。</TimelineRow>

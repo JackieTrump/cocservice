@@ -2,7 +2,7 @@
 title: "部落冲突 coc 战吼狂人升级数据"
 navTitle: "战吼狂人"
 shownTitle: "战吼狂人"
-description: "战吼狂人的攻击范围超远，战斗一开始他会投出 4 名忠诚的部族成员，攻击一切目标！之后，他会投掷自己最擅长的巨矛。现在，大声喊出来——咦哈！"
+description: "战吼狂人的攻击范围超远，战斗一开始他会投出4名忠诚的部族成员，攻击一切目标！之后，他会投掷自己最擅长的巨矛。现在，大声喊出来——咦哈！"
 module: upgrade-temp
 imgFolder: temp_troops/0e16
 wiki: https://clashofclans.fandom.com/wiki/YEETer
@@ -17,7 +17,7 @@ canonical: /upgrade/yeeter-temp
 <!-- ↓↓↓ 战吼狂人 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="YEETer_info.png" imgAlt="战吼狂人"
-    description="战吼狂人的攻击范围超远，战斗一开始他会投出 4 名忠诚的部族成员，攻击一切目标！之后，他会投掷自己最擅长的巨矛。现在，大声喊出来——咦哈！" />
+    description="战吼狂人的攻击范围超远，战斗一开始他会投出4名忠诚的部族成员，攻击一切目标！之后，他会投掷自己最擅长的巨矛。现在，大声喊出来——咦哈！" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -29,8 +29,8 @@ canonical: /upgrade/yeeter-temp
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 战吼狂人在 2025 年 4 月的部落狂热活动中作为临时兵种推出。
-2. 战吼狂人扔部族成员时，攻击距离为 7 格；扔长矛时，攻击距离为 6 格。
+1. 战吼狂人在2025年4月的部落狂热活动中作为临时兵种推出。
+2. 战吼狂人扔部族成员时，攻击距离为7格；扔长矛时，攻击距离为6格。
 3. 战吼狂人扔部族成员和扔长矛都可造成伤害，且伤害值是一样的。
 
 <SmallTitle>战吼狂人的属性</SmallTitle>
@@ -41,9 +41,9 @@ canonical: /upgrade/yeeter-temp
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="45" />
-    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="6 格或 7 格" />
+    <UnitProperty pKey="移动速度" pValue="4格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="6格或7格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="4" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -93,9 +93,9 @@ canonical: /upgrade/yeeter-temp
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="5" />
-    <UnitProperty pKey="移动速度" pValue="3.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.6 格" />
+    <UnitProperty pKey="移动速度" pValue="3.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.6格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -126,7 +126,7 @@ canonical: /upgrade/yeeter-temp
 
 <Timeline>
     <TimelineItem date="2025/04/01">
-        <TimelineRow>该兵种第 1 次推出，有效期至 2025/05/01.</TimelineRow>
+        <TimelineRow>该兵种第1次推出，有效期至2025/05/01.</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

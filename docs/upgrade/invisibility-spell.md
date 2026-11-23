@@ -24,7 +24,7 @@ canonical: /upgrade/invisibility-spell
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="作用半径" pValue="4 格" />
+    <UnitProperty pKey="作用半径" pValue="4格" />
     <UnitProperty pKey="作用类型" pValue="将部队和建筑隐形" />
     <UnitProperty pKey="作用目标" pValue="敌我双方的部队和建筑" />
     <UnitProperty pKey="占用的法术空间" pValue="1" />
@@ -56,10 +56,10 @@ const tableExtraInfo = [
 
 | 等级 | 法术持续时间 | 升级花费 |  升级时间  | 所需实验室等级 | 所需大本等级 |
 | ---- |     ----    |   ----  |    ----   |      ----     |     ----    |
-|   1  |    3.5 秒   |     \   |     \     |        1      |      11     |
-|   2  |   3.75 秒   |    5M   |    3      |        9      |      11     |
-|   3  |      4 秒   |    6M   |    4      |       10      |      12     |
-|   4  |   4.25 秒   |    7M   |    5      |       11      |      13     |
+|   1  |    3.5秒   |     \   |     \     |        1      |      11     |
+|   2  |   3.75秒   |    5M   |    3      |        9      |      11     |
+|   3  |      4秒   |    6M   |    4      |       10      |      12     |
+|   4  |   4.25秒   |    7M   |    5      |       11      |      13     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
@@ -69,31 +69,31 @@ const tableExtraInfo = [
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 4 级隐形法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级隐形法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>所有等级隐形法术的持续时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 4 级隐形法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级隐形法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>3 级隐形法术的升级时间减少。</TimelineRow>
+        <TimelineRow>3级隐形法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>3 ~ 4 级隐形法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 4级隐形法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>2 ~ 4 级隐形法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级隐形法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 级隐形法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2级隐形法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
         <TimelineRow>现在被部署到隐形法术范围内的部队会立即隐形，不会再出现防御建筑有时可以在这些部队隐形之前进行锁定的问题。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
-        <TimelineRow>11 本新增 6 级法术工厂，新法术：隐形法术。</TimelineRow>
+        <TimelineRow>11本新增6级法术工厂，新法术：隐形法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

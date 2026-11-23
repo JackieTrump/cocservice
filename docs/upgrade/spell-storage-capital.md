@@ -18,11 +18,11 @@ canonical: /upgrade/spell-storage-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Spell_Storage_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Spell_Storage1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Spell_Storage2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Spell_Storage3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Spell_Storage4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Spell_Storage5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Spell_Storage1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Spell_Storage2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Spell_Storage3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Spell_Storage4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Spell_Storage5.png" />
     </UnitImgGroup>
 </Panel>
 

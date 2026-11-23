@@ -41,10 +41,10 @@ const tableExtraInfoMortarMode = tableExtraInfoStandardMode;
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="7 - 11 级" imgSrc="Cannon_Cart7.png" />
-        <UnitImg imgTitle="12 - 15 级" imgSrc="Cannon_Cart12.png" />
-        <UnitImg imgTitle="16 - 17 级" imgSrc="Cannon_Cart16.png" />
-        <UnitImg imgTitle="18 - 20 级" imgSrc="Cannon_Cart18.png" />
+        <UnitImg imgTitle="7 - 11级" imgSrc="Cannon_Cart7.png" />
+        <UnitImg imgTitle="12 - 15级" imgSrc="Cannon_Cart12.png" />
+        <UnitImg imgTitle="16 - 17级" imgSrc="Cannon_Cart16.png" />
+        <UnitImg imgTitle="18 - 20级" imgSrc="Cannon_Cart18.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -56,9 +56,9 @@ const tableExtraInfoMortarMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="每个兵营的部队数量" pValue="1" />
-    <UnitProperty pKey="移动速度" pValue="2.4 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="4.5 格" />
+    <UnitProperty pKey="移动速度" pValue="2.4格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="4.5格" />
     <UnitProperty pKey="所需训练营等级" pValue="7" />
     <UnitProperty pKey="所需夜世界大本等级" pValue="5" />
 </UnitProperties>
@@ -71,7 +71,7 @@ const tableExtraInfoMortarMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="技能描述" pValue="见说明<sup>*</sup>" />
 </UnitProperties>
 
-\* 加农炮战车可以在 2 种模式间快速切换，能移动的短程攻击模式（默认的加农炮模式）平均每秒伤害较高，不能移动的远程攻击模式（迫击炮模式）平均每秒伤害较低。
+\* 加农炮战车可以在2种模式间快速切换，能移动的短程攻击模式（默认的加农炮模式）平均每秒伤害较高，不能移动的远程攻击模式（迫击炮模式）平均每秒伤害较低。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -104,10 +104,10 @@ const tableExtraInfoMortarMode = tableExtraInfoStandardMode;
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="7 - 11 级" imgSrc="Mortar_Cart7.png" />
-        <UnitImg imgTitle="12 - 15 级" imgSrc="Mortar_Cart12.png" />
-        <UnitImg imgTitle="16 - 17 级" imgSrc="Mortar_Cart16.png" />
-        <UnitImg imgTitle="18 - 20 级" imgSrc="Mortar_Cart18.png" />
+        <UnitImg imgTitle="7 - 11级" imgSrc="Mortar_Cart7.png" />
+        <UnitImg imgTitle="12 - 15级" imgSrc="Mortar_Cart12.png" />
+        <UnitImg imgTitle="16 - 17级" imgSrc="Mortar_Cart16.png" />
+        <UnitImg imgTitle="18 - 20级" imgSrc="Mortar_Cart18.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -120,8 +120,8 @@ const tableExtraInfoMortarMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="每个兵营的部队数量" pValue="1" />
     <UnitProperty pKey="移动速度" pValue="0" />
-    <UnitProperty pKey="攻击速度" pValue="2.5 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="8.5 格" />
+    <UnitProperty pKey="攻击速度" pValue="2.5秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="8.5格" />
     <UnitProperty pKey="所需训练营等级" pValue="7" />
     <UnitProperty pKey="所需夜世界大本等级" pValue="5" />
 </UnitProperties>
@@ -134,7 +134,7 @@ const tableExtraInfoMortarMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="技能描述" pValue="见说明<sup>*</sup>" />
 </UnitProperties>
 
-\* 加农炮战车可以在 2 种模式间快速切换，能移动的短程攻击模式（默认的加农炮模式）平均每秒伤害较高，不能移动的远程攻击模式（迫击炮模式）平均每秒伤害较低。
+\* 加农炮战车可以在2种模式间快速切换，能移动的短程攻击模式（默认的加农炮模式）平均每秒伤害较高，不能移动的远程攻击模式（迫击炮模式）平均每秒伤害较低。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -164,18 +164,18 @@ const tableExtraInfoMortarMode = tableExtraInfoStandardMode;
 
 <Timeline>
     <TimelineItem date="2023/05/15">
-        <TimelineRow>新增 19 - 20 级加农炮战车。</TimelineRow>
+        <TimelineRow>新增19 - 20级加农炮战车。</TimelineRow>
         <TimelineRow>由于夜世界重做，部队的伤害、生命值等数据都有变化。</TimelineRow>
         <TimelineRow>废除以前的“奋战到底”技能，改为两种模式切换的技能。</TimelineRow>
-        <TimelineRow>加农炮战车的移动速度由 16（2 格/秒）提升至 19.2（2.4 格/秒）。</TimelineRow>
-        <TimelineRow>加农炮战车的兵种重量从 8 提升至 16。</TimelineRow>
-        <TimelineRow>现在加农炮战车一解锁就是 7 级，你不需要从 1 级开始升了。如果更新前部队高于 7 级，更新后等级不会重置。</TimelineRow>
+        <TimelineRow>加农炮战车的移动速度由16（2格/秒）提升至19.2（2.4格/秒）。</TimelineRow>
+        <TimelineRow>加农炮战车的兵种重量从8提升至16。</TimelineRow>
+        <TimelineRow>现在加农炮战车一解锁就是7级，你不需要从1级开始升了。如果更新前部队高于7级，更新后等级不会重置。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>加农炮战车的兵种重量从 5 提升至 8。</TimelineRow>
+        <TimelineRow>加农炮战车的兵种重量从5提升至8。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本开放，所有兵种可升至 18 级。</TimelineRow>
+        <TimelineRow>夜世界9本开放，所有兵种可升至18级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

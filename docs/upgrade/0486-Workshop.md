@@ -15,14 +15,14 @@ canonical: /upgrade/0486-Workshop
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Workshop1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Workshop2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Workshop3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Workshop4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Workshop5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Workshop6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Workshop7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Workshop8.png" />
+        <UnitImg imgTitle="1级" imgSrc="Workshop1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Workshop2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Workshop3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Workshop4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Workshop5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Workshop6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Workshop7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Workshop8.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -81,46 +81,46 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>3 ~ 8 级攻城机器工坊的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 8级攻城机器工坊的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24"> 
-        <TimelineRow>1 ~ 3、5 ~ 8 级攻城机器工坊的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 8 级攻城机器工坊的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 3、5 ~ 8级攻城机器工坊的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 8级攻城机器工坊的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">  
-        <TimelineRow>16 本新增 8 级攻城机器工坊，新攻城机器：部队发射器。</TimelineRow>
+        <TimelineRow>16本新增8级攻城机器工坊，新攻城机器：部队发射器。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">  
-        <TimelineRow>3 ~ 7 级攻城机器工坊的升级时间减少。</TimelineRow>
-        <TimelineRow>1 ~ 3、7 级攻城机器工坊的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 7级攻城机器工坊的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 3、7级攻城机器工坊的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>4 ~ 7 级攻城机器工坊的升级时间减少。</TimelineRow>
-        <TimelineRow>7 级攻城机器工坊的升级费用降低。</TimelineRow>
+        <TimelineRow>4 ~ 7级攻城机器工坊的升级时间减少。</TimelineRow>
+        <TimelineRow>7级攻城机器工坊的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>6 ~ 7 级攻城机器工坊厂的升级时间减少。</TimelineRow>
-        <TimelineRow>6 级攻城机器工坊厂的升级费用 1650 万减少到 1400 万。</TimelineRow>
+        <TimelineRow>6 ~ 7级攻城机器工坊厂的升级时间减少。</TimelineRow>
+        <TimelineRow>6级攻城机器工坊厂的升级费用1650万减少到1400万。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>1 ~ 5 级攻城机器工坊的升级时间减少。</TimelineRow>
-        <TimelineRow>1 ~ 5 级攻城机器工坊的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 5级攻城机器工坊的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 5级攻城机器工坊的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
         <TimelineRow>攻城机器工坊升级时兵种可继续建造攻城机器，但建造速度减半（建造时间翻倍）。</TimelineRow>
-        <TimelineRow>15 本推出，并在 15 本新增 7 级攻城机器工坊，可解锁新的攻城机器：攻城钻机。</TimelineRow>
-        <TimelineRow>1 ~ 6 级攻城机器工坊的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增7级攻城机器工坊，可解锁新的攻城机器：攻城钻机。</TimelineRow>
+        <TimelineRow>1 ~ 6级攻城机器工坊的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>1 ~ 2 级攻城机器工坊的升级费用降低。</TimelineRow>
-        <TimelineRow>14 本新增 6 级攻城机器工坊，新攻城机器：攻城烈焰车。</TimelineRow>
+        <TimelineRow>1 ~ 2级攻城机器工坊的升级费用降低。</TimelineRow>
+        <TimelineRow>14本新增6级攻城机器工坊，新攻城机器：攻城烈焰车。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
-        <TimelineRow>13 本可以将攻城机器工坊升到 5 级了，新攻城机器：攻城滚木车。</TimelineRow>
+        <TimelineRow>13本可以将攻城机器工坊升到5级了，新攻城机器：攻城滚木车。</TimelineRow>
     </TimelineItem> 
         <TimelineItem date="2019/04/02">
-        <TimelineRow>13 本可以将攻城机器工坊升到 4 级了，新攻城机器：攻城训练营。</TimelineRow>
-        <TimelineRow>攻城机器工坊的占地面积由 5*5 改为 4*4，但是判定面积没变。</TimelineRow>
+        <TimelineRow>13本可以将攻城机器工坊升到4级了，新攻城机器：攻城训练营。</TimelineRow>
+        <TimelineRow>攻城机器工坊的占地面积由5*5改为4*4，但是判定面积没变。</TimelineRow>
     </TimelineItem>    
     <TimelineItem :historyBottom="true" />
 </Timeline>

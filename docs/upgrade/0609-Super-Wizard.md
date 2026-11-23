@@ -36,17 +36,17 @@ canonical: /upgrade/0609-Super-Wizard
     <UnitProperty pKey="伤害类型" pValue="链式伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="10" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="3.5 格" />
-    <UnitProperty pKey="连锁距离" pValue="3 格" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3.5格" />
+    <UnitProperty pKey="连锁距离" pValue="3格" />
     <UnitProperty pKey="最大目标数" pValue="10 (含初始目标)" />
-    <UnitProperty pKey="连锁延迟" pValue="0.128 秒" />
-    <UnitProperty pKey="连锁后保留的伤害" pValue="40% (除初始目标外均保留 40% 伤害)" />
+    <UnitProperty pKey="连锁延迟" pValue="0.128秒" />
+    <UnitProperty pKey="连锁后保留的伤害" pValue="40% (除初始目标外均保留40% 伤害)" />
     <UnitProperty pKey="最低法师等级" pValue="9" />
     <UnitProperty pKey="最低大本等级" pValue="12" />
-    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
-    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="强化费用" pValue="2.5万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="5,5,15000,Elixir" :isDonationCost="true" />
 </UnitProperties>
@@ -72,25 +72,25 @@ canonical: /upgrade/0609-Super-Wizard
         <TimelineRow>所有等级超级法师的生命值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 14 级法师，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增14级法师，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/30">
-        <TimelineRow>11 ~ 13 级超级法师的每秒伤害提升。</TimelineRow>
+        <TimelineRow>11 ~ 13级超级法师的每秒伤害提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 13 级法师，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增13级法师，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 12 级法师，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增12级法师，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 11 级法师，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增11级法师，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/01/20">
-    <TimelineRow>超级法师连锁后的伤害由 60% 降低到 40%.</TimelineRow>
+    <TimelineRow>超级法师连锁后的伤害由60% 降低到40%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
     <TimelineRow>新超级兵：超级法师。</TimelineRow>

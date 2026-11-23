@@ -25,13 +25,13 @@ canonical: /upgrade/0102-Rage-Spell
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="作用半径" pValue="5 格" />
+    <UnitProperty pKey="作用半径" pValue="5格" />
     <UnitProperty pKey="作用类型" pValue="范围内脉冲赋能" />
     <UnitProperty pKey="作用目标" pValue="我方部队和英雄" />
     <UnitProperty pKey="脉冲次数" pValue="60<sup>*</sup>" />
-    <UnitProperty pKey="两次脉冲的间隔时间" pValue="0.3 秒" />
-    <UnitProperty pKey="每次脉冲的作用时间" pValue="1 秒" />
-    <UnitProperty pKey="法术持续时间" pValue="18 秒" />
+    <UnitProperty pKey="两次脉冲的间隔时间" pValue="0.3秒" />
+    <UnitProperty pKey="每次脉冲的作用时间" pValue="1秒" />
+    <UnitProperty pKey="法术持续时间" pValue="18秒" />
     <UnitProperty pKey="占用的法术空间" pValue="2" />
     <UnitProperty pKey="所需法术工厂等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="7" />
@@ -71,9 +71,9 @@ const tableExtraInfo = [
 |   6  |        180%       |          30       |      5M  |     4      |           10           |    12     |
 </UnitTable>
 
-① 伤害增加 170% 的意思是兵种的伤害是原来的 1 + 170% = 2.7 倍，其它同理。<br>
-② 这里的速度增加值和游戏内兵种移动速度的显示是一个意思，移动速度 8 等于实际的 1 格/秒。<br>
-③ 如果玩家升级到 7 级大本营并且解锁了狂暴法术，即使玩家没有立即升实验室也可以升级狂暴法术。 
+① 伤害增加170% 的意思是兵种的伤害是原来的1 + 170% = 2.7倍，其它同理。<br>
+② 这里的速度增加值和游戏内兵种移动速度的显示是一个意思，移动速度8等于实际的1格/秒。<br>
+③ 如果玩家升级到7级大本营并且解锁了狂暴法术，即使玩家没有立即升实验室也可以升级狂暴法术。 
 
 <SmallTitle>更新历史</SmallTitle>
 
@@ -82,32 +82,32 @@ const tableExtraInfo = [
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 6 级狂暴法术的升级时间减少。</TimelineRow>
-        <TimelineRow>4 ~ 5 级狂暴法术的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 6级狂暴法术的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 5级狂暴法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>6 级狂暴法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>6级狂暴法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>6 级狂暴法术的升级时间减少。</TimelineRow>
+        <TimelineRow>6级狂暴法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>6 级狂暴法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>6级狂暴法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>6 级狂暴法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>6级狂暴法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 5 级狂暴法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5级狂暴法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>2 ~ 4 级狂暴法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级狂暴法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>12 本新增 6 级狂暴法术。</TimelineRow>
+        <TimelineRow>12本新增6级狂暴法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>4 ~ 5 级狂暴法术的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 5级狂暴法术的升级时间减少。</TimelineRow>
         <TimelineRow>所有等级狂暴法术的配置费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

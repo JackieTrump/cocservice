@@ -17,16 +17,16 @@ canonical: /upgrade/crusher-bh
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Crusher1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Crusher2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Crusher3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Crusher4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Crusher5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Crusher6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Crusher7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Crusher8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Crusher9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Crusher10.png" />
+        <UnitImg imgTitle="1级" imgSrc="Crusher1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Crusher2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Crusher3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Crusher4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Crusher5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Crusher6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Crusher7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Crusher8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Crusher9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Crusher10.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -43,10 +43,10 @@ canonical: /upgrade/crusher-bh
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="2.8 格<sup>*</sup>" />
+    <UnitProperty pKey="伤害半径" pValue="2.8格<sup>*</sup>" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="2.3 格" />
-    <UnitProperty pKey="攻速" pValue="3.5 秒/次" />
+    <UnitProperty pKey="射程" pValue="2.3格" />
+    <UnitProperty pKey="攻速" pValue="3.5秒/次" />
 </UnitProperties>
 
 \* 不同于的其他范围溅射伤害，撼地巨石的溅射中心就在巨石中心，而其他的范围溅射伤害中心以弹药为中心。
@@ -96,14 +96,14 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
-        <TimelineRow>6 ~ 9 级撼地巨石的升级时间增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，撼地巨石可升至 10 级。</TimelineRow>
+        <TimelineRow>6 ~ 9级撼地巨石的升级时间增加。</TimelineRow>
+        <TimelineRow>夜世界10本推出，撼地巨石可升至10级。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2020/06/22">
-        <TimelineRow>撼地巨石的溅射半径从 3.5 格缩小至 2.8 格，现在它不再那么容易对范围外的单位造成伤害。</TimelineRow>
+        <TimelineRow>撼地巨石的溅射半径从3.5格缩小至2.8格，现在它不再那么容易对范围外的单位造成伤害。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，撼地巨石可升至 9 级。</TimelineRow>
+        <TimelineRow>夜世界9本推出，撼地巨石可升至9级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -26,7 +26,7 @@ canonical: /upgrade/200b-Hog-Raiders
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 野猪突袭队的解锁条件是建造 [野猪突袭队训练营](/upgrade/hog-raider-barracks-capital)，而这需要部落解锁飞龙悬崖，且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 6 级。
+1. 野猪突袭队的解锁条件是建造 [野猪突袭队训练营](/upgrade/hog-raider-barracks-capital)，而这需要部落解锁飞龙悬崖，且 [都城大本营](/upgrade/2400-Capital-Hall) 达到6级。
 2. 野猪突袭队在部署之前是一个整体，你不能把野猪飞骑和野猪骑士分开部署。
 
 <SmallTitle>属性</SmallTitle>
@@ -61,12 +61,12 @@ canonical: /upgrade/200b-Hog-Raiders
     <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击方式" pValue="撞击后分裂为野猪骑士" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="野猪飞骑的防守人口" pValue="5" />
-    <UnitProperty pKey="首次进攻时机" pValue="到达目标后 0.2 秒" />
-    <UnitProperty pKey="移动速度" pValue="2.3 格/秒" />
-    <UnitProperty pKey="攻击距离" pValue="0.25 格" />
+    <UnitProperty pKey="首次进攻时机" pValue="到达目标后0.2秒" />
+    <UnitProperty pKey="移动速度" pValue="2.3格/秒" />
+    <UnitProperty pKey="攻击距离" pValue="0.25格" />
 </UnitProperties>
 <SmallTitle>升级数据</SmallTitle>
 
@@ -103,13 +103,13 @@ canonical: /upgrade/200b-Hog-Raiders
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="野猪骑士的防守人口" pValue="5" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.0 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.75 格" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.0秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.75格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

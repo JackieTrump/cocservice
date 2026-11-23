@@ -18,16 +18,16 @@ canonical: /upgrade/110c-Walls
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Wall1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Wall2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Wall3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Wall4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Wall5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Wall6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Wall7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Wall8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Wall9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Wall10.png" />
+        <UnitImg imgTitle="1级" imgSrc="Wall1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Wall2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Wall3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Wall4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Wall5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Wall6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Wall7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Wall8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Wall9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Wall10.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -92,15 +92,15 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/05/15">
-        <TimelineRow>更新后夜世界的城墙不再是 5 个一组了，你现在可以单独摆放每块城墙。</TimelineRow>
-        <TimelineRow>为了适应上一条所说的改动，所有等级城墙的升级花费有调整。调整后，除了 1 级城墙外，其余等级单个城墙的升级花费都降低了。</TimelineRow>
+        <TimelineRow>更新后夜世界的城墙不再是5个一组了，你现在可以单独摆放每块城墙。</TimelineRow>
+        <TimelineRow>为了适应上一条所说的改动，所有等级城墙的升级花费有调整。调整后，除了1级城墙外，其余等级单个城墙的升级花费都降低了。</TimelineRow>
         <TimelineRow>所有等级城墙的生命值减少。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，城墙可升至 10 级。</TimelineRow>
+        <TimelineRow>夜世界10本推出，城墙可升至10级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>升级 6 ~ 8 级夜世界城墙所需的壁垒之戒减少。</TimelineRow>
-        <TimelineRow>夜世界 9 本推出，城墙可升至 9 级。</TimelineRow>
-        <TimelineRow>夜世界 9 本新增 4 组城墙。</TimelineRow>
+        <TimelineRow>升级6 ~ 8级夜世界城墙所需的壁垒之戒减少。</TimelineRow>
+        <TimelineRow>夜世界9本推出，城墙可升至9级。</TimelineRow>
+        <TimelineRow>夜世界9本新增4组城墙。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

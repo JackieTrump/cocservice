@@ -15,15 +15,15 @@ canonical: /upgrade/0181-Earthquake-Spell
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 4 瓶地震可以摧毁任何等级的 [城墙](/upgrade/0300-Walls)。
-2. 从 6 级开始，地震法术可以对地面部队造成伤害。
+1. 4瓶地震可以摧毁任何等级的 [城墙](/upgrade/0300-Walls)。
+2. 从6级开始，地震法术可以对地面部队造成伤害。
 3. 如果玩家操作得当，地震法术实际震开的范围会大于理论数据，参见[『部落冲突』科普向之地震法术](/p/897)。
 4. 地震法术不能对 [储金罐](/upgrade/0404-Gold-Storage)、[圣水瓶](/upgrade/0405-Elixir-Storage) 和 [暗黑重油罐](/upgrade/0406-Dark-Elixir-Storage) 造成伤害。
 5. 当多瓶地震法术同时使用时，其伤害会有所不同。总体上来说，多个地震攻击建筑的伤害递减，对城墙递增。为方便起见，我们称第一瓶地震法术造成的伤害为**基准伤害**。如果你对具体公式感兴趣，那就展开看看吧！
 
 <Panel>
 
-设第一瓶地震法术的伤害为 1，则对**部队和建筑**来说，每一瓶地震的伤害按下面规律递减：
+设第一瓶地震法术的伤害为1，则对**部队和建筑**来说，每一瓶地震的伤害按下面规律递减：
 
 $$
 1, \frac{1}{3}, \frac{1}{5}, \frac{1}{7}, \ldots
@@ -33,13 +33,13 @@ $$
 
 举例：
 
-- 第三瓶 5 级地震（基准伤害为 29%）对建筑的伤害为：
+- 第三瓶5级地震（基准伤害为29%）对建筑的伤害为：
 
 $$
 \displaystyle 29\% \times \frac{1}{5} = 5.80\%
 $$
 
-- 前三瓶 5 级地震对建筑的总伤害为：
+- 前三瓶5级地震对建筑的总伤害为：
 
 $$
 \displaystyle 29\% \times (1 + \frac{1}{3} + \frac{1}{5}) \approx 44.47\%
@@ -49,7 +49,7 @@ $$
 
 对**城墙**来说，地震法术的伤害机制有所不同，这里直接给出例子。
 
-举例：前三瓶 5 级地震法术对城墙的伤害分别为：
+举例：前三瓶5级地震法术对城墙的伤害分别为：
 
 $$
 \begin{align}
@@ -63,7 +63,7 @@ $$
 
 在上述公式中，$\displaystyle \frac{(n - 1)^2}{20}$ 其实就是 $[5 \times (n - 1)^2] \, \%$（$n$ 为正整数）。
 
-由于地震法术对城墙的伤害有一个二次增长的项，所以伤害增长很快。按计算器不难得到，不论你的地震法术是几级，3 瓶地震法术都不能摧毁城墙，但 4 瓶一定可以，这也是玩家之间广为流传的结论。
+由于地震法术对城墙的伤害有一个二次增长的项，所以伤害增长很快。按计算器不难得到，不论你的地震法术是几级，3瓶地震法术都不能摧毁城墙，但4瓶一定可以，这也是玩家之间广为流传的结论。
 
 对普通玩家来说，看到这里已经足够了。接下来我们尝试严谨的数学表达。
 
@@ -109,11 +109,11 @@ $$
 
 答案是可以的，数学比较好的玩家可能知道，调和级数是发散的，即总和可以无限增大。理论上来说，摧毁建筑需要的地震法术数量列举如下：
 
-- 1 级：137255
-- 2 级：18056
-- 3 级：1921
-- 4 级：419
-- 5 级及以上：139
+- 1级：137255
+- 2级：18056
+- 3级：1921
+- 4级：419
+- 5级及以上：139
 
 结论给出来了，感兴趣的玩家可以去私服试试。
 </Panel>
@@ -121,10 +121,10 @@ $$
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="作用半径" pValue="3.5 格" />
+    <UnitProperty pKey="作用半径" pValue="3.5格" />
     <UnitProperty pKey="作用类型" pValue="百分比范围伤害" />
     <UnitProperty pKey="作用目标" pValue="地面部队、建筑和城墙" />
-    <UnitProperty pKey="法术持续时间" pValue="震 5 次，共持续 2 秒" />
+    <UnitProperty pKey="法术持续时间" pValue="震5次，共持续2秒" />
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="8" />
@@ -154,54 +154,54 @@ const tableExtraInfo = [
 
 | 等级 |基准伤害<br>(对建筑)|基准伤害<br>(对部队)|作用半径 | 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |        ---       |         ---       |  ---   |   ----  |   ----   |       ----     |      ----     |
-|   1  | 14.5%<sup>①</sup>|          \        | 3.5 格 |     \   |    \     |         1      |        8      |
-|   2  |        17%       |          \        | 3.8 格 |     6K  |   0,12   |         6      |        8      |
-|   3  |        21%       |          \        | 4.1 格 |    12K  |   1      |         7      |        9      |
-|   4  |        25%       |          \        | 4.4 格 |  25.5K  |   3      |         8      |       10      |
-|   5  |        29%       |          \        | 4.7 格 |    42K  |   3,12   |         9      |       11      |
-|   6  |        29%       |         5%        | 4.7 格 |   120K  |   8      |        12      |       14      |
-|   7  |        29%       |        10%        | 4.7 格 |   200K  |   9      |        14      |       16      |
-|   8  |        29%       | 14.5%<sup>②</sup> | 4.7 格 |   330K  |   13,12  |        16      |       18      |
+|   1  | 14.5%<sup>①</sup>|          \        | 3.5格 |     \   |    \     |         1      |        8      |
+|   2  |        17%       |          \        | 3.8格 |     6K  |   0,12   |         6      |        8      |
+|   3  |        21%       |          \        | 4.1格 |    12K  |   1      |         7      |        9      |
+|   4  |        25%       |          \        | 4.4格 |  25.5K  |   3      |         8      |       10      |
+|   5  |        29%       |          \        | 4.7格 |    42K  |   3,12   |         9      |       11      |
+|   6  |        29%       |         5%        | 4.7格 |   120K  |   8      |        12      |       14      |
+|   7  |        29%       |        10%        | 4.7格 |   200K  |   9      |        14      |       16      |
+|   8  |        29%       | 14.5%<sup>②</sup> | 4.7格 |   330K  |   13,12  |        16      |       18      |
 </UnitTable>
 
-① 1 级地震对建筑的基准伤害是 14.5%，但游戏内显示 14%.<br>
-② 8 级地震对部队的基准伤害是 14.5%，但游戏内显示 14%.
+① 1级地震对建筑的基准伤害是14.5%，但游戏内显示14%.<br>
+② 8级地震对部队的基准伤害是14.5%，但游戏内显示14%.
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
         <TimelineRow>现在地震法术可以对部队造成伤害了。</TimelineRow>
-        <TimelineRow>推出 6 ~ 8 级地震法术。</TimelineRow>
+        <TimelineRow>推出6 ~ 8级地震法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 5 级地震法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5级地震法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>5 级地震法术的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 5 级地震法术的升级费用降低。</TimelineRow>
+        <TimelineRow>5级地震法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5级地震法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>5 级地震法术的升级时间减少。</TimelineRow>
+        <TimelineRow>5级地震法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>2 ~ 3 级地震法术的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 3级地震法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>4 ~ 5 级地震法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 5级地震法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 4 级地震法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级地震法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>2 ~ 4 级地震法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级地震法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>11 本新增 5 级地震法术。</TimelineRow>
-        <TimelineRow>更新后，地震等级越高，作用范围越大，之前固定为 4 格半径。</TimelineRow>
+        <TimelineRow>11本新增5级地震法术。</TimelineRow>
+        <TimelineRow>更新后，地震等级越高，作用范围越大，之前固定为4格半径。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

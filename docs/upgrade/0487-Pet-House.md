@@ -15,17 +15,17 @@ canonical: /upgrade/0487-Pet-House
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Pet_House1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Pet_House2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Pet_House3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Pet_House4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Pet_House5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Pet_House6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Pet_House7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Pet_House8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Pet_House9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Pet_House10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Pet_House11.png" imgHd="Pet_House11_hd.png" />
+        <UnitImg imgTitle="1级" imgSrc="Pet_House1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Pet_House2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Pet_House3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Pet_House4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Pet_House5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Pet_House6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Pet_House7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Pet_House8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Pet_House9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Pet_House10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Pet_House11.png" imgHd="Pet_House11_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -97,36 +97,36 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>1 ~ 10 级战宠小屋的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 10级战宠小屋的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>17 本新增 11 级战宠小屋，可解锁新战宠：阿啾。</TimelineRow>
-        <TimelineRow>1 ~ 10 级战宠小屋的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>17本新增11级战宠小屋，可解锁新战宠：阿啾。</TimelineRow>
+        <TimelineRow>1 ~ 10级战宠小屋的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">  
-        <TimelineRow>1 ~ 10 级战宠小屋的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 10级战宠小屋的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>1 ~ 8 级战宠小屋的升级时间减少。</TimelineRow>
-        <TimelineRow>3 ~ 8 级战宠小屋的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 8级战宠小屋的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 8级战宠小屋的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/04/17">
-        <TimelineRow>16 本新增 10 级战宠小屋，可解锁新战宠：愤怒水母。</TimelineRow>
+        <TimelineRow>16本新增10级战宠小屋，可解锁新战宠：愤怒水母。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 9 级战宠小屋，可解锁新战宠：灵狐。</TimelineRow>
-        <TimelineRow>1 ~ 8 级战宠小屋的升级费用减少。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增9级战宠小屋，可解锁新战宠：灵狐。</TimelineRow>
+        <TimelineRow>1 ~ 8级战宠小屋的升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/12/12">
         <TimelineRow>战宠小屋升级时战宠可继续升级。</TimelineRow>
-        <TimelineRow>1 ~ 5 级战宠小屋的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 5级战宠小屋的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 5 ~ 8 级战宠小屋，可解锁四种新战宠。</TimelineRow>
-        <TimelineRow>1 ~ 4 级战宠小屋的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增5 ~ 8级战宠小屋，可解锁四种新战宠。</TimelineRow>
+        <TimelineRow>1 ~ 4级战宠小屋的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，新建筑：战宠小屋，可解锁四种新战宠。</TimelineRow>
+        <TimelineRow>14本推出，新建筑：战宠小屋，可解锁四种新战宠。</TimelineRow>
     </TimelineItem>  
     <TimelineItem :historyBottom="true" />
 </Timeline>

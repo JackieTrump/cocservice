@@ -18,11 +18,11 @@ canonical: /upgrade/raid-cart-barracks-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Barracks_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Raid_Cart_Barracks1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Raid_Cart_Barracks2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Raid_Cart_Barracks3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Raid_Cart_Barracks4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Raid_Cart_Barracks5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Raid_Cart_Barracks1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Raid_Cart_Barracks2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Raid_Cart_Barracks3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Raid_Cart_Barracks4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Raid_Cart_Barracks5.png" />
     </UnitImgGroup>
 </Panel>
 

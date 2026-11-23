@@ -18,14 +18,14 @@ canonical: /upgrade/0082-Valkyrie
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Valkyrie1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Valkyrie3.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Valkyrie5.png" />
-        <UnitImg imgTitle="6 - 7 级" imgSrc="Valkyrie6.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Valkyrie8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Valkyrie9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Valkyrie10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Valkyrie11.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Valkyrie1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Valkyrie3.png" />
+        <UnitImg imgTitle="5级" imgSrc="Valkyrie5.png" />
+        <UnitImg imgTitle="6 - 7级" imgSrc="Valkyrie6.png" />
+        <UnitImg imgTitle="8级" imgSrc="Valkyrie8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Valkyrie9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Valkyrie10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Valkyrie11.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -35,13 +35,13 @@ canonical: /upgrade/0082-Valkyrie
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围攻击" />
-    <UnitProperty pKey="伤害半径" pValue="1 格" />
+    <UnitProperty pKey="伤害半径" pValue="1格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="8" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.5 格" />
-    <UnitProperty pKey="首次进攻时机" pValue="到达目标后 0.8 秒" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.8秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.5格" />
+    <UnitProperty pKey="首次进攻时机" pValue="到达目标后0.8秒" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="8" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -87,70 +87,70 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>5 ~ 11 级瓦基丽武神的升级时间减少。</TimelineRow>
+        <TimelineRow>5 ~ 11级瓦基丽武神的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2、4 ~ 11 级瓦基丽武神的升级时间减少。</TimelineRow>
-        <TimelineRow>9 级瓦基丽武神的升级费用降低。</TimelineRow>
+        <TimelineRow>2、4 ~ 11级瓦基丽武神的升级时间减少。</TimelineRow>
+        <TimelineRow>9级瓦基丽武神的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>瓦基丽武神的训练时间由 1:30 改为 1:10</TimelineRow>
+        <TimelineRow>瓦基丽武神的训练时间由 1:30改为 1:10</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 11 级瓦基丽武神的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 11级瓦基丽武神的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
-        <TimelineRow>11 级瓦基丽武神的生命值减少。</TimelineRow>
+        <TimelineRow>11级瓦基丽武神的生命值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>9 ~ 10 级瓦基丽武神的升级时间减少。</TimelineRow>
-        <TimelineRow>9 ~ 10 级瓦基丽武神的升级费用降低。</TimelineRow>
+        <TimelineRow>9 ~ 10级瓦基丽武神的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 10级瓦基丽武神的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/03">
-        <TimelineRow>6 ~ 8 级瓦基丽武神的每秒伤害提升。</TimelineRow>
+        <TimelineRow>6 ~ 8级瓦基丽武神的每秒伤害提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 11 级瓦基丽武神。</TimelineRow>
-        <TimelineRow>5 ~ 10 级瓦基丽武神的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 5、9 级瓦基丽武神的升级费用降低。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增11级瓦基丽武神。</TimelineRow>
+        <TimelineRow>5 ~ 10级瓦基丽武神的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5、9级瓦基丽武神的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 10 级瓦基丽武神。</TimelineRow>
-        <TimelineRow>7 ~ 8 级瓦基丽武神的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本新增10级瓦基丽武神。</TimelineRow>
+        <TimelineRow>7 ~ 8级瓦基丽武神的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>5 ~ 9 级瓦基丽武神的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>5 ~ 9级瓦基丽武神的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
-        <TimelineRow>5 ~ 9 级瓦基丽武神的生命值增加。</TimelineRow>
+        <TimelineRow>5 ~ 9级瓦基丽武神的生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 7 级瓦基丽武神的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 6 级瓦基丽武神的生命值提升。</TimelineRow>
+        <TimelineRow>2 ~ 7级瓦基丽武神的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 6级瓦基丽武神的生命值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/08/12">
-        <TimelineRow>9 级瓦基丽武神的生命值从 1850 提升至 1900。</TimelineRow>
+        <TimelineRow>9级瓦基丽武神的生命值从1850提升至1900。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 9 级瓦基丽武神。</TimelineRow>
-        <TimelineRow>2 ~ 7 级瓦基丽武神的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 4、7 级瓦基丽武神的升级时间减少。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增9级瓦基丽武神。</TimelineRow>
+        <TimelineRow>2 ~ 7级瓦基丽武神的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 4、7级瓦基丽武神的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
-        <TimelineRow>2 ~ 6 级瓦基丽武神的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 6级瓦基丽武神的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>2 ~ 5 级瓦基丽武神的升级费用降低。</TimelineRow>
-        <TimelineRow>13 本新增 8 级瓦基丽武神。</TimelineRow>
+        <TimelineRow>2 ~ 5级瓦基丽武神的升级费用降低。</TimelineRow>
+        <TimelineRow>13本新增8级瓦基丽武神。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本开放，7 级瓦基丽武神的生命值由 1400 提高到 1450。</TimelineRow>
+        <TimelineRow>13本开放，7级瓦基丽武神的生命值由1400提高到1450。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/09/11">
-        <TimelineRow>7 级瓦基丽武神的生命值由 1300 提高到 1400。</TimelineRow>
+        <TimelineRow>7级瓦基丽武神的生命值由1300提高到1400。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

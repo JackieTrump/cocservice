@@ -19,11 +19,11 @@ canonical: /upgrade/2206-Multi-Mortar
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Multi_Mortar_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Multi_Mortar1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Multi_Mortar2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Multi_Mortar3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Multi_Mortar4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Multi_Mortar5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Multi_Mortar1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Multi_Mortar2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Multi_Mortar3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Multi_Mortar4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Multi_Mortar5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -54,13 +54,13 @@ canonical: /upgrade/2206-Multi-Mortar
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.7 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.7格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="3 ~ 10 格" />
-    <UnitProperty pKey="攻速" pValue="7 秒/轮<sup>*</sup>" />
+    <UnitProperty pKey="射程" pValue="3 ~ 10格" />
+    <UnitProperty pKey="攻速" pValue="7秒/轮<sup>*</sup>" />
 </UnitProperties>
 
-\* 多管迫击炮的攻击节奏是：4 连发期间每发 0.5 秒，之后休息 5 秒。
+\* 多管迫击炮的攻击节奏是：4连发期间每发0.5秒，之后休息5秒。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -96,7 +96,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>2 ~ 5 级都城多管迫击炮的每秒伤害降低。</TimelineRow>
+        <TimelineRow>2 ~ 5级都城多管迫击炮的每秒伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>多管迫击炮随着部落都城玩法一同推出。</TimelineRow>

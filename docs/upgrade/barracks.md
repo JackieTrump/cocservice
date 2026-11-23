@@ -19,25 +19,25 @@ canonical: /upgrade/barracks
 
 <Panel>
     <UnitImgGroup title="训练营" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Barracks1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Barracks2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Barracks3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Barracks4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Barracks5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Barracks6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Barracks7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Barracks8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Barracks9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Barracks10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Barracks11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Barracks12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Barracks13.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Barracks14.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Barracks15.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Barracks16.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Barracks17.png" imgHd="Barracks17_hd.png" />
-        <UnitImg imgTitle="18 级" imgSrc="Barracks18.png" />
-        <UnitImg imgTitle="19 级" imgSrc="Barracks19.png" />
+        <UnitImg imgTitle="1级" imgSrc="Barracks1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Barracks2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Barracks3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Barracks4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Barracks5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Barracks6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Barracks7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Barracks8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Barracks9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Barracks10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Barracks11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Barracks12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Barracks13.png" />
+        <UnitImg imgTitle="14级" imgSrc="Barracks14.png" />
+        <UnitImg imgTitle="15级" imgSrc="Barracks15.png" />
+        <UnitImg imgTitle="16级" imgSrc="Barracks16.png" />
+        <UnitImg imgTitle="17级" imgSrc="Barracks17.png" imgHd="Barracks17_hd.png" />
+        <UnitImg imgTitle="18级" imgSrc="Barracks18.png" />
+        <UnitImg imgTitle="19级" imgSrc="Barracks19.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -103,65 +103,65 @@ const tableExtraInfo = [
 |   19 |  1520  |    26M  | 14         |                    |        17       |<a href="/upgrade/meteor-golem">陨石戈仑</a>|
 </UnitTable>
 
-\# 根据安装包解析的结果，玩家可以在 1 本把训练营升到 3 级，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到 2 本，根本没有在 1 本升级训练营的机会。
+\# 根据安装包解析的结果，玩家可以在1本把训练营升到3级，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到2本，根本没有在1本升级训练营的机会。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>17 本新增 19 级训练营。</TimelineRow>    
+        <TimelineRow>17本新增19级训练营。</TimelineRow>    
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>14 ~ 18 级训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>14 ~ 18级训练营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">
-        <TimelineRow>1 ~ 8 级训练营的生命值减少。</TimelineRow>
+        <TimelineRow>1 ~ 8级训练营的生命值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">  
-        <TimelineRow>2 ~ 3、5 ~ 13、17 ~ 18 级训练营的升级时间减少。</TimelineRow>
-        <TimelineRow>8、13、15、18 级训练营的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 3、5 ~ 13、17 ~ 18级训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>8、13、15、18级训练营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>2 ~ 4 级训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级训练营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 16 本新增 18 级训练营。</TimelineRow>    
-        <TimelineRow>5、11 ~ 17 级训练营的升级时间减少。</TimelineRow>
-        <TimelineRow>14、17 级训练营的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，并在16本新增18级训练营。</TimelineRow>    
+        <TimelineRow>5、11 ~ 17级训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>14、17级训练营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>16 ~ 17 级训练营的升级费用降低。</TimelineRow>
+        <TimelineRow>16 ~ 17级训练营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 15 本新增 17 级训练营。</TimelineRow>    
-        <TimelineRow>15 ~ 16 级训练营的升级时间减少。</TimelineRow>
-        <TimelineRow>9 ~ 10 级训练营的升级费用降低。</TimelineRow>
+        <TimelineRow>16本推出，并在15本新增17级训练营。</TimelineRow>    
+        <TimelineRow>15 ~ 16级训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 10级训练营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">  
-        <TimelineRow>14 ~ 15 级训练营的升级费用和时间减少。</TimelineRow>
+        <TimelineRow>14 ~ 15级训练营的升级费用和时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 14 本新增 16 级训练营，可解锁新兵种：雷霆泰坦。</TimelineRow>
+        <TimelineRow>15本推出，并在14本新增16级训练营，可解锁新兵种：雷霆泰坦。</TimelineRow>
         <TimelineRow>四个训练营合并为一个，更新后的兵种训练时间等同于更新前四个训练营的训练时间。</TimelineRow>
         <TimelineRow>训练营升级时兵种可继续训练部队，但训练速度减半（训练时间翻倍）。</TimelineRow>
-        <TimelineRow>5 ~ 15 级训练营的升级费用和升级时间增加。</TimelineRow>
+        <TimelineRow>5 ~ 15级训练营的升级费用和升级时间增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>6 ~ 12 级训练营的升级费用降低。</TimelineRow>
+        <TimelineRow>6 ~ 12级训练营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/06/15">
-        <TimelineRow>13 本新增 15 级训练营，新兵种：龙骑士。</TimelineRow>
+        <TimelineRow>13本新增15级训练营，新兵种：龙骑士。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>1 ~ 2、11 ~ 12 级训练营的升级费用降低。</TimelineRow>
-        <TimelineRow>3、10 ~ 13 级训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 2、11 ~ 12级训练营的升级费用降低。</TimelineRow>
+        <TimelineRow>3、10 ~ 13级训练营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本推出，并在 13 本新增 14 级训练营，可解锁新兵种：大雪怪。</TimelineRow>
+        <TimelineRow>13本推出，并在13本新增14级训练营，可解锁新兵种：大雪怪。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/04/02">
-        <TimelineRow>2 ~ 13 级训练营的升级时间减少。</TimelineRow>
-        <TimelineRow>9 ~ 12 级训练营的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 13级训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 12级训练营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

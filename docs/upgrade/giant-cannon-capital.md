@@ -22,11 +22,11 @@ canonical: /upgrade/giant-cannon-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Giant_Cannon_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Giant_Cannon1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Giant_Cannon2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Giant_Cannon3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Giant_Cannon4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Giant_Cannon5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Giant_Cannon1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Giant_Cannon2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Giant_Cannon3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Giant_Cannon4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Giant_Cannon5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -57,10 +57,10 @@ canonical: /upgrade/giant-cannon-capital
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="穿透伤害" />
-    <UnitProperty pKey="穿透区域宽度" pValue="1 格" />
+    <UnitProperty pKey="穿透区域宽度" pValue="1格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="10 格" />
-    <UnitProperty pKey="攻速" pValue="5 秒/次" />
+    <UnitProperty pKey="射程" pValue="10格" />
+    <UnitProperty pKey="攻速" pValue="5秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

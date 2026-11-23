@@ -23,18 +23,18 @@ canonical: /upgrade/druid
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Druid1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Druid3.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Druid5.png" imgHd="Druid5_hd.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Druid1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Druid3.png" />
+        <UnitImg imgTitle="5级" imgSrc="Druid5.png" imgHd="Druid5_hd.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
 1. 德鲁伊有两种形态：可以治疗友军的人类形态以及可以进攻的巨熊形态。
-2. 在德鲁伊被部署后的前 30 秒，他处于人类形态，当 30 秒时间耗尽或生命值归零时，他会变身为巨熊形态。
+2. 在德鲁伊被部署后的前30秒，他处于人类形态，当30秒时间耗尽或生命值归零时，他会变身为巨熊形态。
    - 如果德鲁伊被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹飞，他将无法变身。
-3. 在人类形态下，德鲁伊的治疗效果可以最多弹射到 4 个目标（含第一个治疗目标）身上。
+3. 在人类形态下，德鲁伊的治疗效果可以最多弹射到4个目标（含第一个治疗目标）身上。
    - 德鲁伊的治疗效果无法弹射到攻城机器身上（攻城机器免疫所有治疗效果）。
    - 德鲁伊可以同时治疗地面和空中部队，而天使只能治疗地面部队。
    - 与天使和 [疗伤法术](/upgrade/0101-Healing-Spell) 不同的是，德鲁伊对英雄的治疗量没有衰减。
@@ -42,7 +42,7 @@ canonical: /upgrade/druid
    - 在人类形态下，德鲁伊不能反击。在没有治疗目标时，即使受到伤害也会保持静止。
 4. 在巨熊形态下，德鲁伊是一种优先攻击防御建筑的兵种。
 5. 人类形态下的德鲁伊可以跳墙，巨熊形态下则不能。
-6. 两种形态的德鲁伊占用的人口数不一样，人类形态为 16 人口，巨熊形态为 10 人口。
+6. 两种形态的德鲁伊占用的人口数不一样，人类形态为16人口，巨熊形态为10人口。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -53,9 +53,9 @@ canonical: /upgrade/druid
     <UnitProperty pKey="目标数量上限" pValue="3" />
     <UnitProperty pKey="治疗的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="16" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="治疗速度" pValue="1 秒/次" />
-    <UnitProperty pKey="治疗距离" pValue="5 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="治疗速度" pValue="1秒/次" />
+    <UnitProperty pKey="治疗距离" pValue="5格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="11" />
     <UnitProperty pKey="所需大本等级" pValue="14" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -101,18 +101,18 @@ const tableExtraInfo = [
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Bear1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Bear3.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Bear5.png" imgHd="Bear5_hd.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Bear1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Bear3.png" />
+        <UnitImg imgTitle="5级" imgSrc="Bear5.png" imgHd="Bear5_hd.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
 1. 德鲁伊有两种形态：可以治疗友军的人类形态以及可以进攻的巨熊形态。
-2. 在德鲁伊被部署后的前 30 秒，他处于人类形态，当 30 秒时间耗尽或生命值归零时，他会变身为巨熊形态。
+2. 在德鲁伊被部署后的前30秒，他处于人类形态，当30秒时间耗尽或生命值归零时，他会变身为巨熊形态。
    - 如果德鲁伊被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹飞，他将无法变身。
-3. 在人类形态下，德鲁伊的治疗效果可以最多弹射到 4 个目标（含第一个治疗目标）身上。
+3. 在人类形态下，德鲁伊的治疗效果可以最多弹射到4个目标（含第一个治疗目标）身上。
    - 德鲁伊的治疗效果无法弹射到攻城机器身上（攻城机器免疫所有治疗效果）。
    - 德鲁伊可以同时治疗地面和空中部队，而天使只能治疗地面部队。
    - 与天使和 [疗伤法术](/upgrade/0101-Healing-Spell) 不同的是，德鲁伊对英雄的治疗量没有衰减。
@@ -120,20 +120,20 @@ const tableExtraInfo = [
    - 在人类形态下，德鲁伊不能反击。在没有治疗目标时，即使受到伤害也会保持静止。
 4. 在巨熊形态下，德鲁伊是一种优先攻击防御建筑的兵种。
 5. 人类形态下的德鲁伊可以跳墙，巨熊形态下则不能。
-6. 两种形态的德鲁伊占用的人口数不一样，人类形态为 16 人口，巨熊形态为 10 人口。
+6. 两种形态的德鲁伊占用的人口数不一样，人类形态为16人口，巨熊形态为10人口。
 
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="攻击类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="10" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.6 格" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.6格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -155,43 +155,43 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/01/12">
-        <TimelineRow>德鲁伊在人类形态下最多可存活的时间由 25 秒增加至 30 秒。</TimelineRow>
+        <TimelineRow>德鲁伊在人类形态下最多可存活的时间由25秒增加至30秒。</TimelineRow>
         <TimelineRow>所有等级德鲁伊在人类形态下的治疗量增加。</TimelineRow>
-        <TimelineRow>4 ~ 5 级德鲁伊在巨熊形态下的每秒伤害和生命值增加。</TimelineRow>
+        <TimelineRow>4 ~ 5级德鲁伊在巨熊形态下的每秒伤害和生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>5 级德鲁伊的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>5级德鲁伊的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>3 ~ 4 级德鲁伊的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 4级德鲁伊的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">
-        <TimelineRow>在 17 本新增 5 级德鲁伊。</TimelineRow>
+        <TimelineRow>在17本新增5级德鲁伊。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 4 级德鲁伊的升级时间减少。</TimelineRow>
-        <TimelineRow>德鲁伊在巨熊形态下占用的人口数由 16 调整为 10.</TimelineRow>
+        <TimelineRow>2 ~ 4级德鲁伊的升级时间减少。</TimelineRow>
+        <TimelineRow>德鲁伊在巨熊形态下占用的人口数由16调整为10.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>德鲁伊的训练时间由 2:30 改为 2:20</TimelineRow>
+        <TimelineRow>德鲁伊的训练时间由 2:30改为 2:20</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>4 级德鲁伊的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 4 级德鲁伊的升级费用降低。</TimelineRow>
+        <TimelineRow>4级德鲁伊的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级德鲁伊的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/10/02">
-        <TimelineRow>德鲁伊在人类形态下的每秒治疗量减少约 42%.</TimelineRow>
-        <TimelineRow>德鲁伊在人类形态下最多可存活的时间减少（30 秒 → 25 秒）。</TimelineRow>
-        <TimelineRow>德鲁伊在巨熊形态下的伤害降低 50%.</TimelineRow>
+        <TimelineRow>德鲁伊在人类形态下的每秒治疗量减少约42%.</TimelineRow>
+        <TimelineRow>德鲁伊在人类形态下最多可存活的时间减少（30秒 → 25秒）。</TimelineRow>
+        <TimelineRow>德鲁伊在巨熊形态下的伤害降低50%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
-        <TimelineRow>德鲁伊最多可治疗的目标数量由 4 个减少到 3 个。</TimelineRow>
+        <TimelineRow>德鲁伊最多可治疗的目标数量由4个减少到3个。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>14 本可解锁新兵种：德鲁伊。</TimelineRow>
+        <TimelineRow>14本可解锁新兵种：德鲁伊。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

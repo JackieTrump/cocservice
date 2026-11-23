@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Hidden_Mega_Tesla
 canonical: /upgrade/hidden-mega-tesla-capital
 ---
 
-- *如想查看家乡的巨型特斯拉电磁塔（12 本自带武器），请访问：[巨型特斯拉电磁塔](/upgrade/giga-tesla)。*
+- *如想查看家乡的巨型特斯拉电磁塔（12本自带武器），请访问：[巨型特斯拉电磁塔](/upgrade/giga-tesla)。*
 - *如想查看夜世界的超级特斯拉电磁塔，请访问：[夜世界超级特斯拉电磁塔](/upgrade/mega-tesla-bh)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hidden_Mega_Tesla5.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
@@ -19,11 +19,11 @@ canonical: /upgrade/hidden-mega-tesla-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Hidden_Mega_Tesla_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Hidden_Mega_Tesla1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Hidden_Mega_Tesla2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Hidden_Mega_Tesla3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Hidden_Mega_Tesla4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Hidden_Mega_Tesla5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Hidden_Mega_Tesla1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Hidden_Mega_Tesla2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Hidden_Mega_Tesla3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Hidden_Mega_Tesla4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Hidden_Mega_Tesla5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -56,14 +56,14 @@ canonical: /upgrade/hidden-mega-tesla-capital
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="链式伤害" />
-    <UnitProperty pKey="连锁距离" pValue="2.25 格" />
+    <UnitProperty pKey="连锁距离" pValue="2.25格" />
     <UnitProperty pKey="最大目标数量" pValue="2 (含初始目标)" />
-    <UnitProperty pKey="连锁延迟" pValue="0.416 秒" />
+    <UnitProperty pKey="连锁延迟" pValue="0.416秒" />
     <UnitProperty pKey="连锁衰减" pValue="20% (逐级递减)" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="触发距离" pValue="6 格" />
-    <UnitProperty pKey="射程" pValue="6 格" />
-    <UnitProperty pKey="攻速" pValue="4 秒/次" />
+    <UnitProperty pKey="触发距离" pValue="6格" />
+    <UnitProperty pKey="射程" pValue="6格" />
+    <UnitProperty pKey="攻速" pValue="4秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

@@ -26,23 +26,23 @@ canonical: /upgrade/0602-Super-Giant
 
 <SmallTitle>重要说明</SmallTitle>
 
-超级巨人的技能（城墙克星）：对 [城墙](/upgrade/0300-Walls) 造成 5 倍伤害。
+超级巨人的技能（城墙克星）：对 [城墙](/upgrade/0300-Walls) 造成5倍伤害。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="10" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1格" />
     <UnitProperty pKey="最低巨人等级" pValue="9" />
     <UnitProperty pKey="最低大本等级" pValue="12" />
-    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
-    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="强化费用" pValue="2.5万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="5,5,15000,Elixir" :isDonationCost="true" />
 </UnitProperties>
@@ -65,30 +65,30 @@ canonical: /upgrade/0602-Super-Giant
 
 <Timeline>
     <TimelineItem date="2026/01/12">
-        <TimelineRow>14 级超级巨人的每秒伤害和生命值增加。</TimelineRow>
+        <TimelineRow>14级超级巨人的每秒伤害和生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 14 级巨人，超级部队的等级也相应更新。</TimelineRow>
-        <TimelineRow>13 级超级巨人的每秒伤害和生命值增加。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增14级巨人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>13级超级巨人的每秒伤害和生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 13 级巨人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增13级巨人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 12 级巨人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增12级巨人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 11 级巨人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增11级巨人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>所有等级的超级巨人生命值降低 200。</TimelineRow>
+        <TimelineRow>所有等级的超级巨人生命值降低200。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
-        <TimelineRow>超级部队的有效时间从 7 天缩短为 3 天。</TimelineRow>
-        <TimelineRow>所有部队的强化费用统一调整为 25,000 暗黑重油。</TimelineRow>
+        <TimelineRow>超级部队的有效时间从7天缩短为3天。</TimelineRow>
+        <TimelineRow>所有部队的强化费用统一调整为25,000暗黑重油。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
         <TimelineRow>部落冲突新增“超级兵种”玩法，超级巨人是首批推出的超级兵种之一。</TimelineRow>

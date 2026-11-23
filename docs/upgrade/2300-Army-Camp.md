@@ -21,11 +21,11 @@ canonical: /upgrade/2300-Army-Camp
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Army_Camp_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Army_Camp1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Army_Camp2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Army_Camp3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Army_Camp4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Army_Camp5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Army_Camp1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Army_Camp2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Army_Camp3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Army_Camp4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Army_Camp5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -82,7 +82,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>3 ~ 5 级都城兵营的生命值降低。</TimelineRow>
+        <TimelineRow>3 ~ 5级都城兵营的生命值降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>兵营随着部落都城玩法一同推出。</TimelineRow>

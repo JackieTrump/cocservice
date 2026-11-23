@@ -78,7 +78,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 级巨型箭矢的伤害提升。</TimelineRow>
+        <TimelineRow>18级巨型箭矢的伤害提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>游戏新增装备系统，巨型箭矢是第一批推出的装备。</TimelineRow>

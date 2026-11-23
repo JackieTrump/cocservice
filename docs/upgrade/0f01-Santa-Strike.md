@@ -29,7 +29,7 @@ canonical: /upgrade/0f01-Santa-Strike
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 该陷阱最后一次推出时部落冲突最高 10 本，因此建筑数量这里最高就写到 10 本。
+1. 该陷阱最后一次推出时部落冲突最高10本，因此建筑数量这里最高就写到10本。
 2. 该陷阱最后一次推出时部落冲突还没有黄金令牌功能，为了让大家用起来不那么违和，我们决定让黄金令牌减免设置在本页无效。
 3. 圣诞陷阱的作用：当兵种靠近圣诞陷阱时，天上会出现飞行物投放炸弹，并且对触发的兵种造成伤害。
 
@@ -40,7 +40,7 @@ canonical: /upgrade/0f01-Santa-Strike
     <UnitProperty pKey="作用类型" pValue="每个炸弹都是单体伤害" />
     <UnitProperty pKey="作用目标" pValue="仅地面目标" />
     <UnitProperty pKey="空投的炸弹数量" pValue="5" />
-    <UnitProperty pKey="触发半径" pValue="1 格" />
+    <UnitProperty pKey="触发半径" pValue="1格" />
     <UnitProperty pKey="爆炸伤害" pValue="20" />
     <UnitProperty pKey="建造费用" pValue="1 000" :isUpgradeCost="true" resourceType="Gold" :noGoldPass="true" />
     <UnitProperty pKey="重新布置费用" pValue="1 000<sup>*</sup>" :isUpgradeCost="true" resourceType="Gold" :noGoldPass="true" />
@@ -49,16 +49,16 @@ canonical: /upgrade/0f01-Santa-Strike
     <UnitProperty pKey="所需大本等级" pValue="4" />
 </UnitProperties>
 
-\* 在 2019 年 2 月更新之前，陷阱被触发后， 需要玩家花费金币手动布置。这次更新后，玩家上线后即可自动重新布置陷阱，并且是免费的。
+\* 在2019年2月更新之前，陷阱被触发后， 需要玩家花费金币手动布置。这次更新后，玩家上线后即可自动重新布置陷阱，并且是免费的。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2013/12/05">
-        <TimelineRow>该陷阱第 2 次推出。</TimelineRow>
+        <TimelineRow>该陷阱第2次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2012/12">
-        <TimelineRow>该陷阱第 1 次推出。</TimelineRow>
+        <TimelineRow>该陷阱第1次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

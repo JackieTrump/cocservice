@@ -18,10 +18,10 @@ canonical: /upgrade/super-miner-barracks-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Barracks_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Super_Miner_Barracks1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Super_Miner_Barracks2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Super_Miner_Barracks3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Super_Miner_Barracks4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Super_Miner_Barracks1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Super_Miner_Barracks2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Super_Miner_Barracks3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Super_Miner_Barracks4.png" />
     </UnitImgGroup>
 </Panel>
 

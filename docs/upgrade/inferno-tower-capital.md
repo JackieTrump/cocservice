@@ -18,11 +18,11 @@ canonical: /upgrade/inferno-tower-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Inferno_Tower_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Inferno_Tower1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Inferno_Tower2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Inferno_Tower3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Inferno_Tower4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Inferno_Tower5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Inferno_Tower1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Inferno_Tower2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Inferno_Tower3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Inferno_Tower4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Inferno_Tower5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -57,8 +57,8 @@ canonical: /upgrade/inferno-tower-capital
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="9 格" />
-    <UnitProperty pKey="攻速" pValue="0.128 秒/次" />
+    <UnitProperty pKey="射程" pValue="9格" />
+    <UnitProperty pKey="攻速" pValue="0.128秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -95,7 +95,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>4 ~ 5 级地狱之塔的每秒伤害（第一阶段和第二阶段）降低。</TimelineRow>
+        <TimelineRow>4 ~ 5级地狱之塔的每秒伤害（第一阶段和第二阶段）降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>地狱之塔随着部落都城玩法一同推出。</TimelineRow>

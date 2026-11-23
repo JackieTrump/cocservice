@@ -15,11 +15,11 @@ canonical: /upgrade/drop-ship-bh
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="11 - 12 级" imgSrc="Drop_Ship11.png" />
-        <UnitImg imgTitle="13 - 14 级" imgSrc="Drop_Ship13.png" />
-        <UnitImg imgTitle="15 - 16 级" imgSrc="Drop_Ship15.png" />
-        <UnitImg imgTitle="17 - 18 级" imgSrc="Drop_Ship17.png" />
-        <UnitImg imgTitle="19 - 20 级" imgSrc="Drop_Ship19.png" />
+        <UnitImg imgTitle="11 - 12级" imgSrc="Drop_Ship11.png" />
+        <UnitImg imgTitle="13 - 14级" imgSrc="Drop_Ship13.png" />
+        <UnitImg imgTitle="15 - 16级" imgSrc="Drop_Ship15.png" />
+        <UnitImg imgTitle="17 - 18级" imgSrc="Drop_Ship17.png" />
+        <UnitImg imgTitle="19 - 20级" imgSrc="Drop_Ship19.png" />
         <UnitImg imgTitle="骷髅" imgSrc="Skeleton1.png" />
     </UnitImgGroup>
 </Panel>
@@ -28,23 +28,23 @@ canonical: /upgrade/drop-ship-bh
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="空中单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="普攻伤害半径" pValue="1.25 格" />
+    <UnitProperty pKey="普攻伤害半径" pValue="1.25格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="3.5 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.5 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="3.5秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.5格" />
     <UnitProperty pKey="每次召唤的骷髅数量" pValue="3" />
     <UnitProperty pKey="骷髅上限" pValue="9<sup>①</sup>" />
-    <UnitProperty pKey="死亡伤害半径" pValue="2 格" />
-    <UnitProperty pKey="死亡伤害延时" pValue="0.416 秒" />
+    <UnitProperty pKey="死亡伤害半径" pValue="2格" />
+    <UnitProperty pKey="死亡伤害延时" pValue="0.416秒" />
     <UnitProperty pKey="每个兵营的部队数量" pValue="1" />
     <UnitProperty pKey="所需训练营等级" pValue="9" />
     <UnitProperty pKey="所需夜世界大本等级" pValue="7" />
 </UnitProperties>
 
-① 每个骷髅气球召唤的骷髅最多能有 9 个在场上存在。
+① 每个骷髅气球召唤的骷髅最多能有9个在场上存在。
 
 <SmallTitle>特殊技能的属性</SmallTitle>
 
@@ -52,7 +52,7 @@ canonical: /upgrade/drop-ship-bh
     <UnitProperty pKey="技能名称" pValue="骷髅轰炸" />
     <UnitProperty pKey="技能类型" pValue="一次性技能" />
     <UnitProperty pKey="技能描述" pValue="见说明<sup>②</sup>" />
-    <UnitProperty pKey="技能爆炸半径" pValue="2.25 格" />
+    <UnitProperty pKey="技能爆炸半径" pValue="2.25格" />
 </UnitProperties>
 
 ② 骷髅轰炸：使用技能时，骷髅气球会朝正下方丢下炸弹，造成范围伤害并对城墙造成额外伤害。此外，爆炸效果还会召唤出骷髅兵进行后续的地面攻击。
@@ -65,9 +65,9 @@ canonical: /upgrade/drop-ship-bh
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="部队重量" pValue="1" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.5 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.5格" />
     <UnitProperty pKey="每秒伤害" pValue="20" />
     <UnitProperty pKey="每次伤害" pValue="20" />
     <UnitProperty pKey="生命值" pValue="10" />
@@ -111,28 +111,28 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>骷髅气球的攻击距离从 0 格（建筑头顶）修改为 0.5 格。</TimelineRow>
-        <TimelineRow>骷髅轰炸技能的爆炸半径从 3 格减少到 2.25 格。</TimelineRow>
+        <TimelineRow>骷髅气球的攻击距离从0格（建筑头顶）修改为0.5格。</TimelineRow>
+        <TimelineRow>骷髅轰炸技能的爆炸半径从3格减少到2.25格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/10/09">
         <TimelineRow>现在骷髅气球优先攻击防御建筑而不是攻击距离最近的建筑。</TimelineRow>
-        <TimelineRow>骷髅气球的生命值增加 21%.</TimelineRow>
-        <TimelineRow>骷髅气球的技能半径增加 0.5 格（原文就是这个意思，实际上好像没改任何半径/距离相关的属性）。</TimelineRow>
+        <TimelineRow>骷髅气球的生命值增加21%.</TimelineRow>
+        <TimelineRow>骷髅气球的技能半径增加0.5格（原文就是这个意思，实际上好像没改任何半径/距离相关的属性）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/05/15">
-        <TimelineRow>新增 19 - 20 级骷髅气球。</TimelineRow>
+        <TimelineRow>新增19 - 20级骷髅气球。</TimelineRow>
         <TimelineRow>由于夜世界重做，部队的伤害、生命值等数据都有变化。</TimelineRow>
         <TimelineRow>现在骷髅气球多了一个一次性技能“骷髅轰炸”，启用后骷髅气球会朝正下方丢炸弹，并召唤一群骷髅继续战斗。</TimelineRow>
-        <TimelineRow>现在骷髅气球一解锁就是 11 级，你不需要从 1 级开始升了。如果更新前部队高于 11 级，更新后等级不会重置。</TimelineRow>
+        <TimelineRow>现在骷髅气球一解锁就是11级，你不需要从1级开始升了。如果更新前部队高于11级，更新后等级不会重置。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
-        <TimelineRow>现在骷髅气球必须走到建筑头顶才能投放骷髅了，不像以前有 0.5 格的间隔。</TimelineRow>
+        <TimelineRow>现在骷髅气球必须走到建筑头顶才能投放骷髅了，不像以前有0.5格的间隔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/06/15">
-        <TimelineRow>提升了骷髅气球在 10-11 级和 14-15 级的死亡附加伤害，以修复其特殊技能信息和实际死亡附加伤害不一致的问题。</TimelineRow>
+        <TimelineRow>提升了骷髅气球在10-11级和14-15级的死亡附加伤害，以修复其特殊技能信息和实际死亡附加伤害不一致的问题。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本开放，所有兵种可升至 18 级。</TimelineRow>
+        <TimelineRow>夜世界9本开放，所有兵种可升至18级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

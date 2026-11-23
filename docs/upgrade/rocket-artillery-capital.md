@@ -16,11 +16,11 @@ canonical: /upgrade/rocket-artillery-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Rocket_Artillery_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Rocket_Artillery1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Rocket_Artillery2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Rocket_Artillery3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Rocket_Artillery4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Rocket_Artillery5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Rocket_Artillery1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Rocket_Artillery2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Rocket_Artillery3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Rocket_Artillery4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Rocket_Artillery5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -50,10 +50,10 @@ canonical: /upgrade/rocket-artillery-capital
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="2 格" />
+    <UnitProperty pKey="伤害半径" pValue="2格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="3 ~ 12 格" />
-    <UnitProperty pKey="攻速" pValue="4 秒/次" />
+    <UnitProperty pKey="射程" pValue="3 ~ 12格" />
+    <UnitProperty pKey="攻速" pValue="4秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -93,7 +93,7 @@ const tableExtraInfo = [
         <TimelineRow>2 ~ 5级火箭炮的每秒伤害降低</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/30">
-        <TimelineRow>所有等级火箭炮的每秒伤害减少 10 点。</TimelineRow>
+        <TimelineRow>所有等级火箭炮的每秒伤害减少10点。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>火箭炮随着部落都城玩法一同推出。</TimelineRow>

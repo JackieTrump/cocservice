@@ -13,8 +13,8 @@ canonical: /upgrade/electro-fangs
 
 <SmallTitle>说明</SmallTitle>
 
-1. 雷电獠牙是 [飞龙公爵](/upgrade/dragon-duke) 的一件普通装备，在 [铁匠铺](/upgrade/0488-Blacksmith) 10 级时解锁，需要 17 本。
-2. 带上雷电獠牙装备后，飞龙公爵的攻击会附带连锁闪电效果，对初始目标附近的单位造成伤害；后续目标会依次承受更低的伤害，每跳减少 20%。
+1. 雷电獠牙是 [飞龙公爵](/upgrade/dragon-duke) 的一件普通装备，在 [铁匠铺](/upgrade/0488-Blacksmith) 10级时解锁，需要17本。
+2. 带上雷电獠牙装备后，飞龙公爵的攻击会附带连锁闪电效果，对初始目标附近的单位造成伤害；后续目标会依次承受更低的伤害，每跳减少20%。
    - 第一个被连锁击中的目标会承受完整伤害，原本的初始目标不会额外吃到这段连锁伤害。
    - 如果附近没有可连锁的目标，连锁闪电不会触发。
 3. 这个连锁闪电伤害属于直接技能伤害，不会被 [狂暴法术](/upgrade/0102-Rage-Spell) 等加成伤害的效果强化，也不会受到难度修正影响。
@@ -27,7 +27,7 @@ canonical: /upgrade/electro-fangs
     <UnitProperty pKey="装备稀有度" pValue="普通" />
     <UnitProperty pKey="所需铁匠铺等级" pValue="10" />
     <UnitProperty pKey="所需大本等级" pValue="17" />
-    <UnitProperty pKey="连锁伤害衰减" pValue="每跳减少 20%" />
+    <UnitProperty pKey="连锁伤害衰减" pValue="每跳减少20%" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

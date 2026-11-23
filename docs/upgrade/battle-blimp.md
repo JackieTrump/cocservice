@@ -15,11 +15,11 @@ canonical: /upgrade/battle-blimp
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Battle_Blimp1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Battle_Blimp2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Battle_Blimp3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Battle_Blimp4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Battle_Blimp5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Battle_Blimp1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Battle_Blimp2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Battle_Blimp3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Battle_Blimp4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Battle_Blimp5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -35,11 +35,11 @@ canonical: /upgrade/battle-blimp
     <UnitProperty pKey="攻击方式" pValue="对着大本营前进" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="3 格" />
+    <UnitProperty pKey="伤害半径" pValue="3格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="30" />
-    <UnitProperty pKey="移动速度" pValue="2.25 格/秒" />
-    <UnitProperty pKey="炸弹投掷速度" pValue="1.5 秒/次" />
+    <UnitProperty pKey="移动速度" pValue="2.25格/秒" />
+    <UnitProperty pKey="炸弹投掷速度" pValue="1.5秒/次" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
     <UnitProperty pKey="建造时间" pValue="无" trainingSystem="2025" />
@@ -79,34 +79,34 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/06/16">
-        <TimelineRow>在 15 本新增 5 级攻城飞艇。</TimelineRow>
+        <TimelineRow>在15本新增5级攻城飞艇。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 4 级攻城飞艇的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级攻城飞艇的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>2 ~ 4 级攻城飞艇的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级攻城飞艇的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>2 ~ 4 级攻城飞艇的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级攻城飞艇的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>2 ~ 4 级攻城飞艇的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级攻城飞艇的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
-        <TimelineRow>现在攻城飞艇的下落位置距离大本营只有 1.5 格，以前是 2 格。</TimelineRow>
+        <TimelineRow>现在攻城飞艇的下落位置距离大本营只有1.5格，以前是2格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/02/15">
-        <TimelineRow>各等级攻城飞艇被摧毁时的爆炸伤害从 1000/1200/1400/1600 降低至 700/800/900/1000。</TimelineRow>
+        <TimelineRow>各等级攻城飞艇被摧毁时的爆炸伤害从1000/1200/1400/1600降低至700/800/900/1000。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
         <TimelineRow>如果您没有部署攻城机器，当其他军队都被消灭后，战斗不再会自动结束。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>13 本新增 4 级攻城飞艇。</TimelineRow>
+        <TimelineRow>13本新增4级攻城飞艇。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
         <TimelineRow>所有等级攻城飞艇的死亡伤害提高。</TimelineRow>

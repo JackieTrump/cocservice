@@ -25,18 +25,18 @@ canonical: /upgrade/yeti
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Yeti1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Yeti2.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Yeti3.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Yeti5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Yeti6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Yeti7.png" imgHd="Yeti7_hd.png" />
+        <UnitImg imgTitle="1级" imgSrc="Yeti1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Yeti2.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Yeti3.png" />
+        <UnitImg imgTitle="5级" imgSrc="Yeti5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Yeti6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Yeti7.png" imgHd="Yeti7_hd.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
-每受到 600 伤害，大雪怪就会释放一个小雪怪，大雪怪死亡后会释放剩余的全部小雪怪。
+每受到600伤害，大雪怪就会释放一个小雪怪，大雪怪死亡后会释放剩余的全部小雪怪。
 
 <SmallTitle>大雪怪的属性</SmallTitle>
 
@@ -46,9 +46,9 @@ canonical: /upgrade/yeti
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="18" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.8 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.8格" />
     <UnitProperty pKey="所需训练营等级" pValue="14" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -96,18 +96,18 @@ const tableExtraInfo = [
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Yetimite1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Yetimite2.png" />
-        <UnitImg imgTitle="3 - 5 级" imgSrc="Yetimite3.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Yetimite6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Yetimite7.png" imgHd="Yetimite7_hd.png" />
+        <UnitImg imgTitle="1级" imgSrc="Yetimite1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Yetimite2.png" />
+        <UnitImg imgTitle="3 - 5级" imgSrc="Yetimite3.png" />
+        <UnitImg imgTitle="6级" imgSrc="Yetimite6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Yetimite7.png" imgHd="Yetimite7_hd.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
 1. 小雪怪本身不会触发陷阱，但是大雪怪踩中的 [大炸弹](/upgrade/0383-Giant-Bomb) 等陷阱可能会伤害到小雪怪。
-2. 小雪怪对防御建筑的伤害是 4 倍，对带有武器的 [大本营](/upgrade/town-hall) 是 2 倍，对不带武器的大本以及其他资源建筑为二分之一。
+2. 小雪怪对防御建筑的伤害是4倍，对带有武器的 [大本营](/upgrade/town-hall) 是2倍，对不带武器的大本以及其他资源建筑为二分之一。
     - 大本营的武器在升级时应视为不带武器的大本。
     - 此处我们**不**将 [铁匠铺](/upgrade/0488-Blacksmith) 视为资源建筑。
 3. 小雪怪攻击时会先接近目标建筑，然后在短暂停顿后跳到建筑身上并造成伤害。在跳跃状态下，小雪怪是无敌的，且不能被其他单位锁定。
@@ -117,20 +117,20 @@ const tableExtraInfo = [
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面辅助单位" />
-    <UnitProperty pKey="攻击偏好1" pValue="防御建筑<br>(4 倍伤害)" />
-    <UnitProperty pKey="攻击偏好2" pValue="激活的大本<br>(2 倍伤害)" />
+    <UnitProperty pKey="攻击偏好1" pValue="防御建筑<br>(4倍伤害)" />
+    <UnitProperty pKey="攻击偏好2" pValue="激活的大本<br>(2倍伤害)" />
     <UnitProperty pKey="攻击衰减" pValue="资源类建筑<br>(伤害减半)" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.8 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.8格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="2<sup>①</sup>" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击时机" pValue="到达目标后 0.5 秒<sup>②</sup>" />
-    <UnitProperty pKey="攻击距离" pValue="2.5 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击时机" pValue="到达目标后0.5秒<sup>②</sup>" />
+    <UnitProperty pKey="攻击距离" pValue="2.5格" />
 </UnitProperties>
 
-① 在考虑小雪怪与 [隐形弹簧](/upgrade/0381-Spring-Trap)、[镜像法术](/upgrade/0105-Clone-Spell) 或 [回溯法术](/upgrade/0107-Recall-Spell) 的相互作用时，小雪怪应被视为 2 人口。<br>
-② 根据解析安装包的结果，小雪怪的攻击速度是一秒一次，但实际上小雪怪的首次攻击时机为到达目标后 0.5 秒，且攻击一次后就会死亡，因此其攻速值无意义。
+① 在考虑小雪怪与 [隐形弹簧](/upgrade/0381-Spring-Trap)、[镜像法术](/upgrade/0105-Clone-Spell) 或 [回溯法术](/upgrade/0107-Recall-Spell) 的相互作用时，小雪怪应被视为2人口。<br>
+② 根据解析安装包的结果，小雪怪的攻击速度是一秒一次，但实际上小雪怪的首次攻击时机为到达目标后0.5秒，且攻击一次后就会死亡，因此其攻速值无意义。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -154,53 +154,53 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>7 级大雪怪的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>7级大雪怪的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>2 ~ 6 级大雪怪的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 6级大雪怪的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/04/14">
-        <TimelineRow>小雪怪占据的人口数由 1 调整为 2.</TimelineRow>
+        <TimelineRow>小雪怪占据的人口数由1调整为2.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>在 17 本新增 7 级大雪怪。</TimelineRow>
-        <TimelineRow>2 ~ 6 级大雪怪的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 3、5 ~ 6 级大雪怪的升级费用降低。</TimelineRow>
-        <TimelineRow>小雪怪和小冰怪占据的人口数由 3 调整为 1.</TimelineRow>
+        <TimelineRow>在17本新增7级大雪怪。</TimelineRow>
+        <TimelineRow>2 ~ 6级大雪怪的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3、5 ~ 6级大雪怪的升级费用降低。</TimelineRow>
+        <TimelineRow>小雪怪和小冰怪占据的人口数由3调整为1.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>大雪怪的训练时间由 3:00 改为 2:30</TimelineRow>
+        <TimelineRow>大雪怪的训练时间由 3:00改为 2:30</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 6 级大雪怪的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 6级大雪怪的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>4 ~ 5 级大雪怪的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 5级大雪怪的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/04/17">
-        <TimelineRow>在 16 本新增 6 级大雪怪。</TimelineRow>
+        <TimelineRow>在16本新增6级大雪怪。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>2 ~ 5 级大雪怪的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5级大雪怪的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 5 级大雪怪。</TimelineRow>
-        <TimelineRow>2 ~ 3 级大雪怪的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本新增5级大雪怪。</TimelineRow>
+        <TimelineRow>2 ~ 3级大雪怪的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>2 ~ 4 级大雪怪的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级大雪怪的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 级大雪怪的升级时间减少。</TimelineRow>
+        <TimelineRow>2级大雪怪的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/09/27">
-        <TimelineRow>14 本新增 4 级大雪怪。</TimelineRow>
+        <TimelineRow>14本新增4级大雪怪。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>小雪怪对防御建筑的伤害仍然是 4 倍，但对带有武器的大本削弱为 2 倍，资源建筑削弱为二分之一。</TimelineRow>
+        <TimelineRow>小雪怪对防御建筑的伤害仍然是4倍，但对带有武器的大本削弱为2倍，资源建筑削弱为二分之一。</TimelineRow>
         <TimelineRow>大守护者不再跟随小雪怪。</TimelineRow>
         <TimelineRow>天鹰火炮不再将小雪怪作为目标。</TimelineRow>
     </TimelineItem>
@@ -208,7 +208,7 @@ const tableExtraInfo = [
         <TimelineRow>小雪怪不再触发陷阱。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>12 本可解锁新兵种：大雪怪。</TimelineRow>
+        <TimelineRow>12本可解锁新兵种：大雪怪。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

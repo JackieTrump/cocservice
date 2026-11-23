@@ -16,11 +16,11 @@ canonical: /upgrade/log-trap-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Log_Trap_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Log_Trap1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Log_Trap2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Log_Trap3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Log_Trap4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Log_Trap5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Log_Trap1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Log_Trap2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Log_Trap3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Log_Trap4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Log_Trap5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -53,8 +53,8 @@ canonical: /upgrade/log-trap-capital
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害目标" pValue="仅地面目标" />
-    <UnitProperty pKey="触发距离" pValue="9 格<sup>*</sup>" />
-    <UnitProperty pKey="穿透区域宽度" pValue="1 格" />
+    <UnitProperty pKey="触发距离" pValue="9格<sup>*</sup>" />
+    <UnitProperty pKey="穿透区域宽度" pValue="1格" />
 </UnitProperties>
 
 \* 只有当兵种站在陷阱前方时才能触发。

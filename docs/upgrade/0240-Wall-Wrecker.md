@@ -15,12 +15,12 @@ canonical: /upgrade/0240-Wall-Wrecker
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Wall_Wrecker1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Wall_Wrecker2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Wall_Wrecker3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Wall_Wrecker4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Wall_Wrecker5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Wall_Wrecker6.png" />
+        <UnitImg imgTitle="1级" imgSrc="Wall_Wrecker1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Wall_Wrecker2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Wall_Wrecker3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Wall_Wrecker4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Wall_Wrecker5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Wall_Wrecker6.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -34,13 +34,13 @@ canonical: /upgrade/0240-Wall-Wrecker
 
 <UnitProperties>
     <UnitProperty pKey="攻击方式" pValue="对着大本营前进" />
-    <UnitProperty pKey="攻击偏好" pValue="城墙 (10 倍伤害)" />
+    <UnitProperty pKey="攻击偏好" pValue="城墙 (10倍伤害)" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.5 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.5格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="30" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.3 秒/次" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.3秒/次" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="12" />
     <UnitProperty pKey="建造时间" pValue="无" trainingSystem="2025" />
@@ -81,29 +81,29 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/01/12">
-        <TimelineRow>5 ~ 6 级攻城战车的每秒伤害和生命值增加。</TimelineRow>
+        <TimelineRow>5 ~ 6级攻城战车的每秒伤害和生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 6 级攻城战车。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增6级攻城战车。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 5 级攻城战车的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5级攻城战车的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>5 级攻城战车的升级时间减少。</TimelineRow>
+        <TimelineRow>5级攻城战车的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>2 ~ 5 级攻城战车的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5级攻城战车的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 5 级攻城战车。</TimelineRow>
-        <TimelineRow>2 ~ 4 级攻城战车的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本新增5级攻城战车。</TimelineRow>
+        <TimelineRow>2 ~ 4级攻城战车的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>2 ~ 4 级攻城战车的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级攻城战车的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/01/20">
         <TimelineRow>所有等级攻城战车的生命值提升。</TimelineRow>
@@ -112,7 +112,7 @@ const tableExtraInfo = [
         <TimelineRow>如果您没有部署攻城机器，当其他军队都被消灭后，战斗不再会自动结束。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>13 本新增 4 级攻城战车,优化了攻城战车的寻路系统。</TimelineRow>
+        <TimelineRow>13本新增4级攻城战车,优化了攻城战车的寻路系统。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

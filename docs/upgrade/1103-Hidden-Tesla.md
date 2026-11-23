@@ -18,16 +18,16 @@ canonical: /upgrade/1103-Hidden-Tesla
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Hidden_Tesla1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Hidden_Tesla2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Hidden_Tesla3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Hidden_Tesla4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Hidden_Tesla5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Hidden_Tesla6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Hidden_Tesla7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Hidden_Tesla8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Hidden_Tesla9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Hidden_Tesla10.png" />
+        <UnitImg imgTitle="1级" imgSrc="Hidden_Tesla1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Hidden_Tesla2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Hidden_Tesla3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Hidden_Tesla4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Hidden_Tesla5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Hidden_Tesla6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Hidden_Tesla7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Hidden_Tesla8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Hidden_Tesla9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Hidden_Tesla10.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -45,9 +45,9 @@ canonical: /upgrade/1103-Hidden-Tesla
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="攻击距离" pValue="7 格" />
-    <UnitProperty pKey="触发距离" pValue="6 格" />
-    <UnitProperty pKey="攻速" pValue="0.6 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="7格" />
+    <UnitProperty pKey="触发距离" pValue="6格" />
+    <UnitProperty pKey="攻速" pValue="0.6秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -98,11 +98,11 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
-        <TimelineRow>6 ~ 9 级特斯拉电磁塔的升级时间增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，特斯拉电磁塔可升至 10 级。</TimelineRow>
+        <TimelineRow>6 ~ 9级特斯拉电磁塔的升级时间增加。</TimelineRow>
+        <TimelineRow>夜世界10本推出，特斯拉电磁塔可升至10级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，特斯拉电磁塔可升至 9 级。</TimelineRow>
+        <TimelineRow>夜世界9本推出，特斯拉电磁塔可升至9级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

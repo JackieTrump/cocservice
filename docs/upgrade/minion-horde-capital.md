@@ -24,8 +24,8 @@ canonical: /upgrade/minion-horde-capitalr
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 亡灵大军的解锁条件是建造 [亡灵训练营](/upgrade/minion-barracks-capital)，而这需要野蛮人兵营这个子城升到 2 本，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 3 级。
-2. 在都城中，亡灵只能以 6 个一组的形式部署。
+1. 亡灵大军的解锁条件是建造 [亡灵训练营](/upgrade/minion-barracks-capital)，而这需要野蛮人兵营这个子城升到2本，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到3级。
+2. 在都城中，亡灵只能以6个一组的形式部署。
 
 <SmallTitle>都城亡灵的属性</SmallTitle>
 
@@ -37,9 +37,9 @@ canonical: /upgrade/minion-horde-capitalr
     <UnitProperty pKey="每组兵的配兵人口" pValue="10" />
     <UnitProperty pKey="每组兵的部队数量" pValue="6" />
     <UnitProperty pKey="每个兵的防守人口" pValue="1.67" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1.5 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1.5格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -59,7 +59,7 @@ canonical: /upgrade/minion-horde-capitalr
 
 <Timeline>
     <TimelineItem date="2022/06/30">
-        <TimelineRow>亡灵的每秒伤害从 38/46/54/62/70 提升到 56/62/68/74/80</TimelineRow>
+        <TimelineRow>亡灵的每秒伤害从38/46/54/62/70提升到56/62/68/74/80</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>亡灵大军随着部落都城玩法一同推出。</TimelineRow>

@@ -31,15 +31,15 @@ canonical: /upgrade/0281-Electro-Owl
 <UnitProperties>
     <UnitProperty pKey="攻击偏好" pValue="英雄的目标" />
     <UnitProperty pKey="伤害类型" pValue="链式攻击" />
-    <UnitProperty pKey="连锁距离" pValue="3 格以内" />
+    <UnitProperty pKey="连锁距离" pValue="3格以内" />
     <UnitProperty pKey="最大目标数量" pValue="2 (含初始目标)" />
-    <UnitProperty pKey="连锁延迟" pValue="0.416 秒" />
+    <UnitProperty pKey="连锁延迟" pValue="0.416秒" />
     <UnitProperty pKey="连锁衰减" pValue="20%" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.4 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="5.5 格" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.4秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="5.5格" />
     <UnitProperty pKey="所需战宠小屋等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="14" />
 </UnitProperties>
@@ -92,24 +92,24 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>8 级闪枭的升级费用降低。</TimelineRow>
+        <TimelineRow>8级闪枭的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 14 级闪枭的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 14级闪枭的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 11 级闪枭的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 15 级闪枭的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 11级闪枭的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 15级闪枭的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>16 本新增 11 ~ 15 级闪枭。</TimelineRow>
+        <TimelineRow>16本新增11 ~ 15级闪枭。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>4 ~ 10 级闪枭的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 15 级闪枭的升级费用降低。</TimelineRow>
+        <TimelineRow>4 ~ 10级闪枭的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 15级闪枭的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
-        <TimelineRow>家乡所有空军的攻击距离减少 0.5 格（超级飞龙除外，这玩意削了 1 格）。</TimelineRow>
+        <TimelineRow>家乡所有空军的攻击距离减少0.5格（超级飞龙除外，这玩意削了1格）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
         <TimelineRow>部落冲突推出战宠，其中莱希、闪枭、大牦、独角是第一批推出的。</TimelineRow>

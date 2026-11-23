@@ -15,12 +15,12 @@ canonical: /upgrade/healing-hut-bh
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Healing_Hut1.png"/>
-        <UnitImg imgTitle="2 级" imgSrc="Healing_Hut2.png"/>
-        <UnitImg imgTitle="3 级" imgSrc="Healing_Hut3.png"/>
-        <UnitImg imgTitle="4 级" imgSrc="Healing_Hut4.png"/>
-        <UnitImg imgTitle="5 级" imgSrc="Healing_Hut5.png"/>
-        <UnitImg imgTitle="6 级" imgSrc="Healing_Hut6.png"/>
+        <UnitImg imgTitle="1级" imgSrc="Healing_Hut1.png"/>
+        <UnitImg imgTitle="2级" imgSrc="Healing_Hut2.png"/>
+        <UnitImg imgTitle="3级" imgSrc="Healing_Hut3.png"/>
+        <UnitImg imgTitle="4级" imgSrc="Healing_Hut4.png"/>
+        <UnitImg imgTitle="5级" imgSrc="Healing_Hut5.png"/>
+        <UnitImg imgTitle="6级" imgSrc="Healing_Hut6.png"/>
     </UnitImgGroup>
 </Panel>
 
@@ -79,7 +79,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/05/15">
-        <TimelineRow>夜世界重做，现在 6 本可解锁新建筑：治疗小屋。</TimelineRow>
+        <TimelineRow>夜世界重做，现在6本可解锁新建筑：治疗小屋。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

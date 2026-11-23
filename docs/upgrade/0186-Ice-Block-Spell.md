@@ -30,7 +30,7 @@ canonical: /upgrade/0186-Ice-Block-Spell
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="作用半径" pValue="5 格" />
+    <UnitProperty pKey="作用半径" pValue="5格" />
     <UnitProperty pKey="作用类型" pValue="冻结我方部队，并让部队获得减伤效果" />
     <UnitProperty pKey="作用目标" pValue="我方部队 (不含攻城机器)" />
     <UnitProperty pKey="占用的法术空间" pValue="1" />
@@ -62,18 +62,18 @@ const tableExtraInfo = [
 
 | 等级 | 所受伤害减少 | 法术持续时间 | 升级花费 | 升级时间 | 所需实验室等级 | 所需大本等级 |
 | ---- |    -----    |     ---     |   ---   |   ---   |      ----     |     ----    |
-|   1  |     86%     |     7 秒    |    \    |     \   |       1       |      14     |
-|   2  |     88%     |     7 秒    |   140k  |    10   |      12       |      14     |
-|   3  |     90%     |     7 秒    |   200k  |    11   |      13       |      15     |
-|   4  |     92%     |     7 秒    |   280k  |    14   |      14       |      16     |
-|   5  |     94%     |     7 秒    |   320k  |    16   |      15       |      17     |
+|   1  |     86%     |     7秒    |    \    |     \   |       1       |      14     |
+|   2  |     88%     |     7秒    |   140k  |    10   |      12       |      14     |
+|   3  |     90%     |     7秒    |   200k  |    11   |      13       |      15     |
+|   4  |     92%     |     7秒    |   280k  |    14   |      14       |      16     |
+|   5  |     94%     |     7秒    |   320k  |    16   |      15       |      17     |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/06/19">
-        <TimelineRow>新法术：冰障法术，14 本可解锁，共推出 5 个等级。</TimelineRow>
+        <TimelineRow>新法术：冰障法术，14本可解锁，共推出5个等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

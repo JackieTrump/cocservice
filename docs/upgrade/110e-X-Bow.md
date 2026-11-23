@@ -17,18 +17,18 @@ canonical: /upgrade/110e-X-Bow
 
 <Panel>
     <UnitImgGroup title="对地" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="X-Bow1_Ground.png" />
-        <UnitImg imgTitle="2 级" imgSrc="X-Bow2_Ground.png" />
-        <UnitImg imgTitle="3 级" imgSrc="X-Bow3_Ground.png" />
-        <UnitImg imgTitle="4 级" imgSrc="X-Bow4_Ground.png" />
-        <UnitImg imgTitle="5 级" imgSrc="X-Bow5_Ground.png" />
+        <UnitImg imgTitle="1级" imgSrc="X-Bow1_Ground.png" />
+        <UnitImg imgTitle="2级" imgSrc="X-Bow2_Ground.png" />
+        <UnitImg imgTitle="3级" imgSrc="X-Bow3_Ground.png" />
+        <UnitImg imgTitle="4级" imgSrc="X-Bow4_Ground.png" />
+        <UnitImg imgTitle="5级" imgSrc="X-Bow5_Ground.png" />
     </UnitImgGroup>
     <UnitImgGroup title="对空" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="X-Bow1_Air.png" />
-        <UnitImg imgTitle="2 级" imgSrc="X-Bow2_Air.png" />
-        <UnitImg imgTitle="3 级" imgSrc="X-Bow3_Air.png" />
-        <UnitImg imgTitle="4 级" imgSrc="X-Bow4_Air.png" />
-        <UnitImg imgTitle="5 级" imgSrc="X-Bow5_Air.png" />
+        <UnitImg imgTitle="1级" imgSrc="X-Bow1_Air.png" />
+        <UnitImg imgTitle="2级" imgSrc="X-Bow2_Air.png" />
+        <UnitImg imgTitle="3级" imgSrc="X-Bow3_Air.png" />
+        <UnitImg imgTitle="4级" imgSrc="X-Bow4_Air.png" />
+        <UnitImg imgTitle="5级" imgSrc="X-Bow5_Air.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -46,8 +46,8 @@ canonical: /upgrade/110e-X-Bow
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="可调对地和对空<sup>*</sup>" />
-    <UnitProperty pKey="射程" pValue="12 格" />
-    <UnitProperty pKey="攻速" pValue="0.192 秒/次" />
+    <UnitProperty pKey="射程" pValue="12格" />
+    <UnitProperty pKey="攻速" pValue="0.192秒/次" />
 </UnitProperties>
 
 \* 夜世界的X连弩要么只对空，要么只对地，没有家乡那种空地两用的模式。
@@ -90,7 +90,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/05/15">
-        <TimelineRow>夜世界 10 本推出，新建筑：X连弩。</TimelineRow>
+        <TimelineRow>夜世界10本推出，新建筑：X连弩。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

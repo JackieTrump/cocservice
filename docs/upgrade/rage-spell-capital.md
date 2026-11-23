@@ -17,14 +17,14 @@ canonical: /upgrade/rage-spell-capital
 
 <SmallTitle>重要说明</SmallTitle>
 
-当都城之巅的大本营升到 6 级，并且解锁飞龙悬崖后，系统会自动建造 [狂暴法术工厂](/upgrade/2384-Rage-Spell-Factory)，建造完成后即解锁狂暴法术。
+当都城之巅的大本营升到6级，并且解锁飞龙悬崖后，系统会自动建造 [狂暴法术工厂](/upgrade/2384-Rage-Spell-Factory)，建造完成后即解锁狂暴法术。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="作用方式" pValue="范围内脉冲赋能" />
-    <UnitProperty pKey="作用半径" pValue="4.5 格" />
-    <UnitProperty pKey="脉冲间隔时间" pValue="0.3 秒" />
+    <UnitProperty pKey="作用半径" pValue="4.5格" />
+    <UnitProperty pKey="脉冲间隔时间" pValue="0.3秒" />
     <UnitProperty pKey="有效时间" pValue="两次进攻" />
     <UnitProperty pKey="占用的法术空间" pValue="3" />
 </UnitProperties>
@@ -42,13 +42,13 @@ canonical: /upgrade/rage-spell-capital
 |   5  |  110%   |           18          |
 </UnitTable>
 
-\* 这里的 8 点移动速度代表 1 格/秒。
+\* 这里的8点移动速度代表1格/秒。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2022/06/30">
-        <TimelineRow>将狂暴法术的“伤害提升”属性降低 20%.</TimelineRow>
+        <TimelineRow>将狂暴法术的“伤害提升”属性降低20%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>狂暴法术随着部落都城玩法一同推出。</TimelineRow>

@@ -19,18 +19,18 @@ canonical: /upgrade/0001-Archer
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Archer1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Archer3.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Archer5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Archer6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Archer7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Archer8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Archer9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Archer10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Archer11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Archer12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Archer13.png" imgHd="Archer13_hd.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Archer14.png" imgHd="Archer14_hd.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Archer1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Archer3.png" />
+        <UnitImg imgTitle="5级" imgSrc="Archer5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Archer6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Archer7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Archer8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Archer9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Archer10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Archer11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Archer12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Archer13.png" imgHd="Archer13_hd.png" />
+        <UnitImg imgTitle="14级" imgSrc="Archer14.png" imgHd="Archer14_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -42,9 +42,9 @@ canonical: /upgrade/0001-Archer
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="1" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="3.5 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3.5格" />
     <UnitProperty pKey="所需训练营等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="2" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -89,70 +89,70 @@ const tableExtraInfo = [
 |  14  |    46   |    46   |    76  |    25M  |    13,12  |     16      |     18      |
 </UnitTable>
 
-\# 根据安装包解析的结果，玩家可以在 1 本把训练营升到 2 级以解锁弓箭手，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到 2 本，根本没有在 1 本升级训练营的机会。
+\# 根据安装包解析的结果，玩家可以在1本把训练营升到2级以解锁弓箭手，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到2本，根本没有在1本升级训练营的机会。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>在 18 本新增 14 级弓箭手。</TimelineRow>
+        <TimelineRow>在18本新增14级弓箭手。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>13 级弓箭手的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>13级弓箭手的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>9、11、12 级弓箭手的升级时间减少。</TimelineRow>
+        <TimelineRow>9、11、12级弓箭手的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">
-        <TimelineRow>1 ~ 3 级弓箭手的生命值提升。</TimelineRow>
-        <TimelineRow>1 ~ 3 级弓箭手的每秒伤害值提升。</TimelineRow>
+        <TimelineRow>1 ~ 3级弓箭手的生命值提升。</TimelineRow>
+        <TimelineRow>1 ~ 3级弓箭手的每秒伤害值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 6、8 ~ 12 级弓箭手的升级时间减少。</TimelineRow>
-        <TimelineRow>2、4 ~ 9、11 ~ 12 级弓箭手的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 6、8 ~ 12级弓箭手的升级时间减少。</TimelineRow>
+        <TimelineRow>2、4 ~ 9、11 ~ 12级弓箭手的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>17 本新增 13 级弓箭手。</TimelineRow>
-        <TimelineRow>2 级弓箭手的升级时间减少。</TimelineRow>
+        <TimelineRow>17本新增13级弓箭手。</TimelineRow>
+        <TimelineRow>2级弓箭手的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>3 ~ 7、10 ~ 12 级弓箭手的升级时间减少。</TimelineRow>
-        <TimelineRow>9 ~ 12 级弓箭手的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 7、10 ~ 12级弓箭手的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 12级弓箭手的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，同时在 16 本新增 12 级弓箭手。</TimelineRow>
-        <TimelineRow>7 ~ 11 级弓箭手的升级时间减少。</TimelineRow>
-        <TimelineRow>10 级弓箭手的升级花费降低。</TimelineRow>
+        <TimelineRow>16本推出，同时在16本新增12级弓箭手。</TimelineRow>
+        <TimelineRow>7 ~ 11级弓箭手的升级时间减少。</TimelineRow>
+        <TimelineRow>10级弓箭手的升级花费降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>9 级弓箭手的升级时间减少。</TimelineRow>
-        <TimelineRow>9 级弓箭手的升级费用降低。</TimelineRow>
+        <TimelineRow>9级弓箭手的升级时间减少。</TimelineRow>
+        <TimelineRow>9级弓箭手的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 11 级弓箭手。</TimelineRow>
-        <TimelineRow>7 ~ 10 级弓箭手的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增11级弓箭手。</TimelineRow>
+        <TimelineRow>7 ~ 10级弓箭手的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 9 级弓箭手的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 9 级弓箭手的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 9级弓箭手的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 9级弓箭手的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本新增 10 级弓箭手。</TimelineRow>
-        <TimelineRow>1 ~ 2 级弓箭手的训练费用：50/80 圣水→ 30/60 圣水</TimelineRow>
-        <TimelineRow>2 ~ 9 级的弓箭手的升级费用降低。</TimelineRow>
-        <TimelineRow>4 ~ 8 级弓箭手的升级时间减少。</TimelineRow>
+        <TimelineRow>14本新增10级弓箭手。</TimelineRow>
+        <TimelineRow>1 ~ 2级弓箭手的训练费用：50/80圣水→ 30/60圣水</TimelineRow>
+        <TimelineRow>2 ~ 9级的弓箭手的升级费用降低。</TimelineRow>
+        <TimelineRow>4 ~ 8级弓箭手的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>12 本新增 9 级弓箭手。</TimelineRow>
+        <TimelineRow>12本新增9级弓箭手。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>5 ~ 8 级弓箭手的升级费用降低。</TimelineRow>
+        <TimelineRow>5 ~ 8级弓箭手的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中 5 ~ 8 级弓箭手的升级时间下调。</TimelineRow>
+        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中5 ~ 8级弓箭手的升级时间下调。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

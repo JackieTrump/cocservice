@@ -21,19 +21,19 @@ canonical: /upgrade/2200-Walls
 <Panel>
     <UnitImgGroup title="常规模型" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Wall_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Wall1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Wall2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Wall3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Wall4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Wall5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Wall1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Wall2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Wall3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Wall4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Wall5.png" />
     </UnitImgGroup>
     <UnitImgGroup title="在角落的城墙" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Wall_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Wall1_Corner.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Wall2_Corner.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Wall3_Corner.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Wall4_Corner.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Wall5_Corner.png" />
+        <UnitImg imgTitle="1级" imgSrc="Wall1_Corner.png" />
+        <UnitImg imgTitle="2级" imgSrc="Wall2_Corner.png" />
+        <UnitImg imgTitle="3级" imgSrc="Wall3_Corner.png" />
+        <UnitImg imgTitle="4级" imgSrc="Wall4_Corner.png" />
+        <UnitImg imgTitle="5级" imgSrc="Wall5_Corner.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -99,19 +99,19 @@ const tableExtraInfo = [
 
 |   子城名称   |     2    |    3   |     4    |     5    |
 |     ---     |    ---   |   ---   |    ---   |   ---   |
-|   都城之巅   |   14 万  |  42 万  |   98 万  |  168 万  |
-|  野蛮人兵营  |   10 万  |  30 万  |   70 万  |  120 万  |
-|   法师山谷   |    9 万  |  27 万  |   63 万  |  108 万  |
-|   气球环礁   |    6 万  |  18 万  |   42 万  |   72 万  |
-| 建筑工人工坊 |    9 万  |  27 万  |   63 万  |  108 万  |
-|   飞龙悬崖   |    7 万  |  21 万  |   49 万  |   84 万  |
-|   戈仑石场   |    8 万  |  24 万  |   56 万  |   96 万  |
-|   骷髅公园   |    5 万  |  15 万  |   35 万  |     \    |
-|  哥布林矿井  |    5 万  |  15 万  |   35 万  |     \    |
+|   都城之巅   |   14万  |  42万  |   98万  |  168万  |
+|  野蛮人兵营  |   10万  |  30万  |   70万  |  120万  |
+|   法师山谷   |    9万  |  27万  |   63万  |  108万  |
+|   气球环礁   |    6万  |  18万  |   42万  |   72万  |
+| 建筑工人工坊 |    9万  |  27万  |   63万  |  108万  |
+|   飞龙悬崖   |    7万  |  21万  |   49万  |   84万  |
+|   戈仑石场   |    8万  |  24万  |   56万  |   96万  |
+|   骷髅公园   |    5万  |  15万  |   35万  |     \    |
+|  哥布林矿井  |    5万  |  15万  |   35万  |     \    |
 
 </DistrictTable>
 
-注：当子城是 1 级时不能升级城墙，因此上表不列出。
+注：当子城是1级时不能升级城墙，因此上表不列出。
 
 <Timeline>
     <TimelineItem date="2022/05/02">

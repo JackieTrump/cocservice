@@ -15,7 +15,7 @@ canonical: /upgrade/endless-haste-spell-capital
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 当哥布林矿井这个子城的大本营升到 2 级，且都城之巅的大本营等级 9 级后，系统会自动建造 [永恒急速法术工厂](/upgrade/endless-haste-spell-factory-capital)，建造完成后即解锁永恒急速法术。
+1. 当哥布林矿井这个子城的大本营升到2级，且都城之巅的大本营等级9级后，系统会自动建造 [永恒急速法术工厂](/upgrade/endless-haste-spell-factory-capital)，建造完成后即解锁永恒急速法术。
 2. 部署后，进入永恒急速法术影响范围的单位将获得小幅但永久的速度提升，即使部队离开法术半径后，提速效果仍然持续。
 3. 多个永恒急速法术的效果不会叠加。
 4. 永恒急速法术的提速效果可以暂时被 [狂暴法术](/upgrade/rage-spell-capital) 覆盖，因为狂暴法术具有更高的速度提升属性。
@@ -24,7 +24,7 @@ canonical: /upgrade/endless-haste-spell-capital
 
 <UnitProperties>
     <UnitProperty pKey="作用方式" pValue="加速移动速度" />
-    <UnitProperty pKey="作用半径" pValue="6 格" />
+    <UnitProperty pKey="作用半径" pValue="6格" />
     <UnitProperty pKey="有效时间" pValue="四次进攻" />
     <UnitProperty pKey="占用的法术空间" pValue="3" />
 </UnitProperties>

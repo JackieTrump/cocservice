@@ -16,11 +16,11 @@ canonical: /upgrade/super-giant-post-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Guard_Post_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Super_Giant_Post1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Super_Giant_Post2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Super_Giant_Post3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Super_Giant_Post4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Super_Giant_Post5.png" />        
+        <UnitImg imgTitle="1级" imgSrc="Super_Giant_Post1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Super_Giant_Post2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Super_Giant_Post3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Super_Giant_Post4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Super_Giant_Post5.png" />        
     </UnitImgGroup>
 </Panel>
 

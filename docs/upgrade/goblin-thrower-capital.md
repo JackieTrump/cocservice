@@ -25,10 +25,10 @@ canonical: /upgrade/goblin-thrower-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Goblin_Thrower_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Goblin_Thrower1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Goblin_Thrower2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Goblin_Thrower3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Goblin_Thrower4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Goblin_Thrower1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Goblin_Thrower2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Goblin_Thrower3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Goblin_Thrower4.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -44,7 +44,7 @@ canonical: /upgrade/goblin-thrower-capital
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 哥布林发射器在一次战斗中一共可以发射 5 个飞桶，每个飞桶内装有 3 只哥布林投矛手。
+1. 哥布林发射器在一次战斗中一共可以发射5个飞桶，每个飞桶内装有3只哥布林投矛手。
 2. 哥布林发射器一旦发射完所有飞桶则不会继续攻击。
 3. 如果哥布林发射器的飞桶在未消耗完毕时即被摧毁，则剩余的飞桶会立即释放。
 
@@ -55,8 +55,8 @@ canonical: /upgrade/goblin-thrower-capital
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="9 格" />
-    <UnitProperty pKey="攻速" pValue="4 秒/次" />
+    <UnitProperty pKey="射程" pValue="9格" />
+    <UnitProperty pKey="攻速" pValue="4秒/次" />
     <UnitProperty pKey="发射兵种" pValue="哥布林投矛手" />
     <UnitProperty pKey="弹药容量" pValue="5" />
 </UnitProperties>
@@ -111,9 +111,9 @@ const tableExtraInfo = [
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="0.9 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="2.75 格" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.9秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.75格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

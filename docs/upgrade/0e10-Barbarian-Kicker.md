@@ -21,10 +21,10 @@ canonical: /upgrade/0e10-Barbarian-Kicker
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 任意球野蛮人是 2024 年 5 月哈兰德赛季中引入的临时兵种，并于 2025 年 8 月返场。
-2. 部署时，任意球野蛮人会朝防御建筑移动，在距离防御建筑 11 格的地方把球踢向建筑。足球踢出去之后，任意球野蛮人会变成普通近战单位，用踢的方式攻击。
+1. 任意球野蛮人是2024年5月哈兰德赛季中引入的临时兵种，并于2025年8月返场。
+2. 部署时，任意球野蛮人会朝防御建筑移动，在距离防御建筑11格的地方把球踢向建筑。足球踢出去之后，任意球野蛮人会变成普通近战单位，用踢的方式攻击。
    - 踢球的伤害是单体伤害。
-   - 任意球野蛮人从准备踢球到球踢出去有个约 3.5 秒的间隔时间。
+   - 任意球野蛮人从准备踢球到球踢出去有个约3.5秒的间隔时间。
    - 如果目标在足球踢出去之前就被摧毁了，则任意球野蛮人会重新选择踢球的目标。
    - 如果部署任意球野蛮人后阵型中没有防御建筑，或者所有防御建筑都被隐形了，则任意球野蛮人会朝非防御建筑、部队或城墙踢球。
    - 任意球野蛮人无法瞄准及命中空中部队。
@@ -37,9 +37,9 @@ canonical: /upgrade/0e10-Barbarian-Kicker
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面目标" />
     <UnitProperty pKey="占据人口" pValue="12" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.3 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.6 格" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.3秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.6格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />    
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -69,12 +69,12 @@ canonical: /upgrade/0e10-Barbarian-Kicker
 
 <Timeline>
     <TimelineItem date="2025/08/11">
-        <TimelineRow>该兵种第 2 次推出，有效期至 2025/08/19.</TimelineRow>
-        <TimelineRow>这次推出后，任意球野蛮人需要 6 本才能解锁（之前是 3 本）。</TimelineRow>
+        <TimelineRow>该兵种第2次推出，有效期至2025/08/19.</TimelineRow>
+        <TimelineRow>这次推出后，任意球野蛮人需要6本才能解锁（之前是3本）。</TimelineRow>
         <TimelineRow>与上次推出时相比，任意球野蛮人的数据变化幅度很小。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/05/01">
-        <TimelineRow>该兵种第 1 次推出，有效期至 2024/06/01.</TimelineRow>
+        <TimelineRow>该兵种第1次推出，有效期至2024/06/01.</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

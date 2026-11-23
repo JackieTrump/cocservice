@@ -19,11 +19,11 @@ canonical: /upgrade/beta-minion-bh
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="3 - 6 级" imgSrc="Beta_Minion3.png" />
-        <UnitImg imgTitle="7 - 10 级" imgSrc="Beta_Minion7.png" />
-        <UnitImg imgTitle="11 - 14 级" imgSrc="Beta_Minion11.png" />
-        <UnitImg imgTitle="15 - 18 级" imgSrc="Beta_Minion15.png" />
-        <UnitImg imgTitle="19 - 20 级" imgSrc="Beta_Minion19.png" />
+        <UnitImg imgTitle="3 - 6级" imgSrc="Beta_Minion3.png" />
+        <UnitImg imgTitle="7 - 10级" imgSrc="Beta_Minion7.png" />
+        <UnitImg imgTitle="11 - 14级" imgSrc="Beta_Minion11.png" />
+        <UnitImg imgTitle="15 - 18级" imgSrc="Beta_Minion15.png" />
+        <UnitImg imgTitle="19 - 20级" imgSrc="Beta_Minion19.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -34,9 +34,9 @@ canonical: /upgrade/beta-minion-bh
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="移动速度" pValue="4.8 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="3.5 格" />
+    <UnitProperty pKey="移动速度" pValue="4.8格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3.5格" />
     <UnitProperty pKey="所需训练营等级" pValue="4" />
     <UnitProperty pKey="所需夜世界大本等级" pValue="3" />
 </UnitProperties>
@@ -97,17 +97,17 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/05/15">
-        <TimelineRow>新增 19 - 20 级异变亡灵。</TimelineRow>
+        <TimelineRow>新增19 - 20级异变亡灵。</TimelineRow>
         <TimelineRow>由于夜世界重做，部队的伤害、生命值等数据都有变化。</TimelineRow>
-        <TimelineRow>异变亡灵的移动速度由 32（4 格/秒） 提升至 38.4（4.8 格/秒）。</TimelineRow>
-        <TimelineRow>现在异变亡灵一解锁就是 3 级，你不需要从 1 级开始升了。如果更新前部队高于 3 级，更新后等级不会重置。</TimelineRow>
+        <TimelineRow>异变亡灵的移动速度由32（4格/秒） 提升至38.4（4.8格/秒）。</TimelineRow>
+        <TimelineRow>现在异变亡灵一解锁就是3级，你不需要从1级开始升了。如果更新前部队高于3级，更新后等级不会重置。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
-        <TimelineRow>夜世界所有空军的攻击距离减少 0.5 格（蝙蝠除外）。</TimelineRow>
-        <TimelineRow>异变亡灵的远程狙杀技能的攻击距离减少 0.5 格。</TimelineRow>
+        <TimelineRow>夜世界所有空军的攻击距离减少0.5格（蝙蝠除外）。</TimelineRow>
+        <TimelineRow>异变亡灵的远程狙杀技能的攻击距离减少0.5格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本开放，所有兵种可升至 18 级。</TimelineRow>
+        <TimelineRow>夜世界9本开放，所有兵种可升至18级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

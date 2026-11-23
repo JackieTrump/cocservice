@@ -34,13 +34,13 @@ canonical: /upgrade/0e01-Battle-Ram
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="城墙 (40 倍伤害)" />
+    <UnitProperty pKey="攻击偏好" pValue="城墙 (40倍伤害)" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="4" />
-    <UnitProperty pKey="移动速度" pValue="3.75 格/秒" />
-    <UnitProperty pKey="首次出手时机" pValue="到达目标后 0.1 秒" />
-    <UnitProperty pKey="攻击距离" pValue="0.6 格" />
+    <UnitProperty pKey="移动速度" pValue="3.75格/秒" />
+    <UnitProperty pKey="首次出手时机" pValue="到达目标后0.1秒" />
+    <UnitProperty pKey="攻击距离" pValue="0.6格" />
     <UnitProperty pKey="所需训练营等级" pValue="3" />  
     <UnitProperty pKey="所需大本等级" pValue="6" />
     <UnitProperty pKey="特殊技能" pValue="见说明<sup>*</sup>" />
@@ -48,7 +48,7 @@ canonical: /upgrade/0e01-Battle-Ram
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" :noGoldPass="true" />
 </UnitProperties>
 
-\* 野蛮人攻城锤攻击后会分裂为 4 个野蛮人。因为它攻击一次之后就会分裂，所以该兵种没有攻速和每秒伤害的概念。<br>
+\* 野蛮人攻城锤攻击后会分裂为4个野蛮人。因为它攻击一次之后就会分裂，所以该兵种没有攻速和每秒伤害的概念。<br>
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -80,9 +80,9 @@ canonical: /upgrade/0e01-Battle-Ram
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="移动速度" pValue="2.2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+    <UnitProperty pKey="移动速度" pValue="2.2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.4格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -111,16 +111,16 @@ canonical: /upgrade/0e01-Battle-Ram
 
 <Timeline>
     <TimelineItem date="2025/08/11">
-        <TimelineRow>该兵种第 3 次推出，有效期至 2025/08/19.</TimelineRow>
-        <TimelineRow>与 2017 版相比，野蛮人攻城锤对城墙的伤害由 4 倍改为 40 倍。</TimelineRow>
-        <TimelineRow>与 2017 版相比，野蛮人攻城锤及其分裂出的野蛮人的面板伤害降低，但生命值得到提升。</TimelineRow>
-        <TimelineRow>与 2017 版相比，这次推出新增了 12 - 17 本的数据（毕竟当年最高也就 11 本）。</TimelineRow>
+        <TimelineRow>该兵种第3次推出，有效期至2025/08/19.</TimelineRow>
+        <TimelineRow>与2017版相比，野蛮人攻城锤对城墙的伤害由4倍改为40倍。</TimelineRow>
+        <TimelineRow>与2017版相比，野蛮人攻城锤及其分裂出的野蛮人的面板伤害降低，但生命值得到提升。</TimelineRow>
+        <TimelineRow>与2017版相比，这次推出新增了12 - 17本的数据（毕竟当年最高也就11本）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2017/08/31">
-        <TimelineRow>该兵种第 2 次推出，有效期至 2017/09/07.</TimelineRow>
+        <TimelineRow>该兵种第2次推出，有效期至2017/09/07.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2017/08/04">
-        <TimelineRow>该兵种第 1 次推出，有效期至 2017/08/11.</TimelineRow>
+        <TimelineRow>该兵种第1次推出，有效期至2017/08/11.</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

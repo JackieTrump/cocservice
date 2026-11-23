@@ -24,12 +24,12 @@ canonical: /upgrade/0101-Healing-Spell
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="作用半径" pValue="5 格" />
+    <UnitProperty pKey="作用半径" pValue="5格" />
     <UnitProperty pKey="作用类型" pValue="范围内脉冲赋能" />
     <UnitProperty pKey="作用目标" pValue="我方部队和英雄" />
     <UnitProperty pKey="治疗次数" pValue="41" />
-    <UnitProperty pKey="两次治疗的间隔时间" pValue="0.3 秒<sup>*</sup>" />
-    <UnitProperty pKey="法术持续时间" pValue="12 秒" />
+    <UnitProperty pKey="两次治疗的间隔时间" pValue="0.3秒<sup>*</sup>" />
+    <UnitProperty pKey="法术持续时间" pValue="12秒" />
     <UnitProperty pKey="占用的法术空间" pValue="2" />
     <UnitProperty pKey="所需法术工厂等级" pValue="2" />
     <UnitProperty pKey="所需大本等级" pValue="6" />
@@ -37,7 +37,7 @@ canonical: /upgrade/0101-Healing-Spell
     <UnitProperty pKey="捐赠费用" pValue="6,6,18000,Elixir" :isDonationCost="true" />
 </UnitProperties>
 
-\* 疗伤法术的治疗方式是每隔 0.3 秒给法术作用范围内兵种增加部分生命值。
+\* 疗伤法术的治疗方式是每隔0.3秒给法术作用范围内兵种增加部分生命值。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -76,59 +76,59 @@ const tableExtraInfo = [
 </UnitTable>
 
 ① 表格中的总治疗量指的是每个兵都可以享受这么多治疗量。<br>
-② 如果玩家升级到 6 级大本营并且解锁了疗伤法术，即使玩家没有立即升实验室也可以升级疗伤法术。
+② 如果玩家升级到6级大本营并且解锁了疗伤法术，即使玩家没有立即升实验室也可以升级疗伤法术。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 12 级疗伤法术。</TimelineRow>
-        <TimelineRow>11 级疗伤法术的升级时间减少。</TimelineRow>
-        <TimelineRow>11 级疗伤法术的每次治疗由65增加至67。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增12级疗伤法术。</TimelineRow>
+        <TimelineRow>11级疗伤法术的升级时间减少。</TimelineRow>
+        <TimelineRow>11级疗伤法术的每次治疗由65增加至67。</TimelineRow>
         <TimelineRow>所有等级疗伤法术的治疗次数由40增加至41。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>9 ~ 10 级疗伤法术的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 10级疗伤法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 6、9 ~ 10 级疗伤法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 6、9 ~ 10级疗伤法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 11 级疗伤法术。</TimelineRow>
-        <TimelineRow>6 ~ 8、10 级疗伤法术的升级时间减少。</TimelineRow>
-        <TimelineRow>8 ~ 10 级疗伤法术的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增11级疗伤法术。</TimelineRow>
+        <TimelineRow>6 ~ 8、10级疗伤法术的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 10级疗伤法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>9 级疗伤法术的升级时间减少。</TimelineRow>
-        <TimelineRow>9 级疗伤法术的升级费用降低。</TimelineRow>
+        <TimelineRow>9级疗伤法术的升级时间减少。</TimelineRow>
+        <TimelineRow>9级疗伤法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 10 级疗伤法术。</TimelineRow>
-        <TimelineRow>6 ~ 9 级疗伤法术的升级时间减少。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增10级疗伤法术。</TimelineRow>
+        <TimelineRow>6 ~ 9级疗伤法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>8 级疗伤法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>8级疗伤法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 9 级疗伤法术。</TimelineRow>
-        <TimelineRow>7 ~ 8 级疗伤法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增9级疗伤法术。</TimelineRow>
+        <TimelineRow>7 ~ 8级疗伤法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>3 ~ 7 级疗伤法术的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 7 级疗伤法术的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 7级疗伤法术的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 7级疗伤法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>2 ~ 7 级疗伤法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 7级疗伤法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本新增 8 级疗伤法术。</TimelineRow>
+        <TimelineRow>13本新增8级疗伤法术。</TimelineRow>
         <TimelineRow>游戏中对部队的治疗量和对英雄的治疗量分别显示在了面板上。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中 5 ~ 6 级疗伤法术的升级时间减少。</TimelineRow>
+        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中5 ~ 6级疗伤法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

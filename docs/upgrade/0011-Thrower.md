@@ -15,10 +15,10 @@ canonical: /upgrade/0011-Thrower
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Thrower1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Thrower2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Thrower3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Thrower4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Thrower1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Thrower2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Thrower3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Thrower4.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -30,9 +30,9 @@ canonical: /upgrade/0011-Thrower
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="16" />
-    <UnitProperty pKey="移动速度" pValue="2.25 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2.5 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="6 格" />
+    <UnitProperty pKey="移动速度" pValue="2.25格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2.5秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="6格" />
     <UnitProperty pKey="所需训练营等级" pValue="18" />
     <UnitProperty pKey="所需大本等级" pValue="16" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -71,17 +71,17 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>4 级巨矛投手的每秒伤害和生命值减少（回滚到 2026/01 平衡性调整的数据）。</TimelineRow>
+        <TimelineRow>4级巨矛投手的每秒伤害和生命值减少（回滚到2026/01平衡性调整的数据）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>所有等级巨矛投手的生命值提升。</TimelineRow>
-        <TimelineRow>2 ~ 4 级巨矛投手的伤害提升。</TimelineRow>
-        <TimelineRow>巨矛投手的移动速度由 2 格/秒 提升到 2.25 格/秒。</TimelineRow>
+        <TimelineRow>2 ~ 4级巨矛投手的伤害提升。</TimelineRow>
+        <TimelineRow>巨矛投手的移动速度由2格/秒 提升到2.25格/秒。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 4 级巨矛投手。</TimelineRow>
-        <TimelineRow>2 ~ 3 级巨矛投手的升级时间和升级费用减少。</TimelineRow>
-        <TimelineRow>3 级巨矛投手的生命值和每秒伤害增加。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增4级巨矛投手。</TimelineRow>
+        <TimelineRow>2 ~ 3级巨矛投手的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>3级巨矛投手的生命值和每秒伤害增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/30">
         <TimelineRow>所有等级巨矛投手的生命值增加。</TimelineRow>
@@ -91,10 +91,10 @@ const tableExtraInfo = [
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>巨矛投手的训练时间由 3:10 改为 2:20</TimelineRow>
+        <TimelineRow>巨矛投手的训练时间由 3:10改为 2:20</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 16 本新增巨矛投手，共推出 3 个等级。</TimelineRow>
+        <TimelineRow>17本推出，并在16本新增巨矛投手，共推出3个等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

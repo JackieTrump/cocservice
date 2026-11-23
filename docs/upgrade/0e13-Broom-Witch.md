@@ -29,7 +29,7 @@ canonical: /upgrade/0e13-Broom-Witch
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 扫帚女巫是动漫与部落活动中的两个临时兵种之一，在活动中获取 3 000 魔法水晶（任务点数）即可解锁该兵种。它在 2025 年 8 月返场一次。
+1. 扫帚女巫是动漫与部落活动中的两个临时兵种之一，在活动中获取3 000魔法水晶（任务点数）即可解锁该兵种。它在2025年8月返场一次。
 2. 与大雪怪类似，扫帚女巫在受到伤害时可分裂出女巫精灵。
 3. 与熔岩猎犬类似，扫帚女巫有三段攻击偏好。当场上有法师塔时优先攻击法师塔，没有法师塔时优先攻击防御建筑，没有防御建筑时才攻击其他建筑、敌方英雄和援军。
 
@@ -41,9 +41,9 @@ canonical: /upgrade/0e13-Broom-Witch
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="3.5 格" />
+    <UnitProperty pKey="移动速度" pValue="4格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3.5格" />
     <UnitProperty pKey="可分裂的女巫精灵数量" pValue="24" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />  
     <UnitProperty pKey="所需大本等级" pValue="6" />    
@@ -93,19 +93,19 @@ canonical: /upgrade/0e13-Broom-Witch
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="空中单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
-    <UnitProperty pKey="伤害加成" pValue="防御建筑 (4 倍伤害)" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="伤害加成" pValue="防御建筑 (4倍伤害)" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.8 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.8格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="1<sup>①</sup>" />
-    <UnitProperty pKey="移动速度" pValue="5 格/秒" />
-    <UnitProperty pKey="攻击时机" pValue="到达目标后 0.5 秒<sup>②</sup>" />
-    <UnitProperty pKey="攻击距离" pValue="2 格" />
+    <UnitProperty pKey="移动速度" pValue="5格/秒" />
+    <UnitProperty pKey="攻击时机" pValue="到达目标后0.5秒<sup>②</sup>" />
+    <UnitProperty pKey="攻击距离" pValue="2格" />
 </UnitProperties>
 
-① 在考虑女巫精灵与 [隐形弹簧](/upgrade/0381-Spring-Trap)、[镜像法术](/upgrade/0105-Clone-Spell) 或 [回溯法术](/upgrade/0107-Recall-Spell) 的相互作用时，女巫精灵应被视为 1 人口。<br>
-② 根据解析安装包的结果，女巫精灵的攻击速度是一秒一次，但实际上女巫精灵的首次攻击时机为到达目标后 0.5 秒，且攻击一次后就会死亡，因此其攻速值无意义。
+① 在考虑女巫精灵与 [隐形弹簧](/upgrade/0381-Spring-Trap)、[镜像法术](/upgrade/0105-Clone-Spell) 或 [回溯法术](/upgrade/0107-Recall-Spell) 的相互作用时，女巫精灵应被视为1人口。<br>
+② 根据解析安装包的结果，女巫精灵的攻击速度是一秒一次，但实际上女巫精灵的首次攻击时机为到达目标后0.5秒，且攻击一次后就会死亡，因此其攻速值无意义。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -132,12 +132,12 @@ canonical: /upgrade/0e13-Broom-Witch
 
 <Timeline>
     <TimelineItem date="2025/08/11">
-        <TimelineRow>该兵种第 2 次推出，有效期至 2025/08/19.</TimelineRow>
-        <TimelineRow>与上次推出时相比，6 - 7 本的扫帚女巫略微加强。</TimelineRow>
-        <TimelineRow>与上次推出时相比，6 本的女巫精灵略微加强。</TimelineRow>
+        <TimelineRow>该兵种第2次推出，有效期至2025/08/19.</TimelineRow>
+        <TimelineRow>与上次推出时相比，6 - 7本的扫帚女巫略微加强。</TimelineRow>
+        <TimelineRow>与上次推出时相比，6本的女巫精灵略微加强。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/08/08">
-        <TimelineRow>该兵种第 1 次推出，有效期至 2024/08/31.</TimelineRow>
+        <TimelineRow>该兵种第1次推出，有效期至2024/08/31.</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -18,11 +18,11 @@ canonical: /upgrade/jump-spell
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="作用半径" pValue="3.5 格" />
+    <UnitProperty pKey="作用半径" pValue="3.5格" />
     <UnitProperty pKey="作用类型" pValue="范围内脉冲赋能" />
     <UnitProperty pKey="作用目标" pValue="我方地面部队<sup>①</sup>" />
-    <UnitProperty pKey="两次脉冲的间隔时间" pValue="0.3 秒<sup>②</sup>" />
-    <UnitProperty pKey="每次脉冲持续时间" pValue="0.4 秒" />
+    <UnitProperty pKey="两次脉冲的间隔时间" pValue="0.3秒<sup>②</sup>" />
+    <UnitProperty pKey="每次脉冲持续时间" pValue="0.4秒" />
     <UnitProperty pKey="占用的法术空间" pValue="2" />
     <UnitProperty pKey="所需法术工厂等级" pValue="4" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
@@ -31,7 +31,7 @@ canonical: /upgrade/jump-spell
 </UnitProperties>
 
 ① 弹跳法术对我方英雄有效，对攻城机器无效。弹跳法术的弹跳能力不能与 [野猪骑士](/upgrade/0081-Hog-Rider) 这类兵种自带的跳墙能力叠加，也不能让 [掘地矿工](/upgrade/miner) 改变钻地的机制。<br>
-② 脉冲效果和 [狂暴法术](/upgrade/0102-Rage-Spell) 一样是给士兵提供增益。游戏中有可能出现兵种离开弹跳法术范围，但是仍然跳过了下一堵墙的现象，这是因为兵种移动过快导致在离开法术半径的 0.1 ~ 0.4 秒内跳过了墙。
+② 脉冲效果和 [狂暴法术](/upgrade/0102-Rage-Spell) 一样是给士兵提供增益。游戏中有可能出现兵种离开弹跳法术范围，但是仍然跳过了下一堵墙的现象，这是因为兵种移动过快导致在离开法术半径的0.1 ~ 0.4秒内跳过了墙。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -55,15 +55,15 @@ const tableExtraInfo = [
 
 | 等级 |脉冲<br>作用时间|  脉冲次数  | 升级花费 |  升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |       ----    |    ----   |   ----  |    ----   |      ----      |       ----    |
-|   1  |      20 秒    |     66    |     \   |     \     |        4       |        9      |
-|   2  |      40 秒    |    133    |    1M   |    1      |        5       |        9      |
-|   3  |      60 秒    |    199    |    2M   |    2      |        8       |       10      |
-|   4  |      80 秒    |    266    |    5M   |    4      |       11       |       13      |
-|   5  |     100 秒    |    333    |    8M   |    6,12   |       13       |       15      |
+|   1  |      20秒    |     66    |     \   |     \     |        4       |        9      |
+|   2  |      40秒    |    133    |    1M   |    1      |        5       |        9      |
+|   3  |      60秒    |    199    |    2M   |    2      |        8       |       10      |
+|   4  |      80秒    |    266    |    5M   |    4      |       11       |       13      |
+|   5  |     100秒    |    333    |    8M   |    6,12   |       13       |       15      |
 </UnitTable>
 
-注：实际上 3 级弹跳法术的持续时间约为 199 * 0.3 = 59.7 秒，60 秒是四舍五入的结果。把弹跳法术从 2 级升到 3 级时，游戏面板可能会显示3级弹跳的持续时间是
-59 秒，这是 59.7 向下取整的结果。不管是 59 秒还是 60 秒，弹跳还是那个弹跳，并没有被暗改。
+注：实际上3级弹跳法术的持续时间约为199 * 0.3 = 59.7秒，60秒是四舍五入的结果。把弹跳法术从2级升到3级时，游戏面板可能会显示3级弹跳的持续时间是
+59秒，这是59.7向下取整的结果。不管是59秒还是60秒，弹跳还是那个弹跳，并没有被暗改。
 
 <SmallTitle>更新历史</SmallTitle>
 
@@ -72,36 +72,36 @@ const tableExtraInfo = [
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 级弹跳法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2级弹跳法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 5 级弹跳法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5级弹跳法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>5 级弹跳法术的升级时间减少。</TimelineRow>
-        <TimelineRow>5 级弹跳法术的升级费用降低。</TimelineRow>
+        <TimelineRow>5级弹跳法术的升级时间减少。</TimelineRow>
+        <TimelineRow>5级弹跳法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>2 ~ 5 级弹跳法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5级弹跳法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>4 级弹跳法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>4级弹跳法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 5 级弹跳法术。</TimelineRow>
-        <TimelineRow>3 ~ 4 级弹跳法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增5级弹跳法术。</TimelineRow>
+        <TimelineRow>3 ~ 4级弹跳法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 4 级弹跳法术的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 4级弹跳法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
         <TimelineRow>走出弹跳法术效果范围的部队不会再重新选择目标，这是为了避免部队卡在其法术效果范围内。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本推出，并在 13 本新增 4 级弹跳法术。</TimelineRow>
+        <TimelineRow>13本推出，并在13本新增4级弹跳法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中 2 级弹跳法术的升级时间减少。</TimelineRow>
+        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中2级弹跳法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

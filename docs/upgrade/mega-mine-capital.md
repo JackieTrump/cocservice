@@ -18,18 +18,18 @@ canonical: /upgrade/mega-mine-capital
 <Panel>
     <UnitImgGroup title="地面模式" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Mega_Mine_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Mega_Mine1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Mega_Mine2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Mega_Mine3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Mega_Mine4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Mega_Mine5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Mega_Mine1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Mega_Mine2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Mega_Mine3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Mega_Mine4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Mega_Mine5.png" />
     </UnitImgGroup>
     <UnitImgGroup title="空中模式" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Mega_Mine1_Air.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Mega_Mine2_Air.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Mega_Mine3_Air.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Mega_Mine4_Air.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Mega_Mine5_Air.png" />
+        <UnitImg imgTitle="1级" imgSrc="Mega_Mine1_Air.png" />
+        <UnitImg imgTitle="2级" imgSrc="Mega_Mine2_Air.png" />
+        <UnitImg imgTitle="3级" imgSrc="Mega_Mine3_Air.png" />
+        <UnitImg imgTitle="4级" imgSrc="Mega_Mine4_Air.png" />
+        <UnitImg imgTitle="5级" imgSrc="Mega_Mine5_Air.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -61,8 +61,8 @@ canonical: /upgrade/mega-mine-capital
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害目标" pValue="可调对地和对空" />
-    <UnitProperty pKey="触发距离" pValue="2 格" />
-    <UnitProperty pKey="爆炸半径" pValue="4 格" />
+    <UnitProperty pKey="触发距离" pValue="2格" />
+    <UnitProperty pKey="爆炸半径" pValue="4格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

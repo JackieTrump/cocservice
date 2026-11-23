@@ -16,10 +16,10 @@ canonical: /upgrade/0901-Flame-Spinner
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="3 - 11 级" imgSrc="Flame_Spinner1.png" />
-        <UnitImg imgTitle="12 - 20 级" imgSrc="Flame_Spinner2.png" />
-        <UnitImg imgTitle="21 - 29 级" imgSrc="Flame_Spinner3.png" />
-        <UnitImg imgTitle="30 级" imgSrc="Flame_Spinner4.png" />
+        <UnitImg imgTitle="3 - 11级" imgSrc="Flame_Spinner1.png" />
+        <UnitImg imgTitle="12 - 20级" imgSrc="Flame_Spinner2.png" />
+        <UnitImg imgTitle="21 - 29级" imgSrc="Flame_Spinner3.png" />
+        <UnitImg imgTitle="30级" imgSrc="Flame_Spinner4.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -27,9 +27,9 @@ canonical: /upgrade/0901-Flame-Spinner
 
 1. 旋转喷火器会不断以顺时针螺旋方式喷射火焰，对附近的目标造成范围伤害，甚至能将小单位部队弹飞到地图外。
 2. 旋转喷火器在战斗中始终处于激活状态，即使没有目标也会持续旋转喷火。
-3. 旋转喷火器每次喷射结束到下一次喷射开始有 4 秒的冷却时间。
+3. 旋转喷火器每次喷射结束到下一次喷射开始有4秒的冷却时间。
 4. 旋转喷火器的第一发火焰一定会朝着大本营的反方向喷射，后续喷射的方向与上一轮喷射结束时的方向一致。
-5. 如果旋转喷火器没有受到减速或冰冻效果影响，则每次攻击旋转的角度约为 16°.
+5. 如果旋转喷火器没有受到减速或冰冻效果影响，则每次攻击旋转的角度约为16°.
 
 <SmallTitle>属性</SmallTitle>
 
@@ -37,14 +37,14 @@ canonical: /upgrade/0901-Flame-Spinner
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="8 格" />
+    <UnitProperty pKey="伤害半径" pValue="8格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="爆发状态的攻击速度" pValue="0.25 秒/次" />
-    <UnitProperty pKey="爆发后的冷却时间" pValue="4 秒" />
+    <UnitProperty pKey="爆发状态的攻击速度" pValue="0.25秒/次" />
+    <UnitProperty pKey="爆发后的冷却时间" pValue="4秒" />
     <UnitProperty pKey="推出时的最高大本等级" pValue="17" />
 </UnitProperties>
 
-<SmallTitle>可升级模组 1：提升建筑的生命值</SmallTitle>
+<SmallTitle>可升级模组1：提升建筑的生命值</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo1">
 
@@ -62,7 +62,7 @@ canonical: /upgrade/0901-Flame-Spinner
 |  10  |  6000  |    12M  |   3     |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 2：提升每次攻击造成的伤害</SmallTitle>
+<SmallTitle>可升级模组2：提升每次攻击造成的伤害</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo2">
 
@@ -80,7 +80,7 @@ canonical: /upgrade/0901-Flame-Spinner
 |  10  |          400         |   115k  |   3     |                    |
 </UnitTable>
 
-<SmallTitle>可升级模组 3：增加每次爆发的连射次数</SmallTitle>
+<SmallTitle>可升级模组3：增加每次爆发的连射次数</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfo3">
 

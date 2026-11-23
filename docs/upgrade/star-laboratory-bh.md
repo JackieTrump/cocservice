@@ -18,16 +18,16 @@ canonical: /upgrade/star-laboratory-bh
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Star_Laboratory_Ruin.png"/>    
-        <UnitImg imgTitle="1 级" imgSrc="Star_Laboratory1.png"/>
-        <UnitImg imgTitle="2 级" imgSrc="Star_Laboratory2.png"/>
-        <UnitImg imgTitle="3 级" imgSrc="Star_Laboratory3.png"/>
-        <UnitImg imgTitle="4 级" imgSrc="Star_Laboratory4.png"/>
-        <UnitImg imgTitle="5 级" imgSrc="Star_Laboratory5.png"/>
-        <UnitImg imgTitle="6 级" imgSrc="Star_Laboratory6.png"/>
-        <UnitImg imgTitle="7 级" imgSrc="Star_Laboratory7.png"/>
-        <UnitImg imgTitle="8 级" imgSrc="Star_Laboratory8.png"/>
-        <UnitImg imgTitle="9 级" imgSrc="Star_Laboratory9.png"/>
-        <UnitImg imgTitle="10 级" imgSrc="Star_Laboratory10.png"/>
+        <UnitImg imgTitle="1级" imgSrc="Star_Laboratory1.png"/>
+        <UnitImg imgTitle="2级" imgSrc="Star_Laboratory2.png"/>
+        <UnitImg imgTitle="3级" imgSrc="Star_Laboratory3.png"/>
+        <UnitImg imgTitle="4级" imgSrc="Star_Laboratory4.png"/>
+        <UnitImg imgTitle="5级" imgSrc="Star_Laboratory5.png"/>
+        <UnitImg imgTitle="6级" imgSrc="Star_Laboratory6.png"/>
+        <UnitImg imgTitle="7级" imgSrc="Star_Laboratory7.png"/>
+        <UnitImg imgTitle="8级" imgSrc="Star_Laboratory8.png"/>
+        <UnitImg imgTitle="9级" imgSrc="Star_Laboratory9.png"/>
+        <UnitImg imgTitle="10级" imgSrc="Star_Laboratory10.png"/>
     </UnitImgGroup>
 </Panel>
 
@@ -91,11 +91,11 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
-        <TimelineRow>6 ~ 9 级星空实验室的升级费用增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，星空实验室可升至 10 级。</TimelineRow>
+        <TimelineRow>6 ~ 9级星空实验室的升级费用增加。</TimelineRow>
+        <TimelineRow>夜世界10本推出，星空实验室可升至10级。</TimelineRow>
     </TimelineItem>
      <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，星空实验室可升至 9 级。</TimelineRow>
+        <TimelineRow>夜世界9本推出，星空实验室可升至9级。</TimelineRow>
     </TimelineItem>   
     <TimelineItem :historyBottom="true" />
 </Timeline>

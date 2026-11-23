@@ -18,19 +18,19 @@ canonical: /upgrade/0480-Army-Camp
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Army_Camp1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Army_Camp2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Army_Camp3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Army_Camp4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Army_Camp5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Army_Camp6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Army_Camp7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Army_Camp8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Army_Camp9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Army_Camp10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Army_Camp11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Army_Camp12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Army_Camp13.png" imgHd="Army_Camp13_hd.png" />
+        <UnitImg imgTitle="1级" imgSrc="Army_Camp1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Army_Camp2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Army_Camp3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Army_Camp4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Army_Camp5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Army_Camp6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Army_Camp7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Army_Camp8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Army_Camp9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Army_Camp10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Army_Camp11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Army_Camp12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Army_Camp13.png" imgHd="Army_Camp13_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -94,51 +94,51 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>13 级兵营的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>13级兵营的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>9 ~ 12 级兵营的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 12级兵营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">
-        <TimelineRow>1 ~ 6 级兵营的生命值减少。</TimelineRow>
+        <TimelineRow>1 ~ 6级兵营的生命值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>17 本新增 13 级兵营。</TimelineRow>
-        <TimelineRow>1 ~ 5 级兵营的升级时间减少。</TimelineRow>
-        <TimelineRow>6、11、12 级兵营的升级费用降低。</TimelineRow>
+        <TimelineRow>17本新增13级兵营。</TimelineRow>
+        <TimelineRow>1 ~ 5级兵营的升级时间减少。</TimelineRow>
+        <TimelineRow>6、11、12级兵营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">  
-        <TimelineRow>9 ~ 12 级兵营的升级时间减少。</TimelineRow>
-        <TimelineRow>10、12 级兵营的升级费用降低。</TimelineRow>
+        <TimelineRow>9 ~ 12级兵营的升级时间减少。</TimelineRow>
+        <TimelineRow>10、12级兵营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>12 级兵营的升级时间减少。</TimelineRow>
-        <TimelineRow>12 级兵营的升级费用降低。</TimelineRow>
+        <TimelineRow>12级兵营的升级时间减少。</TimelineRow>
+        <TimelineRow>12级兵营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>12 级兵营的升级时间 16 天减少到 12 天 12 小时。</TimelineRow>
+        <TimelineRow>12级兵营的升级时间16天减少到12天12小时。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>10 ~ 11 级兵营的升级时间减少。</TimelineRow>
-        <TimelineRow>10 ~ 11 级兵营的升级费用降低。</TimelineRow>
+        <TimelineRow>10 ~ 11级兵营的升级时间减少。</TimelineRow>
+        <TimelineRow>10 ~ 11级兵营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 12 级兵营。</TimelineRow>
-        <TimelineRow>8 ~ 11 级兵营的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增12级兵营。</TimelineRow>
+        <TimelineRow>8 ~ 11级兵营的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 15 级兵营。</TimelineRow>
-        <TimelineRow>2 ~ 3 级兵营的升级时间减少。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增15级兵营。</TimelineRow>
+        <TimelineRow>2 ~ 3级兵营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
-        <TimelineRow>13 本新增 11 级兵营。</TimelineRow>
+        <TimelineRow>13本新增11级兵营。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>兵营的占地面积由 5*5 改为 4*4。</TimelineRow>
+        <TimelineRow>兵营的占地面积由5*5改为4*4。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/04/02">
-        <TimelineRow>8 ~ 9 级兵营的升级费用降低。</TimelineRow>
-        <TimelineRow>5 ~ 9 级兵营的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 9级兵营的升级费用降低。</TimelineRow>
+        <TimelineRow>5 ~ 9级兵营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

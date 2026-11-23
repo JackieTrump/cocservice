@@ -21,11 +21,11 @@ canonical: /upgrade/air-defense-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Air_Defense_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Air_Defense1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Air_Defense2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Air_Defense3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Air_Defense4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Air_Defense5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Air_Defense1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Air_Defense2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Air_Defense3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Air_Defense4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Air_Defense5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -60,8 +60,8 @@ canonical: /upgrade/air-defense-capital
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅空中目标" />
-    <UnitProperty pKey="射程" pValue="10 格" />
-    <UnitProperty pKey="攻速" pValue="1.5 秒/次" />
+    <UnitProperty pKey="射程" pValue="10格" />
+    <UnitProperty pKey="攻速" pValue="1.5秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -98,10 +98,10 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>5 级防空火箭的每秒伤害降低。</TimelineRow>
+        <TimelineRow>5级防空火箭的每秒伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/30">
-        <TimelineRow>将防空火箭攻击速度从 1 秒每次降低到 1.5 秒每次。</TimelineRow>
+        <TimelineRow>将防空火箭攻击速度从1秒每次降低到1.5秒每次。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>防空火箭随着部落都城玩法一同推出。</TimelineRow>

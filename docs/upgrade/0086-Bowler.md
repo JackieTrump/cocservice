@@ -17,15 +17,15 @@ canonical: /upgrade/0086-Bowler
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Bowler1.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Bowler3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Bowler4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Bowler5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Bowler6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Bowler7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Bowler8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Bowler9.png" imgHd="Bowler9_hd.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Bowler10.png" imgHd="Bowler10_hd.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Bowler1.png" />
+        <UnitImg imgTitle="3级" imgSrc="Bowler3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Bowler4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Bowler5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Bowler6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Bowler7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Bowler8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Bowler9.png" imgHd="Bowler9_hd.png" />
+        <UnitImg imgTitle="10级" imgSrc="Bowler10.png" imgHd="Bowler10_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -35,20 +35,20 @@ canonical: /upgrade/0086-Bowler
     <UnitProperty pKey="部队类型" pValue="地面远程单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.3 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.3格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="6" />
-    <UnitProperty pKey="移动速度" pValue="1.75 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2.2 秒/次" />
-    <UnitProperty pKey="首次进攻时机" pValue="到达目标后 1.2 秒" />
-    <UnitProperty pKey="攻击距离" pValue="3 格<sup>*</sup>" />
+    <UnitProperty pKey="移动速度" pValue="1.75格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2.2秒/次" />
+    <UnitProperty pKey="首次进攻时机" pValue="到达目标后1.2秒" />
+    <UnitProperty pKey="攻击距离" pValue="3格<sup>*</sup>" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="7" />
     <UnitProperty pKey="所需大本等级" pValue="10" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="3,3,135,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
 
-\* 巨石投手扔出去的石头落地后还能再次弹起来，对建筑造成二次伤害。石头的第一个落地距离蓝胖 3 格，第二个落点距离蓝胖 7 格。巨石投手只能看到第一个目标，二次范围伤害是顺带的，巨石投手并不知道石头会溅到哪儿。
+\* 巨石投手扔出去的石头落地后还能再次弹起来，对建筑造成二次伤害。石头的第一个落地距离蓝胖3格，第二个落点距离蓝胖7格。巨石投手只能看到第一个目标，二次范围伤害是顺带的，巨石投手并不知道石头会溅到哪儿。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -88,69 +88,69 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 10 级巨石投手。</TimelineRow>
-        <TimelineRow>9 级巨石投手的升级时间和升级费用减少。</TimelineRow>
-        <TimelineRow>9 级巨石投手的每秒伤害和生命值增加。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增10级巨石投手。</TimelineRow>
+        <TimelineRow>9级巨石投手的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>9级巨石投手的每秒伤害和生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>4 ~ 8 级巨石投手的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 8级巨石投手的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>3 ~ 8 级巨石投手的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 8级巨石投手的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>17 本新增 9 级巨石投手。</TimelineRow>
+        <TimelineRow>17本新增9级巨石投手。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>巨石投手的训练时间由 1:00 改为 0:50</TimelineRow>
+        <TimelineRow>巨石投手的训练时间由 1:00改为 0:50</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 8 级巨石投手的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 8级巨石投手的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>6 ~ 7 级巨石投手的升级时间减少。</TimelineRow>
-        <TimelineRow>6 ~ 7 级巨石投手的升级费用降低。</TimelineRow>
+        <TimelineRow>6 ~ 7级巨石投手的升级时间减少。</TimelineRow>
+        <TimelineRow>6 ~ 7级巨石投手的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/03">
-        <TimelineRow>2 ~ 6 级巨石投手的每秒伤害提升。</TimelineRow>
-        <TimelineRow>2 ~ 7 级巨石投手的生命值提升。</TimelineRow>
+        <TimelineRow>2 ~ 6级巨石投手的每秒伤害提升。</TimelineRow>
+        <TimelineRow>2 ~ 7级巨石投手的生命值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>16 本新增 8 级巨石投手。</TimelineRow>
+        <TimelineRow>16本新增8级巨石投手。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>2 ~ 7 级巨石投手的升级时间减少。</TimelineRow>
-        <TimelineRow>6 级巨石投手的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 7级巨石投手的升级时间减少。</TimelineRow>
+        <TimelineRow>6级巨石投手的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 7 级巨石投手。</TimelineRow>
+        <TimelineRow>15本新增7级巨石投手。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>2 ~ 6 级巨石投手的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 6级巨石投手的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
-        <TimelineRow>1 ~ 5 级巨石投手的生命值增加。</TimelineRow>
+        <TimelineRow>1 ~ 5级巨石投手的生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 5 级巨石投手的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5级巨石投手的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/09/27">
-        <TimelineRow>14 本新增 6 级巨石投手。</TimelineRow>
+        <TimelineRow>14本新增6级巨石投手。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>2 ~ 3 级巨石投手的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3级巨石投手的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
-        <TimelineRow>2 ~ 3 级巨石投手的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3级巨石投手的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本开放，新增 5 级巨石投手。</TimelineRow>
+        <TimelineRow>13本开放，新增5级巨石投手。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>3 级巨石投手的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>3级巨石投手的升级费用和升级时间减少。</TimelineRow>
         <TimelineRow>所有等级巨石投手的训练费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

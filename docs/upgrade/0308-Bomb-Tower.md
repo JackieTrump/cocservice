@@ -17,19 +17,19 @@ canonical: /upgrade/0308-Bomb-Tower
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Bomb_Tower1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Bomb_Tower2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Bomb_Tower3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Bomb_Tower4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Bomb_Tower5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Bomb_Tower6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Bomb_Tower7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Bomb_Tower8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Bomb_Tower9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Bomb_Tower10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Bomb_Tower11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Bomb_Tower12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Bomb_Tower13.png" />
+        <UnitImg imgTitle="1级" imgSrc="Bomb_Tower1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Bomb_Tower2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Bomb_Tower3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Bomb_Tower4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Bomb_Tower5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Bomb_Tower6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Bomb_Tower7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Bomb_Tower8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Bomb_Tower9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Bomb_Tower10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Bomb_Tower11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Bomb_Tower12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Bomb_Tower13.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -46,12 +46,12 @@ canonical: /upgrade/0308-Bomb-Tower
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.5 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.5格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="6 格" />
-    <UnitProperty pKey="攻速" pValue="1.1 秒/次" />
-    <UnitProperty pKey="被摧毁时的自爆半径" pValue="2.75 格" />
-    <UnitProperty pKey="自爆延时" pValue="1 秒" />
+    <UnitProperty pKey="射程" pValue="6格" />
+    <UnitProperty pKey="攻速" pValue="1.1秒/次" />
+    <UnitProperty pKey="被摧毁时的自爆半径" pValue="2.75格" />
+    <UnitProperty pKey="自爆延时" pValue="1秒" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -102,62 +102,62 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 13 级炸弹塔。</TimelineRow>
-        <TimelineRow>12 级炸弹塔的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增13级炸弹塔。</TimelineRow>
+        <TimelineRow>12级炸弹塔的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>10 ~ 11 级炸弹塔的升级时间减少。</TimelineRow>
+        <TimelineRow>10 ~ 11级炸弹塔的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>1 ~ 5、7 ~ 11 级炸弹塔的升级时间减少。</TimelineRow>
-        <TimelineRow>3 ~ 5、7 ~ 11 级炸弹塔的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 5、7 ~ 11级炸弹塔的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 5、7 ~ 11级炸弹塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>6 级炸弹塔的升级时间减少。</TimelineRow>
-        <TimelineRow>6 级炸弹塔的升级费用降低。</TimelineRow>
+        <TimelineRow>6级炸弹塔的升级时间减少。</TimelineRow>
+        <TimelineRow>6级炸弹塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 12 级炸弹塔。</TimelineRow>
-        <TimelineRow>5、7 ~ 11 级炸弹塔的升级时间减少。</TimelineRow>
-        <TimelineRow>6、8 ~ 11 级炸弹塔的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增12级炸弹塔。</TimelineRow>
+        <TimelineRow>5、7 ~ 11级炸弹塔的升级时间减少。</TimelineRow>
+        <TimelineRow>6、8 ~ 11级炸弹塔的升级费用降低。</TimelineRow>
         <TimelineRow>炸弹塔成为第二批可以充能的建筑。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>7 ~ 10 级炸弹塔的升级时间减少。</TimelineRow>
-        <TimelineRow>7 ~ 10 级炸弹塔的升级费用降低。</TimelineRow>
+        <TimelineRow>7 ~ 10级炸弹塔的升级时间减少。</TimelineRow>
+        <TimelineRow>7 ~ 10级炸弹塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 11 级炸弹塔。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增11级炸弹塔。</TimelineRow>
         <TimelineRow>所有等级炸弹塔的升级时间减少。</TimelineRow>
-        <TimelineRow>1 ~ 6、9 级炸弹塔的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 6、9级炸弹塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>7 ~ 8 级炸弹塔的升级时间减少。</TimelineRow>
-        <TimelineRow>7 ~ 8 级炸弹塔的升级费用降低。</TimelineRow>
+        <TimelineRow>7 ~ 8级炸弹塔的升级时间减少。</TimelineRow>
+        <TimelineRow>7 ~ 8级炸弹塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 10 级炸弹塔。</TimelineRow>
-        <TimelineRow>4 ~ 9 级炸弹塔的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增10级炸弹塔。</TimelineRow>
+        <TimelineRow>4 ~ 9级炸弹塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>1 ~ 8 级炸弹塔的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 8级炸弹塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 9 级炸弹塔。</TimelineRow>
-        <TimelineRow>2 ~ 6 级炸弹塔的升级时间减少。</TimelineRow>
-        <TimelineRow>1 ~ 6 级炸弹塔的升级费用降低。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增9级炸弹塔。</TimelineRow>
+        <TimelineRow>2 ~ 6级炸弹塔的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 6级炸弹塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>13 本新增 8 级炸弹塔。</TimelineRow>
+        <TimelineRow>13本新增8级炸弹塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/02/28">
-        <TimelineRow>5 ~ 7 级炸弹塔的血量由 1000/1200/1400 调整为 1050/1300/1600。</TimelineRow>
-        <TimelineRow>5 ~ 7 级炸弹塔的每秒伤害由 46/52/60 调整为 48/56/64。</TimelineRow>
-        <TimelineRow>6 ~ 7 级炸弹塔的摧毁爆炸伤害由 340/380 调整为 350/400。</TimelineRow>
+        <TimelineRow>5 ~ 7级炸弹塔的血量由1000/1200/1400调整为1050/1300/1600。</TimelineRow>
+        <TimelineRow>5 ~ 7级炸弹塔的每秒伤害由46/52/60调整为48/56/64。</TimelineRow>
+        <TimelineRow>6 ~ 7级炸弹塔的摧毁爆炸伤害由340/380调整为350/400。</TimelineRow>
     </TimelineItem> 
         <TimelineItem date="2019/04/02">
-        <TimelineRow>1 ~ 6 级炸弹塔的升级费用降低。</TimelineRow>
-        <TimelineRow>1 ~ 5 级炸弹塔的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 6级炸弹塔的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 5级炸弹塔的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

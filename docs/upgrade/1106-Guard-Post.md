@@ -17,16 +17,16 @@ canonical: /upgrade/1106-Guard-Post
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Guard_Post1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Guard_Post2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Guard_Post3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Guard_Post4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Guard_Post5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Guard_Post6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Guard_Post7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Guard_Post8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Guard_Post9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Guard_Post10.png" />
+        <UnitImg imgTitle="1级" imgSrc="Guard_Post1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Guard_Post2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Guard_Post3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Guard_Post4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Guard_Post5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Guard_Post6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Guard_Post7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Guard_Post8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Guard_Post9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Guard_Post10.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -42,13 +42,13 @@ canonical: /upgrade/1106-Guard-Post
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
-    <UnitProperty pKey="追击距离" pValue="7 格<sup>①</sup>" />
-    <UnitProperty pKey="巡逻距离" pValue="3 格<sup>②</sup>" />
+    <UnitProperty pKey="追击距离" pValue="7格<sup>①</sup>" />
+    <UnitProperty pKey="巡逻距离" pValue="3格<sup>②</sup>" />
     <UnitProperty pKey="防守的部队" pValue="<div style='line-height: 2'><a href='/upgrade/raged-barbarian-bh'>狂暴野蛮人</a> ×1<br><a href='/upgrade/sneaky-archer-bh'>隐秘弓箭手</a> ×1</div>" />
 </UnitProperties>
 
 ① 当敌军进入这个范围时，守卫岗哨中的部队会追击敌军。<br>
-② 当部队未进入追击距离时，守卫岗哨中的兵种会在建筑周围 3 格行走。
+② 当部队未进入追击距离时，守卫岗哨中的兵种会在建筑周围3格行走。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -95,11 +95,11 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
-        <TimelineRow>6 ~ 9 级守卫岗哨的升级时间增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，守卫岗哨可升至 10 级。</TimelineRow>
+        <TimelineRow>6 ~ 9级守卫岗哨的升级时间增加。</TimelineRow>
+        <TimelineRow>夜世界10本推出，守卫岗哨可升至10级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，守卫岗哨可升至 9 级。</TimelineRow>
+        <TimelineRow>夜世界9本推出，守卫岗哨可升至9级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

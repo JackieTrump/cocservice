@@ -20,59 +20,59 @@ canonical: /upgrade/town-hall
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder" title="当前版本使用的模型">
-        <UnitImg imgTitle="1 本" imgSrc="Town_Hall1.png" imgHd="Town_Hall1_hd.png" />
-        <UnitImg imgTitle="2 本" imgSrc="Town_Hall2.png" imgHd="Town_Hall2_hd.png" />
-        <UnitImg imgTitle="3 本" imgSrc="Town_Hall3.png" imgHd="Town_Hall3_hd.png" />
-        <UnitImg imgTitle="4 本" imgSrc="Town_Hall4.png" imgHd="Town_Hall4_hd.png" />
-        <UnitImg imgTitle="5 本" imgSrc="Town_Hall5.png" imgHd="Town_Hall5_hd.png" />
-        <UnitImg imgTitle="6 本" imgSrc="Town_Hall6.png" imgHd="Town_Hall6_hd.png" />
-        <UnitImg imgTitle="7 本" imgSrc="Town_Hall7.png" imgHd="Town_Hall7_hd.png" />
-        <UnitImg imgTitle="8 本" imgSrc="Town_Hall8.png" imgHd="Town_Hall8_hd.png" />
-        <UnitImg imgTitle="9 本" imgSrc="Town_Hall9.png" imgHd="Town_Hall9_hd.png" />
-        <UnitImg imgTitle="10 本" imgSrc="Town_Hall10.png" imgHd="Town_Hall10_hd.png" />
-        <UnitImg imgTitle="11 本" imgSrc="Town_Hall11.png" imgHd="Town_Hall11_hd.png" />
-        <UnitImg imgTitle="12 本" imgSrc="Town_Hall12.png" imgHd="Town_Hall12_hd.png" />
-        <UnitImg imgTitle="13 本" imgSrc="Town_Hall13.png" imgHd="Town_Hall13_hd.png" />
-        <UnitImg imgTitle="14 本" imgSrc="Town_Hall14.png" imgHd="Town_Hall14_hd.png" />
-        <UnitImg imgTitle="15 本" imgSrc="Town_Hall15.png" imgHd="Town_Hall15_hd.png" />
-        <UnitImg imgTitle="16 本" imgSrc="Town_Hall16.png" imgHd="Town_Hall16_hd.png" />
-        <UnitImg imgTitle="17 本 1 星" imgSrc="Town_Hall17_1.png" imgHd="Town_Hall17_1_hd.png" />
-        <UnitImg imgTitle="17 本 2 星" imgSrc="Town_Hall17_2.png" imgHd="Town_Hall17_2_hd.png" />
-        <UnitImg imgTitle="17 本 3 星" imgSrc="Town_Hall17_3.png" imgHd="Town_Hall17_3_hd.png" />
-        <UnitImg imgTitle="17 本 4 星" imgSrc="Town_Hall17_4.png" imgHd="Town_Hall17_4_hd.png" />
-        <UnitImg imgTitle="17 本 5 星" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
-        <UnitImg imgTitle="18 本" imgSrc="Town_Hall18.png" imgHd="Town_Hall18_hd.png" />
-        <UnitImg imgTitle="19 本（原始）" imgSrc="town-hall-19.webp" />
-        <UnitImg imgTitle="19 本（野蛮人大厅）" imgSrc="town-hall-19-barbarian.webp" />
-        <UnitImg imgTitle="19 本（弓箭手大厅）" imgSrc="town-hall-19-archer.webp" />
-        <UnitImg imgTitle="19 本（法师大厅）" imgSrc="town-hall-19-wizard.webp" />
+        <UnitImg imgTitle="1本" imgSrc="Town_Hall1.png" imgHd="Town_Hall1_hd.png" />
+        <UnitImg imgTitle="2本" imgSrc="Town_Hall2.png" imgHd="Town_Hall2_hd.png" />
+        <UnitImg imgTitle="3本" imgSrc="Town_Hall3.png" imgHd="Town_Hall3_hd.png" />
+        <UnitImg imgTitle="4本" imgSrc="Town_Hall4.png" imgHd="Town_Hall4_hd.png" />
+        <UnitImg imgTitle="5本" imgSrc="Town_Hall5.png" imgHd="Town_Hall5_hd.png" />
+        <UnitImg imgTitle="6本" imgSrc="Town_Hall6.png" imgHd="Town_Hall6_hd.png" />
+        <UnitImg imgTitle="7本" imgSrc="Town_Hall7.png" imgHd="Town_Hall7_hd.png" />
+        <UnitImg imgTitle="8本" imgSrc="Town_Hall8.png" imgHd="Town_Hall8_hd.png" />
+        <UnitImg imgTitle="9本" imgSrc="Town_Hall9.png" imgHd="Town_Hall9_hd.png" />
+        <UnitImg imgTitle="10本" imgSrc="Town_Hall10.png" imgHd="Town_Hall10_hd.png" />
+        <UnitImg imgTitle="11本" imgSrc="Town_Hall11.png" imgHd="Town_Hall11_hd.png" />
+        <UnitImg imgTitle="12本" imgSrc="Town_Hall12.png" imgHd="Town_Hall12_hd.png" />
+        <UnitImg imgTitle="13本" imgSrc="Town_Hall13.png" imgHd="Town_Hall13_hd.png" />
+        <UnitImg imgTitle="14本" imgSrc="Town_Hall14.png" imgHd="Town_Hall14_hd.png" />
+        <UnitImg imgTitle="15本" imgSrc="Town_Hall15.png" imgHd="Town_Hall15_hd.png" />
+        <UnitImg imgTitle="16本" imgSrc="Town_Hall16.png" imgHd="Town_Hall16_hd.png" />
+        <UnitImg imgTitle="17本1星" imgSrc="Town_Hall17_1.png" imgHd="Town_Hall17_1_hd.png" />
+        <UnitImg imgTitle="17本2星" imgSrc="Town_Hall17_2.png" imgHd="Town_Hall17_2_hd.png" />
+        <UnitImg imgTitle="17本3星" imgSrc="Town_Hall17_3.png" imgHd="Town_Hall17_3_hd.png" />
+        <UnitImg imgTitle="17本4星" imgSrc="Town_Hall17_4.png" imgHd="Town_Hall17_4_hd.png" />
+        <UnitImg imgTitle="17本5星" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
+        <UnitImg imgTitle="18本" imgSrc="Town_Hall18.png" imgHd="Town_Hall18_hd.png" />
+        <UnitImg imgTitle="19本（原始）" imgSrc="town-hall-19.webp" />
+        <UnitImg imgTitle="19本（野蛮人大厅）" imgSrc="town-hall-19-barbarian.webp" />
+        <UnitImg imgTitle="19本（弓箭手大厅）" imgSrc="town-hall-19-archer.webp" />
+        <UnitImg imgTitle="19本（法师大厅）" imgSrc="town-hall-19-wizard.webp" />
     </UnitImgGroup>
     <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
-        <UnitImg imgTitle="12 本 1 星" imgSrc="Town_Hall12_1.png" imgHd="Town_Hall12_1_hd.png" />
-        <UnitImg imgTitle="12 本 2 星" imgSrc="Town_Hall12_2.png" imgHd="Town_Hall12_2_hd.png" />
-        <UnitImg imgTitle="12 本 3 星" imgSrc="Town_Hall12_3.png" imgHd="Town_Hall12_3_hd.png" />
-        <UnitImg imgTitle="12 本 4 星" imgSrc="Town_Hall12_4.png" imgHd="Town_Hall12_4_hd.png" />
-        <UnitImg imgTitle="12 本 5 星" imgSrc="Town_Hall12_5.png" imgHd="Town_Hall12_5_hd.png" />
-        <UnitImg imgTitle="13 本 1 星" imgSrc="Town_Hall13_1.png" imgHd="Town_Hall13_1_hd.png" />
-        <UnitImg imgTitle="13 本 2 星" imgSrc="Town_Hall13_2.png" imgHd="Town_Hall13_2_hd.png" />
-        <UnitImg imgTitle="13 本 3 星" imgSrc="Town_Hall13_3.png" imgHd="Town_Hall13_3_hd.png" />
-        <UnitImg imgTitle="13 本 4 星" imgSrc="Town_Hall13_4.png" imgHd="Town_Hall13_4_hd.png" />
-        <UnitImg imgTitle="13 本 5 星" imgSrc="Town_Hall13_5.png" imgHd="Town_Hall13_5_hd.png" />
-        <UnitImg imgTitle="14 本 1 星" imgSrc="Town_Hall14_1.png" imgHd="Town_Hall14_1_hd.png" />
-        <UnitImg imgTitle="14 本 2 星" imgSrc="Town_Hall14_2.png" imgHd="Town_Hall14_2_hd.png" />
-        <UnitImg imgTitle="14 本 3 星" imgSrc="Town_Hall14_3.png" imgHd="Town_Hall14_3_hd.png" />
-        <UnitImg imgTitle="14 本 4 星" imgSrc="Town_Hall14_4.png" imgHd="Town_Hall14_4_hd.png" />
-        <UnitImg imgTitle="14 本 5 星" imgSrc="Town_Hall14_5.png" imgHd="Town_Hall14_5_hd.png" />
-        <UnitImg imgTitle="15 本 1 星" imgSrc="Town_Hall15_1.png" imgHd="Town_Hall15_1_hd.png" />
-        <UnitImg imgTitle="15 本 2 星" imgSrc="Town_Hall15_2.png" imgHd="Town_Hall15_2_hd.png" />
-        <UnitImg imgTitle="15 本 3 星" imgSrc="Town_Hall15_3.png" imgHd="Town_Hall15_3_hd.png" />
-        <UnitImg imgTitle="15 本 4 星" imgSrc="Town_Hall15_4.png" imgHd="Town_Hall15_4_hd.png" />
-        <UnitImg imgTitle="15 本 5 星" imgSrc="Town_Hall15_5.png" imgHd="Town_Hall15_5_hd.png" />
+        <UnitImg imgTitle="12本1星" imgSrc="Town_Hall12_1.png" imgHd="Town_Hall12_1_hd.png" />
+        <UnitImg imgTitle="12本2星" imgSrc="Town_Hall12_2.png" imgHd="Town_Hall12_2_hd.png" />
+        <UnitImg imgTitle="12本3星" imgSrc="Town_Hall12_3.png" imgHd="Town_Hall12_3_hd.png" />
+        <UnitImg imgTitle="12本4星" imgSrc="Town_Hall12_4.png" imgHd="Town_Hall12_4_hd.png" />
+        <UnitImg imgTitle="12本5星" imgSrc="Town_Hall12_5.png" imgHd="Town_Hall12_5_hd.png" />
+        <UnitImg imgTitle="13本1星" imgSrc="Town_Hall13_1.png" imgHd="Town_Hall13_1_hd.png" />
+        <UnitImg imgTitle="13本2星" imgSrc="Town_Hall13_2.png" imgHd="Town_Hall13_2_hd.png" />
+        <UnitImg imgTitle="13本3星" imgSrc="Town_Hall13_3.png" imgHd="Town_Hall13_3_hd.png" />
+        <UnitImg imgTitle="13本4星" imgSrc="Town_Hall13_4.png" imgHd="Town_Hall13_4_hd.png" />
+        <UnitImg imgTitle="13本5星" imgSrc="Town_Hall13_5.png" imgHd="Town_Hall13_5_hd.png" />
+        <UnitImg imgTitle="14本1星" imgSrc="Town_Hall14_1.png" imgHd="Town_Hall14_1_hd.png" />
+        <UnitImg imgTitle="14本2星" imgSrc="Town_Hall14_2.png" imgHd="Town_Hall14_2_hd.png" />
+        <UnitImg imgTitle="14本3星" imgSrc="Town_Hall14_3.png" imgHd="Town_Hall14_3_hd.png" />
+        <UnitImg imgTitle="14本4星" imgSrc="Town_Hall14_4.png" imgHd="Town_Hall14_4_hd.png" />
+        <UnitImg imgTitle="14本5星" imgSrc="Town_Hall14_5.png" imgHd="Town_Hall14_5_hd.png" />
+        <UnitImg imgTitle="15本1星" imgSrc="Town_Hall15_1.png" imgHd="Town_Hall15_1_hd.png" />
+        <UnitImg imgTitle="15本2星" imgSrc="Town_Hall15_2.png" imgHd="Town_Hall15_2_hd.png" />
+        <UnitImg imgTitle="15本3星" imgSrc="Town_Hall15_3.png" imgHd="Town_Hall15_3_hd.png" />
+        <UnitImg imgTitle="15本4星" imgSrc="Town_Hall15_4.png" imgHd="Town_Hall15_4_hd.png" />
+        <UnitImg imgTitle="15本5星" imgSrc="Town_Hall15_5.png" imgHd="Town_Hall15_5_hd.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
-1. 升到 19 本后，每套阵型都能单独设置大本营驻军。野蛮人大厅直接开放，可驻扎 15 名野蛮人。研究出 15 级弓箭手或 15 级法师后，可分别选择驻扎 15 名弓箭手或 4 名法师。保留原始外观时没有驻军。敌军进入大本营 13 格范围后，驻军按玩家已研究的兵种等级出战。防守的守卫在守卫神殿中选择。
+1. 升到19本后，每套阵型都能单独设置大本营驻军。野蛮人大厅直接开放，可驻扎15名野蛮人。研究出15级弓箭手或15级法师后，可分别选择驻扎15名弓箭手或4名法师。保留原始外观时没有驻军。敌军进入大本营13格范围后，驻军按玩家已研究的兵种等级出战。防守的守卫在守卫神殿中选择。
 2. [雷电法术](/upgrade/0100-Lightning-Spell) 不能对大本营造成伤害，[地震法术](/upgrade/0181-Earthquake-Spell) 可以。
 
 <SmallTitle>属性</SmallTitle>
@@ -146,8 +146,8 @@ const tableExtraInfo2 = [
 
 **\* 关于建筑数量和陷阱数量的说明：**
 
-1. 这里的建筑数量包含大本营本身以及 5 个 [建筑工人小屋](/upgrade/0500-Builders-Hut)，在 10 级及以上大本营还包含 [小博木屋](/upgrade/0501-B.O.Bs-Hut)。
-2. 理论上来说，[部落城堡](/upgrade/clan-castle) 在 2 级大本营也有可能解锁，但这种情况过于刁钻，为了让数据更具普遍性，这里将城堡视为 3 级大本营解锁。
+1. 这里的建筑数量包含大本营本身以及5个 [建筑工人小屋](/upgrade/0500-Builders-Hut)，在10级及以上大本营还包含 [小博木屋](/upgrade/0501-B.O.Bs-Hut)。
+2. 理论上来说，[部落城堡](/upgrade/clan-castle) 在2级大本营也有可能解锁，但这种情况过于刁钻，为了让数据更具普遍性，这里将城堡视为3级大本营解锁。
 3. 当商店里的所有建筑都已建造，且所有可以合并的建筑都已经合并时，建筑数量才会等于表格中的数字。
 4. [战旗](/p/6827) 不视为建筑。
 
@@ -177,76 +177,76 @@ const tableExtraInfo2 = [
 
 <Table>
 
-| 大本等级 | 提速时间 | 力量加成 | 资源加成 | 英雄加成  | 4 倍胜利之星 |
+| 大本等级 | 提速时间 | 力量加成 | 资源加成 | 英雄加成  | 4倍胜利之星 |
 |   ---   |    ---   |   ---   |   ---   |   ---    |     ---     |
 |  1 - 3  |     无   |    ×    |    ×    |    ×     |      ×      |
-|  4 - 6  |   3 天   |    ✓    |    ✓    |    ×     |      ✓      |
-|    7    |   4 天   |    ✓    |    ✓    |    ×     |      ✓      |
-|  8 - 9  |   4 天   |    ✓    |    ✓    |    ✓     |      ✓      |
-|   10+   |   5 天   |    ✓    |    ✓    |    ✓     |      ✓      |
+|  4 - 6  |   3天   |    ✓    |    ✓    |    ×     |      ✓      |
+|    7    |   4天   |    ✓    |    ✓    |    ×     |      ✓      |
+|  8 - 9  |   4天   |    ✓    |    ✓    |    ✓     |      ✓      |
+|   10+   |   5天   |    ✓    |    ✓    |    ✓     |      ✓      |
 </Table>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/11/16">
-        <TimelineRow>推出 19 级大本营，新增大本营驻防部队与外观切换功能（原始 / 野蛮人大厅 / 弓箭手大厅 / 法师大厅），守护者功能移至新建筑「守卫神殿」。</TimelineRow>
-        <TimelineRow>18 级大本营升级费用由 25M 降至 20M，升级时间由 14 天降至 10 天。</TimelineRow>
-        <TimelineRow>17 级大本营武器（地狱火炮）移除星级划分，统一合并为满级属性。</TimelineRow>
+        <TimelineRow>推出19级大本营，新增大本营驻防部队与外观切换功能（原始 / 野蛮人大厅 / 弓箭手大厅 / 法师大厅），守护者功能移至新建筑「守卫神殿」。</TimelineRow>
+        <TimelineRow>18级大本营升级费用由25M 降至20M，升级时间由14天降至10天。</TimelineRow>
+        <TimelineRow>17级大本营武器（地狱火炮）移除星级划分，统一合并为满级属性。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>游戏新增 18 级大本营。</TimelineRow>
+        <TimelineRow>游戏新增18级大本营。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>同步游戏内大本营的文字描述。</TimelineRow>
-        <TimelineRow>16 级大本营的升级费用降低。</TimelineRow>
-        <TimelineRow>13 ~ 17 级大本营的升级时间减少。</TimelineRow>
+        <TimelineRow>16级大本营的升级费用降低。</TimelineRow>
+        <TimelineRow>13 ~ 17级大本营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">
-        <TimelineRow>1 ~ 4 级大本营的生命值减少。</TimelineRow>
-        <TimelineRow>由于精制台的推出，17 级大本营的建筑数量加一。</TimelineRow>
+        <TimelineRow>1 ~ 4级大本营的生命值减少。</TimelineRow>
+        <TimelineRow>由于精制台的推出，17级大本营的建筑数量加一。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>6、9、14 ~ 17 级大本营的升级费用降低。</TimelineRow>
-        <TimelineRow>10 ~ 12 级大本营的升级时间增加。</TimelineRow>
-        <TimelineRow>15 ~ 17 级大本营的升级时间减少。</TimelineRow>
+        <TimelineRow>6、9、14 ~ 17级大本营的升级费用降低。</TimelineRow>
+        <TimelineRow>10 ~ 12级大本营的升级时间增加。</TimelineRow>
+        <TimelineRow>15 ~ 17级大本营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>游戏推出了新的合并建筑，17 本的建筑数量有变。</TimelineRow>
-        <TimelineRow>3 级大本营的升级时间减少。</TimelineRow>
-        <TimelineRow>14 ~ 17 级大本营可存储的资源量增加。</TimelineRow>
+        <TimelineRow>游戏推出了新的合并建筑，17本的建筑数量有变。</TimelineRow>
+        <TimelineRow>3级大本营的升级时间减少。</TimelineRow>
+        <TimelineRow>14 ~ 17级大本营可存储的资源量增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>游戏新增 17 级大本营。</TimelineRow>
-        <TimelineRow>15 ~ 16 级大本营的升级费用降低。</TimelineRow>
-        <TimelineRow>14 ~ 16 级大本营的升级时间减少。</TimelineRow>
+        <TimelineRow>游戏新增17级大本营。</TimelineRow>
+        <TimelineRow>15 ~ 16级大本营的升级费用降低。</TimelineRow>
+        <TimelineRow>14 ~ 16级大本营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>游戏新增 16 级大本营。</TimelineRow>
-        <TimelineRow>15 级大本营的升级时间由 15 天减少至 13 天 12 小时。</TimelineRow>
+        <TimelineRow>游戏新增16级大本营。</TimelineRow>
+        <TimelineRow>15级大本营的升级时间由15天减少至13天12小时。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
         <TimelineRow>更新后训练营和暗黑训练营各保留一个，多余的全部删除，所以各个大本的最大建筑数量改变。</TimelineRow>
-        <TimelineRow>游戏新增 15 级大本营。</TimelineRow>
-        <TimelineRow>10 ~ 14 级大本营的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>游戏新增15级大本营。</TimelineRow>
+        <TimelineRow>10 ~ 14级大本营的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>1 ~ 13 级大本营的升级费用降低。</TimelineRow>
-        <TimelineRow>4 ~ 14 级大本营的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 13级大本营的升级费用降低。</TimelineRow>
+        <TimelineRow>4 ~ 14级大本营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/29">
-        <TimelineRow>14 级大本营爆炸后毒药的伤害增长更快。</TimelineRow>
+        <TimelineRow>14级大本营爆炸后毒药的伤害增长更快。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 级大本营推出。</TimelineRow>
-        <TimelineRow>7、10、11 级大本营的升级费用降低。</TimelineRow>
-        <TimelineRow>2 级大本营可存储的金币和圣水由 1000 增加到 2500。</TimelineRow>
+        <TimelineRow>14级大本营推出。</TimelineRow>
+        <TimelineRow>7、10、11级大本营的升级费用降低。</TimelineRow>
+        <TimelineRow>2级大本营可存储的金币和圣水由1000增加到2500。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 级大本营推出。</TimelineRow>
+        <TimelineRow>13级大本营推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中 4 ~ 10 级大本营的升级时间减少。</TimelineRow>
+        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中4 ~ 10级大本营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

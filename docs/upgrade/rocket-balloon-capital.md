@@ -23,26 +23,26 @@ canonical: /upgrade/rocket-balloon-capital
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 火箭气球兵的解锁条件是建造 [火箭气球兵训练营](/upgrade/rocket-balloon-barracks-capital)，而这需要部落解锁气球环礁，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 4 级。
-2. 火箭气球兵的技能（急速飞行）：在部署后的 4 秒内提升移动速度。加速状态下火箭气球兵的移动速度是 60.8，即 7.6 格/秒。
+1. 火箭气球兵的解锁条件是建造 [火箭气球兵训练营](/upgrade/rocket-balloon-barracks-capital)，而这需要部落解锁气球环礁，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到4级。
+2. 火箭气球兵的技能（急速飞行）：在部署后的4秒内提升移动速度。加速状态下火箭气球兵的移动速度是60.8，即7.6格/秒。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="空中单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1 格" />
+    <UnitProperty pKey="伤害半径" pValue="1格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="每组兵的配兵人口" pValue="15" />
     <UnitProperty pKey="每组兵的部队数量" pValue="2" />
     <UnitProperty pKey="每个兵的防守人口" pValue="7.5" />
-    <UnitProperty pKey="移动速度" pValue="1.1 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="3 秒/次" />
-    <UnitProperty pKey="首次进攻时机" pValue="到达目标后 0.75 秒" />
+    <UnitProperty pKey="移动速度" pValue="1.1格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="3秒/次" />
+    <UnitProperty pKey="首次进攻时机" pValue="到达目标后0.75秒" />
     <UnitProperty pKey="攻击距离" pValue="0 (建筑头顶)" />
-    <UnitProperty pKey="死亡伤害半径" pValue="1 格" />
-    <UnitProperty pKey="死亡伤害延时" pValue="0.416 秒" />
+    <UnitProperty pKey="死亡伤害半径" pValue="1格" />
+    <UnitProperty pKey="死亡伤害延时" pValue="0.416秒" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

@@ -15,19 +15,19 @@ canonical: /upgrade/0406-Dark-Elixir-Storage
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Dark_Elixir_Storage1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Dark_Elixir_Storage2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Dark_Elixir_Storage3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Dark_Elixir_Storage4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Dark_Elixir_Storage5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Dark_Elixir_Storage6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Dark_Elixir_Storage7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Dark_Elixir_Storage8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Dark_Elixir_Storage9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Dark_Elixir_Storage10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Dark_Elixir_Storage11.png" imgHd="Dark_Elixir_Storage11_hd.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Dark_Elixir_Storage12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Dark_Elixir_Storage13.png" />
+        <UnitImg imgTitle="1级" imgSrc="Dark_Elixir_Storage1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Dark_Elixir_Storage2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Dark_Elixir_Storage3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Dark_Elixir_Storage4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Dark_Elixir_Storage5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Dark_Elixir_Storage6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Dark_Elixir_Storage7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Dark_Elixir_Storage8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Dark_Elixir_Storage9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Dark_Elixir_Storage10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Dark_Elixir_Storage11.png" imgHd="Dark_Elixir_Storage11_hd.png" />
+        <UnitImg imgTitle="12级" imgSrc="Dark_Elixir_Storage12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Dark_Elixir_Storage13.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -102,50 +102,50 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 13 级暗黑重油罐。</TimelineRow>
-        <TimelineRow>12 级暗黑重油罐的升级时间减少。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增13级暗黑重油罐。</TimelineRow>
+        <TimelineRow>12级暗黑重油罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>8 ~ 11 级暗黑重油罐的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 11级暗黑重油罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>7 ~ 11 级暗黑重油罐的升级时间减少。</TimelineRow>
-        <TimelineRow>6、9 ~ 11 级暗黑重油罐的升级费用降低。</TimelineRow>
+        <TimelineRow>7 ~ 11级暗黑重油罐的升级时间减少。</TimelineRow>
+        <TimelineRow>6、9 ~ 11级暗黑重油罐的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>10 ~ 12 级暗黑重油罐的资源储量增加。</TimelineRow>
+        <TimelineRow>10 ~ 12级暗黑重油罐的资源储量增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 12 级暗黑重油罐。</TimelineRow>
-        <TimelineRow>5、10 ~ 11 级暗黑重油罐的升级时间减少。</TimelineRow>
-        <TimelineRow>10 级暗黑重油罐的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增12级暗黑重油罐。</TimelineRow>
+        <TimelineRow>5、10 ~ 11级暗黑重油罐的升级时间减少。</TimelineRow>
+        <TimelineRow>10级暗黑重油罐的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>8 ~ 10 级暗黑重油罐的升级时间减少。</TimelineRow>
-        <TimelineRow>9 ~ 10 级暗黑重油罐的升级费用降低。</TimelineRow>
+        <TimelineRow>8 ~ 10级暗黑重油罐的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 10级暗黑重油罐的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>新增 10 级暗黑重油罐，16 级大本营可解锁。</TimelineRow>
-        <TimelineRow>6, 8 ~ 10 级暗黑重油罐的升级费用降低。</TimelineRow>
+        <TimelineRow>新增10级暗黑重油罐，16级大本营可解锁。</TimelineRow>
+        <TimelineRow>6, 8 ~ 10级暗黑重油罐的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>8 级暗黑重油罐的升级时间减少。</TimelineRow>
-        <TimelineRow>7 ~ 8 级暗黑重油罐的升级费用降低。</TimelineRow>
+        <TimelineRow>8级暗黑重油罐的升级时间减少。</TimelineRow>
+        <TimelineRow>7 ~ 8级暗黑重油罐的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 10 级暗黑重油罐。</TimelineRow>
-        <TimelineRow>7 ~ 9 级暗黑重油罐的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增10级暗黑重油罐。</TimelineRow>
+        <TimelineRow>7 ~ 9级暗黑重油罐的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 9 级暗黑重油罐。</TimelineRow>
-        <TimelineRow>1 ~ 2 级暗黑重油罐的升级时间减少。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增9级暗黑重油罐。</TimelineRow>
+        <TimelineRow>1 ~ 2级暗黑重油罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>新增 14 级暗黑重油罐，8 级大本营可解锁。</TimelineRow>
-        <TimelineRow>12 级大本营可掠夺的黑油增加至 4000（不含采集器和城堡）。</TimelineRow>
+        <TimelineRow>新增14级暗黑重油罐，8级大本营可解锁。</TimelineRow>
+        <TimelineRow>12级大本营可掠夺的黑油增加至4000（不含采集器和城堡）。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/04/02">
-        <TimelineRow>1 ~ 6 级暗黑重油罐的升级费用降低，7 级暗黑重油罐的升级费用提升。</TimelineRow>
+        <TimelineRow>1 ~ 6级暗黑重油罐的升级费用降低，7级暗黑重油罐的升级费用提升。</TimelineRow>
         <TimelineRow>所有等级暗黑重油罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

@@ -17,8 +17,8 @@ canonical: /upgrade/0386-Tornado-Trap
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Tornado_Trap1.png" />
-        <UnitImg imgTitle="2 - 3 级" imgSrc="Tornado_Trap2.png" />
+        <UnitImg imgTitle="1级" imgSrc="Tornado_Trap1.png" />
+        <UnitImg imgTitle="2 - 3级" imgSrc="Tornado_Trap2.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -40,10 +40,10 @@ canonical: /upgrade/0386-Tornado-Trap
     <UnitProperty pKey="占地面积" pValue="1×1" />
     <UnitProperty pKey="作用类型" pValue="让范围内的部队转圈，并造成少量范围伤害" />
     <UnitProperty pKey="作用目标" pValue="地面和空中目标 (矿工除外)" />
-    <UnitProperty pKey="触发半径" pValue="3 格" />
-    <UnitProperty pKey="作用半径" pValue="3 格" />
+    <UnitProperty pKey="触发半径" pValue="3格" />
+    <UnitProperty pKey="作用半径" pValue="3格" />
     <UnitProperty pKey="每秒伤害" pValue="8 (近似值)" />
-    <UnitProperty pKey="陷阱作用延时" pValue="0.4 秒" />
+    <UnitProperty pKey="陷阱作用延时" pValue="0.4秒" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -73,9 +73,9 @@ const tableExtraInfo = [
 
 | 等级 | 总伤害 |陷阱<br>持续时间| 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
 | ---- |  ---  |      ---      |    ---   |  ---    |         ---        |      ---      |
-|   1  |   39  |      5 秒     |   1.8M   |    0    |                    |       11      |
-|   2  |   47  |      6 秒     |     2M   |    1    |                    |       11      |
-|   3  |   55  |      7 秒     |   2.5M   |    2    |                    |       12      |
+|   1  |   39  |      5秒     |   1.8M   |    0    |                    |       11      |
+|   2  |   47  |      6秒     |     2M   |    1    |                    |       11      |
+|   3  |   55  |      7秒     |   2.5M   |    2    |                    |       12      |
 
 </UnitTable>
 
@@ -83,13 +83,13 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 3 级飓风陷阱的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3级飓风陷阱的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>2 ~ 3 级飓风陷阱的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 3级飓风陷阱的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>1 级飓风陷阱的建造费用降低。</TimelineRow>
+        <TimelineRow>1级飓风陷阱的建造费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
         <TimelineRow>玩家上线后，所有的陷阱将自动被重新布置，重新布置不再需要花费金币。然而，如果玩家不上线，陷阱就不会被重新布置，所以你仍然可以攻击到陷阱失效的村庄。</TimelineRow>

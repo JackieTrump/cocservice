@@ -2,7 +2,7 @@
 title: "部落冲突 coc 飞龙公爵升级数据"
 navTitle: "飞龙公爵"
 shownTitle: "飞龙公爵"
-description: "这名坦克型飞行英雄因为情绪管理问题被关了起来，一旦远离友方飞行单位，他就会变得更加愤怒与强大！进入皇室狂暴状态后，他的伤害会提升 100、攻击速度提升 50%，同时使自身受到的陷阱伤害减半。在防守时，他只能被敌方的对空单位攻击。"
+description: "这名坦克型飞行英雄因为情绪管理问题被关了起来，一旦远离友方飞行单位，他就会变得更加愤怒与强大！进入皇室狂暴状态后，他的伤害会提升100、攻击速度提升50%，同时使自身受到的陷阱伤害减半。在防守时，他只能被敌方的对空单位攻击。"
 module: upgrade-home
 imgFolder: home_heroes/0205
 wiki: https://clashofclans.fandom.com/wiki/Dragon_Duke
@@ -28,13 +28,13 @@ canonical: /upgrade/dragon-duke
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="25" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1.25 格" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1.25格" />
     <UnitProperty pKey="所需英雄殿堂等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="15" />
-    <UnitProperty pKey="搜索半径" pValue="10 格<sup>①</sup>" />
-    <UnitProperty pKey="巡逻半径" pValue="3 格<sup>②</sup>" />
+    <UnitProperty pKey="搜索半径" pValue="10格<sup>①</sup>" />
+    <UnitProperty pKey="巡逻半径" pValue="3格<sup>②</sup>" />
     <UnitProperty pKey="落单时伤害提升" pValue="100%" />
     <UnitProperty pKey="落单时攻击速度提升" pValue="50%" />
 </UnitProperties>
@@ -119,7 +119,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/03/01">
-        <TimelineRow>飞龙公爵正式推出，15 本可解锁。</TimelineRow>
+        <TimelineRow>飞龙公爵正式推出，15本可解锁。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>飞龙公爵已经添加到游戏中，但需要通过活动获取。</TimelineRow>

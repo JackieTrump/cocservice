@@ -2,7 +2,7 @@
 title: "部落冲突 coc 火箭飞矛装备升级数据"
 navTitle: "火箭飞矛"
 shownTitle: "火箭飞矛"
-description: "火箭飞矛是飞盾战神的第一件史诗装备，它在 2024 年 6 月的超级炸弹人大舞台活动中首次开放购买。火箭飞矛装备可以让飞盾战神在接下来的几次攻击中威力更强，范围更远，并且拥有范围伤害。除此之外，火箭飞矛还可以增加飞盾战神不开技能时的每秒伤害和生命值。"
+description: "火箭飞矛是飞盾战神的第一件史诗装备，它在2024年6月的超级炸弹人大舞台活动中首次开放购买。火箭飞矛装备可以让飞盾战神在接下来的几次攻击中威力更强，范围更远，并且拥有范围伤害。除此之外，火箭飞矛还可以增加飞盾战神不开技能时的每秒伤害和生命值。"
 module: upgrade-home
 imgFolder: home_heroes/07c4
 wiki: https://clashofclans.fandom.com/wiki/Rocket_Spear
@@ -13,7 +13,7 @@ canonical: /upgrade/07c4-Rocket-Spear
 
 <SmallTitle>说明</SmallTitle>
 
-1. 火箭飞矛是 [飞盾战神](/upgrade/royal-champion) 的第一件史诗装备，它在 2024 年 6 月的超级炸弹人大舞台活动中首次开放购买。
+1. 火箭飞矛是 [飞盾战神](/upgrade/royal-champion) 的第一件史诗装备，它在2024年6月的超级炸弹人大舞台活动中首次开放购买。
 2. 火箭飞矛装备可以让飞盾战神在接下来的几次攻击中威力更强，范围更远，并且拥有**范围伤害**。
 3. 除此之外，火箭飞矛还可以增加飞盾战神不开技能时的每秒伤害和生命值。
 
@@ -22,8 +22,8 @@ canonical: /upgrade/07c4-Rocket-Spear
 <UnitProperties>
     <UnitProperty pKey="技能类型" pValue="主动技能" />
     <UnitProperty pKey="装备稀有度" pValue="史诗" />
-    <UnitProperty pKey="飞矛射程" pValue="10 格" />
-    <UnitProperty pKey="飞矛的伤害半径" pValue="0.8 格" />
+    <UnitProperty pKey="飞矛射程" pValue="10格" />
+    <UnitProperty pKey="飞矛的伤害半径" pValue="0.8格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -86,7 +86,7 @@ const tableExtraInfo = [
 
 注意：
 
-1. 上表的 8 点移动速度代表 1 格/秒。
+1. 上表的8点移动速度代表1格/秒。
 2. 如果升级费用中有多种资源，则同时需要多种资源才能升级。
 
 <SmallTitle>推出记录</SmallTitle>
@@ -95,9 +95,9 @@ const tableExtraInfo = [
 
 | 推出时间 |     活动名称    |     价格      | 购买渠道 |
 |   ---   |       ---      |      ---      |    ---   |
-| 2024/06 | 超级炸弹人大舞台 | 3 100 超级奖章 |   商人   |
-| 2025/02 |     灵蛇庆典    | 3 100 灵蛇奖章 |   商人   |
-| 2026/02 |     智慧勇士    | 3 100 愤怒奖章 |   商人   |
+| 2024/06 | 超级炸弹人大舞台 | 3 100超级奖章 |   商人   |
+| 2025/02 |     灵蛇庆典    | 3 100灵蛇奖章 |   商人   |
+| 2026/02 |     智慧勇士    | 3 100愤怒奖章 |   商人   |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

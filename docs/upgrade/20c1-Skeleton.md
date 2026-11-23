@@ -29,9 +29,9 @@ canonical: /upgrade/20c1-Skeleton
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="防守人口" pValue="0" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.3 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.3格" />
     <UnitProperty pKey="每秒伤害" pValue="25" />
     <UnitProperty pKey="每次伤害" pValue="25" />
     <UnitProperty pKey="生命值" pValue="30" />

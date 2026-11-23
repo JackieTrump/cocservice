@@ -21,18 +21,18 @@ canonical: /upgrade/totem-spell
     - 如果其他部队触发了陷阱，图腾仍会受到除了位移效果外的影响。
 4. [镜像法术](/upgrade/0105-Clone-Spell)、[回溯法术](/upgrade/0107-Recall-Spell)、[冰障法术](/upgrade/0186-Ice-Block-Spell) 无法对图腾造成影响。
 5. 虽然 [治疗法术](/upgrade/0101-Healing-Spell) 能治疗图腾，但是图腾不会被 [天使](/upgrade/0007-Healer) 和 [德鲁伊](/upgrade/druid) 锁定。
-6. 图腾被计作 20 人口，可以用作 [暗黑王冠](/upgrade/0724-Dark-Crown) 的人口计算，也可以免疫 [隐形弹簧](/upgrade/0381-Spring-Trap) 的**弹飞**效果。但是，对于 [天鹰火炮](/upgrade/030b-Eagle-Artillery)，图腾法术与其他 1 单位的法术一样只会计作 5 人口。
+6. 图腾被计作20人口，可以用作 [暗黑王冠](/upgrade/0724-Dark-Crown) 的人口计算，也可以免疫 [隐形弹簧](/upgrade/0381-Spring-Trap) 的**弹飞**效果。但是，对于 [天鹰火炮](/upgrade/030b-Eagle-Artillery)，图腾法术与其他1单位的法术一样只会计作5人口。
 7. [大守护者](/upgrade/grand-warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备不能令图腾免疫伤害。
-8. 2026/02 更新后，图腾落地时不能对地方建筑和部队造成伤害了，但游戏内的简介仍然保留了相关表述。本页暂时采用官方表述。
+8. 2026/02更新后，图腾落地时不能对地方建筑和部队造成伤害了，但游戏内的简介仍然保留了相关表述。本页暂时采用官方表述。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="有效半径" pValue="5 格" />
+    <UnitProperty pKey="有效半径" pValue="5格" />
     <UnitProperty pKey="作用类型" pValue="重置敌方攻击并吸引火力" />
     <UnitProperty pKey="作用目标" pValue="敌方建筑和部队" />
     <UnitProperty pKey="占用的法术空间" pValue="1" />
-    <UnitProperty pKey="图腾的掉血速度" pValue="每秒 334 血<sup>*</sup>" />
+    <UnitProperty pKey="图腾的掉血速度" pValue="每秒334血<sup>*</sup>" />
     <UnitProperty pKey="所需法术工厂等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="16" />
     <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
@@ -74,15 +74,15 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>图腾的有效半径由 6 格改为 5 格。</TimelineRow>
+        <TimelineRow>图腾的有效半径由6格改为5格。</TimelineRow>
         <TimelineRow>图腾落地时不能对地方建筑和部队造成伤害了。</TimelineRow>
         <TimelineRow>守护者学徒和生命宝石装备无法再给图腾施加加血效果了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/01/12">
-        <TimelineRow>图腾增加生命值衰减机制，每秒自动减少 334 生命值（类似于攻城训练营和攻城滚木车）。</TimelineRow>
+        <TimelineRow>图腾增加生命值衰减机制，每秒自动减少334生命值（类似于攻城训练营和攻城滚木车）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/27">
-        <TimelineRow>18 本推出，并在 16 本新增图腾法术。</TimelineRow>
+        <TimelineRow>18本推出，并在16本新增图腾法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

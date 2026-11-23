@@ -18,11 +18,11 @@ canonical: /upgrade/2207-Super-Wizard-Tower
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Super_Wizard_Tower_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Super_Wizard_Tower1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Super_Wizard_Tower2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Super_Wizard_Tower3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Super_Wizard_Tower4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Super_Wizard_Tower5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Super_Wizard_Tower1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Super_Wizard_Tower2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Super_Wizard_Tower3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Super_Wizard_Tower4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Super_Wizard_Tower5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -54,12 +54,12 @@ canonical: /upgrade/2207-Super-Wizard-Tower
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="链式伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="5.5 格" />
-    <UnitProperty pKey="攻速" pValue="2 秒/次" />
-    <UnitProperty pKey="连锁距离" pValue="2.25 格" />
+    <UnitProperty pKey="射程" pValue="5.5格" />
+    <UnitProperty pKey="攻速" pValue="2秒/次" />
+    <UnitProperty pKey="连锁距离" pValue="2.25格" />
     <UnitProperty pKey="最大目标数量" pValue="10 (含初始目标)" />
-    <UnitProperty pKey="连锁延迟" pValue="0.128 秒" />
-    <UnitProperty pKey="连锁后保留的伤害" pValue="40% (除初始目标外均保留 40% 伤害)" />
+    <UnitProperty pKey="连锁延迟" pValue="0.128秒" />
+    <UnitProperty pKey="连锁后保留的伤害" pValue="40% (除初始目标外均保留40% 伤害)" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

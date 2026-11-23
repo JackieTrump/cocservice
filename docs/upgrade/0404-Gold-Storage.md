@@ -17,25 +17,25 @@ canonical: /upgrade/0404-Gold-Storage
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Gold_Storage1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Gold_Storage2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Gold_Storage3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Gold_Storage4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Gold_Storage5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Gold_Storage6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Gold_Storage7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Gold_Storage8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Gold_Storage9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Gold_Storage10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Gold_Storage11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Gold_Storage12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Gold_Storage13.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Gold_Storage14.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Gold_Storage15.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Gold_Storage16.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Gold_Storage17.png" />
-        <UnitImg imgTitle="18 级" imgSrc="Gold_Storage18.png" />
-        <UnitImg imgTitle="19 级" imgSrc="Gold_Storage19.png" />
+        <UnitImg imgTitle="1级" imgSrc="Gold_Storage1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Gold_Storage2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Gold_Storage3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Gold_Storage4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Gold_Storage5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Gold_Storage6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Gold_Storage7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Gold_Storage8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Gold_Storage9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Gold_Storage10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Gold_Storage11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Gold_Storage12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Gold_Storage13.png" />
+        <UnitImg imgTitle="14级" imgSrc="Gold_Storage14.png" />
+        <UnitImg imgTitle="15级" imgSrc="Gold_Storage15.png" />
+        <UnitImg imgTitle="16级" imgSrc="Gold_Storage16.png" />
+        <UnitImg imgTitle="17级" imgSrc="Gold_Storage17.png" />
+        <UnitImg imgTitle="18级" imgSrc="Gold_Storage18.png" />
+        <UnitImg imgTitle="19级" imgSrc="Gold_Storage19.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -116,51 +116,51 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 19 级储金罐。</TimelineRow>
-        <TimelineRow>18 级储金罐的升级时间减少。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增19级储金罐。</TimelineRow>
+        <TimelineRow>18级储金罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">
-        <TimelineRow>1 ~ 9 级储金罐的生命值减少。</TimelineRow>
+        <TimelineRow>1 ~ 9级储金罐的生命值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>3 ~ 6、8 ~ 17 级储金罐的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 6、8 ~ 17级储金罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>17 ~ 18 级储金罐的资源储量增加。</TimelineRow>
-        <TimelineRow>2 ~ 8 级储金罐的升级时间减少。</TimelineRow>
+        <TimelineRow>17 ~ 18级储金罐的资源储量增加。</TimelineRow>
+        <TimelineRow>2 ~ 8级储金罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 18 级储金罐。</TimelineRow>
-        <TimelineRow>15 ~ 17 级储金罐的升级费用降低。</TimelineRow>
-        <TimelineRow>17 级储金罐的升级时间减少。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增18级储金罐。</TimelineRow>
+        <TimelineRow>15 ~ 17级储金罐的升级费用降低。</TimelineRow>
+        <TimelineRow>17级储金罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>12 ~ 16 级储金罐的升级时间减少。</TimelineRow>
+        <TimelineRow>12 ~ 16级储金罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>新增 17 级储金罐，16 级大本营可解锁。</TimelineRow>
-        <TimelineRow>15 级储金罐的升级费由 550 万降低到 450 万。</TimelineRow>
+        <TimelineRow>新增17级储金罐，16级大本营可解锁。</TimelineRow>
+        <TimelineRow>15级储金罐的升级费由550万降低到450万。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>13 ~ 14 级储金罐的升级时间减少。</TimelineRow>
-        <TimelineRow>13 ~ 14 级储金罐的升级费用降低。</TimelineRow>
+        <TimelineRow>13 ~ 14级储金罐的升级时间减少。</TimelineRow>
+        <TimelineRow>13 ~ 14级储金罐的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 16 级储金罐。</TimelineRow>
-        <TimelineRow>12 ~ 15 级储金罐的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增16级储金罐。</TimelineRow>
+        <TimelineRow>12 ~ 15级储金罐的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 15 级储金罐。</TimelineRow>
-        <TimelineRow>2 ~ 3 级储金罐的升级时间减少。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增15级储金罐。</TimelineRow>
+        <TimelineRow>2 ~ 3级储金罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>新增 14 级储金罐，13 级大本营可解锁。</TimelineRow>
-        <TimelineRow>13 级储金罐的容量增加 50 万。</TimelineRow>
-        <TimelineRow>12 级大本营可掠夺的金币增加至 50 万（不含采集器和城堡）。</TimelineRow>
+        <TimelineRow>新增14级储金罐，13级大本营可解锁。</TimelineRow>
+        <TimelineRow>13级储金罐的容量增加50万。</TimelineRow>
+        <TimelineRow>12级大本营可掠夺的金币增加至50万（不含采集器和城堡）。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/04/02">
-        <TimelineRow>10 ~ 13 级储金罐的升级时间减少。</TimelineRow>
-        <TimelineRow>12 ~ 13 级储金罐的升级费用降低。</TimelineRow>
+        <TimelineRow>10 ~ 13级储金罐的升级时间减少。</TimelineRow>
+        <TimelineRow>12 ~ 13级储金罐的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

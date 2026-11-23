@@ -65,7 +65,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/05/15">    
-        <TimelineRow>夜世界重做，现在 6 本可解锁新建筑：预备营。</TimelineRow>
+        <TimelineRow>夜世界重做，现在6本可解锁新建筑：预备营。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

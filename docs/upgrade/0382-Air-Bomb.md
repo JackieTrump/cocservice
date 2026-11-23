@@ -19,13 +19,13 @@ canonical: /upgrade/0382-Air-Bomb
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Air_Bomb1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Air_Bomb3.png" />
-        <UnitImg imgTitle="5 - 6 级" imgSrc="Air_Bomb5.png" />
-        <UnitImg imgTitle="7 - 8 级" imgSrc="Air_Bomb7.png" />
-        <UnitImg imgTitle="9 - 10 级" imgSrc="Air_Bomb9.png" />
-        <UnitImg imgTitle="11 - 12 级" imgSrc="Air_Bomb11.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Air_Bomb13.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Air_Bomb1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Air_Bomb3.png" />
+        <UnitImg imgTitle="5 - 6级" imgSrc="Air_Bomb5.png" />
+        <UnitImg imgTitle="7 - 8级" imgSrc="Air_Bomb7.png" />
+        <UnitImg imgTitle="9 - 10级" imgSrc="Air_Bomb9.png" />
+        <UnitImg imgTitle="11 - 12级" imgSrc="Air_Bomb11.png" />
+        <UnitImg imgTitle="13级" imgSrc="Air_Bomb13.png" />
         <UnitImg imgTitle="未重新布置" imgSrc="Air_Bomb_unarmed.png" />
     </UnitImgGroup>
 </Panel>
@@ -43,9 +43,9 @@ canonical: /upgrade/0382-Air-Bomb
     <UnitProperty pKey="占地面积" pValue="1×1" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="作用目标" pValue="仅空中目标" />
-    <UnitProperty pKey="触发半径" pValue="4 格" />
-    <UnitProperty pKey="伤害半径" pValue="3 格" />
-    <UnitProperty pKey="爆炸延时" pValue="0.3 秒" />
+    <UnitProperty pKey="触发半径" pValue="4格" />
+    <UnitProperty pKey="伤害半径" pValue="3格" />
+    <UnitProperty pKey="爆炸延时" pValue="0.3秒" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -94,62 +94,62 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 13 级空中炸弹。</TimelineRow>
-        <TimelineRow>12 级空中炸弹的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增13级空中炸弹。</TimelineRow>
+        <TimelineRow>12级空中炸弹的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>7 ~ 9 级空中炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>7 ~ 9级空中炸弹的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 7、9 ~ 11 级空中炸弹的升级时间减少。</TimelineRow>
-        <TimelineRow>3 ~ 11 级空中炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 7、9 ~ 11级空中炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 11级空中炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>8 级空中炸弹的升级时间减少。</TimelineRow>
-        <TimelineRow>8 级空中炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>8级空中炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>8级空中炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 12 级空中炸弹。</TimelineRow>
-        <TimelineRow>4 ~ 11 级空中炸弹的升级时间减少。</TimelineRow>
-        <TimelineRow>9 ~ 11 级空中炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增12级空中炸弹。</TimelineRow>
+        <TimelineRow>4 ~ 11级空中炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 11级空中炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>8 ~ 10 级空中炸弹的升级时间减少。</TimelineRow>
-        <TimelineRow>10 级空中炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>8 ~ 10级空中炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>10级空中炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 11 级空中炸弹。</TimelineRow>
-        <TimelineRow>2 ~ 9 级空中炸弹的升级时间减少。</TimelineRow>
-        <TimelineRow>3 ~ 5、7 ~ 9 级空中炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增11级空中炸弹。</TimelineRow>
+        <TimelineRow>2 ~ 9级空中炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 5、7 ~ 9级空中炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>6 ~ 8 级空中炸弹的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>6 ~ 8级空中炸弹的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 10 级空中炸弹。</TimelineRow>
-        <TimelineRow>7 ~ 9 级空中炸弹的升级时间减少。</TimelineRow>
-        <TimelineRow>5 ~ 9 级空中炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增10级空中炸弹。</TimelineRow>
+        <TimelineRow>7 ~ 9级空中炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>5 ~ 9级空中炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
-        <TimelineRow>5 ~ 9 级空中炸弹的伤害提高。</TimelineRow>
+        <TimelineRow>5 ~ 9级空中炸弹的伤害提高。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>4 ~ 5 级空中炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>4 ~ 5级空中炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/06/15">
-        <TimelineRow>14 本新增 9 级空中炸弹。</TimelineRow>
+        <TimelineRow>14本新增9级空中炸弹。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新解锁一个空中炸弹。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新解锁一个空中炸弹。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
-        <TimelineRow>13 本新增 8 级空中炸弹。</TimelineRow>
+        <TimelineRow>13本新增8级空中炸弹。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>4 级空中炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>4级空中炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本推出，并在 13 本新增 7 级空中炸弹。</TimelineRow>
+        <TimelineRow>13本推出，并在13本新增7级空中炸弹。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
         <TimelineRow>玩家上线后，所有的陷阱将自动被重新布置，重新布置不再需要花费金币。然而，如果玩家不上线，陷阱就不会被重新布置，所以你仍然可以攻击到陷阱失效的村庄。</TimelineRow>

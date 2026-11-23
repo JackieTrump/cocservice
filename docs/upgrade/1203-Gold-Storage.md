@@ -17,16 +17,16 @@ canonical: /upgrade/1203-Gold-Storage
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Gold_Storage1.png"/>
-        <UnitImg imgTitle="2 级" imgSrc="Gold_Storage2.png"/>
-        <UnitImg imgTitle="3 级" imgSrc="Gold_Storage3.png"/>
-        <UnitImg imgTitle="4 级" imgSrc="Gold_Storage4.png"/>
-        <UnitImg imgTitle="5 级" imgSrc="Gold_Storage5.png"/>
-        <UnitImg imgTitle="6 级" imgSrc="Gold_Storage6.png"/>
-        <UnitImg imgTitle="7 级" imgSrc="Gold_Storage7.png"/>
-        <UnitImg imgTitle="8 级" imgSrc="Gold_Storage8.png"/>
-        <UnitImg imgTitle="9 级" imgSrc="Gold_Storage9.png"/>
-        <UnitImg imgTitle="10 级" imgSrc="Gold_Storage10.png"/>
+        <UnitImg imgTitle="1级" imgSrc="Gold_Storage1.png"/>
+        <UnitImg imgTitle="2级" imgSrc="Gold_Storage2.png"/>
+        <UnitImg imgTitle="3级" imgSrc="Gold_Storage3.png"/>
+        <UnitImg imgTitle="4级" imgSrc="Gold_Storage4.png"/>
+        <UnitImg imgTitle="5级" imgSrc="Gold_Storage5.png"/>
+        <UnitImg imgTitle="6级" imgSrc="Gold_Storage6.png"/>
+        <UnitImg imgTitle="7级" imgSrc="Gold_Storage7.png"/>
+        <UnitImg imgTitle="8级" imgSrc="Gold_Storage8.png"/>
+        <UnitImg imgTitle="9级" imgSrc="Gold_Storage9.png"/>
+        <UnitImg imgTitle="10级" imgSrc="Gold_Storage10.png"/>
     </UnitImgGroup>
 </Panel>
 
@@ -96,11 +96,11 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
-        <TimelineRow>5 ~ 9 级储金罐的升级费用增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，储金罐可升至 10 级。</TimelineRow>
+        <TimelineRow>5 ~ 9级储金罐的升级费用增加。</TimelineRow>
+        <TimelineRow>夜世界10本推出，储金罐可升至10级。</TimelineRow>
     </TimelineItem>
      <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，储金罐可升至 9 级。</TimelineRow>
+        <TimelineRow>夜世界9本推出，储金罐可升至9级。</TimelineRow>
     </TimelineItem>   
     <TimelineItem :historyBottom="true" />
 </Timeline>

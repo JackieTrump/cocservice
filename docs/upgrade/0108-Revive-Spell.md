@@ -25,12 +25,12 @@ canonical: /upgrade/0108-Revive-Spell
 
 > Heroes are immortal! Unlike other troops, they will not perish in combat. If they are injured, they can simply sleep it off.<br>
 > 英雄是不朽的！不同于其他部队，他们不会在战斗结束后化作圣水，当他们受伤了只需睡一觉就会痊愈。<br>
-> （摘自官方于 2013 年 1 月在英雄玩法推出之时对英雄的介绍）
+> （摘自官方于2013年1月在英雄玩法推出之时对英雄的介绍）
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="有效半径" pValue="8 格" />
+    <UnitProperty pKey="有效半径" pValue="8格" />
     <UnitProperty pKey="作用类型" pValue="复活英雄" />
     <UnitProperty pKey="作用目标" pValue="我方英雄" />
     <UnitProperty pKey="占用的法术空间" pValue="2" />
@@ -73,19 +73,19 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>在 18 本新增 5 级复苏法术。</TimelineRow>
+        <TimelineRow>在18本新增5级复苏法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>3 ~ 4 级复苏法术的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>3 ~ 4级复苏法术的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>2 ~ 3 级复苏法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3级复苏法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 15 本新增复苏法术。</TimelineRow>
+        <TimelineRow>17本推出，并在15本新增复苏法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -32,10 +32,10 @@ canonical: /upgrade/0100-Lightning-Spell
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="作用半径" pValue="2 格" />
+    <UnitProperty pKey="作用半径" pValue="2格" />
     <UnitProperty pKey="作用类型" pValue="造成范围伤害" />
     <UnitProperty pKey="作用目标" pValue="所有敌方目标" />
-    <UnitProperty pKey="冰冻时间" pValue="0.1 秒" />
+    <UnitProperty pKey="冰冻时间" pValue="0.1秒" />
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需法术工厂等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="5" />
@@ -80,70 +80,70 @@ const tableExtraInfo = [
 |  13  |   720  |    27M  |  14     |             16              |      18       |
 </UnitTable>
 
-\* 如果玩家升级到 5 级大本营并且解锁了雷电法术，即使玩家没有立即升实验室也可以升级雷电法术。
+\* 如果玩家升级到5级大本营并且解锁了雷电法术，即使玩家没有立即升实验室也可以升级雷电法术。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 13 级雷电法术。</TimelineRow>
-        <TimelineRow>12 级雷电法术的升级时间减少。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增13级雷电法术。</TimelineRow>
+        <TimelineRow>12级雷电法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>10 ~ 11 级雷电法术的升级时间减少。</TimelineRow>
+        <TimelineRow>10 ~ 11级雷电法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 4、6、8 ~ 11 级雷电法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4、6、8 ~ 11级雷电法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 12 级雷电法术。</TimelineRow>
-        <TimelineRow>6 ~ 9、11 级雷电法术的升级时间减少。</TimelineRow>
-        <TimelineRow>10 ~ 11 级雷电法术的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增12级雷电法术。</TimelineRow>
+        <TimelineRow>6 ~ 9、11级雷电法术的升级时间减少。</TimelineRow>
+        <TimelineRow>10 ~ 11级雷电法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>10 级雷电法术的升级时间减少。</TimelineRow>
-        <TimelineRow>10 级雷电法术的升级费用降低。</TimelineRow>
+        <TimelineRow>10级雷电法术的升级时间减少。</TimelineRow>
+        <TimelineRow>10级雷电法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 11 级雷电法术。</TimelineRow>
-        <TimelineRow>6 ~ 10 级雷电法术的升级时间减少。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增11级雷电法术。</TimelineRow>
+        <TimelineRow>6 ~ 10级雷电法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>9 级雷电法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>9级雷电法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 10 级雷电法术。</TimelineRow>
-        <TimelineRow>7 ~ 9 级雷电法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增10级雷电法术。</TimelineRow>
+        <TimelineRow>7 ~ 9级雷电法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 8 级雷电法术的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 7 级雷电法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 8级雷电法术的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 7级雷电法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>2 ~ 7 级雷电法术的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 8 级雷电法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 7级雷电法术的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 8级雷电法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
         <TimelineRow>雷电法术不再对部落城堡造成伤害。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>雷电法术由 2 空间改为 1 空间。</TimelineRow>
-        <TimelineRow>11 本新增 8 级雷电法术，12 本新增 9 级雷电法术。</TimelineRow>
+        <TimelineRow>雷电法术由2空间改为1空间。</TimelineRow>
+        <TimelineRow>11本新增8级雷电法术，12本新增9级雷电法术。</TimelineRow>
         <TimelineRow>可对目标产生短时间的击晕效果（短暂冰冻），打断目标的攻击并使其攻击重置。</TimelineRow>
         <TimelineRow>所有等级雷电法术的配置费用降低。</TimelineRow>
         <TimelineRow>所有等级雷电法术的伤害减少。</TimelineRow>
-        <TimelineRow>更新后雷电的随机半径没了，伤害的范围固定。（5×5 的方格去掉四个角得到的 21 格的区域）</TimelineRow>
+        <TimelineRow>更新后雷电的随机半径没了，伤害的范围固定。（5×5的方格去掉四个角得到的21格的区域）</TimelineRow>
         <TimelineRow>更新后雷电法术对大本营无效。</TimelineRow>
-        <TimelineRow>7 级雷电法术的升级时间由 10 天降为 9 天。</TimelineRow>
+        <TimelineRow>7级雷电法术的升级时间由10天降为9天。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>6 ~ 7 级雷电法术的升级费用降低。</TimelineRow>
+        <TimelineRow>6 ~ 7级雷电法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中 6 ~ 7 级雷电法术的升级时间减少。</TimelineRow>
+        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中6 ~ 7级雷电法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

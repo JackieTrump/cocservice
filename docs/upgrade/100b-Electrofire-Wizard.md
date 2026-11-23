@@ -54,8 +54,8 @@ const tableExtraInfoElectroMode = [
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="17 - 18 级" imgSrc="Electrofire_Wizard17_Fire.png" />
-        <UnitImg imgTitle="19 - 20 级" imgSrc="Electrofire_Wizard19_Fire.png" />
+        <UnitImg imgTitle="17 - 18级" imgSrc="Electrofire_Wizard17_Fire.png" />
+        <UnitImg imgTitle="19 - 20级" imgSrc="Electrofire_Wizard19_Fire.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -65,14 +65,14 @@ const tableExtraInfoElectroMode = [
     <UnitProperty pKey="部队类型" pValue="地面远程单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="移动速度" pValue="2.8 格/秒" />
+    <UnitProperty pKey="移动速度" pValue="2.8格/秒" />
     <UnitProperty pKey="每个兵营的部队数量" pValue="1" />
     <UnitProperty pKey="所需训练营等级" pValue="12" />
     <UnitProperty pKey="所需夜世界大本等级" pValue="10" />
-    <UnitProperty pKey="技能冷却时间" pValue="1.5 秒" />
+    <UnitProperty pKey="技能冷却时间" pValue="1.5秒" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
-    <UnitProperty pKey="攻击速度" pValue="0.128 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="3.5 格" />
+    <UnitProperty pKey="攻击速度" pValue="0.128秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3.5格" />
 </UnitProperties>
 
 <SmallTitle>特殊技能的属性</SmallTitle>
@@ -89,7 +89,7 @@ const tableExtraInfoElectroMode = [
 
 <UnitTable :tableExtraInfo="tableExtraInfoFireMode">
 
-| 等级 | 初始伤害 |1.5 秒后伤害| 3 秒后伤害 |  生命值  | 升级花费 | 升级时间 |所需实验室和<br>大本营等级|
+| 等级 | 初始伤害 |1.5秒后伤害| 3秒后伤害 |  生命值  | 升级花费 | 升级时间 |所需实验室和<br>大本营等级|
 | ---- |   ---   |     ---   |     ---   |    ---   |   ---   |    ---   |           ---         |
 |  17  |   220   |     330   |     440   |   1100   |     \   |     \    |           10          |
 |  18  |   220   |     330   |     440   |   1100   |   4.4M  |  6       |           10          |
@@ -106,8 +106,8 @@ const tableExtraInfoElectroMode = [
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="17 - 18 级" imgSrc="Electrofire_Wizard17_Electro.png" />
-        <UnitImg imgTitle="19 - 20 级" imgSrc="Electrofire_Wizard19_Electro.png" />
+        <UnitImg imgTitle="17 - 18级" imgSrc="Electrofire_Wizard17_Electro.png" />
+        <UnitImg imgTitle="19 - 20级" imgSrc="Electrofire_Wizard19_Electro.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -117,18 +117,18 @@ const tableExtraInfoElectroMode = [
     <UnitProperty pKey="部队类型" pValue="地面远程单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="移动速度" pValue="2.8 格/秒" />
+    <UnitProperty pKey="移动速度" pValue="2.8格/秒" />
     <UnitProperty pKey="每个兵营的部队数量" pValue="1" />
     <UnitProperty pKey="所需训练营等级" pValue="12" />
     <UnitProperty pKey="所需夜世界大本等级" pValue="10" />
-    <UnitProperty pKey="技能冷却时间" pValue="1.5 秒" />
+    <UnitProperty pKey="技能冷却时间" pValue="1.5秒" />
     <UnitProperty pKey="伤害类型" pValue="链式伤害" />
-    <UnitProperty pKey="连锁距离" pValue="3 格" />
+    <UnitProperty pKey="连锁距离" pValue="3格" />
     <UnitProperty pKey="最大目标数量" pValue="4 (含初始目标)" />
-    <UnitProperty pKey="连锁延迟" pValue="0.416 秒" />
+    <UnitProperty pKey="连锁延迟" pValue="0.416秒" />
     <UnitProperty pKey="连锁衰减" pValue="20% (逐级递减)" />
-    <UnitProperty pKey="攻击速度" pValue="3.5 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="3.5 格" />
+    <UnitProperty pKey="攻击速度" pValue="3.5秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3.5格" />
 </UnitProperties>
 
 <SmallTitle>特殊技能的属性</SmallTitle>
@@ -159,7 +159,7 @@ const tableExtraInfoElectroMode = [
 
 <Timeline>
     <TimelineItem date="2023/05/15">
-        <TimelineRow>夜世界 10 本新兵种：电火法师。该兵种一解锁就是 17 级，你不需要从 1 级开始升。</TimelineRow>
+        <TimelineRow>夜世界10本新兵种：电火法师。该兵种一解锁就是17级，你不需要从1级开始升。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

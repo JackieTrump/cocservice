@@ -18,22 +18,22 @@ canonical: /upgrade/0304-Air-Defense
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Air_Defense1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Air_Defense2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Air_Defense3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Air_Defense4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Air_Defense5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Air_Defense6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Air_Defense7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Air_Defense8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Air_Defense9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Air_Defense10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Air_Defense11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Air_Defense12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Air_Defense13.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Air_Defense14.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Air_Defense15.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Air_Defense16.png" />
+        <UnitImg imgTitle="1级" imgSrc="Air_Defense1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Air_Defense2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Air_Defense3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Air_Defense4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Air_Defense5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Air_Defense6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Air_Defense7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Air_Defense8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Air_Defense9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Air_Defense10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Air_Defense11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Air_Defense12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Air_Defense13.png" />
+        <UnitImg imgTitle="14级" imgSrc="Air_Defense14.png" />
+        <UnitImg imgTitle="15级" imgSrc="Air_Defense15.png" />
+        <UnitImg imgTitle="16级" imgSrc="Air_Defense16.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -51,8 +51,8 @@ canonical: /upgrade/0304-Air-Defense
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅空中目标" />
-    <UnitProperty pKey="射程" pValue="10 格" />
-    <UnitProperty pKey="攻速" pValue="1 秒/次" />
+    <UnitProperty pKey="射程" pValue="10格" />
+    <UnitProperty pKey="攻速" pValue="1秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -106,70 +106,70 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 16 级防空火箭。</TimelineRow>
-        <TimelineRow>15 级防空火箭的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增16级防空火箭。</TimelineRow>
+        <TimelineRow>15级防空火箭的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>14 级防空火箭的升级时间减少。</TimelineRow>
+        <TimelineRow>14级防空火箭的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>1、3 ~ 6、14 级防空火箭的升级时间减少。</TimelineRow>
-        <TimelineRow>3、10 ~ 14 级防空火箭的升级费用降低。</TimelineRow>
+        <TimelineRow>1、3 ~ 6、14级防空火箭的升级时间减少。</TimelineRow>
+        <TimelineRow>3、10 ~ 14级防空火箭的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>1 ~ 2 级防空火箭的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 2级防空火箭的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 15 级防空火箭。</TimelineRow>
-        <TimelineRow>10 ~ 14 级防空火箭的升级时间减少。</TimelineRow>
-        <TimelineRow>11 ~ 14 级防空火箭的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增15级防空火箭。</TimelineRow>
+        <TimelineRow>10 ~ 14级防空火箭的升级时间减少。</TimelineRow>
+        <TimelineRow>11 ~ 14级防空火箭的升级费用降低。</TimelineRow>
         <TimelineRow>防空火箭成为第二批可以充能的建筑。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>2 ~ 4、10 ~ 13 级防空火箭的升级时间减少。</TimelineRow>
-        <TimelineRow>12 ~ 13 级防空火箭的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 4、10 ~ 13级防空火箭的升级时间减少。</TimelineRow>
+        <TimelineRow>12 ~ 13级防空火箭的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 15 本新增 14 级防空火箭。</TimelineRow>
-        <TimelineRow>2 ~ 13 级防空火箭的升级时间减少。</TimelineRow>
-        <TimelineRow>5 ~ 6、8 ~ 9、12 ~ 13 级防空火箭的升级费用降低。</TimelineRow>
+        <TimelineRow>16本推出，并在15本新增14级防空火箭。</TimelineRow>
+        <TimelineRow>2 ~ 13级防空火箭的升级时间减少。</TimelineRow>
+        <TimelineRow>5 ~ 6、8 ~ 9、12 ~ 13级防空火箭的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>10 ~ 11 级防空火箭的升级时间减少。</TimelineRow>
-        <TimelineRow>10 ~ 11 级防空火箭的升级费用降低。</TimelineRow>
+        <TimelineRow>10 ~ 11级防空火箭的升级时间减少。</TimelineRow>
+        <TimelineRow>10 ~ 11级防空火箭的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 13 级防空火箭。</TimelineRow>
-        <TimelineRow>8 ~ 12 级防空火箭的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增13级防空火箭。</TimelineRow>
+        <TimelineRow>8 ~ 12级防空火箭的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/09/13">
-        <TimelineRow>12 级防空火箭的每秒伤害增加。</TimelineRow>
+        <TimelineRow>12级防空火箭的每秒伤害增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
-        <TimelineRow>12 级防空火箭：生命值从 1600 提升至 1650。</TimelineRow>
+        <TimelineRow>12级防空火箭：生命值从1600提升至1650。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>6 ~ 11 级防空火箭的升级费用降低。</TimelineRow>
+        <TimelineRow>6 ~ 11级防空火箭的升级费用降低。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2021/06/15">
-        <TimelineRow>14 本新增 12 级防空火箭。</TimelineRow>
+        <TimelineRow>14本新增12级防空火箭。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>1、6 ~ 9 级防空火箭的升级费用降低。</TimelineRow>
-        <TimelineRow>8 ~ 9 级防空火箭的升级时间减少。</TimelineRow>
+        <TimelineRow>1、6 ~ 9级防空火箭的升级费用降低。</TimelineRow>
+        <TimelineRow>8 ~ 9级防空火箭的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/01/20">
-        <TimelineRow>修复了 11 级防空火箭的命中效果。</TimelineRow>
+        <TimelineRow>修复了11级防空火箭的命中效果。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
-        <TimelineRow>10 本的 8 级防空血量加 10，这样一来必须要 4 个 7 级闪电才能打掉一个 8 级防空。</TimelineRow>
+        <TimelineRow>10本的8级防空血量加10，这样一来必须要4个7级闪电才能打掉一个8级防空。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本新增 11 级防空火箭。</TimelineRow>
+        <TimelineRow>13本新增11级防空火箭。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/04/02">
-        <TimelineRow>7 ~ 10 级防空火箭的升级费用降低。</TimelineRow>
-        <TimelineRow>3 ~ 7 级防空火箭的升级时间减少。</TimelineRow>
+        <TimelineRow>7 ~ 10级防空火箭的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 7级防空火箭的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

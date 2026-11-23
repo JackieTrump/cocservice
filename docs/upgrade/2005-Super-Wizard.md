@@ -24,7 +24,7 @@ canonical: /upgrade/2005-Super-Wizard
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 超级法师的解锁条件是建造 [超级法师训练营](/upgrade/2345-Super-Wizard-Barracks)，而这需要部落解锁法师山谷，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 3 级。
+1. 超级法师的解锁条件是建造 [超级法师训练营](/upgrade/2345-Super-Wizard-Barracks)，而这需要部落解锁法师山谷，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到3级。
 2. 超级法师的技能（链式魔法）：超级法师的链式魔法攻击可以弹射伤害多个目标，只要这些目标在他初始目标的溅射范围内。它就可以同时对多个目标造成伤害。
 
 <SmallTitle>属性</SmallTitle>
@@ -36,13 +36,13 @@ canonical: /upgrade/2005-Super-Wizard
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="配兵人口" pValue="10" />
     <UnitProperty pKey="防守人口" pValue="10" />
-    <UnitProperty pKey="移动速度" pValue="1.6 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="2.5 格" />
-    <UnitProperty pKey="连锁距离" pValue="2.25 格" />
+    <UnitProperty pKey="移动速度" pValue="1.6格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.5格" />
+    <UnitProperty pKey="连锁距离" pValue="2.25格" />
     <UnitProperty pKey="最大目标数量" pValue="10 (含初始目标)" />
-    <UnitProperty pKey="连锁延迟" pValue="0.128 秒" />
-    <UnitProperty pKey="连锁后保留的伤害" pValue="40% (除初始目标外均保留 40% 伤害)" />
+    <UnitProperty pKey="连锁延迟" pValue="0.128秒" />
+    <UnitProperty pKey="连锁后保留的伤害" pValue="40% (除初始目标外均保留40% 伤害)" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -62,7 +62,7 @@ canonical: /upgrade/2005-Super-Wizard
 
 <Timeline>
     <TimelineItem date="2022/06/30">
-        <TimelineRow>所有等级超级法师的生命值增加 200 点.</TimelineRow>
+        <TimelineRow>所有等级超级法师的生命值增加200点.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>超级法师随着部落都城玩法一同推出。</TimelineRow>

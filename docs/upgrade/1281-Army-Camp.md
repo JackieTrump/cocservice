@@ -39,7 +39,7 @@ canonical: /upgrade/1281-Army-Camp
 1. 在夜世界，每个兵营只能放一种兵，每个兵营可存放的部队数量取决于兵种的种类和等级；
 2. 夜世界的兵营不能升级，兵营的建造费用取决于你已有的兵营数量；
 3. 匹配对手不需要消耗金币，而且下兵之前可以临时换兵；
-4. 夜世界造兵不需要时间，造兵可以瞬间完成。（在 2020 年 3 月 30 日更新之前，填满每个兵营需要的时间固定为 1 分钟）
+4. 夜世界造兵不需要时间，造兵可以瞬间完成。（在2020年3月30日更新之前，填满每个兵营需要的时间固定为1分钟）
 
 <SmallTitle>属性</SmallTitle>
 
@@ -88,7 +88,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/05/15">    
-        <TimelineRow>5 ~ 6 级兵营的升级费用增加。</TimelineRow>
+        <TimelineRow>5 ~ 6级兵营的升级费用增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

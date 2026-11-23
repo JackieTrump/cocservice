@@ -18,28 +18,28 @@ canonical: /upgrade/mine-bh
 
 <Panel>
     <UnitImgGroup title="对地"  :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Mine1.png"/>
-        <UnitImg imgTitle="2 级" imgSrc="Mine2.png"/>
-        <UnitImg imgTitle="3 级" imgSrc="Mine3.png"/>
-        <UnitImg imgTitle="4 级" imgSrc="Mine4.png"/>
-        <UnitImg imgTitle="5 级" imgSrc="Mine5.png"/>
-        <UnitImg imgTitle="6 级" imgSrc="Mine6.png"/>
-        <UnitImg imgTitle="7 级" imgSrc="Mine7.png"/>
-        <UnitImg imgTitle="8 级" imgSrc="Mine8.png"/>
-        <UnitImg imgTitle="9 级" imgSrc="Mine9.png"/>
-        <UnitImg imgTitle="10 级" imgSrc="Mine10.png"/>
+        <UnitImg imgTitle="1级" imgSrc="Mine1.png"/>
+        <UnitImg imgTitle="2级" imgSrc="Mine2.png"/>
+        <UnitImg imgTitle="3级" imgSrc="Mine3.png"/>
+        <UnitImg imgTitle="4级" imgSrc="Mine4.png"/>
+        <UnitImg imgTitle="5级" imgSrc="Mine5.png"/>
+        <UnitImg imgTitle="6级" imgSrc="Mine6.png"/>
+        <UnitImg imgTitle="7级" imgSrc="Mine7.png"/>
+        <UnitImg imgTitle="8级" imgSrc="Mine8.png"/>
+        <UnitImg imgTitle="9级" imgSrc="Mine9.png"/>
+        <UnitImg imgTitle="10级" imgSrc="Mine10.png"/>
     </UnitImgGroup>
     <UnitImgGroup title="对空"  :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Mine1_Air.png"/>
-        <UnitImg imgTitle="2 级" imgSrc="Mine2_Air.png"/>
-        <UnitImg imgTitle="3 级" imgSrc="Mine3_Air.png"/>
-        <UnitImg imgTitle="4 级" imgSrc="Mine4_Air.png"/>
-        <UnitImg imgTitle="5 级" imgSrc="Mine5_Air.png"/>
-        <UnitImg imgTitle="6 级" imgSrc="Mine6_Air.png"/>
-        <UnitImg imgTitle="7 级" imgSrc="Mine7_Air.png"/>
-        <UnitImg imgTitle="8 级" imgSrc="Mine8_Air.png"/>
-        <UnitImg imgTitle="9 级" imgSrc="Mine9_Air.png"/>
-        <UnitImg imgTitle="10 级" imgSrc="Mine10_Air.png"/>
+        <UnitImg imgTitle="1级" imgSrc="Mine1_Air.png"/>
+        <UnitImg imgTitle="2级" imgSrc="Mine2_Air.png"/>
+        <UnitImg imgTitle="3级" imgSrc="Mine3_Air.png"/>
+        <UnitImg imgTitle="4级" imgSrc="Mine4_Air.png"/>
+        <UnitImg imgTitle="5级" imgSrc="Mine5_Air.png"/>
+        <UnitImg imgTitle="6级" imgSrc="Mine6_Air.png"/>
+        <UnitImg imgTitle="7级" imgSrc="Mine7_Air.png"/>
+        <UnitImg imgTitle="8级" imgSrc="Mine8_Air.png"/>
+        <UnitImg imgTitle="9级" imgSrc="Mine9_Air.png"/>
+        <UnitImg imgTitle="10级" imgSrc="Mine10_Air.png"/>
     </UnitImgGroup>
 </Panel>
 
@@ -56,8 +56,8 @@ canonical: /upgrade/mine-bh
     <UnitProperty pKey="占地面积" pValue="1×1" />
     <UnitProperty pKey="作用类型" pValue="爆炸" />
     <UnitProperty pKey="作用目标" pValue="可调对地和对空" />
-    <UnitProperty pKey="触发半径" pValue="2 格" />
-    <UnitProperty pKey="爆炸半径" pValue="5 格" />   
+    <UnitProperty pKey="触发半径" pValue="2格" />
+    <UnitProperty pKey="爆炸半径" pValue="5格" />   
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -103,18 +103,18 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/10/20">
-        <TimelineRow>1、4 ~ 10 级地雷的爆炸伤害降低。</TimelineRow>
+        <TimelineRow>1、4 ~ 10级地雷的爆炸伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
         <TimelineRow>所有等级地雷的爆炸伤害增加。</TimelineRow>
         <TimelineRow>所有等级地雷的升级费用增加。</TimelineRow>
-        <TimelineRow>触发地雷的最低兵种重量调整为 2，这意味着骷髅兵不能触发地雷了。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，地雷可升至 10 级。</TimelineRow>
-        <TimelineRow>夜世界 10 本新增一个地雷。</TimelineRow>
+        <TimelineRow>触发地雷的最低兵种重量调整为2，这意味着骷髅兵不能触发地雷了。</TimelineRow>
+        <TimelineRow>夜世界10本推出，地雷可升至10级。</TimelineRow>
+        <TimelineRow>夜世界10本新增一个地雷。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，地雷可升至 9 级。</TimelineRow>
+        <TimelineRow>夜世界9本推出，地雷可升至9级。</TimelineRow>
     </TimelineItem>    
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -15,16 +15,16 @@ canonical: /upgrade/roaster-bh
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Roaster1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Roaster2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Roaster3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Roaster4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Roaster5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Roaster6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Roaster7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Roaster8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Roaster9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Roaster10.png" />
+        <UnitImg imgTitle="1级" imgSrc="Roaster1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Roaster2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Roaster3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Roaster4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Roaster5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Roaster6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Roaster7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Roaster8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Roaster9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Roaster10.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -41,13 +41,13 @@ canonical: /upgrade/roaster-bh
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.2 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.2格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="7 格" />
-    <UnitProperty pKey="攻速" pValue="3.76 秒/轮<sup>*</sup>" />
+    <UnitProperty pKey="射程" pValue="7格" />
+    <UnitProperty pKey="攻速" pValue="3.76秒/轮<sup>*</sup>" />
 </UnitProperties>
 
-\* 熔岩火炮的攻击节奏是：0.14 秒一发，15 发之后冷却 1.8 秒。
+\* 熔岩火炮的攻击节奏是：0.14秒一发，15发之后冷却1.8秒。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -97,13 +97,13 @@ const tableExtraInfo = [
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
         <TimelineRow>所有等级熔岩火炮的升级时间增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，熔岩火炮可升至 10 级。</TimelineRow>
+        <TimelineRow>夜世界10本推出，熔岩火炮可升至10级。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/12/09">
         <TimelineRow>所有等级熔岩火炮的每秒伤害减少（更新公告里没有这个，但是确实削了）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，熔岩火炮可升至 9 级。</TimelineRow>
+        <TimelineRow>夜世界9本推出，熔岩火炮可升至9级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

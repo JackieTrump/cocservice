@@ -17,11 +17,11 @@ canonical: /upgrade/baby-dragon-bh
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="5 - 7 级" imgSrc="Baby_Dragon5.png" />
-        <UnitImg imgTitle="8 - 11 级" imgSrc="Baby_Dragon8.png" />
-        <UnitImg imgTitle="12 - 15 级" imgSrc="Baby_Dragon12.png" />
-        <UnitImg imgTitle="16 - 19 级" imgSrc="Baby_Dragon16.png" />
-        <UnitImg imgTitle="20 级" imgSrc="Baby_Dragon20.png" />
+        <UnitImg imgTitle="5 - 7级" imgSrc="Baby_Dragon5.png" />
+        <UnitImg imgTitle="8 - 11级" imgSrc="Baby_Dragon8.png" />
+        <UnitImg imgTitle="12 - 15级" imgSrc="Baby_Dragon12.png" />
+        <UnitImg imgTitle="16 - 19级" imgSrc="Baby_Dragon16.png" />
+        <UnitImg imgTitle="20级" imgSrc="Baby_Dragon20.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -31,17 +31,17 @@ canonical: /upgrade/baby-dragon-bh
     <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.3 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.3格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="2 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2格" />
     <UnitProperty pKey="每个兵营的部队数量" pValue="1" />
     <UnitProperty pKey="所需训练营等级" pValue="6" />
     <UnitProperty pKey="所需夜世界大本等级" pValue="4" />
 </UnitProperties>
 
-<SmallTitle>特殊技能 1 的属性</SmallTitle>
+<SmallTitle>特殊技能1的属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="技能名称" pValue="火冒三丈" />
@@ -49,7 +49,7 @@ canonical: /upgrade/baby-dragon-bh
     <UnitProperty pKey="技能描述" pValue="见说明<sup>①</sup>" />
 </UnitProperties>
 
-<SmallTitle>特殊技能 2 的属性</SmallTitle>
+<SmallTitle>特殊技能2的属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="技能名称" pValue="烈焰喷嚏" />
@@ -100,25 +100,25 @@ const tableExtraInfo = [
 |  20  |   120   |   120  |       +100%       |            440 - 550           |   2358   |   5.5M  |  6,12    |           10          |
 </UnitTable>
 
-③ 2023 年 10 月更新后，烈焰喷嚏造成的额外伤害不再固定。根据与敌人距离的不同，伤害最大可衰减 20%.
+③ 2023年10月更新后，烈焰喷嚏造成的额外伤害不再固定。根据与敌人距离的不同，伤害最大可衰减20%.
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/10/09">
-        <TimelineRow>飞龙宝宝的烈焰喷嚏伤害不再固定，根据到目标的距离缩减 0 ~ 20%.</TimelineRow>
+        <TimelineRow>飞龙宝宝的烈焰喷嚏伤害不再固定，根据到目标的距离缩减0 ~ 20%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/05/15">
-        <TimelineRow>新增 19 - 20 级飞龙宝宝。</TimelineRow>
+        <TimelineRow>新增19 - 20级飞龙宝宝。</TimelineRow>
         <TimelineRow>由于夜世界重做，部队的伤害、生命值等数据都有变化。</TimelineRow>
         <TimelineRow>飞龙宝宝现在有两个技能了，本次更新在原有“火冒三丈”技能的基础上加了个一次性技能“烈焰喷嚏”。</TimelineRow>
-        <TimelineRow>现在飞龙宝宝一解锁就是 5 级，你不需要从 1 级开始升了。如果更新前部队高于 5 级，更新后等级不会重置。</TimelineRow>
+        <TimelineRow>现在飞龙宝宝一解锁就是5级，你不需要从1级开始升了。如果更新前部队高于5级，更新后等级不会重置。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
-        <TimelineRow>夜世界所有空军的攻击距离减少 0.5 格（蝙蝠除外）。</TimelineRow>
+        <TimelineRow>夜世界所有空军的攻击距离减少0.5格（蝙蝠除外）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本开放，所有兵种可升至 18 级。</TimelineRow>
+        <TimelineRow>夜世界9本开放，所有兵种可升至18级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

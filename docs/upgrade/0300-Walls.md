@@ -18,25 +18,25 @@ canonical: /upgrade/0300-Walls
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Wall1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Wall2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Wall3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Wall4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Wall5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Wall6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Wall7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Wall8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Wall9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Wall10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Wall11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Wall12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Wall13.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Wall14.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Wall15.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Wall16.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Wall17_thumb.png" imgHd="Wall17.png"/>
-        <UnitImg imgTitle="18 级" imgSrc="Wall18.png" />
-        <UnitImg imgTitle="19 级" imgSrc="Wall19.png" />
+        <UnitImg imgTitle="1级" imgSrc="Wall1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Wall2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Wall3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Wall4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Wall5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Wall6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Wall7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Wall8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Wall9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Wall10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Wall11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Wall12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Wall13.png" />
+        <UnitImg imgTitle="14级" imgSrc="Wall14.png" />
+        <UnitImg imgTitle="15级" imgSrc="Wall15.png" />
+        <UnitImg imgTitle="16级" imgSrc="Wall16.png" />
+        <UnitImg imgTitle="17级" imgSrc="Wall17_thumb.png" imgHd="Wall17.png"/>
+        <UnitImg imgTitle="18级" imgSrc="Wall18.png" />
+        <UnitImg imgTitle="19级" imgSrc="Wall19.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -51,7 +51,7 @@ canonical: /upgrade/0300-Walls
 
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="1×1" />
-    <UnitProperty pKey="19 级城墙最高可升级" pValue="200 块" />
+    <UnitProperty pKey="19级城墙最高可升级" pValue="200块" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -111,88 +111,88 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>18 本新解锁 75 块 19 级城墙（共 200 块）。</TimelineRow>
+        <TimelineRow>18本新解锁75块19级城墙（共200块）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/25">
-        <TimelineRow>18 本推出，并在 18 本新增 19 级城墙，目前游戏只开放了 125 块 19 级城墙。</TimelineRow>
-        <TimelineRow>18 级城墙的升级费用降低。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增19级城墙，目前游戏只开放了125块19级城墙。</TimelineRow>
+        <TimelineRow>18级城墙的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/30">
-        <TimelineRow>13 ~ 18 级城墙的生命值减少。</TimelineRow>
+        <TimelineRow>13 ~ 18级城墙的生命值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">
-        <TimelineRow>1 ~ 7 级城墙的生命值减少。</TimelineRow>
-        <TimelineRow>17 本现可解锁全部 18 级城墙。</TimelineRow>
+        <TimelineRow>1 ~ 7级城墙的生命值减少。</TimelineRow>
+        <TimelineRow>17本现可解锁全部18级城墙。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>13 ~ 17 级城墙的升级费用降低。</TimelineRow>
-        <TimelineRow>17 本新解锁 75 块 18 级城墙（共 250 块）。</TimelineRow>
+        <TimelineRow>13 ~ 17级城墙的升级费用降低。</TimelineRow>
+        <TimelineRow>17本新解锁75块18级城墙（共250块）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>建造 1 级城墙不再需要费用。</TimelineRow>
-        <TimelineRow>17 本新解锁 75 块 18 级城墙（共 175 块）。</TimelineRow>
+        <TimelineRow>建造1级城墙不再需要费用。</TimelineRow>
+        <TimelineRow>17本新解锁75块18级城墙（共175块）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 18 级城墙，目前游戏只开放了 100 块 18 级城墙。</TimelineRow>
-        <TimelineRow>16 ~ 17 级城墙的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增18级城墙，目前游戏只开放了100块18级城墙。</TimelineRow>
+        <TimelineRow>16 ~ 17级城墙的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>15 ~ 16 级城墙的升级费用降低。</TimelineRow>
+        <TimelineRow>15 ~ 16级城墙的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/04/17">
-        <TimelineRow>16 本可解锁全部 17 级城墙（共 325 块）。</TimelineRow>
+        <TimelineRow>16本可解锁全部17级城墙（共325块）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>16 本可以再刷 100 块 17 级墙（共 250 块）。</TimelineRow>
+        <TimelineRow>16本可以再刷100块17级墙（共250块）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，可升级 150 块 17 级城墙。</TimelineRow>
-        <TimelineRow>14 ~ 15 级城墙的升级费用降低。</TimelineRow>
+        <TimelineRow>16本推出，可升级150块17级城墙。</TimelineRow>
+        <TimelineRow>14 ~ 15级城墙的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>现在你可以把所有的城墙都升到 16 级了。</TimelineRow>
+        <TimelineRow>现在你可以把所有的城墙都升到16级了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 16 级城墙，目前游戏只开放了 200 块 16 级城墙。</TimelineRow>
-        <TimelineRow>13 ~ 14 级城墙的升级费用减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增16级城墙，目前游戏只开放了200块16级城墙。</TimelineRow>
+        <TimelineRow>13 ~ 14级城墙的升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
-        <TimelineRow>9 ~ 14 级城墙的生命值减少。</TimelineRow>
-        <TimelineRow>从 5 级大本营开始，就可以选择使用金币或圣水升级城墙（以前是 9 级大本营）。</TimelineRow>
+        <TimelineRow>9 ~ 14级城墙的生命值减少。</TimelineRow>
+        <TimelineRow>从5级大本营开始，就可以选择使用金币或圣水升级城墙（以前是9级大本营）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>6 ~ 14 级城墙的升级费用降低。</TimelineRow>
-        <TimelineRow>14 本解锁全部 15 级城墙（325 块）。</TimelineRow>
+        <TimelineRow>6 ~ 14级城墙的升级费用降低。</TimelineRow>
+        <TimelineRow>14本解锁全部15级城墙（325块）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/09/27">
-        <TimelineRow>14 本玩家可升至 15 级的城墙新增 50 块（更新后总共可以升 200 块）。</TimelineRow>
+        <TimelineRow>14本玩家可升至15级的城墙新增50块（更新后总共可以升200块）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/06/14">
-        <TimelineRow>14 本玩家可升至 15 级的城墙新增 50 块（更新后总共可以升 150 块）。</TimelineRow>
+        <TimelineRow>14本玩家可升至15级的城墙新增50块（更新后总共可以升150块）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 15 级城墙，不过只能升级 100 块。</TimelineRow>
-        <TimelineRow>12 级城墙的升级费用由 300 万降低到 200 万，13 级由 500 万降低到 400 万。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增15级城墙，不过只能升级100块。</TimelineRow>
+        <TimelineRow>12级城墙的升级费用由300万降低到200万，13级由500万降低到400万。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
         <TimelineRow>编辑家乡村庄的阵型时，城墙也可以像建筑和陷阱那样互换位置。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
-        <TimelineRow>13 本可以再刷 100 块 14 级墙（这次更新后全部开放了）。</TimelineRow>
+        <TimelineRow>13本可以再刷100块14级墙（这次更新后全部开放了）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>13 本可以再刷 50 块 14 级墙（合计 200 块）。</TimelineRow>
+        <TimelineRow>13本可以再刷50块14级墙（合计200块）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>5 ~ 12 级城墙的升级费用降低。</TimelineRow>
-        <TimelineRow>11 ~ 12 级城墙需要的戒指减少。</TimelineRow>
-        <TimelineRow>13 本可以再刷 50 块 14 级墙（合计 150 块）。</TimelineRow>
+        <TimelineRow>5 ~ 12级城墙的升级费用降低。</TimelineRow>
+        <TimelineRow>11 ~ 12级城墙需要的戒指减少。</TimelineRow>
+        <TimelineRow>13本可以再刷50块14级墙（合计150块）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本开放，新增 14 级城墙（但是只能升 100 块）。</TimelineRow>
+        <TimelineRow>13本开放，新增14级城墙（但是只能升100块）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>12 本可以将所有城墙升至 13 级（之前只能升级 250 块）。</TimelineRow>
+        <TimelineRow>12本可以将所有城墙升至13级（之前只能升级250块）。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

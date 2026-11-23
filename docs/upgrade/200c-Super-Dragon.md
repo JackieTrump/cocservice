@@ -23,9 +23,9 @@ canonical: /upgrade/200c-Super-Dragon
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 超级飞龙的解锁条件是建造 [超级飞龙训练营](/upgrade/234c-Super-Dragon-Barracks)，而这需要部落将飞龙悬崖这个子城的大本营升到 2 级，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 7 级。
+1. 超级飞龙的解锁条件是建造 [超级飞龙训练营](/upgrade/234c-Super-Dragon-Barracks)，而这需要部落将飞龙悬崖这个子城的大本营升到2级，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到7级。
 2. 超级飞龙的技能（炙热龙息）：超级飞龙攻击时可以溅射至周围目标，对它们造成持续伤害。
-3. 超级飞龙的攻击机制：先以极快的速度（0.192 秒/次）打完 10 发子弹，休息 1.8 秒后再发射 10 发子弹。
+3. 超级飞龙的攻击机制：先以极快的速度（0.192秒/次）打完10发子弹，休息1.8秒后再发射10发子弹。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -33,15 +33,15 @@ canonical: /upgrade/200c-Super-Dragon
     <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.2 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.2格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="配兵人口" pValue="40" />
     <UnitProperty pKey="防守人口" pValue="40" />
-    <UnitProperty pKey="移动速度" pValue="1.3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="0.192 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="2.25 格" />
+    <UnitProperty pKey="移动速度" pValue="1.3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.192秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.25格" />
     <UnitProperty pKey="每轮攻击的弹药数量" pValue="10" />
-    <UnitProperty pKey="一轮攻击后歇息" pValue="1.8 秒" />
+    <UnitProperty pKey="一轮攻击后歇息" pValue="1.8秒" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -61,9 +61,9 @@ canonical: /upgrade/200c-Super-Dragon
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>2 ~ 5 级超级飞龙的生命值由 6100/6400/6700/7000 增加到 6300/6800/7200/7600.</TimelineRow>
+        <TimelineRow>2 ~ 5级超级飞龙的生命值由6100/6400/6700/7000增加到6300/6800/7200/7600.</TimelineRow>
         <TimelineRow>超级龙选择攻击位置的随机性被删除（使其路径更加一致）.</TimelineRow>
-        <TimelineRow>防守方的超级飞龙没有应用上述改动，取而代之的是首次攻击的时机比原来慢了 1 秒。</TimelineRow>
+        <TimelineRow>防守方的超级飞龙没有应用上述改动，取而代之的是首次攻击的时机比原来慢了1秒。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>超级飞龙随着部落都城玩法一同推出。</TimelineRow>

@@ -29,15 +29,15 @@ canonical: /upgrade/longshot
 <UnitProperties>
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1 格" />
+    <UnitProperty pKey="伤害半径" pValue="1格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="11 格" />
-    <UnitProperty pKey="警戒半径" pValue="19 格<sup>①</sup>" />
-    <UnitProperty pKey="巡逻半径" pValue="17 格<sup>②</sup>" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.8秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="11格" />
+    <UnitProperty pKey="警戒半径" pValue="19格<sup>①</sup>" />
+    <UnitProperty pKey="巡逻半径" pValue="17格<sup>②</sup>" />
     <UnitProperty pKey="死亡伤害" pValue="1000" />
-    <UnitProperty pKey="死亡伤害半径" pValue="3.5 格" />
+    <UnitProperty pKey="死亡伤害半径" pValue="3.5格" />
     <UnitProperty pKey="所需大本等级" pValue="18" />
 </UnitProperties>
 
@@ -78,10 +78,10 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/01/12">
-        <TimelineRow>攻击距离从 12 格减少到 11 格。</TimelineRow>
-        <TimelineRow>巡逻半径从 18 格减少到 17 格。</TimelineRow>
-        <TimelineRow>警戒半径从 20 格减少到 19 格。</TimelineRow>
-        <TimelineRow>普攻伤害半径从 1.5 格减少到 1 格。</TimelineRow>
+        <TimelineRow>攻击距离从12格减少到11格。</TimelineRow>
+        <TimelineRow>巡逻半径从18格减少到17格。</TimelineRow>
+        <TimelineRow>警戒半径从20格减少到19格。</TimelineRow>
+        <TimelineRow>普攻伤害半径从1.5格减少到1格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>推出守卫系统，远袭者是第一批推出的守卫。</TimelineRow>

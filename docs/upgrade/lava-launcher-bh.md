@@ -15,13 +15,13 @@ canonical: /upgrade/lava-launcher-bh
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Lava_Launcher1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Lava_Launcher3.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Lava_Launcher5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Lava_Launcher6.png" />
-        <UnitImg imgTitle="7 - 8 级" imgSrc="Lava_Launcher7.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Lava_Launcher9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Lava_Launcher10.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Lava_Launcher1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Lava_Launcher3.png" />
+        <UnitImg imgTitle="5级" imgSrc="Lava_Launcher5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Lava_Launcher6.png" />
+        <UnitImg imgTitle="7 - 8级" imgSrc="Lava_Launcher7.png" />
+        <UnitImg imgTitle="9级" imgSrc="Lava_Launcher9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Lava_Launcher10.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -34,7 +34,7 @@ canonical: /upgrade/lava-launcher-bh
 
 <SmallTitle>重要说明</SmallTitle>
 
-2023 年 6 月更新后，熔岩的递增伤害被取消，现在熔岩的每秒伤害是固定的。
+2023年6月更新后，熔岩的递增伤害被取消，现在熔岩的每秒伤害是固定的。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -42,10 +42,10 @@ canonical: /upgrade/lava-launcher-bh
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="3 格" />
+    <UnitProperty pKey="伤害半径" pValue="3格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="6 ~ 13 格" />
-    <UnitProperty pKey="攻速" pValue="7 秒/次" />
+    <UnitProperty pKey="射程" pValue="6 ~ 13格" />
+    <UnitProperty pKey="攻速" pValue="7秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -93,12 +93,12 @@ const tableExtraInfo = [
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
         <TimelineRow>所有等级熔岩发射器的升级时间增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，熔岩发射器可升至 10 级。</TimelineRow>
-        <TimelineRow>为配合更小的地图，熔岩的射程由 10 ~ 20 格降低到 6 ~ 13 格。</TimelineRow>
+        <TimelineRow>夜世界10本推出，熔岩发射器可升至10级。</TimelineRow>
+        <TimelineRow>为配合更小的地图，熔岩的射程由10 ~ 20格降低到6 ~ 13格。</TimelineRow>
         <TimelineRow>熔岩的递增伤害被取消，现在熔岩的每秒伤害是固定的。</TimelineRow>
 ​    </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，新建筑：熔岩发射器。</TimelineRow>
+        <TimelineRow>夜世界9本推出，新建筑：熔岩发射器。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

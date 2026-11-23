@@ -35,15 +35,15 @@ canonical: /upgrade/0e02-Pumpkin-Barbarian
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="1" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.4格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="1<sup>*</sup>" />
     <UnitProperty pKey="训练时间" pValue="5" trainingSystem="legacy" />
 </UnitProperties>
 
-\* 理论上来说，1 级大本营可以同时解锁野蛮人和南瓜野蛮人，但因为新手教程会引导玩家升级至 2 本，所以实际上 2 本才能训练和使用南瓜野蛮人。
+\* 理论上来说，1级大本营可以同时解锁野蛮人和南瓜野蛮人，但因为新手教程会引导玩家升级至2本，所以实际上2本才能训练和使用南瓜野蛮人。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -70,16 +70,16 @@ const tableExtraInfo = [
 |   7  |   30    |   30    |   125  |         42       |        250         |        8       |
 </UnitTable>
 
-\# 2022 年 6 月更新后，训练部队、配置法术、建造攻城机器不需要资源了，而该兵种最后一次推出时训练费用尚未取消。
+\# 2022年6月更新后，训练部队、配置法术、建造攻城机器不需要资源了，而该兵种最后一次推出时训练费用尚未取消。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2021/10">
-        <TimelineRow>该兵种第 2 次推出。</TimelineRow>
+        <TimelineRow>该兵种第2次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2017/10">
-        <TimelineRow>该兵种第 1 次推出。</TimelineRow>
+        <TimelineRow>该兵种第1次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

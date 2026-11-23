@@ -50,44 +50,44 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
 
 <Panel>
     <UnitImgGroup title="未改装" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Cannon1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Cannon2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Cannon3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Cannon4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Cannon5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Cannon6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Cannon7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Cannon8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Cannon9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Cannon10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Cannon11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Cannon12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Cannon13.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Cannon14.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Cannon15.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Cannon16.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Cannon17.png" />
-        <UnitImg imgTitle="18 级" imgSrc="Cannon18.png" />
-        <UnitImg imgTitle="19 级" imgSrc="Cannon19.png" />
-        <UnitImg imgTitle="20 级" imgSrc="Cannon20.png" />
-        <UnitImg imgTitle="21 级" imgSrc="Cannon21.png" />
+        <UnitImg imgTitle="1级" imgSrc="Cannon1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Cannon2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Cannon3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Cannon4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Cannon5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Cannon6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Cannon7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Cannon8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Cannon9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Cannon10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Cannon11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Cannon12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Cannon13.png" />
+        <UnitImg imgTitle="14级" imgSrc="Cannon14.png" />
+        <UnitImg imgTitle="15级" imgSrc="Cannon15.png" />
+        <UnitImg imgTitle="16级" imgSrc="Cannon16.png" />
+        <UnitImg imgTitle="17级" imgSrc="Cannon17.png" />
+        <UnitImg imgTitle="18级" imgSrc="Cannon18.png" />
+        <UnitImg imgTitle="19级" imgSrc="Cannon19.png" />
+        <UnitImg imgTitle="20级" imgSrc="Cannon20.png" />
+        <UnitImg imgTitle="21级" imgSrc="Cannon21.png" />
     </UnitImgGroup>
     <UnitImgGroup title="已改装，处于标准模式" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="7 级" imgSrc="Cannon7A.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Cannon8A.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Cannon9A.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Cannon10A.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Cannon11A.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Cannon12A.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Cannon13A.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Cannon14A.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Cannon15A.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Cannon16A.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Cannon17A.png" />
-        <UnitImg imgTitle="18 级" imgSrc="Cannon18A.png" />
-        <UnitImg imgTitle="19 级" imgSrc="Cannon19A.png" />
-        <UnitImg imgTitle="20 级" imgSrc="Cannon20A.png" />
-        <UnitImg imgTitle="21 级" imgSrc="Cannon21A.png" />
+        <UnitImg imgTitle="7级" imgSrc="Cannon7A.png" />
+        <UnitImg imgTitle="8级" imgSrc="Cannon8A.png" />
+        <UnitImg imgTitle="9级" imgSrc="Cannon9A.png" />
+        <UnitImg imgTitle="10级" imgSrc="Cannon10A.png" />
+        <UnitImg imgTitle="11级" imgSrc="Cannon11A.png" />
+        <UnitImg imgTitle="12级" imgSrc="Cannon12A.png" />
+        <UnitImg imgTitle="13级" imgSrc="Cannon13A.png" />
+        <UnitImg imgTitle="14级" imgSrc="Cannon14A.png" />
+        <UnitImg imgTitle="15级" imgSrc="Cannon15A.png" />
+        <UnitImg imgTitle="16级" imgSrc="Cannon16A.png" />
+        <UnitImg imgTitle="17级" imgSrc="Cannon17A.png" />
+        <UnitImg imgTitle="18级" imgSrc="Cannon18A.png" />
+        <UnitImg imgTitle="19级" imgSrc="Cannon19A.png" />
+        <UnitImg imgTitle="20级" imgSrc="Cannon20A.png" />
+        <UnitImg imgTitle="21级" imgSrc="Cannon21A.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -98,7 +98,7 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
     <BuildingNumRow title="建筑数量" num="1,     2,     3,      5,  6,       7,  3,       0" />
 </BuildingNum>
 
-在 16 级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
+在16级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -107,8 +107,8 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="9 格" />
-    <UnitProperty pKey="攻速" pValue="0.8 秒 1 发<sup>*</sup>" />
+    <UnitProperty pKey="射程" pValue="9格" />
+    <UnitProperty pKey="攻速" pValue="0.8秒1发<sup>*</sup>" />
     <UnitProperty pKey="改装所需加农炮等级" pValue="7" />
     <UnitProperty pKey="改装所需夜世界双管加农炮等级" pValue="4" />
     <UnitProperty pKey="改装数量" pValue="仅限一个" />
@@ -116,7 +116,7 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="改装费用" pValue="1M" :isUpgradeCost="true" resourceType="Gold" gpClass="building" />
 </UnitProperties>
 
-\* 加农炮改装前（标准模式）的攻速是 0.8 秒一次，改装后（连发模式）是 2.3 秒一轮。在连发模式下，4 连发期间每发 0.192 秒，之后停顿 1.76 秒。如果目标在加农炮还没打完 4 连发之前死亡， 导致加农炮没有发射全部 4 发炮弹时，每发没有射出去的炮弹会减少 0.2 秒攻击间隔。这里的 2.3 是这么算的：0.192 * (4 - 1) + 1.76 = 2.336 (秒) ≈ 2.3 (秒)。
+\* 加农炮改装前（标准模式）的攻速是0.8秒一次，改装后（连发模式）是2.3秒一轮。在连发模式下，4连发期间每发0.192秒，之后停顿1.76秒。如果目标在加农炮还没打完4连发之前死亡， 导致加农炮没有发射全部4发炮弹时，每发没有射出去的炮弹会减少0.2秒攻击间隔。这里的2.3是这么算的：0.192 * (4 - 1) + 1.76 = 2.336 (秒) ≈ 2.3 (秒)。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -157,21 +157,21 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
 
 <Panel>
     <UnitImgGroup title="已改装，处于连发模式" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="7 级" imgSrc="Cannon7B.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Cannon8B.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Cannon9B.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Cannon10B.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Cannon11B.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Cannon12B.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Cannon13B.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Cannon14B.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Cannon15B.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Cannon16B.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Cannon17B.png" />
-        <UnitImg imgTitle="18 级" imgSrc="Cannon18B.png" />
-        <UnitImg imgTitle="19 级" imgSrc="Cannon19B.png" />
-        <UnitImg imgTitle="20 级" imgSrc="Cannon20B.png" />
-        <UnitImg imgTitle="21 级" imgSrc="Cannon21B.png" />
+        <UnitImg imgTitle="7级" imgSrc="Cannon7B.png" />
+        <UnitImg imgTitle="8级" imgSrc="Cannon8B.png" />
+        <UnitImg imgTitle="9级" imgSrc="Cannon9B.png" />
+        <UnitImg imgTitle="10级" imgSrc="Cannon10B.png" />
+        <UnitImg imgTitle="11级" imgSrc="Cannon11B.png" />
+        <UnitImg imgTitle="12级" imgSrc="Cannon12B.png" />
+        <UnitImg imgTitle="13级" imgSrc="Cannon13B.png" />
+        <UnitImg imgTitle="14级" imgSrc="Cannon14B.png" />
+        <UnitImg imgTitle="15级" imgSrc="Cannon15B.png" />
+        <UnitImg imgTitle="16级" imgSrc="Cannon16B.png" />
+        <UnitImg imgTitle="17级" imgSrc="Cannon17B.png" />
+        <UnitImg imgTitle="18级" imgSrc="Cannon18B.png" />
+        <UnitImg imgTitle="19级" imgSrc="Cannon19B.png" />
+        <UnitImg imgTitle="20级" imgSrc="Cannon20B.png" />
+        <UnitImg imgTitle="21级" imgSrc="Cannon21B.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -182,7 +182,7 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
     <BuildingNumRow title="建筑数量" num="1,     2,     3,      5,  6,       7,  3,       0" />
 </BuildingNum>
 
-在 16 级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
+在16级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -191,8 +191,8 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="7 格 " />
-    <UnitProperty pKey="攻速" pValue="2.3 秒 4 发<sup>*</sup>" />
+    <UnitProperty pKey="射程" pValue="7格 " />
+    <UnitProperty pKey="攻速" pValue="2.3秒4发<sup>*</sup>" />
     <UnitProperty pKey="改装所需加农炮等级" pValue="7" />
     <UnitProperty pKey="改装所需夜世界双管加农炮等级" pValue="4" />
     <UnitProperty pKey="改装数量" pValue="仅限一个" />
@@ -200,7 +200,7 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="改装费用" pValue="1M" :isUpgradeCost="true" resourceType="Gold" gpClass="building" />
 </UnitProperties>
 
-\* 加农炮改装前（标准模式）的攻速是 0.8 秒一次，改装后（连发模式）是 2.3 秒一轮。在连发模式下，4 连发期间每发 0.192 秒，之后停顿 1.76 秒。如果目标在加农炮还没打完 4 连发之前死亡， 导致加农炮没有发射全部 4 发炮弹时，每发没有射出去的炮弹会减少 0.2 秒攻击间隔。这里的 2.3 是这么算的：0.192 * (4 - 1) + 1.76 = 2.336 (秒) ≈ 2.3 (秒)。
+\* 加农炮改装前（标准模式）的攻速是0.8秒一次，改装后（连发模式）是2.3秒一轮。在连发模式下，4连发期间每发0.192秒，之后停顿1.76秒。如果目标在加农炮还没打完4连发之前死亡， 导致加农炮没有发射全部4发炮弹时，每发没有射出去的炮弹会减少0.2秒攻击间隔。这里的2.3是这么算的：0.192 * (4 - 1) + 1.76 = 2.336 (秒) ≈ 2.3 (秒)。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -231,71 +231,71 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>18 ~ 21 级加农炮的升级时间减少。</TimelineRow>
+        <TimelineRow>18 ~ 21级加农炮的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">
-        <TimelineRow>1 ~ 6 级加农炮的生命值减少。</TimelineRow>
-        <TimelineRow>1 ~ 6 级加农炮的每秒伤害降低。</TimelineRow>
+        <TimelineRow>1 ~ 6级加农炮的生命值减少。</TimelineRow>
+        <TimelineRow>1 ~ 6级加农炮的每秒伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>1 ~ 9、11 ~ 12、14 ~ 16、18、20 ~ 21 级加农炮的升级时间减少。</TimelineRow>
-        <TimelineRow>6 ~ 16、18、20 ~ 21 级加农炮的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 9、11 ~ 12、14 ~ 16、18、20 ~ 21级加农炮的升级时间减少。</TimelineRow>
+        <TimelineRow>6 ~ 16、18、20 ~ 21级加农炮的升级费用降低。</TimelineRow>
         <TimelineRow>加农炮的改装费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>2、3、10、13、15、17、19 级加农炮的升级时间减少。</TimelineRow>
-        <TimelineRow>13、15、17、19 级加农炮的升级费用降低。</TimelineRow>
+        <TimelineRow>2、3、10、13、15、17、19级加农炮的升级时间减少。</TimelineRow>
+        <TimelineRow>13、15、17、19级加农炮的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，其中 2 个加农炮可以被合并为 1 个跳弹加农炮。</TimelineRow>
-        <TimelineRow>8 ~ 9、12 ~ 21 级加农炮的升级时间减少。</TimelineRow>
-        <TimelineRow>15 ~ 21 级加农炮的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，其中2个加农炮可以被合并为1个跳弹加农炮。</TimelineRow>
+        <TimelineRow>8 ~ 9、12 ~ 21级加农炮的升级时间减少。</TimelineRow>
+        <TimelineRow>15 ~ 21级加农炮的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>14 ~ 21 级加农炮的升级时间减少。</TimelineRow>
-        <TimelineRow>16 ~ 21 级加农炮的升级费用降低。</TimelineRow>
+        <TimelineRow>14 ~ 21级加农炮的升级时间减少。</TimelineRow>
+        <TimelineRow>16 ~ 21级加农炮的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/03">
-        <TimelineRow>14 ~ 19 级加农炮的每秒伤害降低。</TimelineRow>
-        <TimelineRow>自本次更新后，连发模式秒伤 = 1.35 倍快速模式秒伤，标准模式次伤 = 连发模式次伤这两个规律不再成立。</TimelineRow>
+        <TimelineRow>14 ~ 19级加农炮的每秒伤害降低。</TimelineRow>
+        <TimelineRow>自本次更新后，连发模式秒伤 = 1.35倍快速模式秒伤，标准模式次伤 = 连发模式次伤这两个规律不再成立。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，其中 4 个加农炮可以被合并为 2 个跳弹加农炮。</TimelineRow>
+        <TimelineRow>16本推出，其中4个加农炮可以被合并为2个跳弹加农炮。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/09/28">
-        <TimelineRow>12 ~ 20 级加农炮的每秒伤害降低。</TimelineRow>
+        <TimelineRow>12 ~ 20级加农炮的每秒伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>16 ~ 19 级加农炮的升级时间减少。</TimelineRow>
-        <TimelineRow>16 ~ 19 级加农炮的升级费用降低。</TimelineRow>
+        <TimelineRow>16 ~ 19级加农炮的升级时间减少。</TimelineRow>
+        <TimelineRow>16 ~ 19级加农炮的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 21 级加农炮。</TimelineRow>
-        <TimelineRow>12 ~ 20 级加农炮的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增21级加农炮。</TimelineRow>
+        <TimelineRow>12 ~ 20级加农炮的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>8 ~ 19 级加农炮的升级费用降低。</TimelineRow>
+        <TimelineRow>8 ~ 19级加农炮的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 20 级加农炮。</TimelineRow>
-        <TimelineRow>2 ~ 14 级加农炮的升级时间减少。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增20级加农炮。</TimelineRow>
+        <TimelineRow>2 ~ 14级加农炮的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>13 本新增 19 级加农炮。</TimelineRow>
+        <TimelineRow>13本新增19级加农炮。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>18 级加农炮的生命值由 1860 调整到 1870。</TimelineRow>
+        <TimelineRow>18级加农炮的生命值由1860调整到1870。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本推出，并在 13 本新增 18 级加农炮。</TimelineRow>
+        <TimelineRow>13本推出，并在13本新增18级加农炮。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>10 ~ 16 级加农炮的升级费用降低。</TimelineRow>
-        <TimelineRow>7 ~ 13、16 级加农炮的升级时间减少。</TimelineRow>
-        <TimelineRow>12 级大本营新增 17 级加农炮。</TimelineRow>
+        <TimelineRow>10 ~ 16级加农炮的升级费用降低。</TimelineRow>
+        <TimelineRow>7 ~ 13、16级加农炮的升级时间减少。</TimelineRow>
+        <TimelineRow>12级大本营新增17级加农炮。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/02/22">
-        <TimelineRow>10 ~ 16 级加农炮的伤害降低。</TimelineRow>
+        <TimelineRow>10 ~ 16级加农炮的伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

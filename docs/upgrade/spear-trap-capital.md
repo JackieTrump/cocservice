@@ -16,10 +16,10 @@ canonical: /upgrade/spear-trap-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Spear_Trap_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Spear_Trap1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Spear_Trap2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Spear_Trap3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Spear_Trap4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Spear_Trap1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Spear_Trap2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Spear_Trap3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Spear_Trap4.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -39,7 +39,7 @@ canonical: /upgrade/spear-trap-capital
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="伤害目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="触发距离" pValue="10 格" />
+    <UnitProperty pKey="触发距离" pValue="10格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

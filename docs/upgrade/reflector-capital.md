@@ -16,10 +16,10 @@ canonical: /upgrade/reflector-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Reflector_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Reflector1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Reflector2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Reflector3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Reflector4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Reflector1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Reflector2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Reflector3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Reflector4.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -48,8 +48,8 @@ canonical: /upgrade/reflector-capital
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="10 格" />
-    <UnitProperty pKey="最快攻速" pValue="0.575 秒/次" />
+    <UnitProperty pKey="射程" pValue="10格" />
+    <UnitProperty pKey="最快攻速" pValue="0.575秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

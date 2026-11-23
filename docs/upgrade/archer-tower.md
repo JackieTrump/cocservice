@@ -49,41 +49,41 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 
 <Panel>
     <UnitImgGroup title="未改装" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Archer_Tower1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Archer_Tower2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Archer_Tower3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Archer_Tower4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Archer_Tower5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Archer_Tower6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Archer_Tower7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Archer_Tower8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Archer_Tower9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Archer_Tower10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Archer_Tower11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Archer_Tower12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Archer_Tower13.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Archer_Tower14.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Archer_Tower15.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Archer_Tower16.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Archer_Tower17.png" />
-        <UnitImg imgTitle="18 级" imgSrc="Archer_Tower18.png" />
-        <UnitImg imgTitle="19 级" imgSrc="Archer_Tower19.png" />
-        <UnitImg imgTitle="20 级" imgSrc="Archer_Tower20.png" />
-        <UnitImg imgTitle="21 级" imgSrc="Archer_Tower21.png" />
+        <UnitImg imgTitle="1级" imgSrc="Archer_Tower1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Archer_Tower2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Archer_Tower3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Archer_Tower4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Archer_Tower5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Archer_Tower6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Archer_Tower7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Archer_Tower8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Archer_Tower9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Archer_Tower10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Archer_Tower11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Archer_Tower12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Archer_Tower13.png" />
+        <UnitImg imgTitle="14级" imgSrc="Archer_Tower14.png" />
+        <UnitImg imgTitle="15级" imgSrc="Archer_Tower15.png" />
+        <UnitImg imgTitle="16级" imgSrc="Archer_Tower16.png" />
+        <UnitImg imgTitle="17级" imgSrc="Archer_Tower17.png" />
+        <UnitImg imgTitle="18级" imgSrc="Archer_Tower18.png" />
+        <UnitImg imgTitle="19级" imgSrc="Archer_Tower19.png" />
+        <UnitImg imgTitle="20级" imgSrc="Archer_Tower20.png" />
+        <UnitImg imgTitle="21级" imgSrc="Archer_Tower21.png" />
     </UnitImgGroup>
     <UnitImgGroup title="已改装，处于标准模式" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="10 级" imgSrc="Archer_Tower10A.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Archer_Tower11A.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Archer_Tower12A.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Archer_Tower13A.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Archer_Tower14A.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Archer_Tower15A.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Archer_Tower16A.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Archer_Tower17A.png" />
-        <UnitImg imgTitle="18 级" imgSrc="Archer_Tower18A.png" />
-        <UnitImg imgTitle="19 级" imgSrc="Archer_Tower19A.png" />
-        <UnitImg imgTitle="20 级" imgSrc="Archer_Tower20A.png" />
-        <UnitImg imgTitle="21 级" imgSrc="Archer_Tower21A.png" />
+        <UnitImg imgTitle="10级" imgSrc="Archer_Tower10A.png" />
+        <UnitImg imgTitle="11级" imgSrc="Archer_Tower11A.png" />
+        <UnitImg imgTitle="12级" imgSrc="Archer_Tower12A.png" />
+        <UnitImg imgTitle="13级" imgSrc="Archer_Tower13A.png" />
+        <UnitImg imgTitle="14级" imgSrc="Archer_Tower14A.png" />
+        <UnitImg imgTitle="15级" imgSrc="Archer_Tower15A.png" />
+        <UnitImg imgTitle="16级" imgSrc="Archer_Tower16A.png" />
+        <UnitImg imgTitle="17级" imgSrc="Archer_Tower17A.png" />
+        <UnitImg imgTitle="18级" imgSrc="Archer_Tower18A.png" />
+        <UnitImg imgTitle="19级" imgSrc="Archer_Tower19A.png" />
+        <UnitImg imgTitle="20级" imgSrc="Archer_Tower20A.png" />
+        <UnitImg imgTitle="21级" imgSrc="Archer_Tower21A.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -94,7 +94,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
     <BuildingNumRow title="建筑数量" num="0,     1, 2,     3,  4, 5, 6,  7,       8,  4,       2" />
 </BuildingNum>
 
-在 16 级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
+在16级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -103,8 +103,8 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="10 格" />
-    <UnitProperty pKey="攻速" pValue="0.5 秒/次" />
+    <UnitProperty pKey="射程" pValue="10格" />
+    <UnitProperty pKey="攻速" pValue="0.5秒/次" />
     <UnitProperty pKey="改装所需箭塔等级" pValue="10" />
     <UnitProperty pKey="改装所需夜世界箭塔等级" pValue="6" />
     <UnitProperty pKey="改装数量" pValue="仅限一个" />
@@ -152,18 +152,18 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 
 <Panel>
     <UnitImgGroup title="已改装，处于快速模式" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="10 级" imgSrc="Archer_Tower10B.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Archer_Tower11B.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Archer_Tower12B.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Archer_Tower13B.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Archer_Tower14B.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Archer_Tower15B.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Archer_Tower16B.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Archer_Tower17B.png" />
-        <UnitImg imgTitle="18 级" imgSrc="Archer_Tower18B.png" />
-        <UnitImg imgTitle="19 级" imgSrc="Archer_Tower19B.png" />
-        <UnitImg imgTitle="20 级" imgSrc="Archer_Tower20B.png" />
-        <UnitImg imgTitle="21 级" imgSrc="Archer_Tower21B.png" />
+        <UnitImg imgTitle="10级" imgSrc="Archer_Tower10B.png" />
+        <UnitImg imgTitle="11级" imgSrc="Archer_Tower11B.png" />
+        <UnitImg imgTitle="12级" imgSrc="Archer_Tower12B.png" />
+        <UnitImg imgTitle="13级" imgSrc="Archer_Tower13B.png" />
+        <UnitImg imgTitle="14级" imgSrc="Archer_Tower14B.png" />
+        <UnitImg imgTitle="15级" imgSrc="Archer_Tower15B.png" />
+        <UnitImg imgTitle="16级" imgSrc="Archer_Tower16B.png" />
+        <UnitImg imgTitle="17级" imgSrc="Archer_Tower17B.png" />
+        <UnitImg imgTitle="18级" imgSrc="Archer_Tower18B.png" />
+        <UnitImg imgTitle="19级" imgSrc="Archer_Tower19B.png" />
+        <UnitImg imgTitle="20级" imgSrc="Archer_Tower20B.png" />
+        <UnitImg imgTitle="21级" imgSrc="Archer_Tower21B.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -174,7 +174,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
     <BuildingNumRow title="建筑数量" num="0,     1, 2,     3,  4, 5, 6,  7,       8,  4,       2" />
 </BuildingNum>
 
-在 16 级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
+在16级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -183,8 +183,8 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="7 格" />
-    <UnitProperty pKey="攻速" pValue="0.25 秒/次" />
+    <UnitProperty pKey="射程" pValue="7格" />
+    <UnitProperty pKey="攻速" pValue="0.25秒/次" />
     <UnitProperty pKey="改装所需箭塔等级" pValue="10" />
     <UnitProperty pKey="改装所需夜世界箭塔等级" pValue="6" />
     <UnitProperty pKey="改装数量" pValue="仅限一个" />
@@ -219,75 +219,75 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>16 ~ 21 级箭塔的升级时间减少。</TimelineRow>
+        <TimelineRow>16 ~ 21级箭塔的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>1 ~ 5、7 ~ 9、11 ~ 12、14、16、18、20 ~ 21 级箭塔的升级时间减少。</TimelineRow>
-        <TimelineRow>5 ~ 21 级箭塔的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 5、7 ~ 9、11 ~ 12、14、16、18、20 ~ 21级箭塔的升级时间减少。</TimelineRow>
+        <TimelineRow>5 ~ 21级箭塔的升级费用降低。</TimelineRow>
         <TimelineRow>箭塔的改装费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>1、2、6、10、13、15、17、19 级箭塔的升级时间减少。</TimelineRow>
-        <TimelineRow>13、15、17、19 级箭塔的升级费用降低。</TimelineRow>
+        <TimelineRow>1、2、6、10、13、15、17、19级箭塔的升级时间减少。</TimelineRow>
+        <TimelineRow>13、15、17、19级箭塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，其中 2 个箭塔可以被合并为 1 个多人箭塔。</TimelineRow>
-        <TimelineRow>17 本新解锁一个箭塔。</TimelineRow>
-        <TimelineRow>7 ~ 9、12、14、16、18、20 ~ 21 级箭塔的升级时间减少。</TimelineRow>
-        <TimelineRow>16 ~ 21 级箭塔的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，其中2个箭塔可以被合并为1个多人箭塔。</TimelineRow>
+        <TimelineRow>17本新解锁一个箭塔。</TimelineRow>
+        <TimelineRow>7 ~ 9、12、14、16、18、20 ~ 21级箭塔的升级时间减少。</TimelineRow>
+        <TimelineRow>16 ~ 21级箭塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>14 ~ 21 级箭塔的升级时间减少。</TimelineRow>
-        <TimelineRow>16 ~ 18、20 ~ 21 级箭塔的升级费用降低。</TimelineRow>
+        <TimelineRow>14 ~ 21级箭塔的升级时间减少。</TimelineRow>
+        <TimelineRow>16 ~ 18、20 ~ 21级箭塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/03">
-        <TimelineRow>12 ~ 20 级箭塔的每秒伤害降低。</TimelineRow>
-        <TimelineRow>自本次更新后，快速模式秒伤 = 2 倍标准模式秒伤，标准模式次伤 = 快速模式次伤这两个规律不再成立。</TimelineRow>
+        <TimelineRow>12 ~ 20级箭塔的每秒伤害降低。</TimelineRow>
+        <TimelineRow>自本次更新后，快速模式秒伤 = 2倍标准模式秒伤，标准模式次伤 = 快速模式次伤这两个规律不再成立。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/04/09">
-        <TimelineRow>16 ~ 17 级箭塔的生命值减少。</TimelineRow>
+        <TimelineRow>16 ~ 17级箭塔的生命值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，其中 4 个箭塔可以被合并为 2 个多人箭塔。</TimelineRow>
-        <TimelineRow>5 ~ 21 级箭塔的升级时间减少。</TimelineRow>
-        <TimelineRow>6 ~ 12、14 ~ 15、20 ~ 21 级箭塔的升级费用降低。</TimelineRow>
+        <TimelineRow>16本推出，其中4个箭塔可以被合并为2个多人箭塔。</TimelineRow>
+        <TimelineRow>5 ~ 21级箭塔的升级时间减少。</TimelineRow>
+        <TimelineRow>6 ~ 12、14 ~ 15、20 ~ 21级箭塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>16 ~ 19 级箭塔的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>16 ~ 19级箭塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 21 级箭塔。</TimelineRow>
-        <TimelineRow>12 ~ 20 级箭塔的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增21级箭塔。</TimelineRow>
+        <TimelineRow>12 ~ 20级箭塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
-        <TimelineRow>16 ~ 17 级箭塔的伤害降低。</TimelineRow>
+        <TimelineRow>16 ~ 17级箭塔的伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>8 ~ 19 级箭塔的升级费用降低。</TimelineRow>
+        <TimelineRow>8 ~ 19级箭塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/06/15">
-        <TimelineRow>14 本新增 20 级箭塔。</TimelineRow>
+        <TimelineRow>14本新增20级箭塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>8 ~ 13 级箭塔的升级费用降低。</TimelineRow>
-        <TimelineRow>2、5、7、9 ~ 16 级箭塔的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 13级箭塔的升级费用降低。</TimelineRow>
+        <TimelineRow>2、5、7、9 ~ 16级箭塔的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/01/20">
         <TimelineRow>修复了改装后的箭塔首发箭矢射出位置不合理的问题。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
-        <TimelineRow>13 本新增 19 级箭塔。</TimelineRow>
+        <TimelineRow>13本新增19级箭塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>13 本新增 18 级箭塔。</TimelineRow>
+        <TimelineRow>13本新增18级箭塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>10 ~ 16 级箭塔的升级费用降低。</TimelineRow>
-        <TimelineRow>6 ~ 13、16 级箭塔的升级时间减少。</TimelineRow>
-        <TimelineRow>12 级大本营新增 17 级箭塔。</TimelineRow>
+        <TimelineRow>10 ~ 16级箭塔的升级费用降低。</TimelineRow>
+        <TimelineRow>6 ~ 13、16级箭塔的升级时间减少。</TimelineRow>
+        <TimelineRow>12级大本营新增17级箭塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/02/22">
-        <TimelineRow>10 ~ 16 级箭塔的伤害降低。</TimelineRow>
+        <TimelineRow>10 ~ 16级箭塔的伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

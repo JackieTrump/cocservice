@@ -28,13 +28,13 @@ canonical: /upgrade/0204-Minion-Prince
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="25" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="0.85 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="4.5 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.85秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="4.5格" />
     <UnitProperty pKey="所需英雄殿堂等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
-    <UnitProperty pKey="搜索半径" pValue="10 格<sup>①</sup>" />
-    <UnitProperty pKey="巡逻半径" pValue="3 格<sup>②</sup>" />
+    <UnitProperty pKey="搜索半径" pValue="10格<sup>①</sup>" />
+    <UnitProperty pKey="巡逻半径" pValue="3格<sup>②</sup>" />
 </UnitProperties>
 
 ① 如果敌军进入这个范围，英雄会奔向敌军，并进行反击。<br>
@@ -197,7 +197,7 @@ const tableExtraInfo = [
 
 <SmallTitle>亡灵王子的初始等级</SmallTitle>
 
-如果你在 2024 年 11 月更新前已经拥有英雄，那么官方会根据你更新时的英雄等级送你相应等级英雄殿堂和亡灵王子，无需从头开始升级。如果更新时你的英雄尚未升级完成，那么官方会帮你直接秒掉这一级英雄。
+如果你在2024年11月更新前已经拥有英雄，那么官方会根据你更新时的英雄等级送你相应等级英雄殿堂和亡灵王子，无需从头开始升级。如果更新时你的英雄尚未升级完成，那么官方会帮你直接秒掉这一级英雄。
 
 数据表格见 [英雄殿堂](/upgrade/0489-Hero-Hall) 页面，这里不再重复列出。
 
@@ -205,21 +205,21 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>36 ~ 75 级亡灵王子的升级时间减少。</TimelineRow>
+        <TimelineRow>36 ~ 75级亡灵王子的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 91 ~ 95 级亡灵王子。</TimelineRow>
-        <TimelineRow>1 ~ 90 级亡灵王子的生命值减少 1000，但所有装备提供 500 生命值加成。也就是说亡灵王子的进攻强度不变，防守强度降低了。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增91 ~ 95级亡灵王子。</TimelineRow>
+        <TimelineRow>1 ~ 90级亡灵王子的生命值减少1000，但所有装备提供500生命值加成。也就是说亡灵王子的进攻强度不变，防守强度降低了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>26 ~ 80 级亡灵王子的升级时间减少。</TimelineRow>
-        <TimelineRow>31 ~ 74 级亡灵王子的升级费用降低。</TimelineRow>
+        <TimelineRow>26 ~ 80级亡灵王子的升级时间减少。</TimelineRow>
+        <TimelineRow>31 ~ 74级亡灵王子的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>取消英雄的恢复时间，现在英雄可以像战宠一样瞬间恢复。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>在 9 本推出新英雄：亡灵王子。</TimelineRow>
+        <TimelineRow>在9本推出新英雄：亡灵王子。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

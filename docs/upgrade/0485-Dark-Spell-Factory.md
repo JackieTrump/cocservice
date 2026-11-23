@@ -17,22 +17,22 @@ canonical: /upgrade/0485-Dark-Spell-Factory
 
 <Panel>
     <UnitImgGroup title="闲置状态" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Dark_Spell_Factory1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Dark_Spell_Factory2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Dark_Spell_Factory3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Dark_Spell_Factory4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Dark_Spell_Factory5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Dark_Spell_Factory6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Dark_Spell_Factory7.png" />
+        <UnitImg imgTitle="1级" imgSrc="Dark_Spell_Factory1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Dark_Spell_Factory2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Dark_Spell_Factory3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Dark_Spell_Factory4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Dark_Spell_Factory5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Dark_Spell_Factory6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Dark_Spell_Factory7.png" />
     </UnitImgGroup>
     <UnitImgGroup title="法术配置中" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Dark_Spell_Factory1_Active.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Dark_Spell_Factory2_Active.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Dark_Spell_Factory3_Active.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Dark_Spell_Factory4_Active.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Dark_Spell_Factory5_Active.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Dark_Spell_Factory6_Active.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Dark_Spell_Factory7_Active.png" />
+        <UnitImg imgTitle="1级" imgSrc="Dark_Spell_Factory1_Active.png" />
+        <UnitImg imgTitle="2级" imgSrc="Dark_Spell_Factory2_Active.png" />
+        <UnitImg imgTitle="3级" imgSrc="Dark_Spell_Factory3_Active.png" />
+        <UnitImg imgTitle="4级" imgSrc="Dark_Spell_Factory4_Active.png" />
+        <UnitImg imgTitle="5级" imgSrc="Dark_Spell_Factory5_Active.png" />
+        <UnitImg imgTitle="6级" imgSrc="Dark_Spell_Factory6_Active.png" />
+        <UnitImg imgTitle="7级" imgSrc="Dark_Spell_Factory7_Active.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -90,24 +90,24 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>7 级暗黑法术工厂的升级时间减少。</TimelineRow>
-        <TimelineRow>7 级暗黑法术工厂的升级费用降低。</TimelineRow>
+        <TimelineRow>7级暗黑法术工厂的升级时间减少。</TimelineRow>
+        <TimelineRow>7级暗黑法术工厂的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/19">
-        <TimelineRow>新增 7 级暗黑法术工厂，14 本可解锁。新法术：冰障法术。</TimelineRow>
+        <TimelineRow>新增7级暗黑法术工厂，14本可解锁。新法术：冰障法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 级暗黑法术工厂的升级时间减少。</TimelineRow>
+        <TimelineRow>2级暗黑法术工厂的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">  
-        <TimelineRow>5 ~ 6 级暗黑法术工厂的升级时间减少。</TimelineRow>
-        <TimelineRow>6 级暗黑法术工厂的升级费用降低。</TimelineRow>
+        <TimelineRow>5 ~ 6级暗黑法术工厂的升级时间减少。</TimelineRow>
+        <TimelineRow>6级暗黑法术工厂的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>新增 6 级暗黑法术工厂，12 本可解锁。新法术：蔓生法术。</TimelineRow>
+        <TimelineRow>新增6级暗黑法术工厂，12本可解锁。新法术：蔓生法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>1 ~ 2 级暗黑法术工厂的升级费用 150k/300k 减少至 130k/260k。</TimelineRow>
+        <TimelineRow>1 ~ 2级暗黑法术工厂的升级费用150k/300k 减少至130k/260k。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
         <TimelineRow>法术工厂升级时兵种可继续配置法术，但配置速度减半（配置时间翻倍）。</TimelineRow>
@@ -119,7 +119,7 @@ const tableExtraInfo = [
         <TimelineRow>所有等级暗黑法术工厂的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem> 
         <TimelineItem date="2019/04/02">
-        <TimelineRow>1 ~ 4 级暗黑法术工厂的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 4级暗黑法术工厂的升级时间减少。</TimelineRow>
         <TimelineRow>所有等级暗黑法术工厂的升级费用降低。</TimelineRow>
     </TimelineItem>    
     <TimelineItem :historyBottom="true" />

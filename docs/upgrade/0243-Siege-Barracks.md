@@ -15,18 +15,18 @@ canonical: /upgrade/0243-Siege-Barracks
 
 <Panel>
     <UnitImgGroup title="常规模型" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Siege_Barracks1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Siege_Barracks2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Siege_Barracks3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Siege_Barracks4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Siege_Barracks5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Siege_Barracks1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Siege_Barracks2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Siege_Barracks3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Siege_Barracks4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Siege_Barracks5.png" />
     </UnitImgGroup>
     <UnitImgGroup title="正在降落的攻城训练营" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Parachute_Barracks1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Parachute_Barracks2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Parachute_Barracks3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Parachute_Barracks4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Parachute_Barracks5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Parachute_Barracks1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Parachute_Barracks2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Parachute_Barracks3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Parachute_Barracks4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Parachute_Barracks5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -44,7 +44,7 @@ canonical: /upgrade/0243-Siege-Barracks
 <UnitProperties>
     <UnitProperty pKey="攻击方式" pValue="部署后生成额外部队" />
     <UnitProperty pKey="占据人口" pValue="30" />
-    <UnitProperty pKey="最长生存时间" pValue="30 秒" />
+    <UnitProperty pKey="最长生存时间" pValue="30秒" />
     <UnitProperty pKey="移动速度" pValue="0 (无法移动)" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="4" />
     <UnitProperty pKey="所需大本等级" pValue="13" />
@@ -88,25 +88,25 @@ const tableExtraInfo = [
         <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 4 级攻城训练营的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级攻城训练营的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>16 本新增 5 级攻城训练营。</TimelineRow>
+        <TimelineRow>16本新增5级攻城训练营。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>2 ~ 4 级攻城训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级攻城训练营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>2 ~ 4 级攻城训练营的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级攻城训练营的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>2 ~ 4 级攻城训练营的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级攻城训练营的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>修复了攻城训练营持续时间计算不准确的问题，之前它实际的持续时间和信息界面显示的 30 秒有出入。</TimelineRow>
+        <TimelineRow>修复了攻城训练营持续时间计算不准确的问题，之前它实际的持续时间和信息界面显示的30秒有出入。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
-        <TimelineRow>4 级攻城训练营的法师数量减少一个。</TimelineRow>
+        <TimelineRow>4级攻城训练营的法师数量减少一个。</TimelineRow>
         <TimelineRow>如果您没有部署攻城机器，当其他军队都被消灭后，战斗不再会自动结束。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

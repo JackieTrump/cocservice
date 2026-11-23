@@ -18,10 +18,10 @@ canonical: /upgrade/2350-Mega-Sparky-Workshop
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Mega_Sparky_Workshop_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Mega_Sparky_Workshop1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Mega_Sparky_Workshop2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Mega_Sparky_Workshop3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Mega_Sparky_Workshop4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Mega_Sparky_Workshop1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Mega_Sparky_Workshop2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Mega_Sparky_Workshop3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Mega_Sparky_Workshop4.png" />
     </UnitImgGroup>
 </Panel>
 

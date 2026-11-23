@@ -17,18 +17,18 @@ canonical: /upgrade/0381-Spring-Trap
 
 <Panel>
     <UnitImgGroup title="常规模型" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Spring_Trap1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Spring_Trap3.png" />
-        <UnitImg imgTitle="5 - 6 级" imgSrc="Spring_Trap5.png" />
-        <UnitImg imgTitle="7 - 8 级" imgSrc="Spring_Trap7.png" />
-        <UnitImg imgTitle="9 - 10 级" imgSrc="Spring_Trap9.png" />
-        <UnitImg imgTitle="11 - 12 级" imgSrc="Spring_Trap11.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Spring_Trap13.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Spring_Trap1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Spring_Trap3.png" />
+        <UnitImg imgTitle="5 - 6级" imgSrc="Spring_Trap5.png" />
+        <UnitImg imgTitle="7 - 8级" imgSrc="Spring_Trap7.png" />
+        <UnitImg imgTitle="9 - 10级" imgSrc="Spring_Trap9.png" />
+        <UnitImg imgTitle="11 - 12级" imgSrc="Spring_Trap11.png" />
+        <UnitImg imgTitle="13级" imgSrc="Spring_Trap13.png" />
     </UnitImgGroup>
     <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Spring_Trap1_unarmed.png" />
-        <UnitImg imgTitle="3 - 6 级" imgSrc="Spring_Trap3_unarmed.png" />
-        <UnitImg imgTitle="7 - 13 级" imgSrc="Spring_Trap7_unarmed.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Spring_Trap1_unarmed.png" />
+        <UnitImg imgTitle="3 - 6级" imgSrc="Spring_Trap3_unarmed.png" />
+        <UnitImg imgTitle="7 - 13级" imgSrc="Spring_Trap7_unarmed.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -41,7 +41,7 @@ canonical: /upgrade/0381-Spring-Trap
 
 <SmallTitle>重要说明</SmallTitle>
 
-2025/10 更新后，隐形弹簧重做。当前版本隐形弹簧的机制比较复杂，具体如下：
+2025/10更新后，隐形弹簧重做。当前版本隐形弹簧的机制比较复杂，具体如下：
 
 1. 隐形弹簧只会锁定作用范围内占用人口最大的单个地面部队。
 2. 隐形弹簧对部队的作用机制如下：
@@ -60,8 +60,8 @@ canonical: /upgrade/0381-Spring-Trap
     <UnitProperty pKey="占地面积" pValue="1×1" />
     <UnitProperty pKey="作用类型" pValue="弹飞敌军或对敌军造成高额伤害" />
     <UnitProperty pKey="作用目标" pValue="仅地面目标" />
-    <UnitProperty pKey="触发半径" pValue="1 格" />
-    <UnitProperty pKey="作用半径" pValue="2 格" />
+    <UnitProperty pKey="触发半径" pValue="1格" />
+    <UnitProperty pKey="作用半径" pValue="2格" />
     <UnitProperty pKey="陷阱作用延时" pValue="无" />
 </UnitProperties>
 
@@ -112,42 +112,42 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 13 级隐形弹簧。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增13级隐形弹簧。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>隐形弹簧重做，现在弹簧有 12 个等级了。</TimelineRow>
-        <TimelineRow>5 级隐形弹簧的升级时间减少。</TimelineRow>
+        <TimelineRow>隐形弹簧重做，现在弹簧有12个等级了。</TimelineRow>
+        <TimelineRow>5级隐形弹簧的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 5 级隐形弹簧的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 4 级隐形弹簧的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 5级隐形弹簧的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级隐形弹簧的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>4 级隐形弹簧的升级时间减少。</TimelineRow>
+        <TimelineRow>4级隐形弹簧的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>5 级隐形弹簧的升级时间减少。</TimelineRow>
+        <TimelineRow>5级隐形弹簧的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>2 ~ 5 级隐形弹簧的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 5级隐形弹簧的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>5 级隐形弹簧的升级费用降低。</TimelineRow>
+        <TimelineRow>5级隐形弹簧的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>4 ~ 5 级隐形弹簧的升级费用降低。</TimelineRow>
+        <TimelineRow>4 ~ 5级隐形弹簧的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>2 ~ 4 级隐形弹簧的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级隐形弹簧的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>13 本新增一个隐形弹簧。</TimelineRow>
+        <TimelineRow>13本新增一个隐形弹簧。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>3 ~ 5 级隐形弹簧的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 5级隐形弹簧的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/02/28">
-        <TimelineRow>隐形弹簧的触发半径由 0.7 格调整为 0.8 格。</TimelineRow>
+        <TimelineRow>隐形弹簧的触发半径由0.7格调整为0.8格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
         <TimelineRow>所有等级隐形弹簧可以弹飞的人口数减少。</TimelineRow>

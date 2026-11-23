@@ -2,7 +2,7 @@
 title: "部落冲突 coc 熔岩气球玩偶装备升级数据"
 navTitle: "熔岩气球玩偶"
 shownTitle: "熔岩气球玩偶"
-description: "熔岩气球玩偶是大守护者的第二件史诗装备，它在 2024 年 10 月的合体狂热活动中首次开放购买。熔岩气球玩偶装备可以使大守护者在使用技能时召唤几只熔岩气球。除了召唤熔岩气球外，熔岩气球玩偶装备还可以增加大守护者的每秒伤害和生命值。"
+description: "熔岩气球玩偶是大守护者的第二件史诗装备，它在2024年10月的合体狂热活动中首次开放购买。熔岩气球玩偶装备可以使大守护者在使用技能时召唤几只熔岩气球。除了召唤熔岩气球外，熔岩气球玩偶装备还可以增加大守护者的每秒伤害和生命值。"
 module: upgrade-home
 imgFolder: home_heroes/0785
 wiki: https://clashofclans.fandom.com/wiki/Lavaloon_Puppet
@@ -23,7 +23,7 @@ canonical: /upgrade/lavaloon-puppet
 
 <SmallTitle>说明</SmallTitle>
 
-1. 熔岩气球玩偶是 [大守护者](/upgrade/grand-warden) 的第二件史诗装备，它在 2024 年 10 月的合体狂热活动中首次开放购买。
+1. 熔岩气球玩偶是 [大守护者](/upgrade/grand-warden) 的第二件史诗装备，它在2024年10月的合体狂热活动中首次开放购买。
 2. 熔岩气球玩偶装备可以使大守护者在使用技能时召唤几只熔岩气球。
 3. 除了召唤熔岩气球外，熔岩气球玩偶装备还可以增加大守护者的每秒伤害和生命值。
 
@@ -100,9 +100,9 @@ const tableExtraInfo = [
 
 | 推出时间 | 活动名称 |     价格       | 购买渠道 |
 |   ---   |   ---   |      ---      |    ---   |
-| 2024/10 | 合体狂热 | 3 100 合体奖章 |   商人   |
-| 2025/04 | 是敌是友 | 3 100 冠军奖章 |   商人   |
-| 2025/12 | 熔岩危机 | 3 100 火苗奖章 |   商人   |
+| 2024/10 | 合体狂热 | 3 100合体奖章 |   商人   |
+| 2025/04 | 是敌是友 | 3 100冠军奖章 |   商人   |
+| 2025/12 | 熔岩危机 | 3 100火苗奖章 |   商人   |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -131,12 +131,12 @@ const tableExtraInfo = [
 <UnitProperties>
     <UnitProperty pKey="攻击偏好" pValue="防空火箭" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.8 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.8格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="21" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2.5 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0 格 (建筑头顶)" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2.5秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0格 (建筑头顶)" />
     <UnitProperty pKey="特殊技能" pValue="爆炸分裂<sup>*</sup>" />
 </UnitProperties>
 
@@ -181,9 +181,9 @@ const tableExtraInfo = [
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="2 格" />
+    <UnitProperty pKey="移动速度" pValue="4格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -211,8 +211,8 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/01/12">
-        <TimelineRow>21 ~ 27 级熔岩气球玩偶召唤的熔岩气球数量由 2 增加到 3.</TimelineRow>
-        <TimelineRow>熔岩气球占据的人口数由 23 减少到 21.</TimelineRow>
+        <TimelineRow>21 ~ 27级熔岩气球玩偶召唤的熔岩气球数量由2增加到3.</TimelineRow>
+        <TimelineRow>熔岩气球占据的人口数由23减少到21.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/10/11">
         <TimelineRow>新装备：熔岩气球玩偶。</TimelineRow>

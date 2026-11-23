@@ -35,9 +35,9 @@ canonical: /upgrade/20c0-Barbarian
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="防守人口" pValue="1.25" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.3 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.3格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -57,7 +57,7 @@ canonical: /upgrade/20c0-Barbarian
 
 <Timeline>
     <TimelineItem date="2022/12/12">
-        <TimelineRow>本次更新后，兵种拥有了防守人口属性。每个都城野蛮人占 1.25 人口。</TimelineRow>
+        <TimelineRow>本次更新后，兵种拥有了防守人口属性。每个都城野蛮人占1.25人口。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

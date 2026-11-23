@@ -23,7 +23,7 @@ canonical: /upgrade/0601-Sneaky-Goblin
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 隐秘哥布林的技能（隐形披风）：在部署后的 5 秒内隐身，不会被锁定为攻击目标。
+1. 隐秘哥布林的技能（隐形披风）：在部署后的5秒内隐身，不会被锁定为攻击目标。
 2. 隐秘哥布林不能把援兵引出来，但是可以触发陷阱。触发 [骷髅陷阱](/upgrade/0385-Skeleton-Trap) 后，骷髅会站在原地，等到隐身效果消失之后才去追击隐秘哥布林。
 3. 隐秘哥布林隐身时并非无敌，仅仅是不会被锁定为目标，还是会受到伤害的。
 
@@ -31,17 +31,17 @@ canonical: /upgrade/0601-Sneaky-Goblin
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="资源建筑 (2 倍伤害)" />
+    <UnitProperty pKey="攻击偏好" pValue="资源建筑 (2倍伤害)" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="3" />
-    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+    <UnitProperty pKey="移动速度" pValue="4格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.4格" />
     <UnitProperty pKey="最低哥布林等级" pValue="7" />
     <UnitProperty pKey="最低大本等级" pValue="11" />
-    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
-    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="强化费用" pValue="2.5万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="2,2,6000,Elixir" :isDonationCost="true" />
 </UnitProperties>
@@ -64,14 +64,14 @@ canonical: /upgrade/0601-Sneaky-Goblin
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 9 级哥布林，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15本新增9级哥布林，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
-        <TimelineRow>7 ~ 8 级隐秘哥布林的每秒伤害降低。</TimelineRow>
+        <TimelineRow>7 ~ 8级隐秘哥布林的每秒伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
-        <TimelineRow>超级部队的有效时间从 7 天缩短为 3 天。</TimelineRow>
-        <TimelineRow>所有部队的强化费用统一调整为 25,000 暗黑重油。</TimelineRow>
+        <TimelineRow>超级部队的有效时间从7天缩短为3天。</TimelineRow>
+        <TimelineRow>所有部队的强化费用统一调整为25,000暗黑重油。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
         <TimelineRow>部落冲突新增“超级兵种”玩法，隐秘哥布林是首批推出的超级兵种之一。</TimelineRow>

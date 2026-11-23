@@ -17,7 +17,7 @@ canonical: /upgrade/0702-Earthquake-Boots
 2. 地震金靴可以时蛮王在使用技能时制造一场地震。这次地震可以立即摧毁周围的城墙，并且对建筑物造成一定百分比的破坏。
    - 地震金靴造成的伤害是相对于部队或建筑最大生命值的，即使残血也按满血算。
    - 地震金靴的伤害并不均匀，位于地震范围边缘的城墙会受到伤害，但不会倒塌。
-   - 地震金靴引起的地震**可以**激活 12 级及以上 [大本营](/upgrade/town-hall) 自带的武器。
+   - 地震金靴引起的地震**可以**激活12级及以上 [大本营](/upgrade/town-hall) 自带的武器。
    - 和 [地震法术](/upgrade/0181-Earthquake-Spell) 不同的是，地震金靴引起的地震**可以**对资源仓库造成破坏。
    - 当地震金靴引起的地震和地震法术叠加时，建筑物的损坏效果会减弱，具体公式可前往地震法术页面查看，你把地震金靴装备当作一瓶地震法术即可。
 3. 除了制造地震之外，地震金靴装备还可以提高蛮王的每秒伤害和最大生命值。
@@ -29,7 +29,7 @@ canonical: /upgrade/0702-Earthquake-Boots
     <UnitProperty pKey="装备稀有度" pValue="普通" />
     <UnitProperty pKey="所需铁匠铺等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="8" />
-    <UnitProperty pKey="地震伤害半径" pValue="8 格" />
+    <UnitProperty pKey="地震伤害半径" pValue="8格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -84,12 +84,12 @@ const tableExtraInfo = [
         <TimelineRow>地震金靴的地震效果可以对地面部队造成伤害了（同步地震法术的更改）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>9 ~ 18 级地震金靴的百分比伤害降低。</TimelineRow>
-        <TimelineRow>地震金靴 100 点左右的固定伤害取消，现在地震金靴不能杀死骷髅了。</TimelineRow>
+        <TimelineRow>9 ~ 18级地震金靴的百分比伤害降低。</TimelineRow>
+        <TimelineRow>地震金靴100点左右的固定伤害取消，现在地震金靴不能杀死骷髅了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
-        <TimelineRow>9 - 18 级地震金靴装备的伤害百分比增加。</TimelineRow>
-        <TimelineRow>12 - 18 级地震金靴装备可以给英雄加更多生命值。</TimelineRow>
+        <TimelineRow>9 - 18级地震金靴装备的伤害百分比增加。</TimelineRow>
+        <TimelineRow>12 - 18级地震金靴装备可以给英雄加更多生命值。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>游戏新增装备系统，地震金靴是第一批推出的装备。</TimelineRow>

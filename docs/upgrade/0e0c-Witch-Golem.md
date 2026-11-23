@@ -30,24 +30,24 @@ canonical: /upgrade/0e0c-Witch-Golem
 
 <SmallTitle>重要说明</SmallTitle>
 
-女巫戈仑在 2023 年 10 月的合体狂潮活动中首次推出，在活动中获取 55 000 酸腐圣水（任务点数）即可解锁，并在 2024 年 10 月的合体狂热活动中返场，这次只需 3 000 酸腐圣水即可解锁。
+女巫戈仑在2023年10月的合体狂潮活动中首次推出，在活动中获取55 000酸腐圣水（任务点数）即可解锁，并在2024年10月的合体狂热活动中返场，这次只需3 000酸腐圣水即可解锁。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.3 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.3格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="41" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2.4 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2.4秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />    
     <UnitProperty pKey="特殊技能" pValue="骷髅灾难<sup>*</sup>" />
-    <UnitProperty pKey="召唤骷髅的冷却时间" pValue="7 秒" />
+    <UnitProperty pKey="召唤骷髅的冷却时间" pValue="7秒" />
     <UnitProperty pKey="训练时间" pValue="300" trainingSystem="2022" />
 </UnitProperties>
 
@@ -72,7 +72,7 @@ canonical: /upgrade/0e0c-Witch-Golem
 |  11  |   260   |  624    |   950   |  9200  |               13               |       34      |            4           |       16        |
 </UnitTable>
 
-\# 女巫戈仑并不是每次召唤都可以召唤出这么多骷髅，当一只女巫戈仑召唤的骷髅达到上表的限制时，除非骷髅兵死亡，否则女巫戈仑不会继续召唤。这个上限指的是每只女巫戈仑召唤的骷髅，如果有两只女巫戈仑，那么场上的最大骷髅数量为 2 倍上限。
+\# 女巫戈仑并不是每次召唤都可以召唤出这么多骷髅，当一只女巫戈仑召唤的骷髅达到上表的限制时，除非骷髅兵死亡，否则女巫戈仑不会继续召唤。这个上限指的是每只女巫戈仑召唤的骷髅，如果有两只女巫戈仑，那么场上的最大骷髅数量为2倍上限。
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 骷髅 ↓↓↓ -->
@@ -99,9 +99,9 @@ canonical: /upgrade/0e0c-Witch-Golem
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.4格" />
     <UnitProperty pKey="每秒伤害" pValue="25" />
     <UnitProperty pKey="每次伤害" pValue="25" />
     <UnitProperty pKey="生命值" pValue="30" />
@@ -132,9 +132,9 @@ canonical: /upgrade/0e0c-Witch-Golem
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -161,14 +161,14 @@ canonical: /upgrade/0e0c-Witch-Golem
 
 <Timeline>
     <TimelineItem date="2024/10/11">
-        <TimelineRow>该兵种第 2 次推出，是 2024 年合体狂热活动中的五个临时兵种之一。</TimelineRow>
-        <TimelineRow>与 2023 版相比，该兵种新增了第 11 个等级。</TimelineRow>
+        <TimelineRow>该兵种第2次推出，是2024年合体狂热活动中的五个临时兵种之一。</TimelineRow>
+        <TimelineRow>与2023版相比，该兵种新增了第11个等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/10/20">
-        <TimelineRow>所有等级的大宝宝的每秒伤害增加 20%.</TimelineRow>
+        <TimelineRow>所有等级的大宝宝的每秒伤害增加20%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/10/13">
-        <TimelineRow>该兵种第 1 次推出。</TimelineRow>
+        <TimelineRow>该兵种第1次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

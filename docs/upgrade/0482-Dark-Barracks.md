@@ -19,18 +19,18 @@ canonical: /upgrade/0482-Dark-Barracks
 
 <Panel>
     <UnitImgGroup title="暗黑训练营" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Dark_Barracks1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Dark_Barracks2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Dark_Barracks3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Dark_Barracks4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Dark_Barracks5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Dark_Barracks6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Dark_Barracks7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Dark_Barracks8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Dark_Barracks9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Dark_Barracks10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Dark_Barracks11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Dark_Barracks12.png" imgHd="Dark_Barracks12_hd.png" />
+        <UnitImg imgTitle="1级" imgSrc="Dark_Barracks1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Dark_Barracks2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Dark_Barracks3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Dark_Barracks4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Dark_Barracks5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Dark_Barracks6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Dark_Barracks7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Dark_Barracks8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Dark_Barracks9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Dark_Barracks10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Dark_Barracks11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Dark_Barracks12.png" imgHd="Dark_Barracks12_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -93,45 +93,45 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>10 ~ 11 级暗黑训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>10 ~ 11级暗黑训练营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">  
-        <TimelineRow>15 本新增 12 级暗黑训练营，新兵种：烈焰熔炉。</TimelineRow>
-        <TimelineRow>10 ~ 11 级暗黑训练营的升级费用降低。</TimelineRow>
+        <TimelineRow>15本新增12级暗黑训练营，新兵种：烈焰熔炉。</TimelineRow>
+        <TimelineRow>10 ~ 11级暗黑训练营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">  
-        <TimelineRow>5 ~ 11 级暗黑训练营的升级时间减少。</TimelineRow>
-        <TimelineRow>8 ~ 9 级暗黑训练营的升级费用降低。</TimelineRow>
+        <TimelineRow>5 ~ 11级暗黑训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 9级暗黑训练营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>10 级暗黑训练营的升级时间减少。</TimelineRow>
-        <TimelineRow>10 级暗黑训练营的升级费用降低。</TimelineRow>
-        <TimelineRow>14 本新增 11 级暗黑训练营，新兵种：德鲁伊。</TimelineRow>
+        <TimelineRow>10级暗黑训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>10级暗黑训练营的升级费用降低。</TimelineRow>
+        <TimelineRow>14本新增11级暗黑训练营，新兵种：德鲁伊。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>1 ~ 4 级暗黑训练营的升级费用减少。</TimelineRow>
+        <TimelineRow>1 ~ 4级暗黑训练营的升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">  
-        <TimelineRow>13 本新增 10 级暗黑训练营。</TimelineRow>
-        <TimelineRow>9 级暗黑训练营的升级时间减少。</TimelineRow>
-        <TimelineRow>9 级暗黑训练营的升级费用降低。</TimelineRow>       
+        <TimelineRow>13本新增10级暗黑训练营。</TimelineRow>
+        <TimelineRow>9级暗黑训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>9级暗黑训练营的升级费用降低。</TimelineRow>       
     </TimelineItem>
     <TimelineItem date="2022/10/10">
         <TimelineRow>两个训练营合并为一个，更新后的兵种训练时间等同于更新前两个训练营的训练时间。</TimelineRow>
         <TimelineRow>训练营升级时兵种可继续训练部队，但训练速度减半（训练时间翻倍）。</TimelineRow>
-        <TimelineRow>1 ~ 7 级暗黑训练营的升级时间增加。</TimelineRow>
-        <TimelineRow>8 ~ 9 级暗黑训练营的升级时间减少。</TimelineRow>
-        <TimelineRow>1 ~ 9 级暗黑训练营的升级费用增加。</TimelineRow>
+        <TimelineRow>1 ~ 7级暗黑训练营的升级时间增加。</TimelineRow>
+        <TimelineRow>8 ~ 9级暗黑训练营的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 9级暗黑训练营的升级费用增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>1 ~ 6 级暗黑训练营的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 6级暗黑训练营的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
         <TimelineRow>所有等级暗黑训练营的升级费用降低。</TimelineRow>
-        <TimelineRow>1 ~ 4、8 级暗黑训练营的升级费时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 4、8级暗黑训练营的升级费时间减少。</TimelineRow>
     </TimelineItem>
      <TimelineItem date="2020/06/22">
-        <TimelineRow>12 本新增 9 级暗黑训练营。</TimelineRow>
+        <TimelineRow>12本新增9级暗黑训练营。</TimelineRow>
     </TimelineItem>   
         <TimelineItem date="2019/04/02">
         <TimelineRow>所有等级暗黑训练营的升级费用和升级时间减少。</TimelineRow>

@@ -17,8 +17,8 @@ canonical: /upgrade/2103-Frost-Spell
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 当部落解锁冰霜法术工厂时，系统会自动建造 [冰霜法术工厂](/upgrade/2383-Frost-Spell-Factory)，而这需要建筑工人共坊这个子城的大本营升到 3 级
-2. 任何陷入冰霜法术影响范围内的防御建筑或防御部队都会被减速，使其移动和攻击速度降低 50%.
+1. 当部落解锁冰霜法术工厂时，系统会自动建造 [冰霜法术工厂](/upgrade/2383-Frost-Spell-Factory)，而这需要建筑工人共坊这个子城的大本营升到3级
+2. 任何陷入冰霜法术影响范围内的防御建筑或防御部队都会被减速，使其移动和攻击速度降低50%.
 3. 任何受到冰霜法术影响的水域都会被冻结，地面部队可以在水面上移动和部署，可以暂时扩大部署区域。
 
 <SmallTitle>属性</SmallTitle>
@@ -35,18 +35,18 @@ canonical: /upgrade/2103-Frost-Spell
 
 | 等级 | 作用半径 |
 | ---- |   ----  |
-|   1  |  4.2 格 |
-|   2  |  4.4 格 |
-|   3  |  4.6 格 |
-|   4  |  4.8 格 |
-|   5  |  5.0 格 |
+|   1  |  4.2格 |
+|   2  |  4.4格 |
+|   3  |  4.6格 |
+|   4  |  4.8格 |
+|   5  |  5.0格 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>占用的法术空间从 4 减少到 3.</TimelineRow>
+        <TimelineRow>占用的法术空间从4减少到3.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>冰霜法术随着部落都城玩法一同推出。</TimelineRow>

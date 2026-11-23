@@ -31,14 +31,14 @@ canonical: /upgrade/0284-Frosty
 <SmallTitle>冰牙的属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="距离英雄 4.5 格内的目标" />
+    <UnitProperty pKey="攻击偏好" pValue="距离英雄4.5格内的目标" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="3.5 格" />
-    <UnitProperty pKey="召唤小冰怪的频率" pValue="8 秒/次" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3.5格" />
+    <UnitProperty pKey="召唤小冰怪的频率" pValue="8秒/次" />
     <UnitProperty pKey="所需战宠小屋等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="15" />
 </UnitProperties>
@@ -46,22 +46,22 @@ canonical: /upgrade/0284-Frosty
 <SmallTitle>小冰怪的属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.8 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.8格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="1" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击时机" pValue="到达目标后 0.5 秒<sup>*</sup>" />
-    <UnitProperty pKey="攻击距离" pValue="2 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击时机" pValue="到达目标后0.5秒<sup>*</sup>" />
+    <UnitProperty pKey="攻击距离" pValue="2格" />
     <UnitProperty pKey="每秒伤害" pValue="15" />
     <UnitProperty pKey="每次伤害" pValue="15" />
     <UnitProperty pKey="生命值" pValue="450" />
-    <UnitProperty pKey="攻击减速持续时间" pValue="4 秒" />
+    <UnitProperty pKey="攻击减速持续时间" pValue="4秒" />
     <UnitProperty pKey="减速比例" pValue="50% 攻速<br>50% 移速" />
 </UnitProperties>
 
-\* 根据解析安装包的结果，小冰怪的攻击速度是一秒一次，但实际上小冰怪的首次攻击时机为到达目标后 0.5 秒，且攻击一次后就会死亡，因此其攻速值无意义。
+\* 根据解析安装包的结果，小冰怪的攻击速度是一秒一次，但实际上小冰怪的首次攻击时机为到达目标后0.5秒，且攻击一次后就会死亡，因此其攻速值无意义。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -111,26 +111,26 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>8 级冰牙的升级费用降低。</TimelineRow>
+        <TimelineRow>8级冰牙的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">
-        <TimelineRow>在 17 本新增 11 ~ 15 级冰牙。</TimelineRow>
+        <TimelineRow>在17本新增11 ~ 15级冰牙。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 9 级冰牙的升级费用降低。</TimelineRow>
-        <TimelineRow>小雪怪和小冰怪占据的人口数由 3 调整为 1.</TimelineRow>
+        <TimelineRow>2 ~ 9级冰牙的升级费用降低。</TimelineRow>
+        <TimelineRow>小雪怪和小冰怪占据的人口数由3调整为1.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 10 级冰牙的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 10级冰牙的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>2、4 ~ 10 级冰牙的升级费用降低。</TimelineRow>
+        <TimelineRow>2、4 ~ 10级冰牙的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>2 ~ 10 级冰牙的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 10级冰牙的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，可解锁四个新宠物，冰牙是其中之一。</TimelineRow>
+        <TimelineRow>15本推出，可解锁四个新宠物，冰牙是其中之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

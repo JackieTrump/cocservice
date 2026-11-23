@@ -30,14 +30,14 @@ canonical: /upgrade/0288-Spirit-Fox
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="距离英雄不超过 4.5 格的目标" />
+    <UnitProperty pKey="攻击偏好" pValue="距离英雄不超过4.5格的目标" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.6 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="2.5 格" />
-    <UnitProperty pKey="隐身效果冷却时间" pValue="6 秒" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.6秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.5格" />
+    <UnitProperty pKey="隐身效果冷却时间" pValue="6秒" />
     <UnitProperty pKey="所需战宠小屋等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="16" />
 </UnitProperties>
@@ -85,19 +85,19 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 10 级灵狐的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 10级灵狐的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 10 级灵狐的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 10级灵狐的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/03/26">
-        <TimelineRow>1 ~ 10 级灵狐的隐身效果冷却时间由 5 秒增加到 6 秒。</TimelineRow>
+        <TimelineRow>1 ~ 10级灵狐的隐身效果冷却时间由5秒增加到6秒。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
         <TimelineRow>移除了灵狐进行攻击时的冰霜视觉效果。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，可解锁一个新宠物：灵狐。</TimelineRow>
+        <TimelineRow>16本推出，可解锁一个新宠物：灵狐。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -17,13 +17,13 @@ canonical: /upgrade/1004-Bomber
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="5 - 7 级" imgSrc="Bomber5.png" />
-        <UnitImg imgTitle="8 - 9 级" imgSrc="Bomber8.png" />
-        <UnitImg imgTitle="10 - 11 级" imgSrc="Bomber10.png" />
-        <UnitImg imgTitle="12 - 13 级" imgSrc="Bomber12.png" />
-        <UnitImg imgTitle="14 - 17 级" imgSrc="Bomber14.png" />
-        <UnitImg imgTitle="18 - 19 级" imgSrc="Bomber18.png" />
-        <UnitImg imgTitle="20 级" imgSrc="Bomber20.png" />
+        <UnitImg imgTitle="5 - 7级" imgSrc="Bomber5.png" />
+        <UnitImg imgTitle="8 - 9级" imgSrc="Bomber8.png" />
+        <UnitImg imgTitle="10 - 11级" imgSrc="Bomber10.png" />
+        <UnitImg imgTitle="12 - 13级" imgSrc="Bomber12.png" />
+        <UnitImg imgTitle="14 - 17级" imgSrc="Bomber14.png" />
+        <UnitImg imgTitle="18 - 19级" imgSrc="Bomber18.png" />
+        <UnitImg imgTitle="20级" imgSrc="Bomber20.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -31,14 +31,14 @@ canonical: /upgrade/1004-Bomber
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="城墙 (15 倍伤害)" />
+    <UnitProperty pKey="攻击偏好" pValue="城墙 (15倍伤害)" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.6 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.6格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="部队重量" pValue="12" />
-    <UnitProperty pKey="移动速度" pValue="2.4 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="3.5 格" />
+    <UnitProperty pKey="移动速度" pValue="2.4格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3.5格" />
     <UnitProperty pKey="每个兵营的部队数量" pValue="1" />
     <UnitProperty pKey="所需训练营等级" pValue="5" />
     <UnitProperty pKey="所需夜世界大本等级" pValue="4" />
@@ -50,12 +50,12 @@ canonical: /upgrade/1004-Bomber
     <UnitProperty pKey="技能名称" pValue="弹跳炸弹" />
     <UnitProperty pKey="技能类型" pValue="冷却型技能" />
     <UnitProperty pKey="技能描述" pValue="见说明<sup>*</sup>" />
-    <UnitProperty pKey="技能下的攻速" pValue="2.5 秒/次" />
+    <UnitProperty pKey="技能下的攻速" pValue="2.5秒/次" />
     <UnitProperty pKey="伤害类型" pValue="连锁伤害" />
-    <UnitProperty pKey="连锁半径" pValue="4 格" />
+    <UnitProperty pKey="连锁半径" pValue="4格" />
 </UnitProperties>
 
-\* 弹跳炸弹：使用技能时，炸弹兵的下一次攻击会弹跳 2 次，产生巨大爆炸并对城墙造成高额伤害。该技能在冷却时间结束后可以重复使用。
+\* 弹跳炸弹：使用技能时，炸弹兵的下一次攻击会弹跳2次，产生巨大爆炸并对城墙造成高额伤害。该技能在冷却时间结束后可以重复使用。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -101,17 +101,17 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/05/15">
-        <TimelineRow>新增 19 - 20 级炸弹兵。</TimelineRow>
+        <TimelineRow>新增19 - 20级炸弹兵。</TimelineRow>
         <TimelineRow>由于夜世界重做，部队的伤害、生命值等数据都有变化。</TimelineRow>
         <TimelineRow>炸弹兵的技能改为“弹跳炸弹”，启用后炸弹兵的下一次攻击会弹跳两次。</TimelineRow>
-        <TimelineRow>炸弹兵的移动速度由 16（2 格/秒） 提升至 19.2（2.4 格/秒）。</TimelineRow>
-        <TimelineRow>现在炸弹兵一解锁就是 5 级，你不需要从 1 级开始升了。如果更新前部队高于 5 级，更新后等级不会重置。</TimelineRow>
+        <TimelineRow>炸弹兵的移动速度由16（2格/秒） 提升至19.2（2.4格/秒）。</TimelineRow>
+        <TimelineRow>现在炸弹兵一解锁就是5级，你不需要从1级开始升了。如果更新前部队高于5级，更新后等级不会重置。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>炸弹兵的兵种重量从 2 提升至 4。</TimelineRow>
+        <TimelineRow>炸弹兵的兵种重量从2提升至4。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本开放，所有兵种可升至 18 级。</TimelineRow>
+        <TimelineRow>夜世界9本开放，所有兵种可升至18级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

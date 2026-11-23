@@ -21,7 +21,7 @@ canonical: /upgrade/0e09-Barcher
 
 <SmallTitle>重要说明</SmallTitle>
 
-野蛮箭手在 2023 年 10 月的合体狂潮活动中首次推出，在活动中获取 2 000 酸腐圣水（任务点数）即可解锁，并在 2024 年 10 月的合体狂热活动中返场，同样是 2 000 酸腐圣水解锁。
+野蛮箭手在2023年10月的合体狂潮活动中首次推出，在活动中获取2 000酸腐圣水（任务点数）即可解锁，并在2024年10月的合体狂热活动中返场，同样是2 000酸腐圣水解锁。
 
 <SmallTitle>野蛮箭手的属性</SmallTitle>
 
@@ -31,9 +31,9 @@ canonical: /upgrade/0e09-Barcher
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="3" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="3.5 格" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3.5格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />    
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -45,10 +45,10 @@ canonical: /upgrade/0e09-Barcher
     <UnitProperty pKey="特殊技能" pValue="狂暴披风<sup>*</sup>" />
     <UnitProperty pKey="伤害提升" pValue="100%" />
     <UnitProperty pKey="攻速提升" pValue="100%" />
-    <UnitProperty pKey="移速提升" pValue="2.5 格/秒" />
+    <UnitProperty pKey="移速提升" pValue="2.5格/秒" />
 </UnitProperties>
 
-\* 部署后的 5 秒内对防御建筑隐身，并提升攻击速度！
+\* 部署后的5秒内对防御建筑隐身，并提升攻击速度！
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -73,18 +73,18 @@ canonical: /upgrade/0e09-Barcher
 
 <Timeline>
     <TimelineItem date="2025/10/10">
-        <TimelineRow>该兵种第 3 次推出，有效期至 2025/11/01.</TimelineRow>
-        <TimelineRow>野蛮箭手的狂暴伤害提升比例由 70% 调整为 100%.</TimelineRow>
+        <TimelineRow>该兵种第3次推出，有效期至2025/11/01.</TimelineRow>
+        <TimelineRow>野蛮箭手的狂暴伤害提升比例由70% 调整为100%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/10/11">
-        <TimelineRow>该兵种第 2 次推出，是 2024 年合体狂热活动中的五个临时兵种之一。</TimelineRow>
-        <TimelineRow>与 2023 版相比，该兵种新增了 11 级。</TimelineRow>
+        <TimelineRow>该兵种第2次推出，是2024年合体狂热活动中的五个临时兵种之一。</TimelineRow>
+        <TimelineRow>与2023版相比，该兵种新增了11级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/10/20">
         <TimelineRow>所有等级野蛮箭手的伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/10/13">
-        <TimelineRow>该兵种第 1 次推出，是 2023 年合体狂潮活动中的四个临时兵种之一。</TimelineRow>
+        <TimelineRow>该兵种第1次推出，是2023年合体狂潮活动中的四个临时兵种之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

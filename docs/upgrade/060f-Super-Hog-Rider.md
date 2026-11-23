@@ -38,17 +38,17 @@ canonical: /upgrade/060f-Super-Hog-Rider
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="12" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.6 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.6格" />
     <UnitProperty pKey="最低野猪骑士等级" pValue="10" />
     <UnitProperty pKey="最低大本等级" pValue="13" />
-    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
-    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="强化费用" pValue="2.5万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="6,6,270,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
@@ -85,12 +85,12 @@ canonical: /upgrade/060f-Super-Hog-Rider
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.6 格" />
+    <UnitProperty pKey="移动速度" pValue="4格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.6格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -132,9 +132,9 @@ canonical: /upgrade/060f-Super-Hog-Rider
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.4格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -157,22 +157,22 @@ canonical: /upgrade/060f-Super-Hog-Rider
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>18 本新增 15 级野猪骑士，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>18本新增15级野猪骑士，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/30">
-        <TimelineRow>12 ~ 14 级超级野猪骑士的生命值增加。</TimelineRow>
+        <TimelineRow>12 ~ 14级超级野猪骑士的生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>17 本新增 14 级野猪骑士，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>17本新增14级野猪骑士，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>超级野猪骑士的训练时间由 1:50 改为 1:41</TimelineRow>
+        <TimelineRow>超级野猪骑士的训练时间由 1:50改为 1:41</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>16 本新增 13 级野猪骑士，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16本新增13级野猪骑士，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
         <TimelineRow>新超级兵：超级野猪骑士。</TimelineRow>

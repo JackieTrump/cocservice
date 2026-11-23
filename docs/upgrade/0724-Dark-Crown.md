@@ -9,14 +9,14 @@ wiki: https://clashofclans.fandom.com/wiki/Dark_Crown
 canonical: /upgrade/0724-Dark-Crown
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Crown.png" :imgAlt="$frontmatter.navTitle" description="当友军被击倒时，提升生命值和伤害，共计 3 次。" :isSmallImg="true"  />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Crown.png" :imgAlt="$frontmatter.navTitle" description="当友军被击倒时，提升生命值和伤害，共计3次。" :isSmallImg="true"  />
 
 <SmallTitle>说明</SmallTitle>
 
-1. 暗黑皇冠是 [亡灵王子](/upgrade/0204-Minion-Prince) 的第一件史诗装备，它在 2025 年 6 月的黑暗交易活动中首次开放购买。
-2. 当亡灵王子带上暗黑皇冠并在场时，每累计 60 人口的攻击方部队被击败，亡灵王子就可以获得一层生命值和伤害增益，最多 3 层，共需 180 人口。
-    - 除亡灵王子外的英雄均计入总人口，每个英雄为 25 人口。如果英雄被 [复苏法术](/upgrade/0108-Revive-Spell) 复苏后再次被击败，可重复计算人口。
-    - 战宠视为 20 人口。
+1. 暗黑皇冠是 [亡灵王子](/upgrade/0204-Minion-Prince) 的第一件史诗装备，它在2025年6月的黑暗交易活动中首次开放购买。
+2. 当亡灵王子带上暗黑皇冠并在场时，每累计60人口的攻击方部队被击败，亡灵王子就可以获得一层生命值和伤害增益，最多3层，共需180人口。
+    - 除亡灵王子外的英雄均计入总人口，每个英雄为25人口。如果英雄被 [复苏法术](/upgrade/0108-Revive-Spell) 复苏后再次被击败，可重复计算人口。
+    - 战宠视为20人口。
     - 召唤出来的部队会被计算在内，例如 [女巫](/upgrade/0084-Witch) 的骷髅兵、[攻城训练营](/upgrade/0243-Siege-Barracks) 召唤的皮卡等等。
     - 在攻击过程中自杀的部队也会被计算在内，如 [炸弹人](/upgrade/0004-Wall-Breaker)、[小雪怪](/upgrade/yeti)。
     - 法术不是部队，不会计入总人口。
@@ -101,15 +101,15 @@ const tableExtraInfo = [
 
 | 推出时间 |  活动名称  |     价格        | 购买渠道 |
 |   ---   |    ---    |      ---        |    ---   |
-| 2025/06 |  黑暗交易  | 3 100 恶作剧奖章 |   商人   |
-| 2025/12 |  熔岩危机  | 3 100 火苗奖章   |   商人   |
+| 2025/06 |  黑暗交易  | 3 100恶作剧奖章 |   商人   |
+| 2025/12 |  熔岩危机  | 3 100火苗奖章   |   商人   |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>现在亡灵王子的所有装备都提供 500 生命值加成。</TimelineRow>
+        <TimelineRow>现在亡灵王子的所有装备都提供500生命值加成。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/10">
         <TimelineRow>新装备：暗黑皇冠。</TimelineRow>

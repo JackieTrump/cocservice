@@ -15,11 +15,11 @@ canonical: /upgrade/0488-Blacksmith
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Blacksmith1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Blacksmith3.png" />
-        <UnitImg imgTitle="5 - 6 级" imgSrc="Blacksmith5.png" />
-        <UnitImg imgTitle="7 - 8 级" imgSrc="Blacksmith7.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Blacksmith9.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Blacksmith1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Blacksmith3.png" />
+        <UnitImg imgTitle="5 - 6级" imgSrc="Blacksmith5.png" />
+        <UnitImg imgTitle="7 - 8级" imgSrc="Blacksmith7.png" />
+        <UnitImg imgTitle="9级" imgSrc="Blacksmith9.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -106,25 +106,25 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>6 ~ 9 级铁匠铺的升级时间减少。</TimelineRow>
+        <TimelineRow>6 ~ 9级铁匠铺的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>1 ~ 6、8 ~ 9 级铁匠铺的升级时间减少。</TimelineRow>
-        <TimelineRow>1 ~ 2、5 ~ 9 级铁匠铺的升级费用降低。</TimelineRow>
-        <TimelineRow>5 级铁匠铺可以再解锁一个装备：贵族哑铃。</TimelineRow>
+        <TimelineRow>1 ~ 6、8 ~ 9级铁匠铺的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 2、5 ~ 9级铁匠铺的升级费用降低。</TimelineRow>
+        <TimelineRow>5级铁匠铺可以再解锁一个装备：贵族哑铃。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>3 级铁匠铺可以再解锁一个装备：铁甲短裤。</TimelineRow>
+        <TimelineRow>3级铁匠铺可以再解锁一个装备：铁甲短裤。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">  
-        <TimelineRow>8 级铁匠铺的升级费用降低。</TimelineRow>
+        <TimelineRow>8级铁匠铺的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
         <TimelineRow>铁匠铺改为使用圣水升级。</TimelineRow>
-        <TimelineRow>现在 7 ~ 8 级铁匠铺可以解锁新装备了。</TimelineRow>
+        <TimelineRow>现在7 ~ 8级铁匠铺可以解锁新装备了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，新建筑：铁匠铺，共设 9 个等级。其中前 6 个等级可解锁新装备，后 3 个等级不解锁任何装备。</TimelineRow>
+        <TimelineRow>16本推出，新建筑：铁匠铺，共设9个等级。其中前6个等级可解锁新装备，后3个等级不解锁任何装备。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

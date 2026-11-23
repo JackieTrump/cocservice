@@ -23,7 +23,7 @@ canonical: /upgrade/0608-Super-Minion
 
 <SmallTitle>重要说明</SmallTitle>
 
-超级亡灵的技能（远程狙杀）：当超级亡灵作进攻方时，其前 8 次攻击为远距离攻击；作防守方时，其前 3 次攻击为远距离攻击。
+超级亡灵的技能（远程狙杀）：当超级亡灵作进攻方时，其前8次攻击为远距离攻击；作防守方时，其前3次攻击为远距离攻击。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -33,15 +33,15 @@ canonical: /upgrade/0608-Super-Minion
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="12" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="普攻攻击距离" pValue="3.5 格" />
-    <UnitProperty pKey="远程狙杀次数" pValue="8 次（进攻）<br>3 次（防守）" />
-    <UnitProperty pKey="远程狙杀射程" pValue="10.25 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="普攻攻击距离" pValue="3.5格" />
+    <UnitProperty pKey="远程狙杀次数" pValue="8次（进攻）<br>3次（防守）" />
+    <UnitProperty pKey="远程狙杀射程" pValue="10.25格" />
     <UnitProperty pKey="最低亡灵等级" pValue="8" />
     <UnitProperty pKey="最低大本等级" pValue="12" />
-    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
-    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="强化费用" pValue="2.5万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="6,6,270,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
@@ -65,55 +65,55 @@ canonical: /upgrade/0608-Super-Minion
 |      14       |    400    |    400    |  2300 |     18    |
 </UnitTable>
 
-\* 4 - 7 级超级亡灵只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
+\* 4 - 7级超级亡灵只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/01/28">
-        <TimelineRow>超级亡灵的“远程狙杀”技能在进攻时的远距离攻击次数由 7 次改为 8 次，防守时保持 3 次不变。</TimelineRow>
-        <TimelineRow>超级亡灵的“远程狙杀”技能的射程由 10 格提升到 10.25 格。</TimelineRow>
+        <TimelineRow>超级亡灵的“远程狙杀”技能在进攻时的远距离攻击次数由7次改为8次，防守时保持3次不变。</TimelineRow>
+        <TimelineRow>超级亡灵的“远程狙杀”技能的射程由10格提升到10.25格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 14 级亡灵，超级部队的等级也相应更新。</TimelineRow>
-        <TimelineRow>13 级超级亡灵的每秒伤害和生命值增加。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增14级亡灵，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>13级超级亡灵的每秒伤害和生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/30">
-        <TimelineRow>超级亡灵的“远程狙杀”技能在进攻时的远距离攻击次数由 6 次改为 7 次，防守时保持 3 次不变。</TimelineRow>
+        <TimelineRow>超级亡灵的“远程狙杀”技能在进攻时的远距离攻击次数由6次改为7次，防守时保持3次不变。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>超级亡灵的训练时间由 1:48 改为 1:36</TimelineRow>
+        <TimelineRow>超级亡灵的训练时间由 1:48改为 1:36</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 13 级亡灵，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增13级亡灵，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>16 本新增 12 级亡灵，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16本新增12级亡灵，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/01/23">
-        <TimelineRow>超级亡灵在进攻时，其技能“远程狙杀”的效果从前 5 次为远距离攻击调整为前 6 次。</TimelineRow>
+        <TimelineRow>超级亡灵在进攻时，其技能“远程狙杀”的效果从前5次为远距离攻击调整为前6次。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>参加防守的超级亡灵现在只有前 3 次攻击为远距离攻击。</TimelineRow>
-        <TimelineRow>15 本推出，并在 15 本新增 11 级亡灵，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>参加防守的超级亡灵现在只有前3次攻击为远距离攻击。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增11级亡灵，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
-        <TimelineRow>家乡所有空军的攻击距离减少 0.5 格（超级飞龙除外，这玩意削了 1 格）。</TimelineRow>
-        <TimelineRow>超级亡灵的远程狙杀技能的攻击距离减少 0.5 格。</TimelineRow>
+        <TimelineRow>家乡所有空军的攻击距离减少0.5格（超级飞龙除外，这玩意削了1格）。</TimelineRow>
+        <TimelineRow>超级亡灵的远程狙杀技能的攻击距离减少0.5格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 10 级亡灵，超级部队的等级也相应更新。</TimelineRow>
-        <TimelineRow>超级亡灵每秒伤害值降低 50，生命值提高 100。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增10级亡灵，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>超级亡灵每秒伤害值降低50，生命值提高100。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
-        <TimelineRow>超级部队的有效时间从 7 天缩短为 3 天。</TimelineRow>
-        <TimelineRow>所有部队的强化费用统一调整为 25,000 暗黑重油。</TimelineRow>
+        <TimelineRow>超级部队的有效时间从7天缩短为3天。</TimelineRow>
+        <TimelineRow>所有部队的强化费用统一调整为25,000暗黑重油。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/23">
-        <TimelineRow>超级亡灵远距离攻击时不再有额外伤害（维护前有 65 的额外伤害）。</TimelineRow>
+        <TimelineRow>超级亡灵远距离攻击时不再有额外伤害（维护前有65的额外伤害）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
         <TimelineRow>新的超级兵种：超级亡灵。</TimelineRow>

@@ -18,16 +18,16 @@ canonical: /upgrade/firecrackers-bh
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Firecrackers1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Firecrackers2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Firecrackers3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Firecrackers4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Firecrackers5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Firecrackers6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Firecrackers7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Firecrackers8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Firecrackers9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Firecrackers10.png" />
+        <UnitImg imgTitle="1级" imgSrc="Firecrackers1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Firecrackers2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Firecrackers3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Firecrackers4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Firecrackers5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Firecrackers6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Firecrackers7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Firecrackers8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Firecrackers9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Firecrackers10.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -45,11 +45,11 @@ canonical: /upgrade/firecrackers-bh
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅空中目标" />
-    <UnitProperty pKey="射程" pValue="9 格" />
-    <UnitProperty pKey="攻速" pValue="约 1 秒/轮*" />
+    <UnitProperty pKey="射程" pValue="9格" />
+    <UnitProperty pKey="攻速" pValue="约1秒/轮*" />
 </UnitProperties>
 
-\* 防空火炮的攻击节奏是 0.064 秒一发，4 发后冷却 0.8 秒。
+\* 防空火炮的攻击节奏是0.064秒一发，4发后冷却0.8秒。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -96,12 +96,12 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
-        <TimelineRow>6 ~ 9 级防空火炮的升级时间增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，防空火炮可升至 10 级。</TimelineRow>
-        <TimelineRow>为配合更小的地图，防空火炮的射程由 10 格降低到 9 格。</TimelineRow>
+        <TimelineRow>6 ~ 9级防空火炮的升级时间增加。</TimelineRow>
+        <TimelineRow>夜世界10本推出，防空火炮可升至10级。</TimelineRow>
+        <TimelineRow>为配合更小的地图，防空火炮的射程由10格降低到9格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，防空火炮可升至 9 级。</TimelineRow>
+        <TimelineRow>夜世界9本推出，防空火炮可升至9级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

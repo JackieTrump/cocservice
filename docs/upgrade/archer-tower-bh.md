@@ -47,16 +47,16 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Archer_Tower1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Archer_Tower2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Archer_Tower3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Archer_Tower4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Archer_Tower5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Archer_Tower6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Archer_Tower7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Archer_Tower8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Archer_Tower9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Archer_Tower10.png" />
+        <UnitImg imgTitle="1级" imgSrc="Archer_Tower1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Archer_Tower2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Archer_Tower3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Archer_Tower4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Archer_Tower5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Archer_Tower6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Archer_Tower7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Archer_Tower8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Archer_Tower9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Archer_Tower10.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -74,8 +74,8 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="10 格" />
-    <UnitProperty pKey="攻速" pValue="1 秒/次" />
+    <UnitProperty pKey="射程" pValue="10格" />
+    <UnitProperty pKey="攻速" pValue="1秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -107,16 +107,16 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Archer_Tower1B.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Archer_Tower2B.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Archer_Tower3B.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Archer_Tower4B.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Archer_Tower5B.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Archer_Tower6B.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Archer_Tower7B.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Archer_Tower8B.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Archer_Tower9B.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Archer_Tower10B.png" />
+        <UnitImg imgTitle="1级" imgSrc="Archer_Tower1B.png" />
+        <UnitImg imgTitle="2级" imgSrc="Archer_Tower2B.png" />
+        <UnitImg imgTitle="3级" imgSrc="Archer_Tower3B.png" />
+        <UnitImg imgTitle="4级" imgSrc="Archer_Tower4B.png" />
+        <UnitImg imgTitle="5级" imgSrc="Archer_Tower5B.png" />
+        <UnitImg imgTitle="6级" imgSrc="Archer_Tower6B.png" />
+        <UnitImg imgTitle="7级" imgSrc="Archer_Tower7B.png" />
+        <UnitImg imgTitle="8级" imgSrc="Archer_Tower8B.png" />
+        <UnitImg imgTitle="9级" imgSrc="Archer_Tower9B.png" />
+        <UnitImg imgTitle="10级" imgSrc="Archer_Tower10B.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -134,8 +134,8 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="7 格" />
-    <UnitProperty pKey="攻速" pValue="0.45 秒/次" />
+    <UnitProperty pKey="射程" pValue="7格" />
+    <UnitProperty pKey="攻速" pValue="0.45秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -164,12 +164,12 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 <Timeline>
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
-        <TimelineRow>6 ~ 9 级箭塔的升级时间增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，箭塔可升至 10 级。</TimelineRow>
-        <TimelineRow>为配合更小的地图，箭塔在标准模式下的射程由 11 格降低到 10 格。</TimelineRow>
+        <TimelineRow>6 ~ 9级箭塔的升级时间增加。</TimelineRow>
+        <TimelineRow>夜世界10本推出，箭塔可升至10级。</TimelineRow>
+        <TimelineRow>为配合更小的地图，箭塔在标准模式下的射程由11格降低到10格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，箭塔可升至 9 级。</TimelineRow>
+        <TimelineRow>夜世界9本推出，箭塔可升至9级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

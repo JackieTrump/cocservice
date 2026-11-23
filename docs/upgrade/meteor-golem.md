@@ -26,15 +26,15 @@ canonical: /upgrade/meteor-golem
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Meteor_Golem1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Meteor_Golem2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Meteor_Golem3.png" />
+        <UnitImg imgTitle="1级" imgSrc="Meteor_Golem1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Meteor_Golem2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Meteor_Golem3.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 陨石戈仑最初在 2025/10 的宇宙摇滚活动中作为临时兵种推出，在 2025/11 的 18 本版本更新后成为永久兵种。
+1. 陨石戈仑最初在2025/10的宇宙摇滚活动中作为临时兵种推出，在2025/11的18本版本更新后成为永久兵种。
 2. 陨石戈仑由两只小陨石戈仑组成，其攻击方式是让其中一只小陨石戈仑将另一只投掷到目标身上，造成范围伤害。这种攻击方式会使两只小陨石戈仑分开，但只要两只小陨石戈仑相遇即可再次合体。
     - 任意两只小陨石戈仑都能合体，不需要来自同一母体。
     - 小陨石戈仑的生命值为陨石戈仑分离那一刻的一半生命值。
@@ -48,14 +48,14 @@ canonical: /upgrade/meteor-golem
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
-    <UnitProperty pKey="伤害加成" pValue="对墙 5 倍伤害" />
+    <UnitProperty pKey="伤害加成" pValue="对墙5倍伤害" />
     <UnitProperty pKey="伤害类型" pValue="投掷后造成范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1 格" />
+    <UnitProperty pKey="伤害半径" pValue="1格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="40" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="进攻时机" pValue="到达目标 1 秒后" />
-    <UnitProperty pKey="最远投掷距离" pValue="5 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="进攻时机" pValue="到达目标1秒后" />
+    <UnitProperty pKey="最远投掷距离" pValue="5格" />
     <UnitProperty pKey="所需训练营等级" pValue="19" />  
     <UnitProperty pKey="所需大本等级" pValue="17" />    
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -99,9 +99,9 @@ const tableExtraInfo = [
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Meteormite1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Meteormite2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Meteormite3.png" />
+        <UnitImg imgTitle="1级" imgSrc="Meteormite1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Meteormite2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Meteormite3.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -113,10 +113,10 @@ const tableExtraInfo = [
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.5 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.8 格" />
-    <UnitProperty pKey="合体时的最大距离" pValue="0.5 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.5秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.8格" />
+    <UnitProperty pKey="合体时的最大距离" pValue="0.5格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -138,13 +138,13 @@ const tableExtraInfo = [
         <TimelineRow>所有等级陨石戈仑和小陨石戈仑的生命值和伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/01/12">
-        <TimelineRow>陨石戈仑对城墙的伤害降低 50%（现在对墙只有 5 倍伤害了）。</TimelineRow>
+        <TimelineRow>陨石戈仑对城墙的伤害降低50%（现在对墙只有5倍伤害了）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，陨石戈仑成为永久兵种，共推出 3 个等级。</TimelineRow>
+        <TimelineRow>18本推出，陨石戈仑成为永久兵种，共推出3个等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/10">
-        <TimelineRow>推出临时兵种：陨石戈仑，有效期至 2025/11/01.</TimelineRow>
+        <TimelineRow>推出临时兵种：陨石戈仑，有效期至2025/11/01.</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -17,23 +17,23 @@ canonical: /upgrade/0401-Gold-Mine
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Gold_Mine1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Gold_Mine2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Gold_Mine3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Gold_Mine4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Gold_Mine5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Gold_Mine6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Gold_Mine7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Gold_Mine8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Gold_Mine9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Gold_Mine10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Gold_Mine11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Gold_Mine12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Gold_Mine13.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Gold_Mine14.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Gold_Mine15.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Gold_Mine16.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Gold_Mine17.png" />
+        <UnitImg imgTitle="1级" imgSrc="Gold_Mine1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Gold_Mine2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Gold_Mine3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Gold_Mine4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Gold_Mine5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Gold_Mine6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Gold_Mine7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Gold_Mine8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Gold_Mine9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Gold_Mine10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Gold_Mine11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Gold_Mine12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Gold_Mine13.png" />
+        <UnitImg imgTitle="14级" imgSrc="Gold_Mine14.png" />
+        <UnitImg imgTitle="15级" imgSrc="Gold_Mine15.png" />
+        <UnitImg imgTitle="16级" imgSrc="Gold_Mine16.png" />
+        <UnitImg imgTitle="17级" imgSrc="Gold_Mine17.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -119,46 +119,46 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>新增 17 级金矿，16 本可解锁。</TimelineRow>
+        <TimelineRow>新增17级金矿，16本可解锁。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>14 ~ 15 级金矿的升级时间减少。</TimelineRow>
+        <TimelineRow>14 ~ 15级金矿的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">
-        <TimelineRow>1 ~ 8 级金矿的生命值减少。</TimelineRow>
+        <TimelineRow>1 ~ 8级金矿的生命值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>1 ~ 16 级金矿的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 16级金矿的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>2 ~ 10 级金矿的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 10级金矿的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>6、7、9 级金矿的升级时间减少。</TimelineRow>
-        <TimelineRow>11 ~ 12 级金矿的升级费用降低。</TimelineRow>
+        <TimelineRow>6、7、9级金矿的升级时间减少。</TimelineRow>
+        <TimelineRow>11 ~ 12级金矿的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
         <TimelineRow>超级充能推出，金矿是第一批可以充能的建筑之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>新增 16 级金矿，14 本可解锁。</TimelineRow>
+        <TimelineRow>新增16级金矿，14本可解锁。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>8、10 ~15 级金矿的升级时间减少。</TimelineRow>
+        <TimelineRow>8、10 ~15级金矿的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>新增 15 级金矿，12 级大本营可解锁。</TimelineRow>
+        <TimelineRow>新增15级金矿，12级大本营可解锁。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>1 ~ 4 级的圣水收集器/金矿的容量加倍，3 小时不再能填满这些采集器。</TimelineRow>
-        <TimelineRow>10 ~ 14 级金矿的升级费用降低。</TimelineRow>
-        <TimelineRow>3 ~ 6、12 ~ 14 级金矿的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 4级的圣水收集器/金矿的容量加倍，3小时不再能填满这些采集器。</TimelineRow>
+        <TimelineRow>10 ~ 14级金矿的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 6、12 ~ 14级金矿的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>新增 14 级金矿，11 级大本营可解锁。</TimelineRow>
+        <TimelineRow>新增14级金矿，11级大本营可解锁。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中 7 ~ 13 级金矿的升级时间减少。</TimelineRow>
+        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中7 ~ 13级金矿的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -18,11 +18,11 @@ canonical: /upgrade/rapid-rockets-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Rapid_Rockets_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Rapid_Rockets1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Rapid_Rockets2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Rapid_Rockets3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Rapid_Rockets4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Rapid_Rockets5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Rapid_Rockets1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Rapid_Rockets2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Rapid_Rockets3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Rapid_Rockets4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Rapid_Rockets5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -55,11 +55,11 @@ canonical: /upgrade/rapid-rockets-capital
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅空中目标" />
-    <UnitProperty pKey="射程" pValue="7 格" />
-    <UnitProperty pKey="攻速" pValue="2.15 秒/轮*" />
+    <UnitProperty pKey="射程" pValue="7格" />
+    <UnitProperty pKey="攻速" pValue="2.15秒/轮*" />
 </UnitProperties>
 
-* 疾速的攻击节奏是 0.32 秒一发，5 发后休息 0.55 秒。
+* 疾速的攻击节奏是0.32秒一发，5发后休息0.55秒。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -95,7 +95,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>2 ~ 5 级疾速火箭的每秒伤害降低。</TimelineRow>
+        <TimelineRow>2 ~ 5级疾速火箭的每秒伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>疾速火箭随着部落都城玩法一同推出。</TimelineRow>

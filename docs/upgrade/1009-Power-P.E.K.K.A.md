@@ -18,10 +18,10 @@ canonical: /upgrade/1009-Power-P.E.K.K.A
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="13 - 15 级" imgSrc="Power_P.E.K.K.A13.png" />
-        <UnitImg imgTitle="16 - 17 级" imgSrc="Power_P.E.K.K.A16.png" />
-        <UnitImg imgTitle="18 - 19 级" imgSrc="Power_P.E.K.K.A18.png" />
-        <UnitImg imgTitle="20 级" imgSrc="Power_P.E.K.K.A20.png" />
+        <UnitImg imgTitle="13 - 15级" imgSrc="Power_P.E.K.K.A13.png" />
+        <UnitImg imgTitle="16 - 17级" imgSrc="Power_P.E.K.K.A16.png" />
+        <UnitImg imgTitle="18 - 19级" imgSrc="Power_P.E.K.K.A18.png" />
+        <UnitImg imgTitle="20级" imgSrc="Power_P.E.K.K.A20.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -33,9 +33,9 @@ canonical: /upgrade/1009-Power-P.E.K.K.A
     <UnitProperty pKey="伤害类型" pValue="单体伤害" /> 
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="部队重量" pValue="22" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.8 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.8秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.8格" />
     <UnitProperty pKey="每个兵营的部队数量" pValue="1" />
     <UnitProperty pKey="所需训练营等级" pValue="10" />
     <UnitProperty pKey="所需夜世界大本等级" pValue="8" />
@@ -47,8 +47,8 @@ canonical: /upgrade/1009-Power-P.E.K.K.A
     <UnitProperty pKey="技能名称" pValue="能量过载" />
     <UnitProperty pKey="技能类型" pValue="一次性技能" />
     <UnitProperty pKey="技能描述" pValue="见说明<sup>*</sup>" />
-    <UnitProperty pKey="爆炸半径" pValue="2.5 格" />
-    <UnitProperty pKey="击晕建筑的时间" pValue="0.1 秒" /> 
+    <UnitProperty pKey="爆炸半径" pValue="2.5格" />
+    <UnitProperty pKey="击晕建筑的时间" pValue="0.1秒" /> 
 </UnitProperties> 
 
 \* 能量过载：激活时会造成大爆炸，造成一定伤害。这个技能可以由玩家手动触发，如果手动触发了，死亡时就不会再有爆炸效果。
@@ -90,15 +90,15 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2023/05/15">
         <TimelineRow>“超级皮卡”更名为“雷霆皮卡”。</TimelineRow>
-        <TimelineRow>新增 19 - 20 级雷霆皮卡。</TimelineRow>
+        <TimelineRow>新增19 - 20级雷霆皮卡。</TimelineRow>
         <TimelineRow>由于夜世界重做，部队的伤害、生命值等数据都有变化。</TimelineRow>
         <TimelineRow>现在雷霆皮卡的“能量过载”技能可以由玩家手动触发了，不过手动触发的话死亡时就没有爆炸效果了。</TimelineRow>
-        <TimelineRow>雷霆皮卡的兵种重量由 25 减少到 22。</TimelineRow>
-        <TimelineRow>雷霆皮卡的移动速度由 19（2.375 格/秒） 减少到 16（2 格/秒）。</TimelineRow>
-        <TimelineRow>现在雷霆皮卡一解锁就是 13 级，你不需要从 1 级开始升了。如果更新前部队高于 13 级，更新后等级不会重置。</TimelineRow>
+        <TimelineRow>雷霆皮卡的兵种重量由25减少到22。</TimelineRow>
+        <TimelineRow>雷霆皮卡的移动速度由19（2.375格/秒） 减少到16（2格/秒）。</TimelineRow>
+        <TimelineRow>现在雷霆皮卡一解锁就是13级，你不需要从1级开始升了。如果更新前部队高于13级，更新后等级不会重置。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本开放，所有兵种可升至 18 级。</TimelineRow>
+        <TimelineRow>夜世界9本开放，所有兵种可升至18级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

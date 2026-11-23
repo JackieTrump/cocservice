@@ -18,10 +18,10 @@ canonical: /upgrade/0313-Ricochet-Cannon
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="建造中" imgSrc="Ricochet_Cannon_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Ricochet_Cannon1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Ricochet_Cannon2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Ricochet_Cannon3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Ricochet_Cannon4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Ricochet_Cannon1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Ricochet_Cannon2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Ricochet_Cannon3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Ricochet_Cannon4.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -38,8 +38,8 @@ canonical: /upgrade/0313-Ricochet-Cannon
     - 合并一旦开始就无法取消。
     - 合并建筑的操作是永久性的，一旦合并就无法拆开。
     - 升本前必须合并完所有可以合并的建筑。
-2. 如果在距离第一个目标 3.5 格范围内存在其他敌方单位，则炮弹将会弹射到第二个目标并造成伤害。
-3. 第二个目标受到的伤害是第一个目标的 70%.
+2. 如果在距离第一个目标3.5格范围内存在其他敌方单位，则炮弹将会弹射到第二个目标并造成伤害。
+3. 第二个目标受到的伤害是第一个目标的70%.
 
 <SmallTitle>属性</SmallTitle>
 
@@ -48,9 +48,9 @@ canonical: /upgrade/0313-Ricochet-Cannon
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="直接伤害 + 弹射伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="9 格" />
-    <UnitProperty pKey="攻速" pValue="0.8 秒/次" />
-    <UnitProperty pKey="最远弹射距离" pValue="3.5 格" />
+    <UnitProperty pKey="射程" pValue="9格" />
+    <UnitProperty pKey="攻速" pValue="0.8秒/次" />
+    <UnitProperty pKey="最远弹射距离" pValue="3.5格" />
     <UnitProperty pKey="弹射伤害" pValue="70%" />
 </UnitProperties>
 
@@ -93,27 +93,27 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/01/28">
-        <TimelineRow>跳弹加农炮第二个目标受到的伤害由 100% 降低到 70%.</TimelineRow>
-        <TimelineRow>跳弹加农炮的最远弹射距离由 4.5 格减少到 3.5 格。</TimelineRow>
+        <TimelineRow>跳弹加农炮第二个目标受到的伤害由100% 降低到70%.</TimelineRow>
+        <TimelineRow>跳弹加农炮的最远弹射距离由4.5格减少到3.5格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 4 级跳弹加农炮。</TimelineRow>
-        <TimelineRow>3 级跳弹加农炮的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增4级跳弹加农炮。</TimelineRow>
+        <TimelineRow>3级跳弹加农炮的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>1 ~ 2 级跳弹加农炮的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 2级跳弹加农炮的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>1 ~ 2 级跳弹加农炮的升级费用和时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 2级跳弹加农炮的升级费用和时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 3 级跳弹加农炮。</TimelineRow>
-        <TimelineRow>17 本新解锁一个跳弹加农炮。</TimelineRow>
-        <TimelineRow>1 ~ 2 级跳弹加农炮的升级费用和时间减少。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增3级跳弹加农炮。</TimelineRow>
+        <TimelineRow>17本新解锁一个跳弹加农炮。</TimelineRow>
+        <TimelineRow>1 ~ 2级跳弹加农炮的升级费用和时间减少。</TimelineRow>
         <TimelineRow>跳弹加农炮成为第二批可以充能的建筑。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增建筑：跳弹加农炮，共设两个等级。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增建筑：跳弹加农炮，共设两个等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

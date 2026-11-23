@@ -18,7 +18,7 @@ canonical: /upgrade/zappy-bh
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Zappy1.png" />
+        <UnitImg imgTitle="1级" imgSrc="Zappy1.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -32,9 +32,9 @@ canonical: /upgrade/zappy-bh
 <UnitProperties>
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻速" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="3 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻速" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -60,7 +60,7 @@ canonical: /upgrade/zappy-bh
 
 <Timeline>
     <TimelineItem date="2023/05/15">
-        <TimelineRow>夜世界重做，现在当你升到 6 本后即可直接解锁奥仔哨站，电击车是奥仔哨站的派生单位。</TimelineRow>
+        <TimelineRow>夜世界重做，现在当你升到6本后即可直接解锁奥仔哨站，电击车是奥仔哨站的派生单位。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

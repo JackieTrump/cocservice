@@ -34,9 +34,9 @@ canonical: /upgrade/unicorn
     <UnitProperty pKey="恢复类型" pValue="单个目标" />
     <UnitProperty pKey="作用目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="治疗速度" pValue="1 秒/次" />
-    <UnitProperty pKey="独角手长" pValue="2.5 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="治疗速度" pValue="1秒/次" />
+    <UnitProperty pKey="独角手长" pValue="2.5格" />
     <UnitProperty pKey="所需战宠小屋等级" pValue="4" />
     <UnitProperty pKey="所需大本等级" pValue="14" />
 </UnitProperties>
@@ -89,21 +89,21 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>8 级独角的升级费用降低。</TimelineRow>
+        <TimelineRow>8级独角的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>在 17 本新增 11 ~ 15 级独角。</TimelineRow>
-        <TimelineRow>2 ~ 10 级独角的升级费用降低。</TimelineRow>
+        <TimelineRow>在17本新增11 ~ 15级独角。</TimelineRow>
+        <TimelineRow>2 ~ 10级独角的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 10 级独角的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 10级独角的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>4 ~ 10 级独角的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 10 级独角的升级费用降低。</TimelineRow>
+        <TimelineRow>4 ~ 10级独角的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 10级独角的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
-        <TimelineRow>4 ~ 10 级独角的每秒恢复值从 59/62/65/68/71/74/77 降低至 58/60/62/64/66/68/70。</TimelineRow>
+        <TimelineRow>4 ~ 10级独角的每秒恢复值从59/62/65/68/71/74/77降低至58/60/62/64/66/68/70。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
         <TimelineRow>部落冲突推出战宠，其中莱希、闪枭、大牦、独角是第一批推出的。</TimelineRow>

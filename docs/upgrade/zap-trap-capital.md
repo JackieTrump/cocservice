@@ -16,11 +16,11 @@ canonical: /upgrade/zap-trap-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Small_Trap_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Zap_Trap1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Zap_Trap2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Zap_Trap3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Zap_Trap4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Zap_Trap5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Zap_Trap1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Zap_Trap2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Zap_Trap3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Zap_Trap4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Zap_Trap5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -51,7 +51,7 @@ canonical: /upgrade/zap-trap-capital
     <UnitProperty pKey="占地面积" pValue="1×1" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="伤害目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="触发距离" pValue="5 格" />
+    <UnitProperty pKey="触发距离" pValue="5格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -82,7 +82,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2022/06/27">
-        <TimelineRow>电击陷阱的触发距离提升 2 倍，与空中炸弹和搜空地雷一致（官方说一致，实际上并不一致）。</TimelineRow>
+        <TimelineRow>电击陷阱的触发距离提升2倍，与空中炸弹和搜空地雷一致（官方说一致，实际上并不一致）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>电击陷阱随着部落都城玩法一同推出。</TimelineRow>

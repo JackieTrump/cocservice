@@ -18,11 +18,11 @@ canonical: /upgrade/crusher-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Crusher_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Crusher1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Crusher2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Crusher3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Crusher4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Crusher5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Crusher1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Crusher2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Crusher3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Crusher4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Crusher5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -52,10 +52,10 @@ canonical: /upgrade/crusher-capital
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="2.1 格" />
+    <UnitProperty pKey="伤害半径" pValue="2.1格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="1.7 格" />
-    <UnitProperty pKey="攻速" pValue="3.5 秒/次" />
+    <UnitProperty pKey="射程" pValue="1.7格" />
+    <UnitProperty pKey="攻速" pValue="3.5秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

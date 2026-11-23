@@ -18,16 +18,16 @@ canonical: /upgrade/1108-Multi-Mortar
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Multi_Mortar1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Multi_Mortar2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Multi_Mortar3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Multi_Mortar4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Multi_Mortar5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Multi_Mortar6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Multi_Mortar7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Multi_Mortar8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Multi_Mortar9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Multi_Mortar10.png" />
+        <UnitImg imgTitle="1级" imgSrc="Multi_Mortar1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Multi_Mortar2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Multi_Mortar3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Multi_Mortar4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Multi_Mortar5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Multi_Mortar6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Multi_Mortar7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Multi_Mortar8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Multi_Mortar9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Multi_Mortar10.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -44,13 +44,13 @@ canonical: /upgrade/1108-Multi-Mortar
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.5 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.5格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="4 ~ 11 格" />
-    <UnitProperty pKey="攻速" pValue="7 秒/轮<sup>*</sup>" />
+    <UnitProperty pKey="射程" pValue="4 ~ 11格" />
+    <UnitProperty pKey="攻速" pValue="7秒/轮<sup>*</sup>" />
 </UnitProperties>
 
-\* 多管迫击炮的攻击节奏是：4 连发期间每发 0.5 秒，之后停顿 3.5 秒。如果目标在多管还没打完 4 连发之前死亡，导致多管没有发射全部 4 发炮弹时，每发没有射出去的炮弹会减少 0.5 秒攻击间隔。
+\* 多管迫击炮的攻击节奏是：4连发期间每发0.5秒，之后停顿3.5秒。如果目标在多管还没打完4连发之前死亡，导致多管没有发射全部4发炮弹时，每发没有射出去的炮弹会减少0.5秒攻击间隔。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -98,14 +98,14 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
-        <TimelineRow>6 ~ 9 级多管迫击炮的升级时间增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，多管迫击炮可升至 10 级。</TimelineRow>
+        <TimelineRow>6 ~ 9级多管迫击炮的升级时间增加。</TimelineRow>
+        <TimelineRow>夜世界10本推出，多管迫击炮可升至10级。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/12/09">
         <TimelineRow>所有等级多管迫击炮的每秒伤害减少（更新公告里没有这个，但是确实削了）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，多管迫击炮可升至 9 级。</TimelineRow>
+        <TimelineRow>夜世界9本推出，多管迫击炮可升至9级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

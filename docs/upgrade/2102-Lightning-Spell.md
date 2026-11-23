@@ -17,14 +17,14 @@ canonical: /upgrade/2102-Lightning-Spell
 
 <SmallTitle>重要说明</SmallTitle>
 
-当部落解锁雷电法术工厂时，系统会自动建造 [雷电法术工厂](/upgrade/lightning-spell-factory-capital)，而这需要气球环礁这个子城的大本营升到 2 级。
+当部落解锁雷电法术工厂时，系统会自动建造 [雷电法术工厂](/upgrade/lightning-spell-factory-capital)，而这需要气球环礁这个子城的大本营升到2级。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="作用方式" pValue="一次性伤害" />
-    <UnitProperty pKey="作用半径" pValue="1.5 格" />
-    <UnitProperty pKey="击晕时长" pValue="0.1 秒" />
+    <UnitProperty pKey="作用半径" pValue="1.5格" />
+    <UnitProperty pKey="击晕时长" pValue="0.1秒" />
     <UnitProperty pKey="占用的法术空间" pValue="1" />
 </UnitProperties>
 
@@ -45,7 +45,7 @@ canonical: /upgrade/2102-Lightning-Spell
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>1 ~ 5 级雷电法术的伤害增加 25.</TimelineRow>
+        <TimelineRow>1 ~ 5级雷电法术的伤害增加25.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>雷电法术随着部落都城玩法一同推出。</TimelineRow>

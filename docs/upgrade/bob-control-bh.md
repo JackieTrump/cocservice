@@ -17,11 +17,11 @@ canonical: /upgrade/bob-control-bh
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="B.O.B_Control1.png"/>
-        <UnitImg imgTitle="2 级" imgSrc="B.O.B_Control2.png"/>
-        <UnitImg imgTitle="3 级" imgSrc="B.O.B_Control3.png"/>
-        <UnitImg imgTitle="4 级" imgSrc="B.O.B_Control4.png"/>
-        <UnitImg imgTitle="5 级" imgSrc="B.O.B_Control5.png"/>
+        <UnitImg imgTitle="1级" imgSrc="B.O.B_Control1.png"/>
+        <UnitImg imgTitle="2级" imgSrc="B.O.B_Control2.png"/>
+        <UnitImg imgTitle="3级" imgSrc="B.O.B_Control3.png"/>
+        <UnitImg imgTitle="4级" imgSrc="B.O.B_Control4.png"/>
+        <UnitImg imgTitle="5级" imgSrc="B.O.B_Control5.png"/>
     </UnitImgGroup>
 </Panel>
 
@@ -37,7 +37,7 @@ canonical: /upgrade/bob-control-bh
 <SmallTitle>重要说明</SmallTitle>
 
 1. 升级小博控制室不需要花费资源，也不需要时间，但是需要满足一定的条件。
-2. 将小博控制室升到 5 级后可解锁一个建造机器人，这个机器人会成为家乡的第 6 个工人。
+2. 将小博控制室升到5级后可解锁一个建造机器人，这个机器人会成为家乡的第6个工人。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -53,11 +53,11 @@ canonical: /upgrade/bob-control-bh
 
 | 等级 | 需要满足的条件 |
 |  --- |      ---     |
-|  1   | 花费 10 万金币（有月卡的话能少一点） |
-|  2   | 完成家乡的 3 个改装：[加农炮](/upgrade/0301-Cannon) 、[箭塔](/upgrade/archer-tower) 和 [迫击炮](/upgrade/0303-Mortar) |
-|  3   | 将任意兵种升到 18 级 |
-|  4   | 将任意一个防御建筑升到 9 级（[城墙](/upgrade/110c-Walls) 除外） |
-|  5   | [战争机器](/upgrade/10f0-Battle-Machine) 和 [战斗直升机](/upgrade/10f1-Battle-Copter) 的等级之和达到 45 级 |
+|  1   | 花费10万金币（有月卡的话能少一点） |
+|  2   | 完成家乡的3个改装：[加农炮](/upgrade/0301-Cannon) 、[箭塔](/upgrade/archer-tower) 和 [迫击炮](/upgrade/0303-Mortar) |
+|  3   | 将任意兵种升到18级 |
+|  4   | 将任意一个防御建筑升到9级（[城墙](/upgrade/110c-Walls) 除外） |
+|  5   | [战争机器](/upgrade/10f0-Battle-Machine) 和 [战斗直升机](/upgrade/10f1-Battle-Copter) 的等级之和达到45级 |
 
 </UnitTable>
 
@@ -65,10 +65,10 @@ canonical: /upgrade/bob-control-bh
 
 <Timeline>
     <TimelineItem date="2023/05/15">
-        <TimelineRow>小博控制室取代以前的奥仔小屋。现在家乡的第 6 个工人由小博接替，而奥仔成了夜世界的第二个常驻工人。</TimelineRow>
+        <TimelineRow>小博控制室取代以前的奥仔小屋。现在家乡的第6个工人由小博接替，而奥仔成了夜世界的第二个常驻工人。</TimelineRow>
     </TimelineItem>
      <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，9 本可新建一个奥仔小屋。</TimelineRow>
+        <TimelineRow>夜世界9本推出，9本可新建一个奥仔小屋。</TimelineRow>
     </TimelineItem>   
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Hidden_Tesla
 canonical: /upgrade/hidden-tesla
 ---
 
-- *如想查看 12 本的自带武器，请访问 [巨型特斯拉电磁塔](/upgrade/giga-tesla)。*
+- *如想查看12本的自带武器，请访问 [巨型特斯拉电磁塔](/upgrade/giga-tesla)。*
 - *如想查看夜世界的特斯拉电磁塔，请访问：[夜世界特斯拉电磁塔](/upgrade/1103-Hidden-Tesla)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hidden_Tesla17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
@@ -18,23 +18,23 @@ canonical: /upgrade/hidden-tesla
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Hidden_Tesla1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Hidden_Tesla2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Hidden_Tesla3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Hidden_Tesla4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Hidden_Tesla5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Hidden_Tesla6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Hidden_Tesla7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Hidden_Tesla8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Hidden_Tesla9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Hidden_Tesla10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Hidden_Tesla11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Hidden_Tesla12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Hidden_Tesla13.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Hidden_Tesla14.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Hidden_Tesla15.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Hidden_Tesla16.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Hidden_Tesla17.png" />
+        <UnitImg imgTitle="1级" imgSrc="Hidden_Tesla1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Hidden_Tesla2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Hidden_Tesla3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Hidden_Tesla4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Hidden_Tesla5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Hidden_Tesla6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Hidden_Tesla7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Hidden_Tesla8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Hidden_Tesla9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Hidden_Tesla10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Hidden_Tesla11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Hidden_Tesla12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Hidden_Tesla13.png" />
+        <UnitImg imgTitle="14级" imgSrc="Hidden_Tesla14.png" />
+        <UnitImg imgTitle="15级" imgSrc="Hidden_Tesla15.png" />
+        <UnitImg imgTitle="16级" imgSrc="Hidden_Tesla16.png" />
+        <UnitImg imgTitle="17级" imgSrc="Hidden_Tesla17.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -52,9 +52,9 @@ canonical: /upgrade/hidden-tesla
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="触发距离" pValue="6 格" />   
-    <UnitProperty pKey="射程" pValue="7 格" />
-    <UnitProperty pKey="攻速" pValue="0.6 秒/次" />
+    <UnitProperty pKey="触发距离" pValue="6格" />   
+    <UnitProperty pKey="射程" pValue="7格" />
+    <UnitProperty pKey="攻速" pValue="0.6秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -108,69 +108,69 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>在 18 本添加了 17 级特斯拉电磁塔。</TimelineRow>
+        <TimelineRow>在18本添加了17级特斯拉电磁塔。</TimelineRow>
         <TimelineRow>移除了特斯拉电磁塔的充能等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>16 级及两个充能等级的特斯拉电磁塔的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>16级及两个充能等级的特斯拉电磁塔的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>13 ~ 15 级特斯拉电磁塔的升级时间减少。</TimelineRow>
+        <TimelineRow>13 ~ 15级特斯拉电磁塔的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>3、7 ~ 11、13 ~ 15 级特斯拉电磁塔的升级时间减少。</TimelineRow>
-        <TimelineRow>3 ~ 5、7、9 ~ 15 级特斯拉电磁塔的升级费用降低。</TimelineRow>
+        <TimelineRow>3、7 ~ 11、13 ~ 15级特斯拉电磁塔的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 5、7、9 ~ 15级特斯拉电磁塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>17 本新增 16 级特斯拉电磁塔。</TimelineRow>
-        <TimelineRow>4、5、12 级特斯拉电磁塔的升级时间减少。</TimelineRow>
-        <TimelineRow>12 级特斯拉电磁塔的升级费用降低。</TimelineRow>
+        <TimelineRow>17本新增16级特斯拉电磁塔。</TimelineRow>
+        <TimelineRow>4、5、12级特斯拉电磁塔的升级时间减少。</TimelineRow>
+        <TimelineRow>12级特斯拉电磁塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>7 ~ 8、11 ~ 15 级特斯拉电磁塔的升级时间减少。</TimelineRow>
-        <TimelineRow>11 ~ 15 级特斯拉电磁塔的升级费用降低。</TimelineRow>
+        <TimelineRow>7 ~ 8、11 ~ 15级特斯拉电磁塔的升级时间减少。</TimelineRow>
+        <TimelineRow>11 ~ 15级特斯拉电磁塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
         <TimelineRow>超级充能推出，特斯拉电磁塔是第一批可以充能的建筑之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>10 ~ 14 级特斯拉电磁塔的升级时间减少。</TimelineRow>
-        <TimelineRow>13 ~ 14 级特斯拉电磁塔的升级费用降低。</TimelineRow>
+        <TimelineRow>10 ~ 14级特斯拉电磁塔的升级时间减少。</TimelineRow>
+        <TimelineRow>13 ~ 14级特斯拉电磁塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>16 本新增 15 级特斯拉电磁塔。</TimelineRow>
+        <TimelineRow>16本新增15级特斯拉电磁塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>3 ~ 14 级特斯拉电磁塔的升级时间减少。</TimelineRow>
-        <TimelineRow>1 ~ 9、13 级特斯拉电磁塔的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 14级特斯拉电磁塔的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 9、13级特斯拉电磁塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 14 级特斯拉电磁塔。</TimelineRow>
-        <TimelineRow>10 ~ 12 级特斯拉电磁塔的升级时间减少。</TimelineRow>
-        <TimelineRow>10 ~ 12 级特斯拉电磁塔的升级费用降低。</TimelineRow>
+        <TimelineRow>15本新增14级特斯拉电磁塔。</TimelineRow>
+        <TimelineRow>10 ~ 12级特斯拉电磁塔的升级时间减少。</TimelineRow>
+        <TimelineRow>10 ~ 12级特斯拉电磁塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>8 ~ 13 级特斯拉电磁塔的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 13级特斯拉电磁塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 12 级特斯拉电磁塔的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 12级特斯拉电磁塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 13 级特斯拉电磁塔。</TimelineRow>
-        <TimelineRow>1 ~ 9 级特斯拉电磁塔的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增13级特斯拉电磁塔。</TimelineRow>
+        <TimelineRow>1 ~ 9级特斯拉电磁塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
-        <TimelineRow>13 本新增 12 级特斯拉电磁塔。</TimelineRow>
+        <TimelineRow>13本新增12级特斯拉电磁塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本开放，新增 11 级特斯拉电磁塔。</TimelineRow>
+        <TimelineRow>13本开放，新增11级特斯拉电磁塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/09/11">
-        <TimelineRow>10 级特斯拉电磁塔的生命值由 950 提高到 980。</TimelineRow>
+        <TimelineRow>10级特斯拉电磁塔的生命值由950提高到980。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/04/02">
-        <TimelineRow>1 ~ 8 级电塔的升级时间减少。</TimelineRow>
-        <TimelineRow>1 ~ 9 级电塔的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 8级电塔的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 9级电塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

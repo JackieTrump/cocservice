@@ -2,7 +2,7 @@
 title: "部落冲突 coc 雷电战靴装备升级数据"
 navTitle: "雷电战靴"
 shownTitle: "雷电战靴"
-description: "雷电战靴是飞盾战神的第二件史诗装备，它在 2024 年 12 月的大闹玩具店活动中首次开放购买。装备雷电战靴后，飞盾战神周围会形成雷电光环，对敌方单位造成持续伤害。除了雷电光环外，雷电战靴装备还可以为飞盾战神提供额外生命值，并让飞盾战神拥有自行回血的能力。"
+description: "雷电战靴是飞盾战神的第二件史诗装备，它在2024年12月的大闹玩具店活动中首次开放购买。装备雷电战靴后，飞盾战神周围会形成雷电光环，对敌方单位造成持续伤害。除了雷电光环外，雷电战靴装备还可以为飞盾战神提供额外生命值，并让飞盾战神拥有自行回血的能力。"
 module: upgrade-home
 imgFolder: home_heroes/07c5
 wiki: https://clashofclans.fandom.com/wiki/Electro_Boots
@@ -13,7 +13,7 @@ canonical: /upgrade/07c5-Electro-Boots
 
 <SmallTitle>说明</SmallTitle>
 
-1. 雷电战靴是 [飞盾战神](/upgrade/royal-champion) 的第二件史诗装备，它在 2024 年 12 月的大闹玩具店活动中首次开放购买。
+1. 雷电战靴是 [飞盾战神](/upgrade/royal-champion) 的第二件史诗装备，它在2024年12月的大闹玩具店活动中首次开放购买。
 2. 装备雷电战靴后，飞盾战神周围会形成雷电光环，对敌方单位造成持续伤害。
 3. 除了雷电光环外，雷电战靴装备还可以为飞盾战神提供额外生命值，并让飞盾战神拥有自行回血的能力。
 
@@ -22,8 +22,8 @@ canonical: /upgrade/07c5-Electro-Boots
 <UnitProperties>
     <UnitProperty pKey="技能类型" pValue="被动技能" />
     <UnitProperty pKey="装备稀有度" pValue="史诗" />
-    <UnitProperty pKey="光环半径" pValue="5 格" />
-    <UnitProperty pKey="光环攻击速度" pValue="0.4 秒/次" />
+    <UnitProperty pKey="光环半径" pValue="5格" />
+    <UnitProperty pKey="光环攻击速度" pValue="0.4秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -86,7 +86,7 @@ const tableExtraInfo = [
 
 注意：
 
-1. 上表的 8 点移动速度代表 1 格/秒。
+1. 上表的8点移动速度代表1格/秒。
 2. 如果升级费用中有多种资源，则同时需要多种资源才能升级。
 
 <SmallTitle>推出记录</SmallTitle>
@@ -95,16 +95,16 @@ const tableExtraInfo = [
 
 | 推出时间 | 活动名称  |     价格       | 购买渠道 |
 |   ---   |    ---    |      ---      |    ---   |
-| 2024/12 | 大闹玩具店 | 3 100 玩具奖章 |   商人   |
-| 2025/04 |  是敌是友  | 3 100 冠军奖章 |   商人   |
-| 2025/10 |  宇宙摇滚  | 3 100 摇滚奖章 |   商人   |
+| 2024/12 | 大闹玩具店 | 3 100玩具奖章 |   商人   |
+| 2025/04 |  是敌是友  | 3 100冠军奖章 |   商人   |
+| 2025/10 |  宇宙摇滚  | 3 100摇滚奖章 |   商人   |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>15 ~ 27 级雷电战靴对英雄的每秒回血值减小。</TimelineRow>
+        <TimelineRow>15 ~ 27级雷电战靴对英雄的每秒回血值减小。</TimelineRow>
         <TimelineRow>所有等级雷电战靴的光环伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/12/11">

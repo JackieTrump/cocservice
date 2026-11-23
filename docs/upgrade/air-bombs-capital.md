@@ -21,11 +21,11 @@ canonical: /upgrade/air-bombs-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Air_Bombs_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Air_Bombs1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Air_Bombs2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Air_Bombs3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Air_Bombs4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Air_Bombs5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Air_Bombs1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Air_Bombs2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Air_Bombs3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Air_Bombs4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Air_Bombs5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -59,10 +59,10 @@ canonical: /upgrade/air-bombs-capital
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.2 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.2格" />
     <UnitProperty pKey="攻击的目标" pValue="仅空中目标" />
-    <UnitProperty pKey="射程" pValue="8.5 格" />
-    <UnitProperty pKey="攻速" pValue="3 秒/次" />
+    <UnitProperty pKey="射程" pValue="8.5格" />
+    <UnitProperty pKey="攻速" pValue="3秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

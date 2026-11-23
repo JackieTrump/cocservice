@@ -15,10 +15,10 @@ canonical: /upgrade/0312-Monolith
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Monolith1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Monolith2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Monolith3.png" imgHd="Monolith3_hd.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Monolith4.png" imgHd="Monolith4_hd.png" />
+        <UnitImg imgTitle="1级" imgSrc="Monolith1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Monolith2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Monolith3.png" imgHd="Monolith3_hd.png" />
+        <UnitImg imgTitle="4级" imgSrc="Monolith4.png" imgHd="Monolith4_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -41,8 +41,8 @@ canonical: /upgrade/0312-Monolith
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="11 格" />
-    <UnitProperty pKey="攻速" pValue="1.5 秒/次" />
+    <UnitProperty pKey="射程" pValue="11格" />
+    <UnitProperty pKey="攻速" pValue="1.5秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -84,32 +84,32 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>4 级巨石碑的升级时间减少。</TimelineRow>
+        <TimelineRow>4级巨石碑的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>17 本新增 4 级巨石碑，并成为可以充能的建筑。</TimelineRow>
-        <TimelineRow>1 ~ 3 级巨石碑的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>17本新增4级巨石碑，并成为可以充能的建筑。</TimelineRow>
+        <TimelineRow>1 ~ 3级巨石碑的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>1 ~ 3 级巨石碑的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 3 级巨石碑的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 3级巨石碑的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3级巨石碑的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>1 ~ 2 级巨石碑的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 2级巨石碑的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/04/17">
-        <TimelineRow>16 本新增 3 级巨石碑。</TimelineRow>
+        <TimelineRow>16本新增3级巨石碑。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>所有等级巨石碑的额外伤害减少 1%.</TimelineRow>
-        <TimelineRow>2 级巨石碑的每秒基础伤害降低 25。</TimelineRow>
+        <TimelineRow>所有等级巨石碑的额外伤害减少1%.</TimelineRow>
+        <TimelineRow>2级巨石碑的每秒基础伤害降低25。</TimelineRow>
         <TimelineRow>所有等级巨石碑的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/12/12">
-        <TimelineRow>所有等级巨石碑的额外伤害减少 2%.</TimelineRow>
+        <TimelineRow>所有等级巨石碑的额外伤害减少2%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增建筑：巨石碑。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增建筑：巨石碑。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

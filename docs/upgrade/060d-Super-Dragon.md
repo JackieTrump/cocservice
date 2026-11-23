@@ -25,7 +25,7 @@ canonical: /upgrade/060d-Super-Dragon
 <SmallTitle>重要说明</SmallTitle>
 
 1. 超级飞龙的技能（炙热龙息）：超级飞龙攻击时可以溅射至周围目标，对它们造成持续伤害。
-2. 超级飞龙的攻击机制：先以极快的速度（0.192 秒/次）打完 10 发子弹，休息 1.8 秒后再发射 10 发子弹。超级飞龙的溅射是带有一定随机性的，每次溅射到的建筑不一定相同。
+2. 超级飞龙的攻击机制：先以极快的速度（0.192秒/次）打完10发子弹，休息1.8秒后再发射10发子弹。超级飞龙的溅射是带有一定随机性的，每次溅射到的建筑不一定相同。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -33,18 +33,18 @@ canonical: /upgrade/060d-Super-Dragon
     <UnitProperty pKey="部队类型" pValue="空中单位" />
     <UnitProperty pKey="攻击偏好" pValue="无<sup>*</sup>" />
     <UnitProperty pKey="伤害类型" pValue="溅射伤害" />
-    <UnitProperty pKey="溅射半径" pValue="1.6 格" />
+    <UnitProperty pKey="溅射半径" pValue="1.6格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="40" />
-    <UnitProperty pKey="移动速度" pValue="1.75 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="0.192 秒/次" />
+    <UnitProperty pKey="移动速度" pValue="1.75格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.192秒/次" />
     <UnitProperty pKey="每轮攻击的弹药数量" pValue="10" />
-    <UnitProperty pKey="一轮攻击后歇息" pValue="1.8 秒" />
-    <UnitProperty pKey="攻击距离" pValue="3 格" />
+    <UnitProperty pKey="一轮攻击后歇息" pValue="1.8秒" />
+    <UnitProperty pKey="攻击距离" pValue="3格" />
     <UnitProperty pKey="最低飞龙等级" pValue="7" />
     <UnitProperty pKey="最低大本等级" pValue="12" />
-    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
-    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="强化费用" pValue="2.5万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="20,20,60000,Elixir" :isDonationCost="true" />
 </UnitProperties>
@@ -69,7 +69,7 @@ canonical: /upgrade/060d-Super-Dragon
 |      12       |      490      |  185.4  |  8000 |     17    |
 </UnitTable>
 
-\* 3 - 6 级超级飞龙只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
+\* 3 - 6级超级飞龙只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
 
 <SmallTitle>更新历史</SmallTitle>
 
@@ -78,23 +78,23 @@ canonical: /upgrade/060d-Super-Dragon
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>超级飞龙的训练时间由 6:00 改为 5:40</TimelineRow>
+        <TimelineRow>超级飞龙的训练时间由 6:00改为 5:40</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 12 级飞龙，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增12级飞龙，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>10 ~ 11 级超级飞龙的生命值提升。</TimelineRow>
+        <TimelineRow>10 ~ 11级超级飞龙的生命值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 11 级飞龙，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增11级飞龙，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 10 级飞龙，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15本新增10级飞龙，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
-        <TimelineRow>8/9 级超级飞龙的每秒伤害值从 414/448 降低至 405/429。</TimelineRow>
-        <TimelineRow>超级飞龙的射程降低 1 格（官方写的削 0.5 格，实际上就是削了 1 格）。</TimelineRow>
+        <TimelineRow>8/9级超级飞龙的每秒伤害值从414/448降低至405/429。</TimelineRow>
+        <TimelineRow>超级飞龙的射程降低1格（官方写的削0.5格，实际上就是削了1格）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/01/20">
         <TimelineRow>所有等级超级飞龙的生命值减少。</TimelineRow>

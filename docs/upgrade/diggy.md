@@ -36,9 +36,9 @@ canonical: /upgrade/diggy
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.8 格" />
+    <UnitProperty pKey="移动速度" pValue="4格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.8格" />
     <UnitProperty pKey="所需战宠小屋等级" pValue="6" />
     <UnitProperty pKey="所需大本等级" pValue="15" />
 </UnitProperties>
@@ -86,20 +86,20 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>8 级地兽的升级费用降低。</TimelineRow>
+        <TimelineRow>8级地兽的升级费用降低。</TimelineRow>
         <TimelineRow>现在地兽不仅可以瘫痪防御建筑，还可以瘫痪部队和英雄了（更新前只能瘫痪防御建筑）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 10 级地兽的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 10级地兽的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 10 级地兽的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 10级地兽的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>2 ~ 10 级地兽的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 10级地兽的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，可解锁四个新宠物，地兽是其中之一。</TimelineRow>
+        <TimelineRow>15本推出，可解锁四个新宠物，地兽是其中之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -23,9 +23,9 @@ canonical: /upgrade/sneaky-archer-capital
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 当部落解锁野蛮人兵营时，系统会自动建造 [隐秘弓箭手训练营](/upgrade/sneaky-archer-barracks-capital)，也就是说隐秘弓箭手在 [都城大本营](/upgrade/2400-Capital-Hall) 达到 2 级后可解锁。
-2. 在都城中，隐秘弓箭手只能以 5 个一组的形式部署。
-3. 隐秘弓箭手的技能（隐形披风）：在部署 5 秒内隐身，不能被防御建筑锁定。
+1. 当部落解锁野蛮人兵营时，系统会自动建造 [隐秘弓箭手训练营](/upgrade/sneaky-archer-barracks-capital)，也就是说隐秘弓箭手在 [都城大本营](/upgrade/2400-Capital-Hall) 达到2级后可解锁。
+2. 在都城中，隐秘弓箭手只能以5个一组的形式部署。
+3. 隐秘弓箭手的技能（隐形披风）：在部署5秒内隐身，不能被防御建筑锁定。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -37,9 +37,9 @@ canonical: /upgrade/sneaky-archer-capital
     <UnitProperty pKey="每组兵的配兵人口" pValue="10" />
     <UnitProperty pKey="每组兵的部队数量" pValue="5" />
     <UnitProperty pKey="每个兵的防守人口" pValue="2" />
-    <UnitProperty pKey="移动速度" pValue="1.8 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="2.75 格" />
+    <UnitProperty pKey="移动速度" pValue="1.8格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.75格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -59,7 +59,7 @@ canonical: /upgrade/sneaky-archer-capital
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>4 ~ 5 级隐秘弓箭手的每秒伤害由 72/16 减少到 71/74.</TimelineRow>
+        <TimelineRow>4 ~ 5级隐秘弓箭手的每秒伤害由72/16减少到71/74.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>隐秘弓箭手随着部落都城玩法一同推出。</TimelineRow>

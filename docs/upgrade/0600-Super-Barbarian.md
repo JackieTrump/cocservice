@@ -24,7 +24,7 @@ canonical: /upgrade/0600-Super-Barbarian
 
 <SmallTitle>重要说明</SmallTitle>
 
-超级野蛮人的技能（狂暴）：在部署后的 8 秒内狂暴，获得额外的移动速度和伤害。狂暴状态下伤害提高 70%，速度为 36（也即 4.5 格/秒）。
+超级野蛮人的技能（狂暴）：在部署后的8秒内狂暴，获得额外的移动速度和伤害。狂暴状态下伤害提高70%，速度为36（也即4.5格/秒）。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -34,14 +34,14 @@ canonical: /upgrade/0600-Super-Barbarian
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="5" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="0.8 秒/次" />
-    <UnitProperty pKey="首次出手时机" pValue="到达目标后 0.7 秒" />
-    <UnitProperty pKey="攻击距离" pValue="0.6 格" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.8秒/次" />
+    <UnitProperty pKey="首次出手时机" pValue="到达目标后0.7秒" />
+    <UnitProperty pKey="攻击距离" pValue="0.6格" />
     <UnitProperty pKey="最低野蛮人等级" pValue="8" />
     <UnitProperty pKey="最低大本等级" pValue="11" />
-    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
-    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="强化费用" pValue="2.5万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="3,3,9000,Elixir" :isDonationCost="true" />
 </UnitProperties>
@@ -66,24 +66,24 @@ canonical: /upgrade/0600-Super-Barbarian
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
-        <TimelineRow>12 级超级野蛮人的每秒伤害减少。</TimelineRow>
+        <TimelineRow>12级超级野蛮人的每秒伤害减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>10 ~ 12 级超级野蛮人的生命值减少。</TimelineRow>
+        <TimelineRow>10 ~ 12级超级野蛮人的生命值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 12 级野蛮人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增12级野蛮人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 11 级野蛮人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增11级野蛮人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 10 级野蛮人，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增10级野蛮人，超级部队的等级也相应更新。</TimelineRow>
         <TimelineRow>修复了狂暴野蛮人、超级野蛮人和隐秘弓箭手的技能持续时间计时不太准确的问题。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
-        <TimelineRow>超级部队的有效时间从 7 天缩短为 3 天。</TimelineRow>
-        <TimelineRow>所有部队的强化费用统一调整为 25,000 暗黑重油。</TimelineRow>
+        <TimelineRow>超级部队的有效时间从7天缩短为3天。</TimelineRow>
+        <TimelineRow>所有部队的强化费用统一调整为25,000暗黑重油。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
         <TimelineRow>部落冲突新增“超级兵种”玩法，超级野蛮人是首批推出的超级兵种之一。</TimelineRow>

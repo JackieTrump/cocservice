@@ -23,7 +23,7 @@ canonical: /upgrade/2009-Raid-Cart
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 突袭炮车的解锁条件是建造 [突袭炮车训练营](/upgrade/raid-cart-barracks-capital)，而这需要部落解锁建筑工人工坊，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 5 级。
+1. 突袭炮车的解锁条件是建造 [突袭炮车训练营](/upgrade/raid-cart-barracks-capital)，而这需要部落解锁建筑工人工坊，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到5级。
 2. 攻城炮车类似于夜世界的 [加农炮战车](/upgrade/1006-Cannon-Cart)，只不过血量更高，攻速更慢。
 3. 加农炮战车还可以作为防守部队驻扎在 [突袭炮车岗哨](/upgrade/2211-Raid-Cart-Post) 附近。
 4. 加农炮战车的技能（奋战到底）：被摧毁后获得一些临时生命值。
@@ -45,10 +45,10 @@ canonical: /upgrade/2009-Raid-Cart
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="移动速度" pValue="1.1 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2.5 秒/次" />
-    <UnitProperty pKey="首次进攻时机" pValue="到达目标后 1.8 秒" />
-    <UnitProperty pKey="攻击距离" pValue="3 格" />
+    <UnitProperty pKey="移动速度" pValue="1.1格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2.5秒/次" />
+    <UnitProperty pKey="首次进攻时机" pValue="到达目标后1.8秒" />
+    <UnitProperty pKey="攻击距离" pValue="3格" />
 </UnitProperties>
 
 <SmallTitle>突袭炮车的升级数据</SmallTitle>
@@ -68,10 +68,10 @@ canonical: /upgrade/2009-Raid-Cart
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>攻击新目标的速度加快了 0.2 秒。</TimelineRow>
+        <TimelineRow>攻击新目标的速度加快了0.2秒。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/30">
-        <TimelineRow>将突袭炮车的第一次攻击减慢 0.7 秒。</TimelineRow>
+        <TimelineRow>将突袭炮车的第一次攻击减慢0.7秒。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
         <TimelineRow>更新后，疗伤法术对被摧毁的攻城炮车无效。</TimelineRow>

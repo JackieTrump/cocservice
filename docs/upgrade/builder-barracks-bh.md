@@ -20,18 +20,18 @@ canonical: /upgrade/builder-barracks-bh
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Builder_Barracks_Ruin.png" />    
-        <UnitImg imgTitle="1 级" imgSrc="Builder_Barracks1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Builder_Barracks2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Builder_Barracks3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Builder_Barracks4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Builder_Barracks5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Builder_Barracks6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Builder_Barracks7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Builder_Barracks8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Builder_Barracks9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Builder_Barracks10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Builder_Barracks11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Builder_Barracks12.png" />
+        <UnitImg imgTitle="1级" imgSrc="Builder_Barracks1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Builder_Barracks2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Builder_Barracks3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Builder_Barracks4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Builder_Barracks5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Builder_Barracks6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Builder_Barracks7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Builder_Barracks8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Builder_Barracks9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Builder_Barracks10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Builder_Barracks11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Builder_Barracks12.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -49,7 +49,7 @@ canonical: /upgrade/builder-barracks-bh
 夜世界的训练营与家乡有些许不同，这里列举一些夜世界训练营的一些独有特性：
 1. 在夜世界，训练部队不需要消耗圣水；
 2. 在你用掉兵营中的部队后，训练营可以自动训练你上次使用的配置。
-3. 夜世界造兵不需要时间，造兵可以瞬间完成。（在 2020 年 3 月 30 日更新之前，填满每个兵营需要的时间固定为 1 分钟）
+3. 夜世界造兵不需要时间，造兵可以瞬间完成。（在2020年3月30日更新之前，填满每个兵营需要的时间固定为1分钟）
 
 <SmallTitle>属性</SmallTitle>
 
@@ -104,14 +104,14 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>    
-        <TimelineRow>7 ~ 11 级建筑大师训练营的升级费用增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，建筑大师训练营可升至 12 级，新增兵种: 电火法师。</TimelineRow>
+        <TimelineRow>7 ~ 11级建筑大师训练营的升级费用增加。</TimelineRow>
+        <TimelineRow>夜世界10本推出，建筑大师训练营可升至12级，新增兵种: 电火法师。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/10/16">  
         <TimelineRow>夜世界造兵不需要时间了，造兵可以瞬间完成。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，建筑大师训练营可升至 11 级，新增兵种野猪飞骑。</TimelineRow>
+        <TimelineRow>夜世界9本推出，建筑大师训练营可升至11级，新增兵种野猪飞骑。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

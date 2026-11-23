@@ -23,8 +23,8 @@ canonical: /upgrade/2100-Healing-Spell
 
 <UnitProperties>
     <UnitProperty pKey="作用方式" pValue="范围内脉冲赋能" />
-    <UnitProperty pKey="作用半径" pValue="4.5 格" />
-    <UnitProperty pKey="脉冲间隔时间" pValue="0.3 秒" />
+    <UnitProperty pKey="作用半径" pValue="4.5格" />
+    <UnitProperty pKey="脉冲间隔时间" pValue="0.3秒" />
     <UnitProperty pKey="有效时间" pValue="两次进攻" />
     <UnitProperty pKey="占用的法术空间" pValue="3" />
 </UnitProperties>
@@ -46,8 +46,8 @@ canonical: /upgrade/2100-Healing-Spell
 
 <Timeline>
     <TimelineItem date="2022/06/30">
-        <TimelineRow>1 ~ 5 级疗伤法术的每秒治疗量减少 33.</TimelineRow>
-        <TimelineRow>1 ~ 5 级疗伤法术的每秒脉冲治疗量 34/38/42/46/50 减少到 24/28/32/36/40.</TimelineRow>
+        <TimelineRow>1 ~ 5级疗伤法术的每秒治疗量减少33.</TimelineRow>
+        <TimelineRow>1 ~ 5级疗伤法术的每秒脉冲治疗量34/38/42/46/50减少到24/28/32/36/40.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/07">
         <TimelineRow>被摧毁的攻城炮车将无法享受到疗伤法术的治疗效果。</TimelineRow>

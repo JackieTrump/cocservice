@@ -28,12 +28,12 @@ canonical: /upgrade/0e04-Skeleton-Barrel
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.2 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.2格" />
     <UnitProperty pKey="占据人口" pValue="5" />
-    <UnitProperty pKey="移动速度" pValue="1.3 格/秒" />
-    <UnitProperty pKey="骷髅投放频率" pValue="1 秒/次" />
-    <UnitProperty pKey="首次投放时机" pValue="到达目标后 2.25 秒" />
-    <UnitProperty pKey="攻击距离" pValue="0.5 格" />
+    <UnitProperty pKey="移动速度" pValue="1.3格/秒" />
+    <UnitProperty pKey="骷髅投放频率" pValue="1秒/次" />
+    <UnitProperty pKey="首次投放时机" pValue="到达目标后2.25秒" />
+    <UnitProperty pKey="攻击距离" pValue="0.5格" />
     <UnitProperty pKey="所需训练营等级" pValue="6" />
     <UnitProperty pKey="所需大本等级" pValue="4" />
     <UnitProperty pKey="特殊技能" pValue="见说明<sup>*</sup>" />
@@ -68,17 +68,17 @@ const tableExtraInfo = [
 |        8       |  768 |        15        |        6000       |  940  |       12       |
 </UnitTable>
 
-① 表格中的“等级”对应游戏内显示的等级，骷髅飞桶没有 1 级。<br>
-② 2022 年 6 月更新后，训练部队、配置法术、建造攻城机器不需要资源了，而该兵种最后一次推出时训练费用尚未取消。<br>
+① 表格中的“等级”对应游戏内显示的等级，骷髅飞桶没有1级。<br>
+② 2022年6月更新后，训练部队、配置法术、建造攻城机器不需要资源了，而该兵种最后一次推出时训练费用尚未取消。<br>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2020/10">
-        <TimelineRow>该兵种第 2 次推出。</TimelineRow>
+        <TimelineRow>该兵种第2次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2018/10">
-        <TimelineRow>该兵种第 1 次推出。</TimelineRow>
+        <TimelineRow>该兵种第1次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

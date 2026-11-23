@@ -26,9 +26,9 @@ canonical: /upgrade/10f1-Battle-Copter
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="移动速度" pValue="1.8 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="0.65 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="6.5 格" />
+    <UnitProperty pKey="移动速度" pValue="1.8格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.65秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="6.5格" />
     <UnitProperty pKey="解锁所需大本营等级" pValue="8" />
 </UnitProperties>
 
@@ -46,11 +46,11 @@ canonical: /upgrade/10f1-Battle-Copter
 <UnitProperties>
     <UnitProperty pKey="技能名称" pValue="爆弹冲锋" />
     <UnitProperty pKey="技能描述" pValue="见说明<sup>*</sup>" />
-    <UnitProperty pKey="能量条充能速度" pValue="14 秒/格" />
+    <UnitProperty pKey="能量条充能速度" pValue="14秒/格" />
     <UnitProperty pKey="技能期间的移动速度" pValue="56" />
-    <UnitProperty pKey="1 级能量条爆炸半径" pValue="0.5 格" />
-    <UnitProperty pKey="2 级能量条爆炸半径" pValue="2 格" />
-    <UnitProperty pKey="3 级能量条爆炸半径" pValue="4 格" />
+    <UnitProperty pKey="1级能量条爆炸半径" pValue="0.5格" />
+    <UnitProperty pKey="2级能量条爆炸半径" pValue="2格" />
+    <UnitProperty pKey="3级能量条爆炸半径" pValue="4格" />
 </UnitProperties>
 
 \* 爆弹冲锋：向地面投掷一颗炸弹，并恢复部分生命值。
@@ -103,12 +103,12 @@ const tableExtraInfo = [
 <SmallTitle>特殊技能的升级数据</SmallTitle>
 
 <SwitchTabs contentClass="cp-upgrade-skill">
-    <SwitchTab tabId="cp-upgrade-skill-bar-1" :activeTab="true">1 级能量条</SwitchTab>
-    <SwitchTab tabId="cp-upgrade-skill-bar-2">2 级能量条</SwitchTab>
-    <SwitchTab tabId="cp-upgrade-skill-bar-3">3 级能量条</SwitchTab>
+    <SwitchTab tabId="cp-upgrade-skill-bar-1" :activeTab="true">1级能量条</SwitchTab>
+    <SwitchTab tabId="cp-upgrade-skill-bar-2">2级能量条</SwitchTab>
+    <SwitchTab tabId="cp-upgrade-skill-bar-3">3级能量条</SwitchTab>
 </SwitchTabs>
 
-<!-- ↓↓↓ 1 级能量条 ↓↓↓ -->
+<!-- ↓↓↓ 1级能量条 ↓↓↓ -->
 <SwitchTabGroup id="cp-upgrade-skill-bar-1" class="cp-upgrade-skill">
 <Table>
 
@@ -122,7 +122,7 @@ const tableExtraInfo = [
 </Table>
 </SwitchTabGroup>
 
-<!-- ↓↓↓ 2 级能量条 ↓↓↓ -->
+<!-- ↓↓↓ 2级能量条 ↓↓↓ -->
 <SwitchTabGroup id="cp-upgrade-skill-bar-2" class="cp-upgrade-skill">
 <Table>
 
@@ -136,7 +136,7 @@ const tableExtraInfo = [
 </Table>
 </SwitchTabGroup>
 
-<!-- ↓↓↓ 3 级能量条 ↓↓↓ -->
+<!-- ↓↓↓ 3级能量条 ↓↓↓ -->
 <SwitchTabGroup id="cp-upgrade-skill-bar-3" class="cp-upgrade-skill">
 <Table>
 

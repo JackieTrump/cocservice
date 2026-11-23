@@ -18,16 +18,16 @@ canonical: /upgrade/air-bombs-bh
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Air_Bombs1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Air_Bombs2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Air_Bombs3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Air_Bombs4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Air_Bombs5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Air_Bombs6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Air_Bombs7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Air_Bombs8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Air_Bombs9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Air_Bombs10.png" />
+        <UnitImg imgTitle="1级" imgSrc="Air_Bombs1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Air_Bombs2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Air_Bombs3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Air_Bombs4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Air_Bombs5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Air_Bombs6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Air_Bombs7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Air_Bombs8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Air_Bombs9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Air_Bombs10.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -44,10 +44,10 @@ canonical: /upgrade/air-bombs-bh
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.5 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.5格" />
     <UnitProperty pKey="攻击的目标" pValue="仅空中目标" />
-    <UnitProperty pKey="射程" pValue="7.5 格" />
-    <UnitProperty pKey="攻速" pValue="3 秒/次" />
+    <UnitProperty pKey="射程" pValue="7.5格" />
+    <UnitProperty pKey="攻速" pValue="3秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -95,12 +95,12 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
-        <TimelineRow>5 ~ 9 级空中炸弹发射器的升级时间增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，空中炸弹发射器可升至 10 级。</TimelineRow>
-        <TimelineRow>为配合更小的地图，空中炸弹发射器的射程由 8 格降低到 7.5 格。</TimelineRow>
+        <TimelineRow>5 ~ 9级空中炸弹发射器的升级时间增加。</TimelineRow>
+        <TimelineRow>夜世界10本推出，空中炸弹发射器可升至10级。</TimelineRow>
+        <TimelineRow>为配合更小的地图，空中炸弹发射器的射程由8格降低到7.5格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，空中炸弹发射器可升至 9 级。</TimelineRow>
+        <TimelineRow>夜世界9本推出，空中炸弹发射器可升至9级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

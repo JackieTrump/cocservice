@@ -24,23 +24,23 @@ canonical: /upgrade/0282-Mighty-Yak
 1. 大牦的技能（破墙专家）：大牦可对 [城墙](/upgrade/0300-Walls) 造成额外伤害。
 2. 如果主人被召回或者阵亡，大牦会变成一个自由单位，此时没有偏好。
 3. 主人阵亡时，大牦会获得几秒的狂暴效果。如果狂暴期间被 [回溯法术](/upgrade/0107-Recall-Spell) 召回，狂暴效果不会暂停。
-4. 大牦是所有战宠中唯一不能跳墙的，不过凭借其对墙的 20 倍伤害加成，一般的城墙不能对大牦的路线造成太大的影响。
+4. 大牦是所有战宠中唯一不能跳墙的，不过凭借其对墙的20倍伤害加成，一般的城墙不能对大牦的路线造成太大的影响。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="攻击偏好" pValue="距离英雄 7 格内的目标" />
+    <UnitProperty pKey="攻击偏好" pValue="距离英雄7格内的目标" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="伤害加成" pValue="对墙 20 倍伤害" />
+    <UnitProperty pKey="伤害加成" pValue="对墙20倍伤害" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2.1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1.2 格" />
-    <UnitProperty pKey="重新锁定目标的延时" pValue="0.1 秒" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2.1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1.2格" />
+    <UnitProperty pKey="重新锁定目标的延时" pValue="0.1秒" />
     <UnitProperty pKey="主人死亡后的加成" pValue="狂暴法术" />
-    <UnitProperty pKey="狂暴持续时间" pValue="8 秒" />
-    <UnitProperty pKey="移动速度增加" pValue="2 格/秒" />
+    <UnitProperty pKey="狂暴持续时间" pValue="8秒" />
+    <UnitProperty pKey="移动速度增加" pValue="2格/秒" />
     <UnitProperty pKey="伤害增加" pValue="70%" />
     <UnitProperty pKey="所需战宠小屋等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="14" />
@@ -94,21 +94,21 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 15 级大牦的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 15级大牦的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 15 级大牦的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 15级大牦的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>2 ~ 13 级大牦的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 15 级大牦的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 13级大牦的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 15级大牦的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>4 ~ 10 级大牦的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 15 级大牦的升级费用降低。</TimelineRow>
+        <TimelineRow>4 ~ 10级大牦的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 15级大牦的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 11 ~ 15 级大牦。</TimelineRow>
+        <TimelineRow>15本新增11 ~ 15级大牦。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/09/27">
         <TimelineRow>移除了大牦攻击时的溅射伤害。</TimelineRow>

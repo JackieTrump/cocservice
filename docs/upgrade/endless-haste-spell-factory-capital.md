@@ -18,10 +18,10 @@ canonical: /upgrade/endless-haste-spell-factory-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Spell_Factory_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Endless_Haste_Spell_Factory1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Endless_Haste_Spell_Factory2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Endless_Haste_Spell_Factory3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Endless_Haste_Spell_Factory4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Endless_Haste_Spell_Factory1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Endless_Haste_Spell_Factory2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Endless_Haste_Spell_Factory3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Endless_Haste_Spell_Factory4.png" />
     </UnitImgGroup>
 </Panel>
 

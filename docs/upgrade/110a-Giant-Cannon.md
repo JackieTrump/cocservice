@@ -20,16 +20,16 @@ canonical: /upgrade/110a-Giant-Cannon
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Giant_Cannon1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Giant_Cannon2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Giant_Cannon3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Giant_Cannon4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Giant_Cannon5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Giant_Cannon6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Giant_Cannon7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Giant_Cannon8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Giant_Cannon9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Giant_Cannon10.png" />
+        <UnitImg imgTitle="1级" imgSrc="Giant_Cannon1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Giant_Cannon2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Giant_Cannon3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Giant_Cannon4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Giant_Cannon5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Giant_Cannon6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Giant_Cannon7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Giant_Cannon8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Giant_Cannon9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Giant_Cannon10.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -46,14 +46,14 @@ canonical: /upgrade/110a-Giant-Cannon
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="穿透伤害<sup>①</sup>" />
-    <UnitProperty pKey="伤害半径" pValue="1.2 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.2格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="9.5 格<sup>②</sup>" />
-    <UnitProperty pKey="攻速" pValue="5 秒/次" />
+    <UnitProperty pKey="射程" pValue="9.5格<sup>②</sup>" />
+    <UnitProperty pKey="攻速" pValue="5秒/次" />
 </UnitProperties>
 
 ① 穿透伤害：对炮弹经过的目标都造成伤害。<br>
-② 巨型加农炮只能发现 9.5 格以内的目标并进行攻击，但它的炮弹会一直穿过整个地图， 并对被炮弹击中的目标造成伤害。
+② 巨型加农炮只能发现9.5格以内的目标并进行攻击，但它的炮弹会一直穿过整个地图， 并对被炮弹击中的目标造成伤害。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -101,11 +101,11 @@ const tableExtraInfo = [
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
         <TimelineRow>所有等级巨型加农炮的升级时间增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，巨型加农炮可升至 10 级。</TimelineRow>
-        <TimelineRow>巨型加农炮的射程由 9 格提升到 9.5 格。</TimelineRow>
+        <TimelineRow>夜世界10本推出，巨型加农炮可升至10级。</TimelineRow>
+        <TimelineRow>巨型加农炮的射程由9格提升到9.5格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，巨型加农炮可升至 9 级。</TimelineRow>
+        <TimelineRow>夜世界9本推出，巨型加农炮可升至9级。</TimelineRow>
         <TimelineRow>巨型加农炮不再对战争机器造成多倍伤害。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

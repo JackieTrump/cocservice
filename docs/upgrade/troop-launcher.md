@@ -15,10 +15,10 @@ canonical: /upgrade/troop-launcher
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Troop_Launcher1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Troop_Launcher2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Troop_Launcher3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Troop_Launcher4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Troop_Launcher1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Troop_Launcher2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Troop_Launcher3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Troop_Launcher4.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -39,7 +39,7 @@ canonical: /upgrade/troop-launcher
     <UnitProperty pKey="作用目标" pValue="最近的进攻方部队" />
     <UnitProperty pKey="占据人口" pValue="30" />
     <UnitProperty pKey="最远投放距离" pValue="未知" />
-    <UnitProperty pKey="投放速度" pValue="6 秒/次" />
+    <UnitProperty pKey="投放速度" pValue="6秒/次" />
     <UnitProperty pKey="移动速度" pValue="0 (无法移动)" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="8" />
     <UnitProperty pKey="所需大本等级" pValue="16" />
@@ -69,23 +69,23 @@ const tableExtraInfo = [
 
 | 等级 |最长<br>存活时间|桶的<br>数量|野蛮人<br>数量|弓箭手<br>数量|巨人<br>数量|炸弹人<br>数量|部队<br>等级| 生命值|升级花费| 升级时间|所需<br>实验室等级|所需<br>大本等级|
 |  --- |      ---      |    ---    |     ---     |     ---     |    ---     |     ---     |    ---    | ---- |  ----  |  ----  |       ---       |      ---      |
-|   1  |     80 秒     |     5     |      2      |      3      |     1      |      1      |      9    | 2000 |     \  |    \   |          1      |       16      |
-|   2  |     88 秒     |     5     |      2      |      3      |     1      |      2      |     10    | 2200 |  8.5M  |    6   |         14      |       16      |
-|   3  |     96 秒     |     6     |      2      |      4      |     1      |      2      |     11    | 2400 |   10M  |    9   |         14      |       16      |
-|   4  |    104 秒     |     7     |      2      |      4      |     1      |      2      |     12    | 2600 |   17M  |    9   |         15      |       17      |
+|   1  |     80秒     |     5     |      2      |      3      |     1      |      1      |      9    | 2000 |     \  |    \   |          1      |       16      |
+|   2  |     88秒     |     5     |      2      |      3      |     1      |      2      |     10    | 2200 |  8.5M  |    6   |         14      |       16      |
+|   3  |     96秒     |     6     |      2      |      4      |     1      |      2      |     11    | 2400 |   10M  |    9   |         14      |       16      |
+|   4  |    104秒     |     7     |      2      |      4      |     1      |      2      |     12    | 2600 |   17M  |    9   |         15      |       17      |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>4 级部队发射器的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>4级部队发射器的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>在 16 本新增攻城机器：部队发射器。</TimelineRow>
+        <TimelineRow>在16本新增攻城机器：部队发射器。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

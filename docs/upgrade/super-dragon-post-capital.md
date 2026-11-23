@@ -16,10 +16,10 @@ canonical: /upgrade/super-dragon-post-capital
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Guard_Post_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Super_Dragon_Post1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Super_Dragon_Post2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Super_Dragon_Post3.png" />
-        <UnitImg imgTitle="4 - 5 级" imgSrc="Super_Dragon_Post4.png" />      
+        <UnitImg imgTitle="1级" imgSrc="Super_Dragon_Post1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Super_Dragon_Post2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Super_Dragon_Post3.png" />
+        <UnitImg imgTitle="4 - 5级" imgSrc="Super_Dragon_Post4.png" />      
     </UnitImgGroup>
 </Panel>
 

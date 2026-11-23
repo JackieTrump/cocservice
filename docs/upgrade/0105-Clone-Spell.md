@@ -21,12 +21,12 @@ canonical: /upgrade/0105-Clone-Spell
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="作用半径" pValue="3.5 格" />
+    <UnitProperty pKey="作用半径" pValue="3.5格" />
     <UnitProperty pKey="作用类型" pValue="复制部队" />
     <UnitProperty pKey="作用目标" pValue="我方部队" />
-    <UnitProperty pKey="法术持续时间" pValue="18 秒" />
-    <UnitProperty pKey="复制间隔" pValue="0.3 秒" />
-    <UnitProperty pKey="复制出的军队有效时间" pValue="30 秒" />
+    <UnitProperty pKey="法术持续时间" pValue="18秒" />
+    <UnitProperty pKey="复制间隔" pValue="0.3秒" />
+    <UnitProperty pKey="复制出的军队有效时间" pValue="30秒" />
     <UnitProperty pKey="占用的法术空间" pValue="3" />
     <UnitProperty pKey="所需法术工厂等级" pValue="5" />
     <UnitProperty pKey="所需大本等级" pValue="10" />
@@ -73,40 +73,40 @@ const tableExtraInfo = [
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>4 ~ 5、7 ~ 8 级镜像法术的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 5、7 ~ 8级镜像法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 8 级镜像法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 8级镜像法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>6 ~ 8 级镜像法术的升级时间减少。</TimelineRow>
-        <TimelineRow>7 ~ 8 级镜像法术的升级费用降低。</TimelineRow>
+        <TimelineRow>6 ~ 8级镜像法术的升级时间减少。</TimelineRow>
+        <TimelineRow>7 ~ 8级镜像法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>3 ~ 8 级镜像法术的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 8级镜像法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 8 级镜像法术。</TimelineRow>
-        <TimelineRow>6 级镜像法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本新增8级镜像法术。</TimelineRow>
+        <TimelineRow>6级镜像法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>2 ~ 6 级镜像法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 6级镜像法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
-        <TimelineRow>1 ~ 4 级镜像法术可复制的部队人口数增加。</TimelineRow>
+        <TimelineRow>1 ~ 4级镜像法术可复制的部队人口数增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 6 级镜像法术的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 5 级镜像法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 6级镜像法术的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 5级镜像法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 7 级镜像法术。</TimelineRow>
-        <TimelineRow>6 级镜像法术可复制的部队单位从 33 提高到 34。</TimelineRow>
-        <TimelineRow>2 ~ 5 级镜像法术的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 3 级镜像法术的升级时间减少。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增7级镜像法术。</TimelineRow>
+        <TimelineRow>6级镜像法术可复制的部队单位从33提高到34。</TimelineRow>
+        <TimelineRow>2 ~ 5级镜像法术的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 3级镜像法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>13 本新增 6 级镜像法术。</TimelineRow>
+        <TimelineRow>13本新增6级镜像法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

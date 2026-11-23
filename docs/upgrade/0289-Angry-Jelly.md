@@ -34,9 +34,9 @@ canonical: /upgrade/0289-Angry-Jelly
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="0.75 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="5 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.75秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="5格" />
     <UnitProperty pKey="所需战宠小屋等级" pValue="10" />
     <UnitProperty pKey="所需大本等级" pValue="16" />
 </UnitProperties>
@@ -84,10 +84,10 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 10 级愤怒水母的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 10级愤怒水母的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 10 级愤怒水母的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 10级愤怒水母的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/04/17">
         <TimelineRow>新战宠：愤怒水母。</TimelineRow>

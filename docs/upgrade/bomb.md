@@ -15,22 +15,22 @@ canonical: /upgrade/bomb
 
 <Panel>
     <UnitImgGroup title="常规模型" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Bomb1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Bomb3.png" />
-        <UnitImg imgTitle="5 - 6 级" imgSrc="Bomb5.png" />
-        <UnitImg imgTitle="7 - 8 级" imgSrc="Bomb7.png" />
-        <UnitImg imgTitle="9 - 10 级" imgSrc="Bomb9.png" />
-        <UnitImg imgTitle="11 - 12 级" imgSrc="Bomb11.png" />
-        <UnitImg imgTitle="13 - 14 级" imgSrc="Bomb13.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Bomb1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Bomb3.png" />
+        <UnitImg imgTitle="5 - 6级" imgSrc="Bomb5.png" />
+        <UnitImg imgTitle="7 - 8级" imgSrc="Bomb7.png" />
+        <UnitImg imgTitle="9 - 10级" imgSrc="Bomb9.png" />
+        <UnitImg imgTitle="11 - 12级" imgSrc="Bomb11.png" />
+        <UnitImg imgTitle="13 - 14级" imgSrc="Bomb13.png" />
     </UnitImgGroup>
     <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Bomb1_unarmed.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Bomb3_unarmed.png" />
-        <UnitImg imgTitle="5 - 6 级" imgSrc="Bomb5_unarmed.png" />
-        <UnitImg imgTitle="7 - 8 级" imgSrc="Bomb7_unarmed.png" />
-        <UnitImg imgTitle="9 - 10 级" imgSrc="Bomb9_unarmed.png" />
-        <UnitImg imgTitle="11 - 12 级" imgSrc="Bomb11_unarmed.png" />
-        <UnitImg imgTitle="13 - 14 级" imgSrc="Bomb13_unarmed.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Bomb1_unarmed.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Bomb3_unarmed.png" />
+        <UnitImg imgTitle="5 - 6级" imgSrc="Bomb5_unarmed.png" />
+        <UnitImg imgTitle="7 - 8级" imgSrc="Bomb7_unarmed.png" />
+        <UnitImg imgTitle="9 - 10级" imgSrc="Bomb9_unarmed.png" />
+        <UnitImg imgTitle="11 - 12级" imgSrc="Bomb11_unarmed.png" />
+        <UnitImg imgTitle="13 - 14级" imgSrc="Bomb13_unarmed.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -47,9 +47,9 @@ canonical: /upgrade/bomb
     <UnitProperty pKey="占地面积" pValue="1×1" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="作用目标" pValue="仅地面目标" />
-    <UnitProperty pKey="触发半径" pValue="1.5 格" />
-    <UnitProperty pKey="伤害半径" pValue="3 格" />
-    <UnitProperty pKey="爆炸延时" pValue="1.5 秒" />
+    <UnitProperty pKey="触发半径" pValue="1.5格" />
+    <UnitProperty pKey="伤害半径" pValue="3格" />
+    <UnitProperty pKey="爆炸延时" pValue="1.5秒" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -99,55 +99,55 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 14 级隐形炸弹。</TimelineRow>
-        <TimelineRow>13 级隐形炸弹的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增14级隐形炸弹。</TimelineRow>
+        <TimelineRow>13级隐形炸弹的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>3 ~ 12 级隐形炸弹的升级时间减少。</TimelineRow>
-        <TimelineRow>4 ~ 12 级隐形炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 12级隐形炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 12级隐形炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 13 级隐形炸弹。</TimelineRow>
-        <TimelineRow>6 ~ 12 级隐形炸弹的升级时间减少。</TimelineRow>
-        <TimelineRow>9 ~ 12 级隐形炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增13级隐形炸弹。</TimelineRow>
+        <TimelineRow>6 ~ 12级隐形炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 12级隐形炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>5 ~ 11 级隐形炸弹的升级时间减少。</TimelineRow>
-        <TimelineRow>10 ~ 11 级隐形炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>5 ~ 11级隐形炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>10 ~ 11级隐形炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 12 级隐形炸弹。</TimelineRow>
-        <TimelineRow>3 ~ 10 级隐形炸弹的升级时间减少。</TimelineRow>
-        <TimelineRow>4 ~ 10 级隐形炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增12级隐形炸弹。</TimelineRow>
+        <TimelineRow>3 ~ 10级隐形炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 10级隐形炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>9 级隐形炸弹的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>9级隐形炸弹的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 11 级隐形炸弹。</TimelineRow>
-        <TimelineRow>7 ~ 10 级隐形炸弹的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增11级隐形炸弹。</TimelineRow>
+        <TimelineRow>7 ~ 10级隐形炸弹的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>6 ~ 8 级隐形炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>6 ~ 8级隐形炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 10 级隐形炸弹。</TimelineRow>
-        <TimelineRow>14 本新解锁一个隐形炸弹。</TimelineRow>
-        <TimelineRow>5 ~ 7 级隐形炸弹的升级费用降低。</TimelineRow>
-        <TimelineRow>2、5、6 级隐形炸弹的升级时间减少。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增10级隐形炸弹。</TimelineRow>
+        <TimelineRow>14本新解锁一个隐形炸弹。</TimelineRow>
+        <TimelineRow>5 ~ 7级隐形炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>2、5、6级隐形炸弹的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/01/20">
-        <TimelineRow>9 级隐形炸弹的伤害从 112 提升至 125。</TimelineRow>
+        <TimelineRow>9级隐形炸弹的伤害从112提升至125。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>5 ~ 7 级隐形炸弹的升级费用降低。</TimelineRow>
+        <TimelineRow>5 ~ 7级隐形炸弹的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本推出，并在 13 本新增 9 级隐形炸弹。</TimelineRow>
-        <TimelineRow>13 本新解锁一个隐形炸弹。</TimelineRow>
+        <TimelineRow>13本推出，并在13本新增9级隐形炸弹。</TimelineRow>
+        <TimelineRow>13本新解锁一个隐形炸弹。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>7 ~ 8 级隐形炸弹的伤害提高。</TimelineRow>
+        <TimelineRow>7 ~ 8级隐形炸弹的伤害提高。</TimelineRow>
         <TimelineRow>玩家上线后，所有的陷阱将自动被重新布置，重新布置不再需要花费金币。然而，如果玩家不上线，陷阱就不会被重新布置，所以你仍然可以攻击到陷阱失效的村庄。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

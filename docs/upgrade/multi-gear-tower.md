@@ -47,9 +47,9 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="建造中" imgSrc="Multi-Gear_Tower_Ruin.png" imgHd="Multi-Gear_Tower_Ruin_hd.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Multi-Gear_Tower1_LongRange.png" imgHd="Multi-Gear_Tower1_LongRange_hd.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Multi-Gear_Tower2_LongRange.png" imgHd="Multi-Gear_Tower2_LongRange_hd.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Multi-Gear_Tower3_LongRange.png" imgHd="Multi-Gear_Tower3_LongRange_hd.png" />
+        <UnitImg imgTitle="1级" imgSrc="Multi-Gear_Tower1_LongRange.png" imgHd="Multi-Gear_Tower1_LongRange_hd.png" />
+        <UnitImg imgTitle="2级" imgSrc="Multi-Gear_Tower2_LongRange.png" imgHd="Multi-Gear_Tower2_LongRange_hd.png" />
+        <UnitImg imgTitle="3级" imgSrc="Multi-Gear_Tower3_LongRange.png" imgHd="Multi-Gear_Tower3_LongRange_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -62,7 +62,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 复合机械塔由一个改装后的 21 级 [加农炮](/upgrade/0301-Cannon) 和一个改装后的 21 级 [箭塔](/upgrade/archer-tower) 合并而来。
+1. 复合机械塔由一个改装后的21级 [加农炮](/upgrade/0301-Cannon) 和一个改装后的21级 [箭塔](/upgrade/archer-tower) 合并而来。
     - 合并一旦开始就无法取消。
     - 合并建筑的操作是永久性的，一旦合并就无法拆开。
     - 如果你的加农炮或箭塔未改装，则无法合并。
@@ -76,8 +76,8 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="12 格" />
-    <UnitProperty pKey="攻速" pValue="1 秒/次" />
+    <UnitProperty pKey="射程" pValue="12格" />
+    <UnitProperty pKey="攻速" pValue="1秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -103,9 +103,9 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="建造中" imgSrc="Multi-Gear_Tower_Ruin.png" imgHd="Multi-Gear_Tower_Ruin_hd.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Multi-Gear_Tower1_FastAttack.png" imgHd="Multi-Gear_Tower1_FastAttack_hd.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Multi-Gear_Tower2_FastAttack.png" imgHd="Multi-Gear_Tower2_FastAttack_hd.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Multi-Gear_Tower3_FastAttack.png" imgHd="Multi-Gear_Tower3_FastAttack_hd.png" />
+        <UnitImg imgTitle="1级" imgSrc="Multi-Gear_Tower1_FastAttack.png" imgHd="Multi-Gear_Tower1_FastAttack_hd.png" />
+        <UnitImg imgTitle="2级" imgSrc="Multi-Gear_Tower2_FastAttack.png" imgHd="Multi-Gear_Tower2_FastAttack_hd.png" />
+        <UnitImg imgTitle="3级" imgSrc="Multi-Gear_Tower3_FastAttack.png" imgHd="Multi-Gear_Tower3_FastAttack_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -118,7 +118,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 复合机械塔由一个改装后的 21 级 [加农炮](/upgrade/0301-Cannon) 和一个改装后的 21 级 [箭塔](/upgrade/archer-tower) 合并而来。
+1. 复合机械塔由一个改装后的21级 [加农炮](/upgrade/0301-Cannon) 和一个改装后的21级 [箭塔](/upgrade/archer-tower) 合并而来。
     - 合并一旦开始就无法取消。
     - 如果你的加农炮或箭塔未改装，则无法合并。
     - 升本前必须合并完所有可以合并的建筑。
@@ -131,11 +131,11 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="8 格" />
-    <UnitProperty pKey="攻速" pValue="约 0.96 秒/轮<sup>*</sup>" />
+    <UnitProperty pKey="射程" pValue="8格" />
+    <UnitProperty pKey="攻速" pValue="约0.96秒/轮<sup>*</sup>" />
 </UnitProperties>
 
-\* 在快速攻击模式下，4 连发期间每发 0.192 秒，之后停顿 0.383 秒。如果目标在复合机械塔还没打完 4 连发之前死亡，导致复合机械塔没有发射全部 4 发炮弹时，每发没有射出去的炮弹会减少 0.192 秒攻击间隔。这里的 0.96 是这么算的：0.192 * (4 - 1) + 0.383 = 0.959 (秒) ≈ 0.96 (秒)。
+\* 在快速攻击模式下，4连发期间每发0.192秒，之后停顿0.383秒。如果目标在复合机械塔还没打完4连发之前死亡，导致复合机械塔没有发射全部4发炮弹时，每发没有射出去的炮弹会减少0.192秒攻击间隔。这里的0.96是这么算的：0.192 * (4 - 1) + 0.383 = 0.959 (秒) ≈ 0.96 (秒)。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -159,14 +159,14 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
         <TimelineRow>所有等级复合机械塔在远程攻击模式下的伤害提升，在快速攻击模式下的伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 3 级复合机械塔。</TimelineRow>
-        <TimelineRow>1 ~ 2 级复合机械塔的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增3级复合机械塔。</TimelineRow>
+        <TimelineRow>1 ~ 2级复合机械塔的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>复合机械塔成为可以充能的建筑。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>在 17 本新增复合机械塔。</TimelineRow>
+        <TimelineRow>在17本新增复合机械塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

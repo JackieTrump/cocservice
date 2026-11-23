@@ -15,9 +15,9 @@ canonical: /upgrade/0010-Root-Rider
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Root_Rider1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Root_Rider2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Root_Rider3.png" />
+        <UnitImg imgTitle="1级" imgSrc="Root_Rider1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Root_Rider2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Root_Rider3.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -29,14 +29,14 @@ canonical: /upgrade/0010-Root-Rider
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2.2 秒/次" />
-    <UnitProperty pKey="攻击速度 (对城墙)" pValue="0.4 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2.2秒/次" />
+    <UnitProperty pKey="攻击速度 (对城墙)" pValue="0.4秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1格" />
     <UnitProperty pKey="所需训练营等级" pValue="17" />
     <UnitProperty pKey="所需大本等级" pValue="15" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -74,21 +74,21 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>2 ~ 3 级根蔓骑士的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3级根蔓骑士的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 3 级根蔓骑士的升级时间减少。</TimelineRow>
-        <TimelineRow>2 级根蔓骑士的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 3级根蔓骑士的升级时间减少。</TimelineRow>
+        <TimelineRow>2级根蔓骑士的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>根蔓骑士的训练时间由 3:40 改为 2:50</TimelineRow>
+        <TimelineRow>根蔓骑士的训练时间由 3:40改为 2:50</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>3 级根蔓骑士的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 3 级根蔓骑士的升级费用降低。</TimelineRow>
+        <TimelineRow>3级根蔓骑士的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3级根蔓骑士的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/03">
         <TimelineRow>所有等级根蔓骑士的每秒伤害降低（190/210/230 => 95/105/115）。</TimelineRow>
@@ -101,7 +101,7 @@ const tableExtraInfo = [
         <TimelineRow>所有等级根蔓骑士的生命值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 15 本新增根蔓骑士，共设 3 个等级。</TimelineRow>
+        <TimelineRow>16本推出，并在15本新增根蔓骑士，共设3个等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

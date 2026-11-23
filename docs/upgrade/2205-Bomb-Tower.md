@@ -18,11 +18,11 @@ canonical: /upgrade/2205-Bomb-Tower
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Bomb_Tower_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Bomb_Tower1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Bomb_Tower2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Bomb_Tower3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Bomb_Tower4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Bomb_Tower5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Bomb_Tower1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Bomb_Tower2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Bomb_Tower3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Bomb_Tower4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Bomb_Tower5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -53,12 +53,12 @@ canonical: /upgrade/2205-Bomb-Tower
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.2 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.2格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="5 格" />
-    <UnitProperty pKey="攻速" pValue="1.1 秒/次" />
-    <UnitProperty pKey="死亡伤害半径" pValue="2.75 格" />
-    <UnitProperty pKey="死亡伤害延迟" pValue="1 秒" />
+    <UnitProperty pKey="射程" pValue="5格" />
+    <UnitProperty pKey="攻速" pValue="1.1秒/次" />
+    <UnitProperty pKey="死亡伤害半径" pValue="2.75格" />
+    <UnitProperty pKey="死亡伤害延迟" pValue="1秒" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -95,7 +95,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>2 ~ 5 级都城炸弹塔的每秒伤害降低。</TimelineRow>
+        <TimelineRow>2 ~ 5级都城炸弹塔的每秒伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>炸弹塔随着部落都城玩法一同推出。</TimelineRow>

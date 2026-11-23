@@ -24,7 +24,7 @@ canonical: /upgrade/200a-Power-P.E.K.K.A
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 雷霆皮卡的解锁条件是建造 [雷霆皮卡训练营](/upgrade/power-pekka-barracks-capital)，而这需要部落将建筑工人工坊这个子城的大本营升到 2 级，并且 [都城大本营](/upgrade/2400-Capital-Hall) 需要达到 6 级。
+1. 雷霆皮卡的解锁条件是建造 [雷霆皮卡训练营](/upgrade/power-pekka-barracks-capital)，而这需要部落将建筑工人工坊这个子城的大本营升到2级，并且 [都城大本营](/upgrade/2400-Capital-Hall) 需要达到6级。
 2. 雷霆皮卡的技能（能量过载）：在死亡时产生巨大的爆炸。
 
 <SmallTitle>属性</SmallTitle>
@@ -36,9 +36,9 @@ canonical: /upgrade/200a-Power-P.E.K.K.A
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="配兵人口" pValue="40" />
     <UnitProperty pKey="防守人口" pValue="40" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.8 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.8秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.8格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -58,7 +58,7 @@ canonical: /upgrade/200a-Power-P.E.K.K.A
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>3 ~ 5 级雷霆皮卡的生命值由 8400/9200/10000 增加到 8500/9300/10300.</TimelineRow>
+        <TimelineRow>3 ~ 5级雷霆皮卡的生命值由8400/9200/10000增加到8500/9300/10300.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/05/15">
         <TimelineRow>“超级皮卡”更名为“雷霆皮卡”.</TimelineRow>

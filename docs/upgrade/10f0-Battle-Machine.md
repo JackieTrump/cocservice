@@ -28,9 +28,9 @@ canonical: /upgrade/10f0-Battle-Machine
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="移动速度" pValue="2.0 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1.25 格" />
+    <UnitProperty pKey="移动速度" pValue="2.0格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1.25格" />
     <UnitProperty pKey="解锁所需大本营等级" pValue="5" />
 </UnitProperties>
 
@@ -48,18 +48,18 @@ canonical: /upgrade/10f0-Battle-Machine
 <UnitProperties>
     <UnitProperty pKey="技能名称" pValue="电磁战锤" />
     <UnitProperty pKey="技能描述" pValue="见说明<sup>*</sup>" />
-    <UnitProperty pKey="能量条充能速度" pValue="13 秒/格" />
-    <UnitProperty pKey="技能生效时间" pValue="3 次攻击" />
+    <UnitProperty pKey="能量条充能速度" pValue="13秒/格" />
+    <UnitProperty pKey="技能生效时间" pValue="3次攻击" />
     <UnitProperty pKey="伤害类型" pValue="链式伤害" />
-    <UnitProperty pKey="连锁距离" pValue="3 格以内" />
+    <UnitProperty pKey="连锁距离" pValue="3格以内" />
     <UnitProperty pKey="最大目标数量" pValue="详见升级数据" />
-    <UnitProperty pKey="连锁延迟" pValue="0.128 秒" />
-    <UnitProperty pKey="1 级能量条连锁衰减" pValue="100% (不能连锁)" />
-    <UnitProperty pKey="2 级能量条连锁衰减" pValue="50% (逐级递减)" />
-    <UnitProperty pKey="3 级能量条连锁衰减" pValue="30% (逐级递减)" />
+    <UnitProperty pKey="连锁延迟" pValue="0.128秒" />
+    <UnitProperty pKey="1级能量条连锁衰减" pValue="100% (不能连锁)" />
+    <UnitProperty pKey="2级能量条连锁衰减" pValue="50% (逐级递减)" />
+    <UnitProperty pKey="3级能量条连锁衰减" pValue="30% (逐级递减)" />
 </UnitProperties>
 
-\* 电磁战锤：在接下来的几次攻击造成额外伤害，并恢复部分生命值。如果启用技能时能量条达到 2 级，则接下来的几次攻击含有连锁效果。
+\* 电磁战锤：在接下来的几次攻击造成额外伤害，并恢复部分生命值。如果启用技能时能量条达到2级，则接下来的几次攻击含有连锁效果。
 
 <SmallTitle>战争机器的升级数据</SmallTitle>
 
@@ -123,12 +123,12 @@ const tableExtraInfo = [
 <SmallTitle>特殊技能的升级数据</SmallTitle>
 
 <SwitchTabs contentClass="cp-upgrade-skill">
-    <SwitchTab tabId="cp-upgrade-skill-bar-1" :activeTab="true">1 级能量条</SwitchTab>
-    <SwitchTab tabId="cp-upgrade-skill-bar-2">2 级能量条</SwitchTab>
-    <SwitchTab tabId="cp-upgrade-skill-bar-3">3 级能量条</SwitchTab>
+    <SwitchTab tabId="cp-upgrade-skill-bar-1" :activeTab="true">1级能量条</SwitchTab>
+    <SwitchTab tabId="cp-upgrade-skill-bar-2">2级能量条</SwitchTab>
+    <SwitchTab tabId="cp-upgrade-skill-bar-3">3级能量条</SwitchTab>
 </SwitchTabs>
 
-<!-- ↓↓↓ 1 级能量条 ↓↓↓ -->
+<!-- ↓↓↓ 1级能量条 ↓↓↓ -->
 <SwitchTabGroup id="cp-upgrade-skill-bar-1" class="cp-upgrade-skill">
 <Table>
 
@@ -144,7 +144,7 @@ const tableExtraInfo = [
 </Table>
 </SwitchTabGroup>
 
-<!-- ↓↓↓ 2 级能量条 ↓↓↓ -->
+<!-- ↓↓↓ 2级能量条 ↓↓↓ -->
 <SwitchTabGroup id="cp-upgrade-skill-bar-2" class="cp-upgrade-skill">
 <Table>
 
@@ -160,7 +160,7 @@ const tableExtraInfo = [
 </Table>
 </SwitchTabGroup>
 
-<!-- ↓↓↓ 3 级能量条 ↓↓↓ -->
+<!-- ↓↓↓ 3级能量条 ↓↓↓ -->
 <SwitchTabGroup id="cp-upgrade-skill-bar-3" class="cp-upgrade-skill">
 <Table>
 
@@ -186,30 +186,30 @@ const tableExtraInfo = [
         <TimelineRow>将技能的生效时间更改为两次攻击。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/05/15">
-        <TimelineRow>新增 31 - 35 级战争机器。</TimelineRow>
+        <TimelineRow>新增31 - 35级战争机器。</TimelineRow>
         <TimelineRow>现在夜世界英雄的技能强度分成了三个充能等级，充能等级越高，技能越强。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/22">
-        <TimelineRow>提升了 21 至 30 级战争机器的每秒伤害值。</TimelineRow>
+        <TimelineRow>提升了21至30级战争机器的每秒伤害值。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
         <TimelineRow>移除战争的恢复时间。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本开放，战争机器可升至 30 级。</TimelineRow>
+        <TimelineRow>夜世界9本开放，战争机器可升至30级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
         <TimelineRow>巨型加农炮不再对战争机器造成多倍伤害。</TimelineRow>
         <TimelineRow>所有等级战争机器的恢复时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2018/03/05">
-        <TimelineRow>夜世界 8 本开放，战争机器可升至 25 级。</TimelineRow>
+        <TimelineRow>夜世界8本开放，战争机器可升至25级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2017/09/27">
-        <TimelineRow>夜世界 7 本开放，战争机器可升至 20 级。</TimelineRow>
+        <TimelineRow>夜世界7本开放，战争机器可升至20级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2017/06/27">
-        <TimelineRow>夜世界 6 本开放，战争机器可升至 10 级。</TimelineRow>
+        <TimelineRow>夜世界6本开放，战争机器可升至10级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -18,11 +18,11 @@ canonical: /upgrade/220f-Blast-Bow
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Blast_Bow_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Blast_Bow1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Blast_Bow2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Blast_Bow3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Blast_Bow4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Blast_Bow5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Blast_Bow1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Blast_Bow2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Blast_Bow3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Blast_Bow4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Blast_Bow5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -52,10 +52,10 @@ canonical: /upgrade/220f-Blast-Bow
     <UnitProperty pKey="占地面积" pValue="4×4" />
     <UnitProperty pKey="判定面积" pValue="3×3" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.2 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.2格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="3.5 ~ 14 格" />
-    <UnitProperty pKey="攻速" pValue="4 秒/次" />
+    <UnitProperty pKey="射程" pValue="3.5 ~ 14格" />
+    <UnitProperty pKey="攻速" pValue="4秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -92,7 +92,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>2 ~ 5 级爆炸强弩的每秒伤害降低。</TimelineRow>
+        <TimelineRow>2 ~ 5级爆炸强弩的每秒伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>爆炸强弩随着部落都城玩法一同推出。</TimelineRow>

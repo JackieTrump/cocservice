@@ -21,7 +21,7 @@ canonical: /upgrade/0e0d-C.O.O.K.I.E
 
 <SmallTitle>重要说明</SmallTitle>
 
-饼干皮卡是饼干大作战活动中的两个临时兵种之一，在活动中获取 3 000 香甜圣水（任务点数）即可解锁该兵种。
+饼干皮卡是饼干大作战活动中的两个临时兵种之一，在活动中获取3 000香甜圣水（任务点数）即可解锁该兵种。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -29,12 +29,12 @@ canonical: /upgrade/0e0d-C.O.O.K.I.E
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.8 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.8格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="10" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.5 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.6 格" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.5秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.6格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />    
     <UnitProperty pKey="训练时间" pValue="60" trainingSystem="2022" />
@@ -64,11 +64,11 @@ canonical: /upgrade/0e0d-C.O.O.K.I.E
 
 <Timeline>
     <TimelineItem date="2024/12/11">
-        <TimelineRow>该兵种第 2 次推出，有效期至 2025/01/01.</TimelineRow>
-        <TimelineRow>这次推出时，现在饼干皮卡只需 6 本即可解锁（之前是 8 本）。</TimelineRow>
+        <TimelineRow>该兵种第2次推出，有效期至2025/01/01.</TimelineRow>
+        <TimelineRow>这次推出时，现在饼干皮卡只需6本即可解锁（之前是8本）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>该兵种第 1 次推出，有效期至 2023/12/29.</TimelineRow>
+        <TimelineRow>该兵种第1次推出，有效期至2023/12/29.</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

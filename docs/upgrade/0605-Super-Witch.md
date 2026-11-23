@@ -32,22 +32,22 @@ canonical: /upgrade/0605-Super-Witch
     <UnitProperty pKey="部队类型" pValue="地面远程单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.3 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.3格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="40" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="0.7 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="4 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.7秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="4格" />
     <UnitProperty pKey="最低女巫等级" pValue="5" />
     <UnitProperty pKey="最低大本等级" pValue="12" />
-    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
-    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="强化费用" pValue="2.5万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3天" />
     <UnitProperty pKey="骷髅召唤频率" pValue="详见说明<sup>*</sup>" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="20,20,900,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
 
-\* 第一个大骷髅在部署后 5 秒召唤，之后每 30 秒召唤一个。
+\* 第一个大骷髅在部署后5秒召唤，之后每30秒召唤一个。
 
 <SmallTitle>大宝宝的属性</SmallTitle>
 
@@ -57,9 +57,9 @@ canonical: /upgrade/0605-Super-Witch
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1格" />
     <UnitProperty pKey="每秒伤害" pValue="350" />
     <UnitProperty pKey="每次伤害" pValue="700" />
     <UnitProperty pKey="生命值" pValue="4 100" />
@@ -81,33 +81,33 @@ canonical: /upgrade/0605-Super-Witch
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>在 18 本新增 8 级女巫，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>在18本新增8级女巫，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>  
     <TimelineItem date="2026/01/12">
-        <TimelineRow>7 级超级女巫的每秒伤害和生命值增加。</TimelineRow>
-        <TimelineRow>大宝宝占用的人口数由 10 调整为 20.</TimelineRow>
+        <TimelineRow>7级超级女巫的每秒伤害和生命值增加。</TimelineRow>
+        <TimelineRow>大宝宝占用的人口数由10调整为20.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>大宝宝（超级女巫的骷髅巨人）占用的人口数由 20 调整为 10，这意味着它现在可以被隐形弹簧弹飞了。</TimelineRow>
+        <TimelineRow>大宝宝（超级女巫的骷髅巨人）占用的人口数由20调整为10，这意味着它现在可以被隐形弹簧弹飞了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>超级女巫的训练时间由 6:40 改为 5:33。</TimelineRow>
+        <TimelineRow>超级女巫的训练时间由 6:40改为 5:33。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 7 级女巫，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增7级女巫，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>    
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 6 级女巫，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增6级女巫，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>超级女巫的训练时间由 1200 秒减少到 800 秒。</TimelineRow>
+        <TimelineRow>超级女巫的训练时间由1200秒减少到800秒。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
-        <TimelineRow>超级部队的有效时间从 7 天缩短为 3 天。</TimelineRow>
-        <TimelineRow>所有部队的强化费用统一调整为 25,000 暗黑重油。</TimelineRow>
+        <TimelineRow>超级部队的有效时间从7天缩短为3天。</TimelineRow>
+        <TimelineRow>所有部队的强化费用统一调整为25,000暗黑重油。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
         <TimelineRow>新超级兵：超级女巫。</TimelineRow>

@@ -23,22 +23,22 @@ canonical: /upgrade/2007-Skeleton-Barrels
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 骷髅飞桶的解锁条件是建造 [骷髅飞桶训练营](/upgrade/2347-Skeleton-Barrel-Barracks)，而这需要部落解锁气球环礁，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到 4 级。
+1. 骷髅飞桶的解锁条件是建造 [骷髅飞桶训练营](/upgrade/2347-Skeleton-Barrel-Barracks)，而这需要部落解锁气球环礁，并且 [都城大本营](/upgrade/2400-Capital-Hall) 达到4级。
 2. 骷髅飞桶攻击一次后会爆出 [骷髅](/upgrade/20c1-Skeleton)。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="空中单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1 格" />
+    <UnitProperty pKey="伤害半径" pValue="1格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="每组兵的配兵人口" pValue="15" />
     <UnitProperty pKey="每组兵的部队数量" pValue="3" />
     <UnitProperty pKey="每个兵的防守人口" pValue="5" />
-    <UnitProperty pKey="移动速度" pValue="1 格/秒" />
-    <UnitProperty pKey="首次进攻时机" pValue="到达目标后 1 秒" />
+    <UnitProperty pKey="移动速度" pValue="1格/秒" />
+    <UnitProperty pKey="首次进攻时机" pValue="到达目标后1秒" />
     <UnitProperty pKey="攻击距离" pValue="0 (建筑头顶)" />
 </UnitProperties>
 

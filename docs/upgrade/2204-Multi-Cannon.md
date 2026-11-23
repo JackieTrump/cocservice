@@ -19,11 +19,11 @@ canonical: /upgrade/2204-Cannon
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="废墟" imgSrc="Multi_Cannon_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Multi_Cannon1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Multi_Cannon2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Multi_Cannon3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Multi_Cannon4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Multi_Cannon5.png" />
+        <UnitImg imgTitle="1级" imgSrc="Multi_Cannon1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Multi_Cannon2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Multi_Cannon3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Multi_Cannon4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Multi_Cannon5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -57,11 +57,11 @@ canonical: /upgrade/2204-Cannon
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="6 格" />
-    <UnitProperty pKey="攻速" pValue="2.88 秒/轮<sup>*</sup>" />
+    <UnitProperty pKey="射程" pValue="6格" />
+    <UnitProperty pKey="攻速" pValue="2.88秒/轮<sup>*</sup>" />
 </UnitProperties>
 
-* 多管加农炮的攻击节奏是 0.16 秒一发，8 发后休息 1.6 秒。
+* 多管加农炮的攻击节奏是0.16秒一发，8发后休息1.6秒。
 
 <SmallTitle>升级数据</SmallTitle>
 

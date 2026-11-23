@@ -2,7 +2,7 @@
 title: "部落冲突 coc 灵蛇手镯装备升级数据"
 navTitle: "灵蛇手镯"
 shownTitle: "灵蛇手镯"
-description: "灵蛇手镯是野蛮人之王的第三件史诗装备，它在 2025 年 2 月的灵蛇庆典活动中首次开放购买。当蛮王带上灵蛇手镯装备后，蛮王每受到 300 点伤害就会召唤蛇，蛇的等级和最大召唤数量与装备等级有关。此外，灵蛇手镯装备还可以提高蛮王的每秒伤害、生命值和攻击速度。"
+description: "灵蛇手镯是野蛮人之王的第三件史诗装备，它在2025年2月的灵蛇庆典活动中首次开放购买。当蛮王带上灵蛇手镯装备后，蛮王每受到300点伤害就会召唤蛇，蛇的等级和最大召唤数量与装备等级有关。此外，灵蛇手镯装备还可以提高蛮王的每秒伤害、生命值和攻击速度。"
 module: upgrade-home
 imgFolder: home_heroes/0706
 wiki: https://clashofclans.fandom.com/wiki/Snake_Bracelet
@@ -22,8 +22,8 @@ canonical: /upgrade/0706-Snake-Bracelet
 
 <SmallTitle>说明</SmallTitle>
 
-1. 灵蛇手镯是 [野蛮人之王](/upgrade/0200-Barbarian-King) 的第三件史诗装备，它在 2025 年 2 月的灵蛇庆典活动中首次开放购买。
-2. 当蛮王带上灵蛇手镯装备后，蛮王每受到 300 点伤害就会召唤蛇，蛇的等级和最大召唤数量与装备等级有关。
+1. 灵蛇手镯是 [野蛮人之王](/upgrade/0200-Barbarian-King) 的第三件史诗装备，它在2025年2月的灵蛇庆典活动中首次开放购买。
+2. 当蛮王带上灵蛇手镯装备后，蛮王每受到300点伤害就会召唤蛇，蛇的等级和最大召唤数量与装备等级有关。
 3. 此外，灵蛇手镯装备还可以提高蛮王的每秒伤害、生命值和攻击速度。
 
 <SmallTitle>属性</SmallTitle>
@@ -99,8 +99,8 @@ const tableExtraInfo = [
 
 | 推出时间 |  活动名称  |     价格        | 购买渠道 |
 |   ---   |    ---    |      ---        |    ---   |
-| 2025/02 |  灵蛇庆典  | 3 100 灵蛇奖章   |   商人   |
-| 2025/06 |  黑暗交易  | 3 100 恶作剧奖章 |   商人   |
+| 2025/02 |  灵蛇庆典  | 3 100灵蛇奖章   |   商人   |
+| 2025/06 |  黑暗交易  | 3 100恶作剧奖章 |   商人   |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -124,9 +124,9 @@ const tableExtraInfo = [
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面目标" />
     <UnitProperty pKey="占据人口" pValue="1" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.4格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

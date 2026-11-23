@@ -31,7 +31,7 @@ canonical: /upgrade/0610-Super-Yeti
 
 <SmallTitle>重要说明</SmallTitle>
 
-超级大雪怪的技能（闪电狂袭）：超级大雪怪受伤时会分裂出雷电小雪怪，具体来说是每受到 400 点伤害分裂一个，分裂完为止。
+超级大雪怪的技能（闪电狂袭）：超级大雪怪受伤时会分裂出雷电小雪怪，具体来说是每受到400点伤害分裂一个，分裂完为止。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -41,13 +41,13 @@ canonical: /upgrade/0610-Super-Yeti
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="35" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.8 格" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.8格" />
     <UnitProperty pKey="最低大雪怪等级" pValue="3" />
     <UnitProperty pKey="最低大本等级" pValue="13" />
-    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
-    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="强化费用" pValue="2.5万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="18,18,54000,Elixir" :isDonationCost="true" />
 </UnitProperties>
@@ -68,7 +68,7 @@ canonical: /upgrade/0610-Super-Yeti
 |      7      |   525   |   525   |          13          |  7000 |     17    |
 </UnitTable>
 
-\* 1 - 2 级超级大雪怪只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
+\* 1 - 2级超级大雪怪只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
 
 </SwitchTabGroup>
 
@@ -95,23 +95,23 @@ canonical: /upgrade/0610-Super-Yeti
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面辅助单位" />
-    <UnitProperty pKey="攻击偏好" pValue="建筑 (4 倍伤害)<sup>①</sup>" />
+    <UnitProperty pKey="攻击偏好" pValue="建筑 (4倍伤害)<sup>①</sup>" />
     <UnitProperty pKey="伤害类型" pValue="链式伤害" />
-    <UnitProperty pKey="连锁距离" pValue="3 格以内" />
+    <UnitProperty pKey="连锁距离" pValue="3格以内" />
     <UnitProperty pKey="最大目标数量" pValue="3 (含初始目标)" />
-    <UnitProperty pKey="连锁延迟" pValue="0.128 秒" />
+    <UnitProperty pKey="连锁延迟" pValue="0.128秒" />
     <UnitProperty pKey="连锁衰减" pValue="20% (逐级递减)" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="目标数量" pValue="3" />
     <UnitProperty pKey="占据人口" pValue="3<sup>②</sup>" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击时机" pValue="到达目标后 0.5 秒<sup>③</sup>" />
-    <UnitProperty pKey="攻击距离" pValue="2.5 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击时机" pValue="到达目标后0.5秒<sup>③</sup>" />
+    <UnitProperty pKey="攻击距离" pValue="2.5格" />
 </UnitProperties>
 
 ① 雷电小雪怪优先攻击建筑（注意并不一定是防御建筑），如果有城堡部队或英雄攻击它，它可以反击，反击完后继续攻击建筑。如果所有的建筑均被 [隐形法术](/upgrade/invisibility-spell) 隐形，或被 [蔓生法术](/upgrade/0185-Overgrowth-Spell) 缠绕，则雷电小雪怪会攻击最近的目标。<br>
-② 在考虑雷电小雪怪与 [隐形弹簧](/upgrade/0381-Spring-Trap)、[镜像法术](/upgrade/0105-Clone-Spell) 或 [回溯法术](/upgrade/0107-Recall-Spell) 的相互作用时，雷电小雪怪应被视为 3 人口。<br>
-③ 根据解析安装包的结果，雷电小雪怪的攻击速度是一秒一次，但实际上雷电小雪怪的首次攻击时机为到达目标后 0.5 秒，且攻击一次后就会死亡，因此其攻速值无意义。
+② 在考虑雷电小雪怪与 [隐形弹簧](/upgrade/0381-Spring-Trap)、[镜像法术](/upgrade/0105-Clone-Spell) 或 [回溯法术](/upgrade/0107-Recall-Spell) 的相互作用时，雷电小雪怪应被视为3人口。<br>
+③ 根据解析安装包的结果，雷电小雪怪的攻击速度是一秒一次，但实际上雷电小雪怪的首次攻击时机为到达目标后0.5秒，且攻击一次后就会死亡，因此其攻速值无意义。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -128,7 +128,7 @@ canonical: /upgrade/0610-Super-Yeti
 |      7      |    90   |         360         |  575  |     17    |
 </UnitTable>
 
-\* 1 - 2 级雷电小雪怪只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
+\* 1 - 2级雷电小雪怪只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->
@@ -136,8 +136,8 @@ canonical: /upgrade/0610-Super-Yeti
 
 <Timeline>
     <TimelineItem date="2025/05/12">
-        <TimelineRow>超级大雪怪于 2025 年 5 月的“迷你大舞台”活动中正式推出，并作为永久兵种加入游戏。</TimelineRow>
-        <TimelineRow>与之前相比，6 - 7 级超级大雪怪可分裂出的雷电小雪怪数量略微减少。</TimelineRow>
+        <TimelineRow>超级大雪怪于2025年5月的“迷你大舞台”活动中正式推出，并作为永久兵种加入游戏。</TimelineRow>
+        <TimelineRow>与之前相比，6 - 7级超级大雪怪可分裂出的雷电小雪怪数量略微减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>官方确认之前添加超级大雪怪并非有意为之，并移除了该兵种。</TimelineRow>

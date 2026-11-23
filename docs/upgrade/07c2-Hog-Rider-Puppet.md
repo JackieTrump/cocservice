@@ -77,13 +77,13 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/01/12">
-        <TimelineRow>1 ~ 18 级野猪骑士木偶装备召唤的野猪骑士数量和等级分别增加 1.</TimelineRow>
+        <TimelineRow>1 ~ 18级野猪骑士木偶装备召唤的野猪骑士数量和等级分别增加1.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
-        <TimelineRow>3 ~ 18 级野猪骑士木偶装备召唤的野猪骑士等级降低。</TimelineRow>
+        <TimelineRow>3 ~ 18级野猪骑士木偶装备召唤的野猪骑士等级降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>在 14 本新增野猪骑士木偶装备。</TimelineRow>
+        <TimelineRow>在14本新增野猪骑士木偶装备。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

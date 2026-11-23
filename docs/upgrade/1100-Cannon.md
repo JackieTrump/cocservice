@@ -20,16 +20,16 @@ canonical: /upgrade/1100-Cannon
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Cannon1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Cannon2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Cannon3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Cannon4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Cannon5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Cannon6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Cannon7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Cannon8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Cannon9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Cannon10.png" />
+        <UnitImg imgTitle="1级" imgSrc="Cannon1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Cannon2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Cannon3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Cannon4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Cannon5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Cannon6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Cannon7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Cannon8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Cannon9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Cannon10.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -47,8 +47,8 @@ canonical: /upgrade/1100-Cannon
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="8.5 格" />
-    <UnitProperty pKey="攻速" pValue="0.8 秒/次" />
+    <UnitProperty pKey="射程" pValue="8.5格" />
+    <UnitProperty pKey="攻速" pValue="0.8秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -95,12 +95,12 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
-        <TimelineRow>6 ~ 9 级加农炮的升级时间增加。</TimelineRow>
-        <TimelineRow>夜世界 10 本推出，加农炮可升至 10 级。</TimelineRow>
-        <TimelineRow>为配合更小的地图，加农炮的射程由 9 格降低到 8.5 格。</TimelineRow>
+        <TimelineRow>6 ~ 9级加农炮的升级时间增加。</TimelineRow>
+        <TimelineRow>夜世界10本推出，加农炮可升至10级。</TimelineRow>
+        <TimelineRow>为配合更小的地图，加农炮的射程由9格降低到8.5格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，加农炮可升至 9 级。</TimelineRow>
+        <TimelineRow>夜世界9本推出，加农炮可升至9级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

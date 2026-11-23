@@ -78,7 +78,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2024/09/09">
-        <TimelineRow>1 - 14 级狂暴宝石装备给光环内部队提供的伤害加成比例提升。</TimelineRow>
+        <TimelineRow>1 - 14级狂暴宝石装备给光环内部队提供的伤害加成比例提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>游戏新增装备系统，狂暴宝石是第一批推出的装备。</TimelineRow>

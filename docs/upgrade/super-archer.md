@@ -32,15 +32,15 @@ canonical: /upgrade/super-archer
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="路径伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="穿透距离" pValue="12 格" />
+    <UnitProperty pKey="穿透距离" pValue="12格" />
     <UnitProperty pKey="占据人口" pValue="12" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.5 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="6 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.5秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="6格" />
     <UnitProperty pKey="最低弓箭手等级" pValue="8" />
     <UnitProperty pKey="最低大本等级" pValue="11" />
-    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
-    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="强化费用" pValue="2.5万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="6,6,18000,Elixir" :isDonationCost="true" />
 </UnitProperties>
@@ -64,41 +64,41 @@ canonical: /upgrade/super-archer
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>18 本新增 14 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>18本新增14级弓箭手，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/01/28">
-        <TimelineRow>10 ~ 13 级超级弓箭手的生命值提升。</TimelineRow>
+        <TimelineRow>10 ~ 13级超级弓箭手的生命值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>17 本新增 13 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>17本新增13级弓箭手，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>11 ~ 12 级超级弓箭手的生命值降低。</TimelineRow>
+        <TimelineRow>11 ~ 12级超级弓箭手的生命值降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 12 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增12级弓箭手，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 11 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增11级弓箭手，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 10 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增10级弓箭手，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/01/20">
-        <TimelineRow>9 级超级弓箭手生命值从 500 提升至 510。</TimelineRow>
+        <TimelineRow>9级超级弓箭手生命值从500提升至510。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
-        <TimelineRow>超级部队的有效时间从 7 天缩短为 3 天。</TimelineRow>
-        <TimelineRow>所有部队的强化费用统一调整为 25,000 暗黑重油。</TimelineRow>
+        <TimelineRow>超级部队的有效时间从7天缩短为3天。</TimelineRow>
+        <TimelineRow>所有部队的强化费用统一调整为25,000暗黑重油。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
-        <TimelineRow>现在超级弓箭手可正确命中距离她 0.1 格的目标。</TimelineRow>
+        <TimelineRow>现在超级弓箭手可正确命中距离她0.1格的目标。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/08/24">
-        <TimelineRow>新的超级兵种：超级弓箭手，11 本可强化。</TimelineRow>
+        <TimelineRow>新的超级兵种：超级弓箭手，11本可强化。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

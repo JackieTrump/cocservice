@@ -17,9 +17,9 @@ canonical: /upgrade/spring-trap-bh
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Spring_Trap1.png"/>
-        <UnitImg imgTitle="2 - 3 级" imgSrc="Spring_Trap2.png"/>
-        <UnitImg imgTitle="4 - 5 级" imgSrc="Spring_Trap4.png"/>
+        <UnitImg imgTitle="1级" imgSrc="Spring_Trap1.png"/>
+        <UnitImg imgTitle="2 - 3级" imgSrc="Spring_Trap2.png"/>
+        <UnitImg imgTitle="4 - 5级" imgSrc="Spring_Trap4.png"/>
     </UnitImgGroup>
 </Panel>
 
@@ -32,8 +32,8 @@ canonical: /upgrade/spring-trap-bh
 
 <SmallTitle>重要说明</SmallTitle>
 
-2025/10 更新后，夜世界的隐形弹簧重做，其机制与家乡的隐形弹簧类似，详见家乡的 [隐形弹簧](/upgrade/0381-Spring-Trap)
-页面。这里只强调一个不同点，夜世界的隐形弹簧可以弹飞的部队人口数固定为 4，不能随升级改变。
+2025/10更新后，夜世界的隐形弹簧重做，其机制与家乡的隐形弹簧类似，详见家乡的 [隐形弹簧](/upgrade/0381-Spring-Trap)
+页面。这里只强调一个不同点，夜世界的隐形弹簧可以弹飞的部队人口数固定为4，不能随升级改变。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -41,8 +41,8 @@ canonical: /upgrade/spring-trap-bh
     <UnitProperty pKey="占地面积" pValue="1×1" />
     <UnitProperty pKey="作用类型" pValue="弹飞敌军或对敌军造成高额伤害" />
     <UnitProperty pKey="作用目标" pValue="仅地面目标" />
-    <UnitProperty pKey="触发半径" pValue="1 格" />
-    <UnitProperty pKey="作用半径" pValue="2 格" />
+    <UnitProperty pKey="触发半径" pValue="1格" />
+    <UnitProperty pKey="作用半径" pValue="2格" />
     <UnitProperty pKey="陷阱作用延时" pValue="无" />
 </UnitProperties>
 
@@ -85,16 +85,16 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2025/10/06">
         <TimelineRow>夜世界的隐形弹簧重做，其机制与家乡的隐形弹簧类似。</TimelineRow>
-        <TimelineRow>在夜世界 10 本推出 5 级隐形弹簧。</TimelineRow>
+        <TimelineRow>在夜世界10本推出5级隐形弹簧。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/05/15">
         <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
         <TimelineRow>所有等级隐形弹簧可以弹飞的兵种重量降低。</TimelineRow>
-        <TimelineRow>3 ~ 4 级隐形弹簧的升级费用增加。</TimelineRow>
+        <TimelineRow>3 ~ 4级隐形弹簧的升级费用增加。</TimelineRow>
         <TimelineRow>所有等级隐形弹簧可以弹飞的兵种重量降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>夜世界 9 本推出，9 本新增一个隐形弹簧。</TimelineRow>
+        <TimelineRow>夜世界9本推出，9本新增一个隐形弹簧。</TimelineRow>
     </TimelineItem>    
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -21,7 +21,7 @@ canonical: /upgrade/0e06-Party-Wizard
 
 <SmallTitle>重要说明</SmallTitle>
 
-派对法师一般在部落冲突生日（8 月 2 日）前后推出，他比 [普通法师](/upgrade/0006-Wizard) 的移动速度更快，伤害也更高，但生命值更少。
+派对法师一般在部落冲突生日（8月2日）前后推出，他比 [普通法师](/upgrade/0006-Wizard) 的移动速度更快，伤害也更高，但生命值更少。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -29,12 +29,12 @@ canonical: /upgrade/0e06-Party-Wizard
     <UnitProperty pKey="部队类型" pValue="地面远程单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.3 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.3格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="4" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="3 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3格" />
     <UnitProperty pKey="所需训练营等级" pValue="7" />
     <UnitProperty pKey="所需大本等级" pValue="5" />
     <UnitProperty pKey="训练时间" pValue="30" trainingSystem="2022" />
@@ -59,22 +59,22 @@ canonical: /upgrade/0e06-Party-Wizard
 |  11  |   390   |   390   |   216  |      15      |
 </UnitTable>
 
-\* 游戏内部确实规定了 1 级派对法师的属性，但是派对法师 5 本才会解锁，这时候系统会自动把派对法师升到 2 级，所以 1 级派对法师实际上不会出现。
+\* 游戏内部确实规定了1级派对法师的属性，但是派对法师5本才会解锁，这时候系统会自动把派对法师升到2级，所以1级派对法师实际上不会出现。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/08">
-        <TimelineRow>该兵种第 4 次推出。</TimelineRow>
+        <TimelineRow>该兵种第4次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/08">
-        <TimelineRow>该兵种第 3 次推出。</TimelineRow>
+        <TimelineRow>该兵种第3次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/08">
-        <TimelineRow>该兵种第 2 次推出。</TimelineRow>
+        <TimelineRow>该兵种第2次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/08">
-        <TimelineRow>该兵种第 1 次推出。</TimelineRow>
+        <TimelineRow>该兵种第1次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

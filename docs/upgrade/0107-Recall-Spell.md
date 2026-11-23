@@ -24,26 +24,26 @@ canonical: /upgrade/0107-Recall-Spell
 <SmallTitle>重要说明</SmallTitle>
 
 1. 回溯法术对我方英雄有效，对攻城机器无效。
-2. 计算回溯法术召回的人口时，英雄算 25 人口，战宠通常算 20 空间，但有以下例外：
+2. 计算回溯法术召回的人口时，英雄算25人口，战宠通常算20空间，但有以下例外：
     - 如果 [凤凰](/upgrade/0287-Phoenix) 还未破壳而出，则不占用空间。只有当凤凰跟随的英雄被召回时，凤凰蛋才会被一同召回。
     - 如果 [愤怒水母](/upgrade/0289-Angry-Jelly) 的洗脑技能正在生效（英雄未被击倒，也未被召回），则不占用空间。
     - 如果 [阿啾](/upgrade/sneezy) 跟随的英雄未被击倒，则不占用空间。当阿啾跟随的英雄被召回时，阿啾会被一同召回。
 3. 回溯法术可以召回蝙蝠、骷髅、大宝宝等派生兵种。
 4. 召回的兵种可保留状态，比如说召回时不满血的兵种重新部署后仍然不满血。
-5. [蛮王](/upgrade/0200-Barbarian-King) 开大后蛮王和野蛮人的狂暴效果<sup>①</sup>、[女王](/upgrade/archer-queen) 开大的隐身效果<sup>②</sup>、[大守护者](/upgrade/grand-warden) 的无敌效果<sup>③</sup>在召回后有效时间不会暂停。已知 18 级隐形药水瓶装备的技能持续时间为 7.8 秒，如果你在女王开大的瞬间就召回，并且等 5 秒再部署出去，那么女王技能还剩 2.8 秒。
+5. [蛮王](/upgrade/0200-Barbarian-King) 开大后蛮王和野蛮人的狂暴效果<sup>①</sup>、[女王](/upgrade/archer-queen) 开大的隐身效果<sup>②</sup>、[大守护者](/upgrade/grand-warden) 的无敌效果<sup>③</sup>在召回后有效时间不会暂停。已知18级隐形药水瓶装备的技能持续时间为7.8秒，如果你在女王开大的瞬间就召回，并且等5秒再部署出去，那么女王技能还剩2.8秒。
    - ① 需要 [野蛮人木偶](/upgrade/barbarian-puppet) 装备。
    - ② 需要 [隐形药水瓶](/upgrade/invisibility-vial) 装备。
    - ③ 需要 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备。
-6. [镜像法术](/upgrade/0105-Clone-Spell) 复制出的部队以及被 [凤凰](/upgrade/0287-Phoenix) 复活的英雄在召回后其有效时间会暂停。已知 10 级凤凰的无敌时间是 8 秒，如果你在女王复活 5 秒后召回，不管你等多久再重新部署，重新部署后都能剩下 3 秒的无敌时间。
-7. 如果召回时部队正受毒药效果<sup>④</sup>影响，那么重新部署之后部队仍然是中毒状态。如果部署后不吃毒，那么部队的中毒效果遵循走出毒药圈时的机制；如果部署后吃毒，那么部队遵循毒药叠加机制。参见：[【毒药法术原理】9 项实验让你怀疑你从未用过毒药法术](/p/1505)。
-   - ④ 包括 [毒药法术](/upgrade/0180-Poison-Spell) 的毒药效果、被 [英雄猎手](/upgrade/0088-Headhunter) 攻击的中毒效果和 14 - 16 级 [大本营](/upgrade/town-hall) 被摧毁后的毒雾效果。
+6. [镜像法术](/upgrade/0105-Clone-Spell) 复制出的部队以及被 [凤凰](/upgrade/0287-Phoenix) 复活的英雄在召回后其有效时间会暂停。已知10级凤凰的无敌时间是8秒，如果你在女王复活5秒后召回，不管你等多久再重新部署，重新部署后都能剩下3秒的无敌时间。
+7. 如果召回时部队正受毒药效果<sup>④</sup>影响，那么重新部署之后部队仍然是中毒状态。如果部署后不吃毒，那么部队的中毒效果遵循走出毒药圈时的机制；如果部署后吃毒，那么部队遵循毒药叠加机制。参见：[【毒药法术原理】9项实验让你怀疑你从未用过毒药法术](/p/1505)。
+   - ④ 包括 [毒药法术](/upgrade/0180-Poison-Spell) 的毒药效果、被 [英雄猎手](/upgrade/0088-Headhunter) 攻击的中毒效果和14 - 16级 [大本营](/upgrade/town-hall) 被摧毁后的毒雾效果。
 8. 如果部队被召回后没有再部署出去，战斗结束后部队会全部消失，不能回收到兵营。如果英雄或战宠被召回后没有再部署出去，战斗结束后英雄和战宠会恢复到满血状态。
 9.  回溯法术召回部队时是大单位的先被召回，重新部署到战场上时是大单位先出来，与 [城堡援军出来的顺序](/p/593) 相反。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="作用半径" pValue="5 格" />
+    <UnitProperty pKey="作用半径" pValue="5格" />
     <UnitProperty pKey="作用类型" pValue="召回场上的部队" />
     <UnitProperty pKey="作用目标" pValue="我方部队、英雄和战宠" />
     <UnitProperty pKey="占用的法术空间" pValue="2" />
@@ -87,36 +87,36 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>6 级回溯法术的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>6级回溯法术的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>3 ~ 5 级回溯法术的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 5级回溯法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>3 ~ 4 级回溯法术的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 4级回溯法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 6 级回溯法术。</TimelineRow>
-        <TimelineRow>2、5 级回溯法术的升级时间减少。</TimelineRow>
-        <TimelineRow>3 ~ 5 级回溯法术的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增6级回溯法术。</TimelineRow>
+        <TimelineRow>2、5级回溯法术的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 5级回溯法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>4 级回溯法术的升级时间减少。</TimelineRow>
-        <TimelineRow>3 ~ 4 级回溯法术的升级费用降低。</TimelineRow>
+        <TimelineRow>4级回溯法术的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 4级回溯法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 5 级回溯法术。</TimelineRow>
-        <TimelineRow>2 ~ 4 级回溯法术的升级时间减少。</TimelineRow>
-        <TimelineRow>3 级回溯法术的升级费用降低。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增5级回溯法术。</TimelineRow>
+        <TimelineRow>2 ~ 4级回溯法术的升级时间减少。</TimelineRow>
+        <TimelineRow>3级回溯法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/01/23">
-        <TimelineRow>各等级回溯法术可召回的部队单位都增加 11。</TimelineRow>
+        <TimelineRow>各等级回溯法术可召回的部队单位都增加11。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 13 本新增法术：回溯法术（召回法术）。</TimelineRow>
+        <TimelineRow>15本推出，并在13本新增法术：回溯法术（召回法术）。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

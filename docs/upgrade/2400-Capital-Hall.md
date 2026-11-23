@@ -19,27 +19,27 @@ canonical: /upgrade/2400-Capital-Hall
 
 <Panel>
     <UnitImgGroup title="未激活" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Capital_Hall1_thumb.png" imgHd="Capital_Hall1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Capital_Hall2_thumb.png" imgHd="Capital_Hall2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Capital_Hall3_thumb.png" imgHd="Capital_Hall3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Capital_Hall4_thumb.png" imgHd="Capital_Hall4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Capital_Hall5_thumb.png" imgHd="Capital_Hall5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Capital_Hall6_thumb.png" imgHd="Capital_Hall6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Capital_Hall7_thumb.png" imgHd="Capital_Hall7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Capital_Hall8_thumb.png" imgHd="Capital_Hall8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Capital_Hall9_thumb.png" imgHd="Capital_Hall9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Capital_Hall10_thumb.png" imgHd="Capital_Hall10.png" />
+        <UnitImg imgTitle="1级" imgSrc="Capital_Hall1_thumb.png" imgHd="Capital_Hall1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Capital_Hall2_thumb.png" imgHd="Capital_Hall2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Capital_Hall3_thumb.png" imgHd="Capital_Hall3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Capital_Hall4_thumb.png" imgHd="Capital_Hall4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Capital_Hall5_thumb.png" imgHd="Capital_Hall5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Capital_Hall6_thumb.png" imgHd="Capital_Hall6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Capital_Hall7_thumb.png" imgHd="Capital_Hall7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Capital_Hall8_thumb.png" imgHd="Capital_Hall8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Capital_Hall9_thumb.png" imgHd="Capital_Hall9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Capital_Hall10_thumb.png" imgHd="Capital_Hall10.png" />
     </UnitImgGroup>
     <UnitImgGroup title="已激活" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="2 级" imgSrc="Capital_Hall2_Active_thumb.png" imgHd="Capital_Hall2_Active.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Capital_Hall3_Active_thumb.png" imgHd="Capital_Hall3_Active.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Capital_Hall4_Active_thumb.png" imgHd="Capital_Hall4_Active.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Capital_Hall5_Active_thumb.png" imgHd="Capital_Hall5_Active.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Capital_Hall6_Active_thumb.png" imgHd="Capital_Hall6_Active.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Capital_Hall7_Active_thumb.png" imgHd="Capital_Hall7_Active.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Capital_Hall8_Active_thumb.png" imgHd="Capital_Hall8_Active.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Capital_Hall9_Active_thumb.png" imgHd="Capital_Hall9_Active.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Capital_Hall10_Active_thumb.png" imgHd="Capital_Hall10_Active.png" />
+        <UnitImg imgTitle="2级" imgSrc="Capital_Hall2_Active_thumb.png" imgHd="Capital_Hall2_Active.png" />
+        <UnitImg imgTitle="3级" imgSrc="Capital_Hall3_Active_thumb.png" imgHd="Capital_Hall3_Active.png" />
+        <UnitImg imgTitle="4级" imgSrc="Capital_Hall4_Active_thumb.png" imgHd="Capital_Hall4_Active.png" />
+        <UnitImg imgTitle="5级" imgSrc="Capital_Hall5_Active_thumb.png" imgHd="Capital_Hall5_Active.png" />
+        <UnitImg imgTitle="6级" imgSrc="Capital_Hall6_Active_thumb.png" imgHd="Capital_Hall6_Active.png" />
+        <UnitImg imgTitle="7级" imgSrc="Capital_Hall7_Active_thumb.png" imgHd="Capital_Hall7_Active.png" />
+        <UnitImg imgTitle="8级" imgSrc="Capital_Hall8_Active_thumb.png" imgHd="Capital_Hall8_Active.png" />
+        <UnitImg imgTitle="9级" imgSrc="Capital_Hall9_Active_thumb.png" imgHd="Capital_Hall9_Active.png" />
+        <UnitImg imgTitle="10级" imgSrc="Capital_Hall10_Active_thumb.png" imgHd="Capital_Hall10_Active.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -50,8 +50,8 @@ canonical: /upgrade/2400-Capital-Hall
     <UnitProperty pKey="判定面积" pValue="5×5" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="15 格" />
-    <UnitProperty pKey="攻速" pValue="8 秒/轮" />
+    <UnitProperty pKey="射程" pValue="15格" />
+    <UnitProperty pKey="攻速" pValue="8秒/轮" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

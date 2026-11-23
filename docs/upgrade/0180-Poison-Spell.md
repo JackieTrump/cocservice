@@ -15,21 +15,21 @@ canonical: /upgrade/0180-Poison-Spell
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 毒药法术对敌方英雄有效，伤害只有其他单位的 5％，但减速效果是全额的。
+1. 毒药法术对敌方英雄有效，伤害只有其他单位的5％，但减速效果是全额的。
 2. 毒药法术不能对建筑造成伤害，也不能减缓建筑的攻击速度。
 3. 中毒状态下，兵种的每次伤害和非中毒状态一致，并不会因为攻速变慢而产生更高的每次伤害。
-4. 毒药法术的伤害成二次函数递增，约 8 秒达到最大伤害。离开毒药范围后伤害递减，递减速度是增加的两倍。详见：[【毒药法术原理】9 项实验让你怀疑你从未用过毒药法术](/p/1505)。
-5. 毒药 [法术塔](/upgrade/0311-Spell-Tower)、[猛蜥](/upgrade/0286-Poison-Lizard) 和 14 - 16 级 [大本营](/upgrade/town-hall) 爆炸后的毒药也具有和毒药法术类似的伤害递增特性，但是这些毒药的属性和毒药法术不同。
+4. 毒药法术的伤害成二次函数递增，约8秒达到最大伤害。离开毒药范围后伤害递减，递减速度是增加的两倍。详见：[【毒药法术原理】9项实验让你怀疑你从未用过毒药法术](/p/1505)。
+5. 毒药 [法术塔](/upgrade/0311-Spell-Tower)、[猛蜥](/upgrade/0286-Poison-Lizard) 和14 - 16级 [大本营](/upgrade/town-hall) 爆炸后的毒药也具有和毒药法术类似的伤害递增特性，但是这些毒药的属性和毒药法术不同。
 6. [英雄猎手](/upgrade/0088-Headhunter) 的攻击也具有和毒药法术类似的减速效果，但中毒伤害不是随时间递增的，而是会立即达到最大伤害。
 7. 毒药法术的毒药效果和其他具有毒药效果的单位叠加时取效果最强的那个。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="作用半径" pValue="3.5 格" />
+    <UnitProperty pKey="作用半径" pValue="3.5格" />
     <UnitProperty pKey="作用类型" pValue="减速并掉血 (范围伤害)" />
     <UnitProperty pKey="作用目标" pValue="敌方部队和英雄" />
-    <UnitProperty pKey="法术持续时间" pValue="16 秒" />
+    <UnitProperty pKey="法术持续时间" pValue="16秒" />
     <UnitProperty pKey="占用的法术空间" pValue="1" />
     <UnitProperty pKey="所需暗黑法术工厂等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="8" />
@@ -77,58 +77,58 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 12 级毒药法术。</TimelineRow>
-        <TimelineRow>11 级毒药法术的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增12级毒药法术。</TimelineRow>
+        <TimelineRow>11级毒药法术的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>8 ~ 10 级毒药法术的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 10级毒药法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>法术的配置时间取消，但新增了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 3、5 ~ 10 级毒药法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3、5 ~ 10级毒药法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>17 本新增 11 级毒药法术。</TimelineRow>
+        <TimelineRow>17本新增11级毒药法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>4、6、7、9、10 级毒药法术的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 10 级毒药法术的升级费用降低。</TimelineRow>
+        <TimelineRow>4、6、7、9、10级毒药法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 10级毒药法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>8 ~ 9 级毒药法术的升级时间减少。</TimelineRow>
-        <TimelineRow>8 ~ 9 级毒药法术的升级费用降低。</TimelineRow>
+        <TimelineRow>8 ~ 9级毒药法术的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 9级毒药法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 10 级毒药法术。</TimelineRow>
-        <TimelineRow>5 ~ 9 级毒药法术的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 3、8 级毒药法术的升级费用降低。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增10级毒药法术。</TimelineRow>
+        <TimelineRow>5 ~ 9级毒药法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3、8级毒药法术的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>6 ~ 7 级毒药法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>6 ~ 7级毒药法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 9 级毒药法术。</TimelineRow>
-        <TimelineRow>4 ~ 8 级毒药法术的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增9级毒药法术。</TimelineRow>
+        <TimelineRow>4 ~ 8级毒药法术的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/02/15">
         <TimelineRow>“毒药法术”的简体中文名称改为“伤害药水法术”，网站仍然使用旧名称。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 6 级毒药法术的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 4 级毒药法术的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 6级毒药法术的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 4级毒药法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 8 级毒药法术。</TimelineRow>
-        <TimelineRow>2 ~ 3 级毒药法术的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 5 级毒药法术的升级时间减少。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增8级毒药法术。</TimelineRow>
+        <TimelineRow>2 ~ 3级毒药法术的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 5级毒药法术的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>13 本新增 7 级毒药法术。</TimelineRow>
+        <TimelineRow>13本新增7级毒药法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>12 本新增 6 级毒药法术。</TimelineRow>
+        <TimelineRow>12本新增6级毒药法术。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

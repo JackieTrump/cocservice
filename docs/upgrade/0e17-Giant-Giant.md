@@ -25,26 +25,26 @@ canonical: /upgrade/0e17-Giant-Giant
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 霸天巨人在 2025 年 4 月的是敌是友活动中首次作为临时兵种推出，玩家获得 100 活动门票（任务点数）后即可解锁。
-2. 霸天巨人对 [城墙](/upgrade/0300-Walls) 有 2 倍伤害。
-3. 当霸天巨人的生命值下降到一半时会进入狂暴状态，狂暴状态下霸天巨人的伤害和移动速度均有提升。狂暴效果持续 20 秒。
+1. 霸天巨人在2025年4月的是敌是友活动中首次作为临时兵种推出，玩家获得100活动门票（任务点数）后即可解锁。
+2. 霸天巨人对 [城墙](/upgrade/0300-Walls) 有2倍伤害。
+3. 当霸天巨人的生命值下降到一半时会进入狂暴状态，狂暴状态下霸天巨人的伤害和移动速度均有提升。狂暴效果持续20秒。
 4. [弓箭女皇](/upgrade/archer-queen) 的 [动作人偶](/upgrade/action-figure) 装备召唤的兵种就是霸天巨人，其属性和本页中的霸天巨人相同。
 
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 2)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型2)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.5 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.5格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="50" />
-    <UnitProperty pKey="移动速度" pValue="1.65 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1 格" />
-    <UnitProperty pKey="狂暴状态持续时间" pValue="20 秒" />
+    <UnitProperty pKey="移动速度" pValue="1.65格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1格" />
+    <UnitProperty pKey="狂暴状态持续时间" pValue="20秒" />
     <UnitProperty pKey="狂暴状态伤害增加" pValue="50%" />
-    <UnitProperty pKey="狂暴状态移动速度增加" pValue="1.5 格/秒" />
+    <UnitProperty pKey="狂暴状态移动速度增加" pValue="1.5格/秒" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="6" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -73,21 +73,21 @@ canonical: /upgrade/0e17-Giant-Giant
 | 15<sup>#</sup> |   980   |  1960   |  25000  |       17       |
 </UnitTable>
 
-\* 1 - 3 级的霸天巨人不能直接训练，需要在活动期间摧毁对手的兵营或者使用弓箭女皇的动作人偶装备才能获得。<br>
-\# 11 - 15 级霸天巨人只能在活动期间训练。
+\* 1 - 3级的霸天巨人不能直接训练，需要在活动期间摧毁对手的兵营或者使用弓箭女皇的动作人偶装备才能获得。<br>
+\# 11 - 15级霸天巨人只能在活动期间训练。
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/01/28">
-        <TimelineRow>该兵种第 2 次推出，有效期至 2026/02/02.</TimelineRow>
+        <TimelineRow>该兵种第2次推出，有效期至2026/02/02.</TimelineRow>
         <TimelineRow>与上次推出时相比，大守护者对霸天巨人的跟随权重降低，天鹰火炮对霸天巨人的攻击权重降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/04/14">
-        <TimelineRow>14 ~ 15 级霸天巨人的每秒伤害和生命值降低。</TimelineRow>
+        <TimelineRow>14 ~ 15级霸天巨人的每秒伤害和生命值降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/04/08">
-        <TimelineRow>该兵种第 1 次推出，有效期至 2025/04/29.</TimelineRow>
+        <TimelineRow>该兵种第1次推出，有效期至2025/04/29.</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

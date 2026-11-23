@@ -17,16 +17,16 @@ canonical: /upgrade/0387-Giga-Bomb
 
 <Panel>
     <UnitImgGroup title="正常情况" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Giga_Bomb1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Giga_Bomb2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Giga_Bomb3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Giga_Bomb4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Giga_Bomb1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Giga_Bomb2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Giga_Bomb3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Giga_Bomb4.png" />
     </UnitImgGroup>
     <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Giga_Bomb1_unarmed.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Giga_Bomb2_unarmed.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Giga_Bomb3_unarmed.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Giga_Bomb4_unarmed.png" />
+        <UnitImg imgTitle="1级" imgSrc="Giga_Bomb1_unarmed.png" />
+        <UnitImg imgTitle="2级" imgSrc="Giga_Bomb2_unarmed.png" />
+        <UnitImg imgTitle="3级" imgSrc="Giga_Bomb3_unarmed.png" />
+        <UnitImg imgTitle="4级" imgSrc="Giga_Bomb4_unarmed.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -39,10 +39,10 @@ canonical: /upgrade/0387-Giga-Bomb
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 根据游戏设定，从 17 级 [大本营](/upgrade/town-hall) 开始，大本营内的炸弹被拆分成了一个单独的陷阱：终极炸弹，因此 17 级大本营被摧毁后不再爆炸。
-    - 和 16 本被摧毁后引爆的炸弹相比，终极炸弹的爆炸半径保持不变，多出了击退效果，但不再释放毒雾（无减速和持续伤害效果）。
+1. 根据游戏设定，从17级 [大本营](/upgrade/town-hall) 开始，大本营内的炸弹被拆分成了一个单独的陷阱：终极炸弹，因此17级大本营被摧毁后不再爆炸。
+    - 和16本被摧毁后引爆的炸弹相比，终极炸弹的爆炸半径保持不变，多出了击退效果，但不再释放毒雾（无减速和持续伤害效果）。
 2. 和其他陷阱不同，终极炸弹对进攻方可见。
-3. 只有当触发范围内至少有 18 单位的部队时，终极炸弹才会触发。
+3. 只有当触发范围内至少有18单位的部队时，终极炸弹才会触发。
 4. 和 [隐形炸弹](/upgrade/bomb)、[巨型炸弹](/upgrade/0383-Giant-Bomb) 一样，法术和 [大守护者](/upgrade/grand-warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法延缓或阻止爆炸。
 5. 终极炸弹的爆炸效果可以击退高生命值单位以及弹飞低生命值单位，它的范围伤害对空中单位也有效。
 6. 被终极炸弹波及到且仍然存活的部队会重新选择进攻目标。
@@ -53,9 +53,9 @@ canonical: /upgrade/0387-Giga-Bomb
     <UnitProperty pKey="占地面积" pValue="2×2" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="作用目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="触发半径" pValue="3.5 格" />
+    <UnitProperty pKey="触发半径" pValue="3.5格" />
     <UnitProperty pKey="触发所需人口" pValue="18" />
-    <UnitProperty pKey="伤害半径" pValue="4.5 格" />
+    <UnitProperty pKey="伤害半径" pValue="4.5格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -95,13 +95,13 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>在 18 本推出 4 级终极炸弹。</TimelineRow>
+        <TimelineRow>在18本推出4级终极炸弹。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>2 ~ 3 级终极炸弹的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>2 ~ 3级终极炸弹的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，新陷阱：终极炸弹。</TimelineRow>
+        <TimelineRow>17本推出，新陷阱：终极炸弹。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

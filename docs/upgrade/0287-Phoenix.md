@@ -35,12 +35,12 @@ canonical: /upgrade/0287-Phoenix
 <UnitProperties>
     <UnitProperty pKey="攻击偏好" pValue="英雄的目标" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.3 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.3格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="20 (凤凰)<br>0 (凤凰蛋)" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="2.5 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.5格" />
     <UnitProperty pKey="所需战宠小屋等级" pValue="8" />
     <UnitProperty pKey="所需大本等级" pValue="15" />
 </UnitProperties>
@@ -48,8 +48,8 @@ canonical: /upgrade/0287-Phoenix
 <SmallTitle>凤凰蛋的属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="跟随距离" pValue="2 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="跟随距离" pValue="2格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -95,22 +95,22 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>8 级凤凰的升级费用降低。</TimelineRow>
+        <TimelineRow>8级凤凰的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 10 级凤凰的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 10级凤凰的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 10 级凤凰的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 10级凤凰的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>2 ~ 10 级凤凰的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 10级凤凰的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/05/15">
         <TimelineRow>修复使用战宠凤凰的英雄有时不会触发特斯拉电磁塔的问题。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，可解锁四个新宠物，凤凰是其中之一。</TimelineRow>
+        <TimelineRow>15本推出，可解锁四个新宠物，凤凰是其中之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

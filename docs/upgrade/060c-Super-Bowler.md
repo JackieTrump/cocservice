@@ -23,7 +23,7 @@ canonical: /upgrade/060c-Super-Bowler
 
 <SmallTitle>重要说明</SmallTitle>
 
-超级巨石投手的技能（三重打击）：超级巨石投手扔出的石头可以连续弹跳击中 3 个目标，并能造成额外溅射伤害。
+超级巨石投手的技能（三重打击）：超级巨石投手扔出的石头可以连续弹跳击中3个目标，并能造成额外溅射伤害。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -31,21 +31,21 @@ canonical: /upgrade/060c-Super-Bowler
     <UnitProperty pKey="部队类型" pValue="地面远程单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.6 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.6格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="30" />
-    <UnitProperty pKey="移动速度" pValue="1.75 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2.2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="3 格<sup>*</sup>" />
+    <UnitProperty pKey="移动速度" pValue="1.75格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2.2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3格<sup>*</sup>" />
     <UnitProperty pKey="最低巨石投手等级" pValue="4" />
     <UnitProperty pKey="最低大本等级" pValue="12" />
-    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
-    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="强化费用" pValue="2.5万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="15,15,675,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
 
-\* 超级巨石投手扔出去的石头落地后可以造成三次伤害。石头的第一个落地距离超级蓝胖 3 格，第二个落点距离蓝胖 6 格，第三个是 9 格。和普通蓝胖类似，超级蓝胖只能看到第一个目标，二次伤害和三次伤害都是顺带的，它并不知道石头会溅到哪儿。
+\* 超级巨石投手扔出去的石头落地后可以造成三次伤害。石头的第一个落地距离超级蓝胖3格，第二个落点距离蓝胖6格，第三个是9格。和普通蓝胖类似，超级蓝胖只能看到第一个目标，二次伤害和三次伤害都是顺带的，它并不知道石头会溅到哪儿。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -67,25 +67,25 @@ canonical: /upgrade/060c-Super-Bowler
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 10 级巨石投手，超级部队的等级也相应更新。</TimelineRow>
-        <TimelineRow>9 级超级巨石投手的每秒伤害和生命值增加。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增10级巨石投手，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>9级超级巨石投手的每秒伤害和生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/30">
-        <TimelineRow>7 ~ 9 级超级巨石投手的生命值增加。</TimelineRow>
-        <TimelineRow>7 ~ 9 级超级巨石投手的每秒伤害提升。</TimelineRow>
+        <TimelineRow>7 ~ 9级超级巨石投手的生命值增加。</TimelineRow>
+        <TimelineRow>7 ~ 9级超级巨石投手的每秒伤害提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>超级巨石投手的训练时间由 5:00 改为 4:10</TimelineRow>
-        <TimelineRow>17 本新增 9 级巨石投手，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>超级巨石投手的训练时间由 5:00改为 4:10</TimelineRow>
+        <TimelineRow>17本新增9级巨石投手，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>16 本新增 8 级巨石投手，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16本新增8级巨石投手，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 7 级巨石投手，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15本新增7级巨石投手，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/09/27">
         <TimelineRow>新超级兵：超级巨石投手。</TimelineRow>

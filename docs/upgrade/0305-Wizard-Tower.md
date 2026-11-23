@@ -17,23 +17,23 @@ canonical: /upgrade/0305-Wizard-Tower
 
 <Panel>
     <UnitImgGroup title="法师塔" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Wizard_Tower1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Wizard_Tower2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Wizard_Tower3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Wizard_Tower4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Wizard_Tower5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Wizard_Tower6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Wizard_Tower7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Wizard_Tower8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Wizard_Tower9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Wizard_Tower10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Wizard_Tower11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Wizard_Tower12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Wizard_Tower13.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Wizard_Tower14.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Wizard_Tower15.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Wizard_Tower16.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Wizard_Tower17.png" />
+        <UnitImg imgTitle="1级" imgSrc="Wizard_Tower1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Wizard_Tower2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Wizard_Tower3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Wizard_Tower4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Wizard_Tower5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Wizard_Tower6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Wizard_Tower7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Wizard_Tower8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Wizard_Tower9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Wizard_Tower10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Wizard_Tower11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Wizard_Tower12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Wizard_Tower13.png" />
+        <UnitImg imgTitle="14级" imgSrc="Wizard_Tower14.png" />
+        <UnitImg imgTitle="15级" imgSrc="Wizard_Tower15.png" />
+        <UnitImg imgTitle="16级" imgSrc="Wizard_Tower16.png" />
+        <UnitImg imgTitle="17级" imgSrc="Wizard_Tower17.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -50,10 +50,10 @@ canonical: /upgrade/0305-Wizard-Tower
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1 格" />
+    <UnitProperty pKey="伤害半径" pValue="1格" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="7 格" />
-    <UnitProperty pKey="攻速" pValue="1.3 秒/次" />
+    <UnitProperty pKey="射程" pValue="7格" />
+    <UnitProperty pKey="攻速" pValue="1.3秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -108,64 +108,64 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>16 级法师塔的升级时间减少。</TimelineRow>
+        <TimelineRow>16级法师塔的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>1、3 ~ 5、7 ~ 8、10 ~ 12、14 ~ 16 级法师塔的升级时间减少。</TimelineRow>
-        <TimelineRow>1 ~ 16 级法师塔的升级费用降低。</TimelineRow>
+        <TimelineRow>1、3 ~ 5、7 ~ 8、10 ~ 12、14 ~ 16级法师塔的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 16级法师塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>2、6、9、13 级法师塔的升级时间减少。</TimelineRow>
-        <TimelineRow>13 级法师塔的升级费用降低。</TimelineRow>
+        <TimelineRow>2、6、9、13级法师塔的升级时间减少。</TimelineRow>
+        <TimelineRow>13级法师塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增 17 级法师塔。</TimelineRow>
-        <TimelineRow>8 ~ 16 级法师塔的升级时间减少。</TimelineRow>
-        <TimelineRow>7 ~ 16 级法师塔的升级费用降低。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增17级法师塔。</TimelineRow>
+        <TimelineRow>8 ~ 16级法师塔的升级时间减少。</TimelineRow>
+        <TimelineRow>7 ~ 16级法师塔的升级费用降低。</TimelineRow>
         <TimelineRow>法师塔成为第二批可以充能的建筑。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>11 ~ 15 级法师塔的升级时间减少。</TimelineRow>
-        <TimelineRow>11 ~ 15 级法师塔的升级费用降低。</TimelineRow>
+        <TimelineRow>11 ~ 15级法师塔的升级时间减少。</TimelineRow>
+        <TimelineRow>11 ~ 15级法师塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/03">
-        <TimelineRow>9 ~ 14 级法师塔的生命值降低。</TimelineRow>
+        <TimelineRow>9 ~ 14级法师塔的生命值降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 16 级法师塔。</TimelineRow>
-        <TimelineRow>2 ~ 15 级法师塔的升级时间减少。</TimelineRow>
-        <TimelineRow>3 ~ 10、14 级法师塔的升级费用降低。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增16级法师塔。</TimelineRow>
+        <TimelineRow>2 ~ 15级法师塔的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 10、14级法师塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>11 ~ 13 级法师塔的升级时间减少。</TimelineRow>
-        <TimelineRow>11 ~ 13 级法师塔的升级费用降低。</TimelineRow>
+        <TimelineRow>11 ~ 13级法师塔的升级时间减少。</TimelineRow>
+        <TimelineRow>11 ~ 13级法师塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 15 级法师塔。</TimelineRow>
-        <TimelineRow>8 ~ 14 级法师塔的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增15级法师塔。</TimelineRow>
+        <TimelineRow>8 ~ 14级法师塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>1 ~ 6、8 ~ 13 级法师塔的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 6、8 ~ 13级法师塔的升级费用降低。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2021/06/15">
-        <TimelineRow>14 本新增 14 级法师塔。</TimelineRow>
+        <TimelineRow>14本新增14级法师塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>3 ~ 8、10 级法师塔的升级时间减少。</TimelineRow>
-        <TimelineRow>1 ~ 8、10 级法师塔的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 8、10级法师塔的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 8、10级法师塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/06/22">
-        <TimelineRow>13 本新增 13 级法师塔。</TimelineRow>
+        <TimelineRow>13本新增13级法师塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本推出，并在 13 本新增 12 级法师塔。</TimelineRow>
+        <TimelineRow>13本推出，并在13本新增12级法师塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>8 ~ 9 级法师塔的伤害降低。</TimelineRow>
+        <TimelineRow>8 ~ 9级法师塔的伤害降低。</TimelineRow>
     </TimelineItem>    
         <TimelineItem date="2019/04/02">
         <TimelineRow>所有等级法师塔的升级时间减少。</TimelineRow>
-        <TimelineRow>7 ~ 9 级法师塔的升级费用降低。</TimelineRow>
+        <TimelineRow>7 ~ 9级法师塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

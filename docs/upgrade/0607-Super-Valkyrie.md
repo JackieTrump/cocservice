@@ -32,16 +32,16 @@ canonical: /upgrade/0607-Super-Valkyrie
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1 格" />
+    <UnitProperty pKey="伤害半径" pValue="1格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1.1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.5 格" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.5格" />
     <UnitProperty pKey="最低武神等级" pValue="7" />
     <UnitProperty pKey="最低大本等级" pValue="12" />
-    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
-    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="强化费用" pValue="2.5万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3天" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="10,10,450,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
@@ -51,10 +51,10 @@ canonical: /upgrade/0607-Super-Valkyrie
 <UnitProperties>
     <UnitProperty pKey="伤害提升" pValue="160%" />
     <UnitProperty pKey="移动速度提升" pValue="26<sup>*</sup>" />
-    <UnitProperty pKey="持续时间" pValue="10 秒" />
+    <UnitProperty pKey="持续时间" pValue="10秒" />
 </UnitProperties>
 
-\* 这里的 8 点移动速度等于 1 格/秒，26 点移动速度就是 3.25 格/秒。
+\* 这里的8点移动速度等于1格/秒，26点移动速度就是3.25格/秒。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -76,26 +76,26 @@ canonical: /upgrade/0607-Super-Valkyrie
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>超级瓦基丽武神的训练时间由 3:45 改为 2:55</TimelineRow>
+        <TimelineRow>超级瓦基丽武神的训练时间由 3:45改为 2:55</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，并在 16 本新增 11 级瓦基丽武神，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>16本推出，并在16本新增11级瓦基丽武神，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>    
     <TimelineItem date="2023/06/12">
-        <TimelineRow>15 本新增 10 级瓦基丽武神，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>15本新增10级瓦基丽武神，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
-        <TimelineRow>攻击速度：从 1.8 秒缩短至 1.1 秒。</TimelineRow>
-        <TimelineRow>移动速度：从每秒 3.5 格降低至每秒 3 格。</TimelineRow>
-        <TimelineRow>狂暴法术范围：从 3.5 格提升至 4 格。</TimelineRow>
+        <TimelineRow>攻击速度：从1.8秒缩短至1.1秒。</TimelineRow>
+        <TimelineRow>移动速度：从每秒3.5格降低至每秒3格。</TimelineRow>
+        <TimelineRow>狂暴法术范围：从3.5格提升至4格。</TimelineRow>
         <TimelineRow>所有等级超级瓦基丽武神的生命值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 9 级瓦基丽武神，超级部队的等级也相应更新。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增9级瓦基丽武神，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/12/07">
-        <TimelineRow>超级部队的有效时间从 7 天缩短为 3 天。</TimelineRow>
-        <TimelineRow>所有部队的强化费用统一调整为 25,000 暗黑重油。</TimelineRow>
+        <TimelineRow>超级部队的有效时间从7天缩短为3天。</TimelineRow>
+        <TimelineRow>所有部队的强化费用统一调整为25,000暗黑重油。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
         <TimelineRow>新超级兵：超级瓦基丽武神。</TimelineRow>

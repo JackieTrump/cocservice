@@ -20,16 +20,16 @@ canonical: /upgrade/barbarian
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Barbarian1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Barbarian3.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Barbarian5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Barbarian6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Barbarian7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Barbarian8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Barbarian9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Barbarian10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Barbarian11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Barbarian12.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Barbarian1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Barbarian3.png" />
+        <UnitImg imgTitle="5级" imgSrc="Barbarian5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Barbarian6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Barbarian7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Barbarian8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Barbarian9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Barbarian10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Barbarian11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Barbarian12.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -41,9 +41,9 @@ canonical: /upgrade/barbarian
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="1" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.4格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="1" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -90,62 +90,62 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>9 ~ 12 级野蛮人的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 12级野蛮人的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">
-        <TimelineRow>1 ~ 3 级野蛮人的每秒伤害值提升。</TimelineRow>
+        <TimelineRow>1 ~ 3级野蛮人的每秒伤害值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 12 级野蛮人的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 9、12 级野蛮人的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 12级野蛮人的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 9、12级野蛮人的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>2 级野蛮人的升级时间减少。</TimelineRow>
+        <TimelineRow>2级野蛮人的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>3 ~ 7、9 ~ 12 级野蛮人的升级时间减少。</TimelineRow>
-        <TimelineRow>9 ~ 12 级野蛮人的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 7、9 ~ 12级野蛮人的升级时间减少。</TimelineRow>
+        <TimelineRow>9 ~ 12级野蛮人的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>7 ~ 11 级野蛮人的升级时间减少。</TimelineRow>
-        <TimelineRow>10 ~ 11 级野蛮人的升级费用降低。</TimelineRow>
+        <TimelineRow>7 ~ 11级野蛮人的升级时间减少。</TimelineRow>
+        <TimelineRow>10 ~ 11级野蛮人的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>16 本推出，同时在 16 本新增 12 级野蛮人。</TimelineRow>
-        <TimelineRow>7 ~ 11 级野蛮人的升级时间减少。</TimelineRow>
-        <TimelineRow>8 ~ 10 级野蛮人的升级花费降低。</TimelineRow>
+        <TimelineRow>16本推出，同时在16本新增12级野蛮人。</TimelineRow>
+        <TimelineRow>7 ~ 11级野蛮人的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 10级野蛮人的升级花费降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>9 级野蛮人的升级时间减少。</TimelineRow>
-        <TimelineRow>9 级野蛮人的升级费用降低。</TimelineRow>
+        <TimelineRow>9级野蛮人的升级时间减少。</TimelineRow>
+        <TimelineRow>9级野蛮人的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 11 级野蛮人。</TimelineRow>
-        <TimelineRow>7 ~ 10 级野蛮人的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增11级野蛮人。</TimelineRow>
+        <TimelineRow>7 ~ 10级野蛮人的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>2 ~ 9 级野蛮人的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 9 级野蛮人的升级时间减少。</TimelineRow>
-        <TimelineRow>4 ~ 7 级野蛮人的生命值提升。</TimelineRow>
+        <TimelineRow>2 ~ 9级野蛮人的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 9级野蛮人的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 7级野蛮人的生命值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本新增 10 级野蛮人。</TimelineRow>
-        <TimelineRow>1 ~ 2 级野蛮人的训练费用：25/40 圣水 → 15/30 圣水</TimelineRow>
-        <TimelineRow>2 ~ 9 级野蛮人的升级费用降低。</TimelineRow>
-        <TimelineRow>3 ~ 8 级野蛮人的升级时间减少。</TimelineRow>
+        <TimelineRow>14本新增10级野蛮人。</TimelineRow>
+        <TimelineRow>1 ~ 2级野蛮人的训练费用：25/40圣水 → 15/30圣水</TimelineRow>
+        <TimelineRow>2 ~ 9级野蛮人的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 8级野蛮人的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>5 ~ 8 级野蛮人的升级费用降低。</TimelineRow>
-        <TimelineRow>12 本新增 9 级野蛮人。</TimelineRow>
+        <TimelineRow>5 ~ 8级野蛮人的升级费用降低。</TimelineRow>
+        <TimelineRow>12本新增9级野蛮人。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中 5 ~ 8 级野蛮人的升级时间下调。</TimelineRow>
+        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中5 ~ 8级野蛮人的升级时间下调。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/02/22">
-        <TimelineRow>7 ~ 8 级野蛮人的生命值提高。</TimelineRow>
+        <TimelineRow>7 ~ 8级野蛮人的生命值提高。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -15,17 +15,17 @@ canonical: /upgrade/0489-Hero-Hall
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Hero_Hall1.png" imgHd="Hero_Hall1_hd.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Hero_Hall2.png" imgHd="Hero_Hall2_hd.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Hero_Hall3.png" imgHd="Hero_Hall3_hd.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Hero_Hall4.png" imgHd="Hero_Hall4_hd.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Hero_Hall5.png" imgHd="Hero_Hall5_hd.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Hero_Hall6.png" imgHd="Hero_Hall6_hd.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Hero_Hall7.png" imgHd="Hero_Hall7_hd.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Hero_Hall8.png" imgHd="Hero_Hall8_hd.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Hero_Hall9.png" imgHd="Hero_Hall9_hd.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Hero_Hall10.png" imgHd="Hero_Hall10_hd.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Hero_Hall11.png" imgHd="Hero_Hall11_hd.png" />
+        <UnitImg imgTitle="1级" imgSrc="Hero_Hall1.png" imgHd="Hero_Hall1_hd.png" />
+        <UnitImg imgTitle="2级" imgSrc="Hero_Hall2.png" imgHd="Hero_Hall2_hd.png" />
+        <UnitImg imgTitle="3级" imgSrc="Hero_Hall3.png" imgHd="Hero_Hall3_hd.png" />
+        <UnitImg imgTitle="4级" imgSrc="Hero_Hall4.png" imgHd="Hero_Hall4_hd.png" />
+        <UnitImg imgTitle="5级" imgSrc="Hero_Hall5.png" imgHd="Hero_Hall5_hd.png" />
+        <UnitImg imgTitle="6级" imgSrc="Hero_Hall6.png" imgHd="Hero_Hall6_hd.png" />
+        <UnitImg imgTitle="7级" imgSrc="Hero_Hall7.png" imgHd="Hero_Hall7_hd.png" />
+        <UnitImg imgTitle="8级" imgSrc="Hero_Hall8.png" imgHd="Hero_Hall8_hd.png" />
+        <UnitImg imgTitle="9级" imgSrc="Hero_Hall9.png" imgHd="Hero_Hall9_hd.png" />
+        <UnitImg imgTitle="10级" imgSrc="Hero_Hall10.png" imgHd="Hero_Hall10_hd.png" />
+        <UnitImg imgTitle="11级" imgSrc="Hero_Hall11.png" imgHd="Hero_Hall11_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -38,7 +38,7 @@ canonical: /upgrade/0489-Hero-Hall
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 2024 年 11 月更新后，你需要在英雄殿堂升级和管理英雄，不能和以前一样直接在阵型中找到英雄升级。
+1. 2024年11月更新后，你需要在英雄殿堂升级和管理英雄，不能和以前一样直接在阵型中找到英雄升级。
     - 所谓的管理英雄指的是在英雄殿堂中分配战宠、管理装备、查看皮肤、修改防守英雄等快捷方式。
 2. 虽然官方将升级操作整合进了英雄殿堂，但升级英雄仍然需要占用建筑工人。
 3. 现在 [大本](/upgrade/town-hall) 等级不再是限制英雄升级的参数，能不能升级只看英雄殿堂等级。
@@ -97,9 +97,9 @@ const tableExtraInfo = [
 
 <SmallTitle>英雄殿堂的初始等级</SmallTitle>
 
-如果你在 2024 年 11 月更新前已经拥有英雄，那么官方会根据你更新时的英雄等级送你相应等级英雄殿堂和亡灵王子，无需从头开始升级。如果更新时你的英雄尚未升级完成，那么官方会帮你直接秒掉这一级英雄。
+如果你在2024年11月更新前已经拥有英雄，那么官方会根据你更新时的英雄等级送你相应等级英雄殿堂和亡灵王子，无需从头开始升级。如果更新时你的英雄尚未升级完成，那么官方会帮你直接秒掉这一级英雄。
 
-官方送的英雄/建筑等级就高不就低。比如说更新时你的四王等级为 60/70/51/20，那么更新后你可以获得 8 级英雄殿堂和 50 级亡灵王子。
+官方送的英雄/建筑等级就高不就低。比如说更新时你的四王等级为60/70/51/20，那么更新后你可以获得8级英雄殿堂和50级亡灵王子。
 
 <UnitTable class="cp-table-nosticky-column cp-table-with-all-borders">
     <table>
@@ -206,15 +206,15 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>4 ~ 10 级英雄殿堂的升级时间减少。</TimelineRow>
-        <TimelineRow>4 ~ 10 级英雄殿堂的升级费用降低。</TimelineRow>
+        <TimelineRow>4 ~ 10级英雄殿堂的升级时间减少。</TimelineRow>
+        <TimelineRow>4 ~ 10级英雄殿堂的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>3、7 ~ 10 级英雄殿堂的升级时间减少。</TimelineRow>
-        <TimelineRow>8 ~ 10 级英雄殿堂的升级费用降低。</TimelineRow>
+        <TimelineRow>3、7 ~ 10级英雄殿堂的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 10级英雄殿堂的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，新建筑：英雄殿堂。</TimelineRow>
+        <TimelineRow>17本推出，新建筑：英雄殿堂。</TimelineRow>
         <TimelineRow>现在你需要在英雄殿堂升级和管理英雄，不能和以前一样直接在阵型中找到英雄升级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

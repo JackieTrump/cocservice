@@ -48,37 +48,37 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 
 <Panel>
     <UnitImgGroup title="未改装" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Mortar1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Mortar2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Mortar3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Mortar4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Mortar5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Mortar6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Mortar7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Mortar8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Mortar9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Mortar10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Mortar11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Mortar12.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Mortar13.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Mortar14.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Mortar15.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Mortar16.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Mortar17.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Mortar18.png" />
+        <UnitImg imgTitle="1级" imgSrc="Mortar1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Mortar2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Mortar3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Mortar4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Mortar5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Mortar6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Mortar7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Mortar8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Mortar9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Mortar10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Mortar11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Mortar12.png" />
+        <UnitImg imgTitle="13级" imgSrc="Mortar13.png" />
+        <UnitImg imgTitle="14级" imgSrc="Mortar14.png" />
+        <UnitImg imgTitle="15级" imgSrc="Mortar15.png" />
+        <UnitImg imgTitle="16级" imgSrc="Mortar16.png" />
+        <UnitImg imgTitle="17级" imgSrc="Mortar17.png" />
+        <UnitImg imgTitle="17级" imgSrc="Mortar18.png" />
     </UnitImgGroup>
     <UnitImgGroup title="已改装，处于标准模式" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="8 级" imgSrc="Mortar8A.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Mortar9A.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Mortar10A.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Mortar11A.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Mortar12A.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Mortar13A.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Mortar14A.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Mortar15A.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Mortar16A.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Mortar17A.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Mortar18A.png" />
+        <UnitImg imgTitle="8级" imgSrc="Mortar8A.png" />
+        <UnitImg imgTitle="9级" imgSrc="Mortar9A.png" />
+        <UnitImg imgTitle="10级" imgSrc="Mortar10A.png" />
+        <UnitImg imgTitle="11级" imgSrc="Mortar11A.png" />
+        <UnitImg imgTitle="12级" imgSrc="Mortar12A.png" />
+        <UnitImg imgTitle="13级" imgSrc="Mortar13A.png" />
+        <UnitImg imgTitle="14级" imgSrc="Mortar14A.png" />
+        <UnitImg imgTitle="15级" imgSrc="Mortar15A.png" />
+        <UnitImg imgTitle="16级" imgSrc="Mortar16A.png" />
+        <UnitImg imgTitle="17级" imgSrc="Mortar17A.png" />
+        <UnitImg imgTitle="17级" imgSrc="Mortar18A.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -95,10 +95,10 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.5 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.5格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="4 ~ 11 格" />
-    <UnitProperty pKey="攻速" pValue="5 秒 1 发 (标准)" />
+    <UnitProperty pKey="射程" pValue="4 ~ 11格" />
+    <UnitProperty pKey="攻速" pValue="5秒1发 (标准)" />
     <UnitProperty pKey="改装所需迫击炮等级" pValue="8" />
     <UnitProperty pKey="改装所需夜世界迫击炮等级" pValue="8" />
     <UnitProperty pKey="改装数量" pValue="仅限一个" />
@@ -143,17 +143,17 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 
 <Panel>
     <UnitImgGroup title="已改装，处于连发模式" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="8 级" imgSrc="Mortar8B.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Mortar9B.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Mortar10B.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Mortar11B.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Mortar12B.png" />
-        <UnitImg imgTitle="13 级" imgSrc="Mortar13B.png" />
-        <UnitImg imgTitle="14 级" imgSrc="Mortar14B.png" />
-        <UnitImg imgTitle="15 级" imgSrc="Mortar15B.png" />
-        <UnitImg imgTitle="16 级" imgSrc="Mortar16B.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Mortar17B.png" />
-        <UnitImg imgTitle="18 级" imgSrc="Mortar18B.png" />
+        <UnitImg imgTitle="8级" imgSrc="Mortar8B.png" />
+        <UnitImg imgTitle="9级" imgSrc="Mortar9B.png" />
+        <UnitImg imgTitle="10级" imgSrc="Mortar10B.png" />
+        <UnitImg imgTitle="11级" imgSrc="Mortar11B.png" />
+        <UnitImg imgTitle="12级" imgSrc="Mortar12B.png" />
+        <UnitImg imgTitle="13级" imgSrc="Mortar13B.png" />
+        <UnitImg imgTitle="14级" imgSrc="Mortar14B.png" />
+        <UnitImg imgTitle="15级" imgSrc="Mortar15B.png" />
+        <UnitImg imgTitle="16级" imgSrc="Mortar16B.png" />
+        <UnitImg imgTitle="17级" imgSrc="Mortar17B.png" />
+        <UnitImg imgTitle="18级" imgSrc="Mortar18B.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -170,10 +170,10 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="1.5 格" />
+    <UnitProperty pKey="伤害半径" pValue="1.5格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="射程" pValue="4 ~ 11 格" />
-    <UnitProperty pKey="攻速" pValue="5 秒 3 发 (改装)<sup>*</sup>" />
+    <UnitProperty pKey="射程" pValue="4 ~ 11格" />
+    <UnitProperty pKey="攻速" pValue="5秒3发 (改装)<sup>*</sup>" />
     <UnitProperty pKey="改装所需迫击炮等级" pValue="8" />
     <UnitProperty pKey="改装所需夜世界迫击炮等级" pValue="8" />
     <UnitProperty pKey="改装数量" pValue="仅限一个" />
@@ -181,7 +181,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
     <UnitProperty pKey="改装费用" pValue="6M" :isUpgradeCost="true" resourceType="Gold" gpClass="building" />
 </UnitProperties>
 
-\* 多管迫击炮的攻击间隔是：3 连发期间每发 0.5 秒，之后停顿 4 秒。如果目标在多管还没打完 3 连发之前死亡，导致多管没有发射全部3发炮弹时，每发没有射出去的炮弹会减少 0.5 秒攻击间隔。上述的 5 秒指的是一整个周期的时间，0.5 * (3 - 1) + 4 = 5 (秒)
+\* 多管迫击炮的攻击间隔是：3连发期间每发0.5秒，之后停顿4秒。如果目标在多管还没打完3连发之前死亡，导致多管没有发射全部3发炮弹时，每发没有射出去的炮弹会减少0.5秒攻击间隔。上述的5秒指的是一整个周期的时间，0.5 * (3 - 1) + 4 = 5 (秒)
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -210,82 +210,82 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>添加了 18 级迫击炮。</TimelineRow>
-        <TimelineRow>移除了 17 级迫击炮的超级充能。</TimelineRow>
+        <TimelineRow>添加了18级迫击炮。</TimelineRow>
+        <TimelineRow>移除了17级迫击炮的超级充能。</TimelineRow>
         <TimelineRow>更改了多管迫击炮在游戏面板中显示的伤害值（实际伤害没变，只是更改了显示算法）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>17 级及两个充能等级的迫击炮的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>17级及两个充能等级的迫击炮的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>15 ~ 16 级迫击炮的升级时间减少。</TimelineRow>
+        <TimelineRow>15 ~ 16级迫击炮的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>1 ~ 9、11、13 ~ 16 级迫击炮的升级时间减少。</TimelineRow>
-        <TimelineRow>3 ~ 4、6 ~ 16 级迫击炮的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 9、11、13 ~ 16级迫击炮的升级时间减少。</TimelineRow>
+        <TimelineRow>3 ~ 4、6 ~ 16级迫击炮的升级费用降低。</TimelineRow>
         <TimelineRow>迫击炮的改装费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>在 17 本新增 17 级迫击炮。</TimelineRow>
-        <TimelineRow>10、12 级迫击炮的升级时间减少。</TimelineRow>
-        <TimelineRow>10、12 级迫击炮的升级费用降低。</TimelineRow>
+        <TimelineRow>在17本新增17级迫击炮。</TimelineRow>
+        <TimelineRow>10、12级迫击炮的升级时间减少。</TimelineRow>
+        <TimelineRow>10、12级迫击炮的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>9 ~ 16 级迫击炮的升级时间减少。</TimelineRow>
-        <TimelineRow>11 ~ 16 级迫击炮的升级费用降低。</TimelineRow>
+        <TimelineRow>9 ~ 16级迫击炮的升级时间减少。</TimelineRow>
+        <TimelineRow>11 ~ 16级迫击炮的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
         <TimelineRow>超级充能推出，迫击炮是第一批可以充能的建筑之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>1 ~ 15 级迫击炮的升级时间减少。</TimelineRow>
-        <TimelineRow>14 ~ 15 级迫击炮的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 15级迫击炮的升级时间减少。</TimelineRow>
+        <TimelineRow>14 ~ 15级迫击炮的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>4 ~ 15 级迫击炮的升级时间减少。</TimelineRow>
-        <TimelineRow>5 ~ 6、8 ~ 14 级迫击炮的升级费用降低。</TimelineRow>
+        <TimelineRow>4 ~ 15级迫击炮的升级时间减少。</TimelineRow>
+        <TimelineRow>5 ~ 6、8 ~ 14级迫击炮的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>11 ~ 13 级迫击炮的升级时间减少。</TimelineRow>
-        <TimelineRow>11 ~ 13 级迫击炮的升级费用降低。</TimelineRow>
+        <TimelineRow>11 ~ 13级迫击炮的升级时间减少。</TimelineRow>
+        <TimelineRow>11 ~ 13级迫击炮的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 15 级迫击炮。</TimelineRow>
-        <TimelineRow>8 ~ 14 级迫击炮的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增15级迫击炮。</TimelineRow>
+        <TimelineRow>8 ~ 14级迫击炮的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
-        <TimelineRow>9 ~ 14 级迫击炮的生命值增加。</TimelineRow>
+        <TimelineRow>9 ~ 14级迫击炮的生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/01/20">
         <TimelineRow>修复了改装后的迫击炮首发箭矢射出位置不合理的问题。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>4 ~ 13 级迫击炮的升级费用降低。</TimelineRow>
+        <TimelineRow>4 ~ 13级迫击炮的升级费用降低。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2021/09/27">
-        <TimelineRow>14 本新增 14 级迫击炮。</TimelineRow>
+        <TimelineRow>14本新增14级迫击炮。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>1 ~ 11 级迫击炮的升级费用降低。</TimelineRow>
-        <TimelineRow>2 ~ 10 级迫击炮的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 11级迫击炮的升级费用降低。</TimelineRow>
+        <TimelineRow>2 ~ 10级迫击炮的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/03/30">
-        <TimelineRow>13 本新增 13 级迫击炮。</TimelineRow>
+        <TimelineRow>13本新增13级迫击炮。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>所有等级多管迫击炮的伤害提高 10%.</TimelineRow>
+        <TimelineRow>所有等级多管迫击炮的伤害提高10%.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/09/11">
-        <TimelineRow>12 级迫击炮的生命值由 950 提升至 980。</TimelineRow>
+        <TimelineRow>12级迫击炮的生命值由950提升至980。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/06/18">
-        <TimelineRow>12 本新增 12 级迫击炮。</TimelineRow>
+        <TimelineRow>12本新增12级迫击炮。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/04/02">
-        <TimelineRow>1 级迫击炮的新建时间减少。</TimelineRow>
+        <TimelineRow>1级迫击炮的新建时间减少。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/02/22">
-        <TimelineRow>5 ~ 12 级迫击炮的伤害提高。</TimelineRow>
+        <TimelineRow>5 ~ 12级迫击炮的伤害提高。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

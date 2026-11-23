@@ -15,17 +15,17 @@ canonical: /upgrade/sky-wagon
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Sky_Wagon1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Sky_Wagon2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Sky_Wagon3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Sky_Wagon4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Sky_Wagon1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Sky_Wagon2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Sky_Wagon3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Sky_Wagon4.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>说明</SmallTitle>
 
 1. 如果你不了解攻城机器的基础设定，请阅读这篇文章：[浅谈攻城机器的一些基础设定](/p/6912)。
-2. 空中战车会在空中飞行，并把装有援军的木桶投向目标。每个木桶落地时都会造成少量伤害，同时放出 [亡灵](/upgrade/0080-Minion)、[气球兵](/upgrade/0005-Balloon)、[飞龙宝宝](/upgrade/000a-Baby-Dragon) 和 1 个部落城堡援军（如果有）。
+2. 空中战车会在空中飞行，并把装有援军的木桶投向目标。每个木桶落地时都会造成少量伤害，同时放出 [亡灵](/upgrade/0080-Minion)、[气球兵](/upgrade/0005-Balloon)、[飞龙宝宝](/upgrade/000a-Baby-Dragon) 和1个部落城堡援军（如果有）。
    - 空中战车的运作方式和 [部队发射器](/upgrade/troop-launcher) 类似，但它可以独立移动并自行寻找目标，而不是只对某一区域投放援军。
 3. 木桶里的部队部署顺序遵循常规规则：先按人口从低到高，再按内部顺序；同类兵种则按等级从低到高部署。
 4. 空中战车自带的部队等级取决于空中战车自身等级，而不是实验室里已经研究到的等级。
@@ -37,8 +37,8 @@ canonical: /upgrade/sky-wagon
     <UnitProperty pKey="攻击方式" pValue="发射木桶" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="占据人口" pValue="1" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="8 秒/次" />
+    <UnitProperty pKey="移动速度" pValue="2格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="8秒/次" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="9" />
     <UnitProperty pKey="所需大本等级" pValue="17" />
     <UnitProperty pKey="建造时间" pValue="无" trainingSystem="2025" />

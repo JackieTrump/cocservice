@@ -17,10 +17,10 @@ canonical: /upgrade/0089-Apprentice-Warden
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Apprentice_Warden1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Apprentice_Warden2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Apprentice_Warden3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Apprentice_Warden4.png" />
+        <UnitImg imgTitle="1级" imgSrc="Apprentice_Warden1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Apprentice_Warden2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Apprentice_Warden3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Apprentice_Warden4.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -30,7 +30,7 @@ canonical: /upgrade/0089-Apprentice-Warden
    - \* 这里指带上 [生命宝石](/upgrade/life-gem) 这个初始装备后的大守护者，下同。
 2. 和大守护者类似，守护者学徒的光环对自己无效，但对附近的其他守护者学徒有效。如果使用多个守护者学徒，他们可以互相加血。
 3. 守护者学徒的光环对英雄有效。
-4. 守护者学徒的光环加成没有上限，4 级守护者学徒能实实在在地给 95 级 [蛮王](/upgrade/0200-Barbarian-King) 加 2900 多血，而大守护者由于上限的存在，只能给加 575 血。
+4. 守护者学徒的光环加成没有上限，4级守护者学徒能实实在在地给95级 [蛮王](/upgrade/0200-Barbarian-King) 加2900多血，而大守护者由于上限的存在，只能给加575血。
 5. 虽然守护者学徒能给高血量兵种加的血比大守护者多，但是它的光环效果会被大守护者覆盖，因为大守护者的光环加成比例是更高的，只是那个上限影响了大守护者的发挥。
 6. 守护者学徒没有类似大守护者的飞行模式，但它拥有大守护者的跳墙能力。
 7. 虽然从纸面上来说守护者学徒攻击时没有首选目标，但他更愿意跟随附近的部队，并与大部队一起攻击同样的目标，只要这些部队数量够多。
@@ -43,10 +43,10 @@ canonical: /upgrade/0089-Apprentice-Warden
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="0.9 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="5 格" />
-    <UnitProperty pKey="光环半径" pValue="7 格" />
+    <UnitProperty pKey="移动速度" pValue="2.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.9秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="5格" />
+    <UnitProperty pKey="光环半径" pValue="7格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="10" />
     <UnitProperty pKey="所需大本等级" pValue="13" />
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -85,32 +85,32 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>4 级守护者学徒的升级时间减少。</TimelineRow>
+        <TimelineRow>4级守护者学徒的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>2 ~ 4 级守护者学徒的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级守护者学徒的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>守护者学徒的训练时间由 4:00 改为 2:50</TimelineRow>
+        <TimelineRow>守护者学徒的训练时间由 4:00改为 2:50</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>2 ~ 4 级守护者学徒的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级守护者学徒的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>3 ~ 4 级守护者学徒的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 4级守护者学徒的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/03/26">
         <TimelineRow>所有等级守护者学徒的光环加血比例减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>3 ~ 4 级守护者学徒的升级时间减少。</TimelineRow>
-    <TimelineRow>3 级守护者学徒的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 4级守护者学徒的升级时间减少。</TimelineRow>
+    <TimelineRow>3级守护者学徒的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>13 本可解锁新兵种：守护者学徒。</TimelineRow>
+        <TimelineRow>13本可解锁新兵种：守护者学徒。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

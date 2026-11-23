@@ -25,19 +25,19 @@ canonical: /upgrade/0385-Skeleton-Trap
 
 <Panel>
     <UnitImgGroup title="地面模式" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Skeleton_Trap1.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Skeleton_Trap3.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Skeleton_Trap5.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Skeleton_Trap1.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Skeleton_Trap3.png" />
+        <UnitImg imgTitle="5级" imgSrc="Skeleton_Trap5.png" />
     </UnitImgGroup>
     <UnitImgGroup title="空中模式" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Skeleton_Trap1_Air.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Skeleton_Trap3_Air.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Skeleton_Trap5_Air.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Skeleton_Trap1_Air.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Skeleton_Trap3_Air.png" />
+        <UnitImg imgTitle="5级" imgSrc="Skeleton_Trap5_Air.png" />
     </UnitImgGroup>
     <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 - 2 级" imgSrc="Skeleton_Trap1_unarmed.png" />
-        <UnitImg imgTitle="3 - 4 级" imgSrc="Skeleton_Trap3_unarmed.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Skeleton_Trap5_unarmed.png" />
+        <UnitImg imgTitle="1 - 2级" imgSrc="Skeleton_Trap1_unarmed.png" />
+        <UnitImg imgTitle="3 - 4级" imgSrc="Skeleton_Trap3_unarmed.png" />
+        <UnitImg imgTitle="5级" imgSrc="Skeleton_Trap5_unarmed.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -54,8 +54,8 @@ canonical: /upgrade/0385-Skeleton-Trap
     <UnitProperty pKey="占地面积" pValue="1×1" />
     <UnitProperty pKey="作用类型" pValue="召唤骷髅" />
     <UnitProperty pKey="作用目标" pValue="可调地面或空中目标" />
-    <UnitProperty pKey="召唤间隔时间" pValue="0.15 秒" />
-    <UnitProperty pKey="触发半径" pValue="5 格" />
+    <UnitProperty pKey="召唤间隔时间" pValue="0.15秒" />
+    <UnitProperty pKey="触发半径" pValue="5格" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -113,9 +113,9 @@ const tableExtraInfo = [
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="1" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
-    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
-    <UnitProperty pKey="攻速" pValue="0.7 秒/次" />
+    <UnitProperty pKey="移动速度" pValue="3格/秒" />
+    <UnitProperty pKey="攻击距离" pValue="0.4格" />
+    <UnitProperty pKey="攻速" pValue="0.7秒/次" />
 </UnitProperties>
 
 <SmallTitle>对空骷髅的属性</SmallTitle>
@@ -124,9 +124,9 @@ const tableExtraInfo = [
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="攻击的目标" pValue="仅空中目标" />
     <UnitProperty pKey="占据人口" pValue="1" />
-    <UnitProperty pKey="移动速度" pValue="2.2 格/秒" />
+    <UnitProperty pKey="移动速度" pValue="2.2格/秒" />
     <UnitProperty pKey="攻击距离" pValue="0 (紧贴目标)" />
-    <UnitProperty pKey="攻速" pValue="0.7 秒/次" />
+    <UnitProperty pKey="攻速" pValue="0.7秒/次" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -147,28 +147,28 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增 5 级骷髅陷阱。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增5级骷髅陷阱。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>3 ~ 4 级骷髅陷阱的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 4 级骷髅陷阱的升级费用降低。</TimelineRow>
-        <TimelineRow>对地模式的骷髅陷阱召唤出的骷髅占用的人口数由 2 调整为 1，现在对空和对地骷髅的人口数统一为 1 了。</TimelineRow>
+        <TimelineRow>3 ~ 4级骷髅陷阱的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 4级骷髅陷阱的升级费用降低。</TimelineRow>
+        <TimelineRow>对地模式的骷髅陷阱召唤出的骷髅占用的人口数由2调整为1，现在对空和对地骷髅的人口数统一为1了。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>所有等级骷髅陷阱的升级费用降低。</TimelineRow>
         <TimelineRow>3 ~ 4级骷髅陷阱的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>3 ~ 4 级骷髅陷阱的升级费用降低。</TimelineRow>
+        <TimelineRow>3 ~ 4级骷髅陷阱的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新解锁一个骷髅陷阱。</TimelineRow>
-        <TimelineRow>2 ~ 4 级骷髅陷阱的升级时间减少。</TimelineRow>
-        <TimelineRow>2 ~ 3 级骷髅陷阱的升级费用降低。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新解锁一个骷髅陷阱。</TimelineRow>
+        <TimelineRow>2 ~ 4级骷髅陷阱的升级时间减少。</TimelineRow>
+        <TimelineRow>2 ~ 3级骷髅陷阱的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本推出，并在 13 本新增 4 级搜空地雷。</TimelineRow>
-        <TimelineRow>13 本新解锁一个搜空地雷。</TimelineRow>
+        <TimelineRow>13本推出，并在13本新增4级搜空地雷。</TimelineRow>
+        <TimelineRow>13本新解锁一个搜空地雷。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
         <TimelineRow>玩家上线后，所有的陷阱将自动被重新布置，重新布置不再需要花费金币。然而，如果玩家不上线，陷阱就不会被重新布置，所以你仍然可以攻击到陷阱失效的村庄。</TimelineRow>

@@ -23,21 +23,21 @@ canonical: /upgrade/0e03-Giant-Skeleton
 
 <UnitProperties>
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
-    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型1)" :isDefensePreferredTroop="true" />
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="1 格" />
-    <UnitProperty pKey="死亡爆炸半径" pValue="2 格" />
-    <UnitProperty pKey="死亡爆炸延时" pValue="2 秒" />
+    <UnitProperty pKey="移动速度" pValue="1.5格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1格" />
+    <UnitProperty pKey="死亡爆炸半径" pValue="2格" />
+    <UnitProperty pKey="死亡爆炸延时" pValue="2秒" />
     <UnitProperty pKey="所需训练营等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="1<sup>*</sup>" />
     <UnitProperty pKey="训练时间" pValue="30" trainingSystem="2022" />
 </UnitProperties>
 
-\* 理论上来说，1 级大本营可以解锁骷髅巨人，但因为新手教程会引导玩家升级至 2 本，所以实际上 2 本才能训练和使用骷髅巨人。
+\* 理论上来说，1级大本营可以解锁骷髅巨人，但因为新手教程会引导玩家升级至2本，所以实际上2本才能训练和使用骷髅巨人。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -62,16 +62,16 @@ canonical: /upgrade/0e03-Giant-Skeleton
 
 <Timeline>
     <TimelineItem date="2022/10">
-        <TimelineRow>该兵种第 4 次推出。</TimelineRow>
+        <TimelineRow>该兵种第4次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2018/10">
-        <TimelineRow>该兵种第 3 次推出。</TimelineRow>
+        <TimelineRow>该兵种第3次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2017/12/28">
-        <TimelineRow>该兵种第 2 次推出，有效期至 2018/01/03.</TimelineRow>
+        <TimelineRow>该兵种第2次推出，有效期至2018/01/03.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2017/10">
-        <TimelineRow>该兵种第 1 次推出。</TimelineRow>
+        <TimelineRow>该兵种第1次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

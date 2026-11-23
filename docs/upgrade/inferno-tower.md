@@ -48,7 +48,7 @@ const tableExtraInfoMultiMode = [
 ];
 </script>
 
-- *如想查看 13 本及以上的自带武器，请访问 [巨型地狱之塔](/upgrade/giga-inferno)。*
+- *如想查看13本及以上的自带武器，请访问 [巨型地狱之塔](/upgrade/giga-inferno)。*
 - *如想查看都城的地狱之塔，请访问 [都城地狱之塔](/upgrade/inferno-tower-capital)。*
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
@@ -64,32 +64,32 @@ const tableExtraInfoMultiMode = [
 
 <Panel>
     <UnitImgGroup title="单头" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Inferno_Tower1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Inferno_Tower2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Inferno_Tower3.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Inferno_Tower4.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Inferno_Tower5.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Inferno_Tower6.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Inferno_Tower7.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Inferno_Tower8.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Inferno_Tower12.png" />
+        <UnitImg imgTitle="1级" imgSrc="Inferno_Tower1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Inferno_Tower2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Inferno_Tower3.png" />
+        <UnitImg imgTitle="4级" imgSrc="Inferno_Tower4.png" />
+        <UnitImg imgTitle="5级" imgSrc="Inferno_Tower5.png" />
+        <UnitImg imgTitle="6级" imgSrc="Inferno_Tower6.png" />
+        <UnitImg imgTitle="7级" imgSrc="Inferno_Tower7.png" />
+        <UnitImg imgTitle="8级" imgSrc="Inferno_Tower8.png" />
+        <UnitImg imgTitle="9级" imgSrc="Inferno_Tower9.png" />
+        <UnitImg imgTitle="10级" imgSrc="Inferno_Tower10.png" />
+        <UnitImg imgTitle="11级" imgSrc="Inferno_Tower11.png" />
+        <UnitImg imgTitle="12级" imgSrc="Inferno_Tower12.png" />
     </UnitImgGroup>
     <UnitImgGroup title="熄火的单头" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Inferno_Tower1_Depleted.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Inferno_Tower2_Depleted.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Inferno_Tower3_Depleted.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Inferno_Tower4_Depleted.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Inferno_Tower5_Depleted.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Inferno_Tower6_Depleted.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Inferno_Tower7_Depleted.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Inferno_Tower8_Depleted.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9_Depleted.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10_Depleted.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11_Depleted.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Inferno_Tower12_Depleted.png" />
+        <UnitImg imgTitle="1级" imgSrc="Inferno_Tower1_Depleted.png" />
+        <UnitImg imgTitle="2级" imgSrc="Inferno_Tower2_Depleted.png" />
+        <UnitImg imgTitle="3级" imgSrc="Inferno_Tower3_Depleted.png" />
+        <UnitImg imgTitle="4级" imgSrc="Inferno_Tower4_Depleted.png" />
+        <UnitImg imgTitle="5级" imgSrc="Inferno_Tower5_Depleted.png" />
+        <UnitImg imgTitle="6级" imgSrc="Inferno_Tower6_Depleted.png" />
+        <UnitImg imgTitle="7级" imgSrc="Inferno_Tower7_Depleted.png" />
+        <UnitImg imgTitle="8级" imgSrc="Inferno_Tower8_Depleted.png" />
+        <UnitImg imgTitle="9级" imgSrc="Inferno_Tower9_Depleted.png" />
+        <UnitImg imgTitle="10级" imgSrc="Inferno_Tower10_Depleted.png" />
+        <UnitImg imgTitle="11级" imgSrc="Inferno_Tower11_Depleted.png" />
+        <UnitImg imgTitle="12级" imgSrc="Inferno_Tower12_Depleted.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -102,9 +102,9 @@ const tableExtraInfoMultiMode = [
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 单头地狱塔是三段伤害，初始伤害切二段需要 1.5 秒，二段切三段是 3.75 秒，因此单头塔锁定目标 1.5 + 3.75 = 5.25 秒后到达最高伤害。
+1. 单头地狱塔是三段伤害，初始伤害切二段需要1.5秒，二段切三段是3.75秒，因此单头塔锁定目标1.5 + 3.75 = 5.25秒后到达最高伤害。
 2. 地狱之塔必须装弹才能工作，这个装弹操作会在玩家登录游戏时自动进行，但如果玩家长时间不登录，弹药就会用完，从而导致防御失效。
-    - 地狱之塔有 1000 发弹药，每一发 0.128 秒，所以它的弹药在 2 分 08 秒内可以用完。
+    - 地狱之塔有1000发弹药，每一发0.128秒，所以它的弹药在2分08秒内可以用完。
 3. 冰牙和小冰怪的减速效果可以延后单一目标模式的 [地狱塔](/upgrade/inferno-tower) 和 [地狱飞龙](/upgrade/0604-Inferno-Dragon) 达到最高伤害的时间。
 4. [雷电法术](/upgrade/0100-Lightning-Spell) 的伤害、[灵狐](/upgrade/0288-Spirit-Fox)、[隐形药水瓶](/upgrade/invisibility-vial) 和 [隐形法术](/upgrade/invisibility-spell) 的隐形效果可以打断单头地狱之塔的攻击，使其伤害从头开始累积。
 
@@ -115,9 +115,9 @@ const tableExtraInfoMultiMode = [
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="可调整<sup>*</sup>" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="9 格" />
-    <UnitProperty pKey="攻速" pValue="0.128 秒/次" />
-    <UnitProperty pKey="切换目标延时" pValue="0.05 秒" />
+    <UnitProperty pKey="射程" pValue="9格" />
+    <UnitProperty pKey="攻速" pValue="0.128秒/次" />
+    <UnitProperty pKey="切换目标延时" pValue="0.05秒" />
     <UnitProperty pKey="弹药数量" pValue="1000" />
 </UnitProperties>
 
@@ -127,7 +127,7 @@ const tableExtraInfoMultiMode = [
 
 <UnitTable :tableExtraInfo="tableExtraInfoSingleMode">
 
-| 等级 |初始<br>每秒伤害|1.25 秒后<br>每秒伤害|5.25 秒后<br>每秒伤害| 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
+| 等级 |初始<br>每秒伤害|1.25秒后<br>每秒伤害|5.25秒后<br>每秒伤害| 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |      ---      |        ---        |          ---       |   ---  |   ---   |   ----  |        ---          |      ----      |
 |   1  |       30      |         80        |          800       |  1500  |     1M  |   0,12  |                     |       10       |
 |   2  |       35      |        100        |         1000       |  1800  |   1.2M  |   1     |                     |       10       |
@@ -152,32 +152,32 @@ const tableExtraInfoMultiMode = [
 
 <Panel>
     <UnitImgGroup title="多头" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Inferno_Tower1_Multi.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Inferno_Tower2_Multi.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Inferno_Tower3_Multi.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Inferno_Tower4_Multi.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Inferno_Tower5_Multi.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Inferno_Tower6_Multi.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Inferno_Tower7_Multi.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Inferno_Tower8_Multi.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9_Multi.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10_Multi.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11_Multi.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Inferno_Tower12_Multi.png" />
+        <UnitImg imgTitle="1级" imgSrc="Inferno_Tower1_Multi.png" />
+        <UnitImg imgTitle="2级" imgSrc="Inferno_Tower2_Multi.png" />
+        <UnitImg imgTitle="3级" imgSrc="Inferno_Tower3_Multi.png" />
+        <UnitImg imgTitle="4级" imgSrc="Inferno_Tower4_Multi.png" />
+        <UnitImg imgTitle="5级" imgSrc="Inferno_Tower5_Multi.png" />
+        <UnitImg imgTitle="6级" imgSrc="Inferno_Tower6_Multi.png" />
+        <UnitImg imgTitle="7级" imgSrc="Inferno_Tower7_Multi.png" />
+        <UnitImg imgTitle="8级" imgSrc="Inferno_Tower8_Multi.png" />
+        <UnitImg imgTitle="9级" imgSrc="Inferno_Tower9_Multi.png" />
+        <UnitImg imgTitle="10级" imgSrc="Inferno_Tower10_Multi.png" />
+        <UnitImg imgTitle="11级" imgSrc="Inferno_Tower11_Multi.png" />
+        <UnitImg imgTitle="12级" imgSrc="Inferno_Tower12_Multi.png" />
     </UnitImgGroup>
         <UnitImgGroup title="熄火的多头" :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Inferno_Tower1_Multi_Depleted.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Inferno_Tower2_Multi_Depleted.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Inferno_Tower3_Multi_Depleted.png" />
-        <UnitImg imgTitle="4 级" imgSrc="Inferno_Tower4_Multi_Depleted.png" />
-        <UnitImg imgTitle="5 级" imgSrc="Inferno_Tower5_Multi_Depleted.png" />
-        <UnitImg imgTitle="6 级" imgSrc="Inferno_Tower6_Multi_Depleted.png" />
-        <UnitImg imgTitle="7 级" imgSrc="Inferno_Tower7_Multi_Depleted.png" />
-        <UnitImg imgTitle="8 级" imgSrc="Inferno_Tower8_Multi_Depleted.png" />
-        <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9_Multi_Depleted.png" />
-        <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10_Multi_Depleted.png" />
-        <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11_Multi_Depleted.png" />
-        <UnitImg imgTitle="12 级" imgSrc="Inferno_Tower12_Multi_Depleted.png" />
+        <UnitImg imgTitle="1级" imgSrc="Inferno_Tower1_Multi_Depleted.png" />
+        <UnitImg imgTitle="2级" imgSrc="Inferno_Tower2_Multi_Depleted.png" />
+        <UnitImg imgTitle="3级" imgSrc="Inferno_Tower3_Multi_Depleted.png" />
+        <UnitImg imgTitle="4级" imgSrc="Inferno_Tower4_Multi_Depleted.png" />
+        <UnitImg imgTitle="5级" imgSrc="Inferno_Tower5_Multi_Depleted.png" />
+        <UnitImg imgTitle="6级" imgSrc="Inferno_Tower6_Multi_Depleted.png" />
+        <UnitImg imgTitle="7级" imgSrc="Inferno_Tower7_Multi_Depleted.png" />
+        <UnitImg imgTitle="8级" imgSrc="Inferno_Tower8_Multi_Depleted.png" />
+        <UnitImg imgTitle="9级" imgSrc="Inferno_Tower9_Multi_Depleted.png" />
+        <UnitImg imgTitle="10级" imgSrc="Inferno_Tower10_Multi_Depleted.png" />
+        <UnitImg imgTitle="11级" imgSrc="Inferno_Tower11_Multi_Depleted.png" />
+        <UnitImg imgTitle="12级" imgSrc="Inferno_Tower12_Multi_Depleted.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -190,9 +190,9 @@ const tableExtraInfoMultiMode = [
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 单头地狱塔是三段伤害，初始伤害切二段需要 1.5 秒，二段切三段是 3.75 秒，因此单头塔锁定目标 1.5 + 3.75 = 5.25 秒后到达最高伤害。
+1. 单头地狱塔是三段伤害，初始伤害切二段需要1.5秒，二段切三段是3.75秒，因此单头塔锁定目标1.5 + 3.75 = 5.25秒后到达最高伤害。
 2. 地狱之塔必须装弹才能工作，这个装弹操作会在玩家登录游戏时自动进行，但如果玩家长时间不登录，弹药就会用完，从而导致防御失效。
-    - 地狱之塔有 1000 发弹药，每一发 0.128 秒，所以它的弹药在 2 分 08 秒内可以用完。
+    - 地狱之塔有1000发弹药，每一发0.128秒，所以它的弹药在2分08秒内可以用完。
 3. 冰牙和小冰怪的减速效果可以延后单一目标模式的 [地狱塔](/upgrade/inferno-tower) 和 [地狱飞龙](/upgrade/0604-Inferno-Dragon) 达到最高伤害的时间。
 4. [雷电法术](/upgrade/0100-Lightning-Spell) 的伤害、[灵狐](/upgrade/0288-Spirit-Fox)、[隐形药水瓶](/upgrade/invisibility-vial) 和 [隐形法术](/upgrade/invisibility-spell) 的隐形效果可以打断单头地狱之塔的攻击，使其伤害从头开始累积。
 
@@ -203,9 +203,9 @@ const tableExtraInfoMultiMode = [
     <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="可调整<sup>*</sup>" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="10 格" />
-    <UnitProperty pKey="攻速" pValue="0.128 秒/次" />
-    <UnitProperty pKey="切换目标延时" pValue="0.05 秒" />
+    <UnitProperty pKey="射程" pValue="10格" />
+    <UnitProperty pKey="攻速" pValue="0.128秒/次" />
+    <UnitProperty pKey="切换目标延时" pValue="0.05秒" />
     <UnitProperty pKey="弹药数量" pValue="1000" />
 </UnitProperties>
 
@@ -238,80 +238,80 @@ const tableExtraInfoMultiMode = [
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>在 18 本添加了 12 级地狱之塔。</TimelineRow>
+        <TimelineRow>在18本添加了12级地狱之塔。</TimelineRow>
         <TimelineRow>移除了地狱之塔的充能等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>11 级及两个充能等级的地狱之塔的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>11级及两个充能等级的地狱之塔的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
-        <TimelineRow>6 ~ 10 级地狱之塔的升级时间减少。</TimelineRow>
+        <TimelineRow>6 ~ 10级地狱之塔的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>17 本新增 11 级地狱之塔。</TimelineRow>
-        <TimelineRow>1 ~ 4、6、8 ~ 10 级地狱之塔的升级时间减少。</TimelineRow>
-        <TimelineRow>1 ~ 3、6、8 ~ 10 级地狱之塔的升级费用降低。</TimelineRow>
+        <TimelineRow>17本新增11级地狱之塔。</TimelineRow>
+        <TimelineRow>1 ~ 4、6、8 ~ 10级地狱之塔的升级时间减少。</TimelineRow>
+        <TimelineRow>1 ~ 3、6、8 ~ 10级地狱之塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
-        <TimelineRow>5 级地狱之塔的升级时间减少。</TimelineRow>
-        <TimelineRow>5 级地狱之塔的升级费用降低。</TimelineRow>
+        <TimelineRow>5级地狱之塔的升级时间减少。</TimelineRow>
+        <TimelineRow>5级地狱之塔的升级费用降低。</TimelineRow>
         <TimelineRow>地狱之塔的充能时间和充能费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>4、6 ~ 10 级地狱之塔的升级时间减少。</TimelineRow>
-        <TimelineRow>7 ~ 10 级地狱之塔的升级费用降低。</TimelineRow>
+        <TimelineRow>4、6 ~ 10级地狱之塔的升级时间减少。</TimelineRow>
+        <TimelineRow>7 ~ 10级地狱之塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
         <TimelineRow>超级充能推出，地狱之塔是第一批可以充能的建筑之一。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
-        <TimelineRow>6 ~ 9 级地狱之塔的升级时间减少。</TimelineRow>
-        <TimelineRow>8 ~ 9 级地狱之塔的升级费用降低。</TimelineRow>
+        <TimelineRow>6 ~ 9级地狱之塔的升级时间减少。</TimelineRow>
+        <TimelineRow>8 ~ 9级地狱之塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/03">
-        <TimelineRow>4 ~ 9 级多头塔地狱塔的每秒伤害降低。</TimelineRow>
-        <TimelineRow>4 级单头塔的初始伤害降低，5 ~ 9 级单头塔的三段伤害都有降低。</TimelineRow>
+        <TimelineRow>4 ~ 9级多头塔地狱塔的每秒伤害降低。</TimelineRow>
+        <TimelineRow>4级单头塔的初始伤害降低，5 ~ 9级单头塔的三段伤害都有降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/27">
-        <TimelineRow>16 本新增 10 级地狱之塔。</TimelineRow>
+        <TimelineRow>16本新增10级地狱之塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>所有等级地狱之塔的升级时间减少。</TimelineRow>
-        <TimelineRow>1 ~ 6、8 级地狱之塔的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 6、8级地狱之塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/09/28">
         <TimelineRow>所有等级地狱之塔的每秒伤害降低（含单头和多头模式）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
-        <TimelineRow>6 ~ 7 级地狱之塔的升级时间减少。</TimelineRow>
-        <TimelineRow>6 ~ 7 级地狱之塔的升级费用降低。</TimelineRow>
+        <TimelineRow>6 ~ 7级地狱之塔的升级时间减少。</TimelineRow>
+        <TimelineRow>6 ~ 7级地狱之塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/10/10">
-        <TimelineRow>15 本推出，并在 15 本新增 9 级地狱之塔。</TimelineRow>
-        <TimelineRow>1 ~ 8 级地狱之塔的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>15本推出，并在15本新增9级地狱之塔。</TimelineRow>
+        <TimelineRow>1 ~ 8级地狱之塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/27">
-        <TimelineRow>6 级地狱之塔的伤害降低。</TimelineRow>
+        <TimelineRow>6级地狱之塔的伤害降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>1 ~ 7 级 地狱之塔的升级费用降低。</TimelineRow>
+        <TimelineRow>1 ~ 7级 地狱之塔的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 8 级地狱之塔。</TimelineRow>
-        <TimelineRow>地狱塔在多目标模式下不再固定为 5 个目标了，8 级地狱塔最多可以攻击 6 个目标。</TimelineRow>
-        <TimelineRow>1 ~ 5 级地狱塔的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>14本推出，并在14本新增8级地狱之塔。</TimelineRow>
+        <TimelineRow>地狱塔在多目标模式下不再固定为5个目标了，8级地狱塔最多可以攻击6个目标。</TimelineRow>
+        <TimelineRow>1 ~ 5级地狱塔的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/05/20">
-        <TimelineRow>7 级地狱之塔处于单一目标模式时的每秒伤害（第三段伤害）降低 100。</TimelineRow>
+        <TimelineRow>7级地狱之塔处于单一目标模式时的每秒伤害（第三段伤害）降低100。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本推出，并在 13 本新增 7 级地狱之塔。</TimelineRow>
+        <TimelineRow>13本推出，并在13本新增7级地狱之塔。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/09/11">
-        <TimelineRow>2 ~ 3 级地狱塔的伤害降低。</TimelineRow>
+        <TimelineRow>2 ~ 3级地狱塔的伤害降低。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/04/02">
-        <TimelineRow>4 级地狱之塔的升级费用降低。</TimelineRow>
+        <TimelineRow>4级地狱之塔的升级费用降低。</TimelineRow>
         <TimelineRow>玩家上线后，地狱之塔的弹药将自动被填充，填充不再需要花费暗黑重油。然而，如果玩家不上线， 地狱之塔的弹药就不会被填充，所以你仍然可以攻击到地狱之塔的弹药用完的村庄。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

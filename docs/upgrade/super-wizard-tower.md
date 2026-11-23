@@ -2,7 +2,7 @@
 title: "部落冲突 coc 超级法师塔升级数据"
 navTitle: "超级法师塔"
 shownTitle: "超级法师塔"
-description: "超级法师的首次攻击最多可电击附近 15 个敌人，被闪电链命中的目标受到的伤害更低。"
+description: "超级法师的首次攻击最多可电击附近15个敌人，被闪电链命中的目标受到的伤害更低。"
 module: upgrade-home
 imgFolder: home_buildings/0318
 wiki: https://clashofclans.fandom.com/wiki/Super_Wizard_Tower
@@ -19,8 +19,8 @@ canonical: /upgrade/super-wizard-tower
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="建造中" imgSrc="Super_Wizard_Tower_Ruin.png" />
-        <UnitImg imgTitle="1 级" imgSrc="Super_Wizard_Tower1.png" imgHd="Super_Wizard_Tower1_hd.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Super_Wizard_Tower2.png" imgHd="Super_Wizard_Tower2_hd.png" />
+        <UnitImg imgTitle="1级" imgSrc="Super_Wizard_Tower1.png" imgHd="Super_Wizard_Tower1_hd.png" />
+        <UnitImg imgTitle="2级" imgSrc="Super_Wizard_Tower2.png" imgHd="Super_Wizard_Tower2_hd.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -38,7 +38,7 @@ canonical: /upgrade/super-wizard-tower
     - 合并建筑的操作是永久性的，一旦合并就无法拆开。
     - 升本前必须合并完所有可以合并的建筑。
 2. 超级法师塔会向初始目标发射一道闪电，该闪电可连锁初始目标周围的多个目标。
-3. 超级法师塔每次攻击最多对 15 个目标造成伤害。
+3. 超级法师塔每次攻击最多对15个目标造成伤害。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -47,12 +47,12 @@ canonical: /upgrade/super-wizard-tower
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="链式伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="8 格" />
-    <UnitProperty pKey="攻速" pValue="1.3 秒/次" />
-    <UnitProperty pKey="连锁距离" pValue="4 格" />
+    <UnitProperty pKey="射程" pValue="8格" />
+    <UnitProperty pKey="攻速" pValue="1.3秒/次" />
+    <UnitProperty pKey="连锁距离" pValue="4格" />
     <UnitProperty pKey="最大目标数" pValue="15 (含初始目标)" />
-    <UnitProperty pKey="连锁延迟" pValue="0.128 秒" />
-    <UnitProperty pKey="连锁后保留的伤害" pValue="40% (除初始目标外均保留 40% 伤害)" />
+    <UnitProperty pKey="连锁延迟" pValue="0.128秒" />
+    <UnitProperty pKey="连锁后保留的伤害" pValue="40% (除初始目标外均保留40% 伤害)" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -92,7 +92,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>18 本推出，并在 18 本新增建筑：超级法师塔，共设两个等级。</TimelineRow>
+        <TimelineRow>18本推出，并在18本新增建筑：超级法师塔，共设两个等级。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

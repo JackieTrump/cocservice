@@ -21,7 +21,7 @@ canonical: /upgrade/0e0f-Azure-Dragon
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 驭水青龙在 2024/02 的龙年佳节活动中首次推出，在活动中获取 3 000 任务点数（红包）即可解锁该兵种。
+1. 驭水青龙在2024/02的龙年佳节活动中首次推出，在活动中获取3 000任务点数（红包）即可解锁该兵种。
 2. 驭水青龙使用水珠攻击，水珠会刺穿短距离的目标，造成直线的范围伤害。
 3. 驭水青龙攻击时是三连发的，不过如果连发未结束时目标就被摧毁了，它可能会中断连发。
 
@@ -33,11 +33,11 @@ canonical: /upgrade/0e0f-Azure-Dragon
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="40" />
-    <UnitProperty pKey="移动速度" pValue="1.6 格/秒" />
-    <UnitProperty pKey="连发间隔" pValue="0.2 秒" />
-    <UnitProperty pKey="连发后休息" pValue="1.7 秒" />
+    <UnitProperty pKey="移动速度" pValue="1.6格/秒" />
+    <UnitProperty pKey="连发间隔" pValue="0.2秒" />
+    <UnitProperty pKey="连发后休息" pValue="1.7秒" />
     <UnitProperty pKey="连发次数" pValue="3" />
-    <UnitProperty pKey="攻击距离" pValue="2.5 格" />
+    <UnitProperty pKey="攻击距离" pValue="2.5格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="8" />    
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
@@ -68,12 +68,12 @@ canonical: /upgrade/0e0f-Azure-Dragon
 
 <Timeline>
     <TimelineItem date="2026/02/09">
-        <TimelineRow>该兵种第 2 次推出，有效期至 2026/02/26.</TimelineRow>
+        <TimelineRow>该兵种第2次推出，有效期至2026/02/26.</TimelineRow>
         <TimelineRow>与上次推出时相比，驭水青龙新增了四个等级（1、2、12、13）。</TimelineRow>
-        <TimelineRow>与上次推出时相比，3 ~ 4、6 ~ 12 级驭水青龙的伤害提升，6 ~ 12 级驭水青龙的生命值提升。</TimelineRow>
+        <TimelineRow>与上次推出时相比，3 ~ 4、6 ~ 12级驭水青龙的伤害提升，6 ~ 12级驭水青龙的生命值提升。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/02/08">
-        <TimelineRow>该兵种第 1 次推出，设 9 个等级（3 ~ 11 级），有效期至 2024/02/22.</TimelineRow>
+        <TimelineRow>该兵种第1次推出，设9个等级（3 ~ 11级），有效期至2024/02/22.</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -17,9 +17,9 @@ canonical: /upgrade/0316-Firespitter
 
 <Panel>
     <UnitImgGroup :folder="$frontmatter.imgFolder">
-        <UnitImg imgTitle="1 级" imgSrc="Firespitter1.png" />
-        <UnitImg imgTitle="2 级" imgSrc="Firespitter2.png" />
-        <UnitImg imgTitle="3 级" imgSrc="Firespitter3.png" />
+        <UnitImg imgTitle="1级" imgSrc="Firespitter1.png" />
+        <UnitImg imgTitle="2级" imgSrc="Firespitter2.png" />
+        <UnitImg imgTitle="3级" imgSrc="Firespitter3.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -32,12 +32,12 @@ canonical: /upgrade/0316-Firespitter
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 火焰喷射器的攻击方式是先以极快的速度打出 20 发子弹（熔化的铁球），休息 1 秒后再发起下一轮攻击，其机制类似于夜世界的 [熔岩火炮](/upgrade/roaster-bh)。
+1. 火焰喷射器的攻击方式是先以极快的速度打出20发子弹（熔化的铁球），休息1秒后再发起下一轮攻击，其机制类似于夜世界的 [熔岩火炮](/upgrade/roaster-bh)。
 2. 每发子弹可以击中两个目标。
     - 火焰喷射器的子弹可以同时击中地面和空中目标，不像 [投石炮](/upgrade/030e-Scattershot) 一样，瞄准地面就无法溅射到空中。
     - 火焰喷射器的子弹击中两个目标后就会自动消失。
 3. 火焰喷射器的射击有一定的偏移角度，精度不是很高，如果目标较远则有可能打不中。
-4. 火焰喷射器只能覆盖约 150° 的扇形区域。
+4. 火焰喷射器只能覆盖约150° 的扇形区域。
 5. 和 [空气炮](/upgrade/0306-Air-Sweeper) 一样，你可以旋转火焰喷射器，使其朝向你想要的方向。
 
 <SmallTitle>属性</SmallTitle>
@@ -47,10 +47,10 @@ canonical: /upgrade/0316-Firespitter
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="多目标" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
-    <UnitProperty pKey="射程" pValue="16 格" />
-    <UnitProperty pKey="攻速" pValue="0.064 秒/次" />
+    <UnitProperty pKey="射程" pValue="16格" />
+    <UnitProperty pKey="攻速" pValue="0.064秒/次" />
     <UnitProperty pKey="每轮弹药数量" pValue="20" />
-    <UnitProperty pKey="每轮攻击间隔" pValue="1 秒" />
+    <UnitProperty pKey="每轮攻击间隔" pValue="1秒" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
@@ -90,15 +90,15 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/02/23">
-        <TimelineRow>在 18 本添加了 3 级火焰喷射器</TimelineRow>
+        <TimelineRow>在18本添加了3级火焰喷射器</TimelineRow>
         <TimelineRow>移除了火焰喷射器的充能等级。</TimelineRow>
-        <TimelineRow>更改了 1 ~ 2 级火焰喷射器在游戏面板中显示的伤害值（实际伤害没变，只是更改了显示算法）。</TimelineRow>
+        <TimelineRow>更改了1 ~ 2级火焰喷射器在游戏面板中显示的伤害值（实际伤害没变，只是更改了显示算法）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
-        <TimelineRow>1 ~ 2 级及两个充能等级的火焰喷射器的升级时间和升级费用减少。</TimelineRow>
+        <TimelineRow>1 ~ 2级及两个充能等级的火焰喷射器的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
-        <TimelineRow>17 本推出，并在 17 本新增火焰喷射器。</TimelineRow>
+        <TimelineRow>17本推出，并在17本新增火焰喷射器。</TimelineRow>
         <TimelineRow>火焰喷射器在刚推出的时候就支持充能，属于第二批可以充能的建筑。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />

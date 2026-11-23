@@ -24,8 +24,8 @@ canonical: /upgrade/super-barbarian-capital
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 当部落解锁野蛮人兵营时，系统会自动建造 [超级野蛮人训练营](/upgrade/super-barbarian-barracks-capital)，也就是说超级野蛮人在 [都城大本营](/upgrade/2400-Capital-Hall) 达到 2 级后可解锁。
-2. 超级野蛮人的技能（狂暴）：部署 8 秒内狂暴。
+1. 当部落解锁野蛮人兵营时，系统会自动建造 [超级野蛮人训练营](/upgrade/super-barbarian-barracks-capital)，也就是说超级野蛮人在 [都城大本营](/upgrade/2400-Capital-Hall) 达到2级后可解锁。
+2. 超级野蛮人的技能（狂暴）：部署8秒内狂暴。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -36,10 +36,10 @@ canonical: /upgrade/super-barbarian-capital
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="配兵人口" pValue="5" />
     <UnitProperty pKey="防守人口" pValue="5" />
-    <UnitProperty pKey="移动速度" pValue="1.8 格/秒" />
-    <UnitProperty pKey="攻击速度" pValue="0.8 秒/次" />
-    <UnitProperty pKey="首次进攻时机" pValue="到达目标后 0.7 秒" />
-    <UnitProperty pKey="攻击距离" pValue="0.45 格" />
+    <UnitProperty pKey="移动速度" pValue="1.8格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.8秒/次" />
+    <UnitProperty pKey="首次进攻时机" pValue="到达目标后0.7秒" />
+    <UnitProperty pKey="攻击距离" pValue="0.45格" />
     <UnitProperty pKey="特殊效果" pValue="狂暴" />
     <UnitProperty pKey="狂暴时速度提升" pValue="16" />
     <UnitProperty pKey="狂暴时伤害提升" pValue="70%" />
@@ -62,7 +62,7 @@ canonical: /upgrade/super-barbarian-capital
 
 <Timeline>
     <TimelineItem date="2023/09/14">
-        <TimelineRow>4 ~ 5 级超级野蛮人的生命值由 1100/1200 增加到 1120/1240.</TimelineRow>
+        <TimelineRow>4 ~ 5级超级野蛮人的生命值由1100/1200增加到1120/1240.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">
         <TimelineRow>超级野蛮人随着部落都城玩法一同推出。</TimelineRow>
