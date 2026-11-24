@@ -70,7 +70,7 @@ onMounted(() => {
           只保留头像显示和名字纯文本展示，从网页源码层面彻底断开死链。
         -->
         <div class="cp-post-detail cp-post-detail-author" >
-            <Pic class="cp-post-detail-author-avatar" :src="author.avatarSm" />
+            <Pic class="cp-post-detail-author-avatar" :src="author.avatarSm" :alt="author.nickName" />
             <div class="cp-post-detail-author-name">{{ author.nickName }}</div>
         </div>
         <div class="cp-post-detail cp-post-detail-time" ref="createTimeRef"></div>

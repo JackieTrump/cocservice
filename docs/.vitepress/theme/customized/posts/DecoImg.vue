@@ -21,7 +21,7 @@ const props = defineProps({
 
 <template>
     <div class="cp-deco-img">
-        <Pic :src="props.src" :caption="props.caption" :width="props.width" :height="props.height" />
+        <Pic :src="props.src" :alt="props.caption" :caption="props.caption" :width="props.width" :height="props.height" />
     </div>
 </template>
 

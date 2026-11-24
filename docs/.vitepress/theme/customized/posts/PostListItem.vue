@@ -65,7 +65,7 @@ onMounted(() => {
 <template>
     <div class="cp-post-item">
         <a class="cp-post-item-img" :href="props.url" :aria-label="props.title" v-if="hasFeaturedImg">
-            <Pic :lazyLoading="lazyLoadingBool" :src="props.featuredImg" :convertWebp="convertWebp" />
+            <Pic :lazyLoading="lazyLoadingBool" :src="props.featuredImg" :alt="props.title" :convertWebp="convertWebp" />
         </a>
         <div class="cp-post-item-details">
             <a class="cp-post-item-link" :href="props.url">
@@ -81,7 +81,7 @@ onMounted(() => {
       确保头像（avatarSm）正常加载的同时，作者栏不可点击。
     -->
                     <div class="cp-post-item-author">
-                        <Pic class="cp-post-item-author-avatar" :src="author.avatarSm" />
+                        <Pic class="cp-post-item-author-avatar" :src="author.avatarSm" :alt="author.nickName" />
                         <div class="cp-post-item-author-name">{{ author.nickName }}</div>
                     </div>
                 </div>
