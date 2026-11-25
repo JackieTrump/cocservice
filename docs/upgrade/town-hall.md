@@ -36,16 +36,12 @@ canonical: /upgrade/town-hall
         <UnitImg imgTitle="14本" imgSrc="Town_Hall14.png" imgHd="Town_Hall14_hd.png" />
         <UnitImg imgTitle="15本" imgSrc="Town_Hall15.png" imgHd="Town_Hall15_hd.png" />
         <UnitImg imgTitle="16本" imgSrc="Town_Hall16.png" imgHd="Town_Hall16_hd.png" />
-        <UnitImg imgTitle="17本1星" imgSrc="Town_Hall17_1.png" imgHd="Town_Hall17_1_hd.png" />
-        <UnitImg imgTitle="17本2星" imgSrc="Town_Hall17_2.png" imgHd="Town_Hall17_2_hd.png" />
-        <UnitImg imgTitle="17本3星" imgSrc="Town_Hall17_3.png" imgHd="Town_Hall17_3_hd.png" />
-        <UnitImg imgTitle="17本4星" imgSrc="Town_Hall17_4.png" imgHd="Town_Hall17_4_hd.png" />
-        <UnitImg imgTitle="17本5星" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
+        <UnitImg imgTitle="17本" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
         <UnitImg imgTitle="18本" imgSrc="Town_Hall18.png" imgHd="Town_Hall18_hd.png" />
-        <UnitImg imgTitle="19本（原始）" imgSrc="town-hall-19.webp" />
-        <UnitImg imgTitle="19本（野蛮人大厅）" imgSrc="town-hall-19-barbarian.webp" />
-        <UnitImg imgTitle="19本（弓箭手大厅）" imgSrc="town-hall-19-archer.webp" />
-        <UnitImg imgTitle="19本（法师大厅）" imgSrc="town-hall-19-wizard.webp" />
+        <UnitImg imgTitle="19本（原始外观）" imgSrc="town-hall-19.webp" />
+        <UnitImg imgTitle="19本（野蛮人大本营）" imgSrc="town-hall-19-barbarian.webp" />
+        <UnitImg imgTitle="19本（弓箭手大本营）" imgSrc="town-hall-19-archer.webp" />
+        <UnitImg imgTitle="19本（法师大本营）" imgSrc="town-hall-19-wizard.webp" />
     </UnitImgGroup>
     <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
         <UnitImg imgTitle="12本1星" imgSrc="Town_Hall12_1.png" imgHd="Town_Hall12_1_hd.png" />
@@ -68,11 +64,16 @@ canonical: /upgrade/town-hall
         <UnitImg imgTitle="15本3星" imgSrc="Town_Hall15_3.png" imgHd="Town_Hall15_3_hd.png" />
         <UnitImg imgTitle="15本4星" imgSrc="Town_Hall15_4.png" imgHd="Town_Hall15_4_hd.png" />
         <UnitImg imgTitle="15本5星" imgSrc="Town_Hall15_5.png" imgHd="Town_Hall15_5_hd.png" />
+        <UnitImg imgTitle="17本1星" imgSrc="Town_Hall17_1.png" imgHd="Town_Hall17_1_hd.png" />
+        <UnitImg imgTitle="17本2星" imgSrc="Town_Hall17_2.png" imgHd="Town_Hall17_2_hd.png" />
+        <UnitImg imgTitle="17本3星" imgSrc="Town_Hall17_3.png" imgHd="Town_Hall17_3_hd.png" />
+        <UnitImg imgTitle="17本4星" imgSrc="Town_Hall17_4.png" imgHd="Town_Hall17_4_hd.png" />
+        <UnitImg imgTitle="17本5星" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
     </UnitImgGroup>
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
-1. 升到19本后，每套阵型都能单独设置大本营驻军。野蛮人大厅直接开放，可驻扎15名野蛮人。研究出15级弓箭手或15级法师后，可分别选择驻扎15名弓箭手或4名法师。保留原始外观时没有驻军。敌军进入大本营13格范围后，驻军按玩家已研究的兵种等级出战。防守的守卫在守卫神殿中选择。
+1. 升到19本后，每套阵型都能单独设置大本营驻军。野蛮人大本营直接开放，可驻扎15名野蛮人。研究出15级弓箭手或15级法师后，可分别选择驻扎15名弓箭手或4名法师。选择原始外观时不可驻扎部队。敌军进入大本营范围后，驻军按玩家已研究的兵种等级出战。防守的守卫在守卫神殿中选择。
 2. [雷电法术](/upgrade/0100-Lightning-Spell) 不能对大本营造成伤害，[地震法术](/upgrade/0181-Earthquake-Spell) 可以。
 
 <SmallTitle>属性</SmallTitle>
@@ -136,11 +137,11 @@ const tableExtraInfo2 = [
 |  11  |   6800 |     4M  |  5         |                    |     89     |     31    |
 |  12  |   7500 |     6M  |  6         |                    |     92     |     36    |
 |  13  |   8200 |     9M  |  7         |                    |     94     |     39    |
-|  14  |   8900 |    12M  |  7,12      |                    |     95     |     44    |
-|  15  |   9600 |    13M  |  8         |                    |     98     |     44    |
-|  16  |  10000 |    15M  |  9         |                    |     94     |     44    |
-|  17  |  10400 |    16M  | 10         |                    |     93     |     47    |
-|  18  |  10800 |    20M  | 10         |                    |     95     |     48    |
+|  14  |   8900 |  11.5M  |  7         |                    |     96     |     44    |
+|  15  |   9600 |    13M  |  7,12      |                    |     99     |     44    |
+|  16  |  10000 |    15M  |  8,12      |                    |     95     |     44    |
+|  17  |  10400 |    16M  |  9,12      |                    |     94     |     47    |
+|  18  |  10800 |    20M  | 10         |                    |     95     |     47    |
 |  19  |  11200 |    27M  | 13         |                    |     97     |     49    |
 </UnitTable>
 
@@ -167,10 +168,10 @@ const tableExtraInfo2 = [
 |    8    |        750k       |         5k      |
 |    9    |          1M       |        10k      |
 |   10    |        1.5M       |        20k      |
-| 11 - 13 |          2M       |        20k      |
-| 14 - 15 |          3M       |        30k      |
-| 16 - 17 |          4M       |        40k      |
-| 18 - 19 |          5M       |        50k      |
+| 11-13 |          2M       |        20k      |
+| 14-15 |          3M       |        30k      |
+| 16-17 |          4M       |        40k      |
+| 18-19 |          5M       |        50k      |
 </UnitTable>
 
 <SmallTitle>大本营升级提速情况一览</SmallTitle>
@@ -179,10 +180,10 @@ const tableExtraInfo2 = [
 
 | 大本等级 | 提速时间 | 力量加成 | 资源加成 | 英雄加成  | 4倍胜利之星 |
 |   ---   |    ---   |   ---   |   ---   |   ---    |     ---     |
-|  1 - 3  |     无   |    ×    |    ×    |    ×     |      ×      |
-|  4 - 6  |   3天   |    ✓    |    ✓    |    ×     |      ✓      |
+|  1-3  |     无   |    ×    |    ×    |    ×     |      ×      |
+|  4-6  |   3天   |    ✓    |    ✓    |    ×     |      ✓      |
 |    7    |   4天   |    ✓    |    ✓    |    ×     |      ✓      |
-|  8 - 9  |   4天   |    ✓    |    ✓    |    ✓     |      ✓      |
+|  8-9  |   4天   |    ✓    |    ✓    |    ✓     |      ✓      |
 |   10+   |   5天   |    ✓    |    ✓    |    ✓     |      ✓      |
 </Table>
 
@@ -190,9 +191,10 @@ const tableExtraInfo2 = [
 
 <Timeline>
     <TimelineItem date="2026/11/16">
-        <TimelineRow>推出19级大本营，新增大本营驻防部队与外观切换功能（原始 / 野蛮人大厅 / 弓箭手大厅 / 法师大厅），守护者功能移至新建筑「守卫神殿」。</TimelineRow>
-        <TimelineRow>18级大本营升级费用由25M 降至20M，升级时间由14天降至10天。</TimelineRow>
-        <TimelineRow>17级大本营武器（地狱火炮）移除星级划分，统一合并为满级属性。</TimelineRow>
+        <TimelineRow>游戏新增19级大本营，解锁驻防部队与外观切换功能（原始外观 / 野蛮人大本营 / 弓箭手大本营 / 法师大本营）。</TimelineRow>
+        <TimelineRow>原18级大本营的守卫防守功能移至新建筑「守卫神殿」。</TimelineRow>
+        <TimelineRow>18级大本营的升级费用由2500万降至2000万，升级时间由14天降至10天。</TimelineRow>
+        <TimelineRow>17级大本营武器（地狱火炮）移除星级划分，合并为单一满级形态。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>游戏新增18级大本营。</TimelineRow>
@@ -200,26 +202,26 @@ const tableExtraInfo2 = [
     <TimelineItem date="2025/10/06">
         <TimelineRow>同步游戏内大本营的文字描述。</TimelineRow>
         <TimelineRow>16级大本营的升级费用降低。</TimelineRow>
-        <TimelineRow>13 ~ 17级大本营的升级时间减少。</TimelineRow>
+        <TimelineRow>13~17级大本营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/06/16">
-        <TimelineRow>1 ~ 4级大本营的生命值减少。</TimelineRow>
+        <TimelineRow>1~4级大本营的生命值减少。</TimelineRow>
         <TimelineRow>由于精制台的推出，17级大本营的建筑数量加一。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/24">
-        <TimelineRow>6、9、14 ~ 17级大本营的升级费用降低。</TimelineRow>
-        <TimelineRow>10 ~ 12级大本营的升级时间增加。</TimelineRow>
-        <TimelineRow>15 ~ 17级大本营的升级时间减少。</TimelineRow>
+        <TimelineRow>6、9、14~17级大本营的升级费用降低。</TimelineRow>
+        <TimelineRow>10~12级大本营的升级时间增加。</TimelineRow>
+        <TimelineRow>15~17级大本营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>游戏推出了新的合并建筑，17本的建筑数量有变。</TimelineRow>
         <TimelineRow>3级大本营的升级时间减少。</TimelineRow>
-        <TimelineRow>14 ~ 17级大本营可存储的资源量增加。</TimelineRow>
+        <TimelineRow>14~17级大本营可存储的资源量增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/11/25">
         <TimelineRow>游戏新增17级大本营。</TimelineRow>
-        <TimelineRow>15 ~ 16级大本营的升级费用降低。</TimelineRow>
-        <TimelineRow>14 ~ 16级大本营的升级时间减少。</TimelineRow>
+        <TimelineRow>15~16级大本营的升级费用降低。</TimelineRow>
+        <TimelineRow>14~16级大本营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
         <TimelineRow>游戏新增16级大本营。</TimelineRow>
@@ -228,11 +230,11 @@ const tableExtraInfo2 = [
     <TimelineItem date="2022/10/10">
         <TimelineRow>更新后训练营和暗黑训练营各保留一个，多余的全部删除，所以各个大本的最大建筑数量改变。</TimelineRow>
         <TimelineRow>游戏新增15级大本营。</TimelineRow>
-        <TimelineRow>10 ~ 14级大本营的升级费用和升级时间减少。</TimelineRow>
+        <TimelineRow>10~14级大本营的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/12/09">
-        <TimelineRow>1 ~ 13级大本营的升级费用降低。</TimelineRow>
-        <TimelineRow>4 ~ 14级大本营的升级时间减少。</TimelineRow>
+        <TimelineRow>1~13级大本营的升级费用降低。</TimelineRow>
+        <TimelineRow>4~14级大本营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/29">
         <TimelineRow>14级大本营爆炸后毒药的伤害增长更快。</TimelineRow>
@@ -246,7 +248,7 @@ const tableExtraInfo2 = [
         <TimelineRow>13级大本营推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/04/02">
-        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中4 ~ 10级大本营的升级时间减少。</TimelineRow>
+        <TimelineRow>包含大量降低发展成本和提高发展速度的调整，其中4~10级大本营的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
