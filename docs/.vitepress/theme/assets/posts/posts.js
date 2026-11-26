@@ -1,4 +1,5 @@
 import { getISOTimeStr } from "@/assets/global/datetime.js";
+import { toStaticUrl } from "@/assets/global/static-host.js";
 import { authors } from "@/assets/posts/author.js";
 import { data as postsInfoArr } from "@/assets/posts/posts.data.mjs";
 
@@ -172,14 +173,14 @@ export function getAuthorInfo(authorId) {
     const avatarMd = authorRawData.avatarMd;
     let avatarUrlSm, avatarUrlMd;
     if (avatarSm && avatarSm !== "") {
-        avatarUrlSm = "https://static.cocservice.top/p/author/" + authorId + "/" + avatarSm;
+        avatarUrlSm = toStaticUrl("/p/author/" + authorId + "/" + avatarSm);
     } else {
-        avatarUrlSm = "https://static.cocservice.top/p/author/default.png";
+        avatarUrlSm = toStaticUrl("/p/author/default.png");
     }
     if (avatarMd && avatarMd !== "") {
-        avatarUrlMd = "https://static.cocservice.top/p/author/" + authorId + "/" + avatarSm;
+        avatarUrlMd = toStaticUrl("/p/author/" + authorId + "/" + avatarSm);
     } else {
-        avatarUrlMd = "https://static.cocservice.top/p/author/default.png";
+        avatarUrlMd = toStaticUrl("/p/author/default.png");
     }
 
     // 作者的其他信息

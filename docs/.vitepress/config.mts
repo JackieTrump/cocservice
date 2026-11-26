@@ -45,7 +45,7 @@ export default defineConfig({
   ],
   transformPageData(pageData, { siteConfig }) {
     const SITE_HOST = "https://www.cocservice.top"; // 替换为你的主站完整域名（带 www，末尾无斜杠）
-    const STATIC_HOST = "https://static.cocservice.top"; // 替换为你的 R2 静态域名（带 static，末尾无斜杠）
+    const STATIC_HOST = "https://www.cocservice.top"; // 替换为你的 R2 静态域名（带 static，末尾无斜杠）
     const siteTitle = siteConfig.site.title || "部落驿站";
     const siteDesc = siteConfig.site.description || "";
 

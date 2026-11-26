@@ -1,5 +1,6 @@
 <script setup>
 import { isSupportWebp, replaceFileExtension} from "@/assets/global/utils.js";
+import { toStaticUrl } from "@/assets/global/static-host.js";
 
 const props = defineProps({
     lazyLoading: {
@@ -90,7 +91,7 @@ let srcOriginal;
 if (srcProp.startsWith("http://") || srcProp.startsWith("https://")) {
     srcOriginal = srcProp;
 } else {
-    srcOriginal = "https://static.cocservice.top" + srcProp;
+    srcOriginal = toStaticUrl(srcProp);
 }
 
 // 视频封面
@@ -99,7 +100,7 @@ let posterOriginal;
 if (posterProp.startsWith("http://") || posterProp.startsWith("https://")) {
     posterOriginal = posterProp;
 } else {
-    posterOriginal = "https://static.cocservice.top" + posterProp;
+    posterOriginal = toStaticUrl(posterProp);
 }
 if (isSupportWebp) {
     posterOriginal = replaceFileExtension(posterOriginal, ".webp");

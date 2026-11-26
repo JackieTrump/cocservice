@@ -1,5 +1,6 @@
 import { inBrowser } from "vitepress";
 import { isNumber, convertTime, convertNum, getCookie } from "@/assets/global/utils.js";
+import { toStaticUrl } from "@/assets/global/static-host.js";
 
 /**
  * 给定训练时间和折扣，返回指定折扣下的训练时间
@@ -274,8 +275,8 @@ export function getGoldPassValueArr(numType, timeValue, costValue) {
  * 给定资源类型，获取资源的链接和图片 alt 值
  */
 export function getResourceInfo(type) {
-    let imgSrc = "https://static.cocservice.top/resources/";
-    let imgSrcWithoutExtension = "https://static.cocservice.top/resources/";
+    let imgSrc = toStaticUrl("/resources/");
+    let imgSrcWithoutExtension = toStaticUrl("/resources/");
     switch (type) {
         case "Gold":
         case "Elixir":

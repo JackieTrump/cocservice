@@ -1,5 +1,6 @@
 <script setup>
 import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from "@/assets/global/utils.js";
+import { toStaticUrl } from "@/assets/global/static-host.js";
 
 const props = defineProps({
     folder: {
@@ -24,7 +25,7 @@ const props = defineProps({
     }
 });
 
-const linkPrefix = "https://static.cocservice.top/upgrade/" + props.folder + "/";
+const linkPrefix = toStaticUrl("/upgrade/" + props.folder + "/");
 const imgSrcOriginal = props.imgSrc;
 const imgExtension = getFileExtension(imgSrcOriginal);
 const hasAdditionalSource = getConvertWebpInfo(imgExtension);

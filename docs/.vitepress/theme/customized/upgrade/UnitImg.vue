@@ -2,6 +2,7 @@
 import { onMounted, ref, nextTick, computed } from "vue";
 import { useData } from "vitepress";
 import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from "@/assets/global/utils.js";
+import { toStaticUrl } from "@/assets/global/static-host.js";
 
 const props = defineProps({
     imgTitle: {
@@ -35,7 +36,7 @@ onMounted(() => {
     // 确定图片链接
     const refDom = imgItemRef.value;
     const folder = refDom.parentNode.getAttribute("data-folder");
-    const linkPrefix = "https://static.cocservice.top/upgrade/" + folder + "/";
+    const linkPrefix = toStaticUrl("/upgrade/" + folder + "/");
     
     const imgSrcWebp = replaceFileExtension(imgSrcOriginal, ".webp");
     const imgLinkOriginal = linkPrefix + imgSrcOriginal;

@@ -1,5 +1,6 @@
 <script setup>
 import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from "@/assets/global/utils.js";
+import { toStaticUrl } from "@/assets/global/static-host.js";
 
 const props = defineProps({
     lazyLoading: {
@@ -88,7 +89,7 @@ let imgSrcOriginal;
 if (srcProp.startsWith("http://") || srcProp.startsWith("https://")) {
     imgSrcOriginal = srcProp;
 } else {
-    imgSrcOriginal = "https://static.cocservice.top" + srcProp;
+    imgSrcOriginal = toStaticUrl(srcProp);
 }
 
 // 如果调用时明确说明不转化，则不进行其他判断
