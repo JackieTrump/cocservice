@@ -106,10 +106,11 @@ onBeforeUnmount(() => {
 <div class="homepage-recommend-item">
 <SmallTitle>你知道吗</SmallTitle>
 
-- 2026/02更新是地震的狂欢：
-    - 现在 [地震法术](/upgrade/0181-Earthquake-Spell) 和 [地震金靴](/upgrade/0702-Earthquake-Boots) 可以对地面部队造成伤害了。
-    - [法术塔](/upgrade/0311-Spell-Tower) 中新增了地震法术。
-- [飞龙公爵](/upgrade/dragon-duke) 落单后狂暴的机制类似于 [飞龙宝宝](/upgrade/000a-Baby-Dragon)。
+- 2026/11/16「泰坦大战」上线 [19级大本营](/upgrade/town-hall)：
+    - 大本营支持驻扎部队并切换四种形态，个人资料页会展示主阵型的驻军外观。
+    - 8本起可建造小队训练营，19本专属升级小队后可解锁6种全新技能。
+- 新防御尖刺塔只有敌军进入11格范围蓄力启动后，受击才会触发反击，且摧毁它的最后一击不会触发反击。
+- [粉碎者](/upgrade/smasher) 已从大本营移入独立的守卫神殿，最高可升至10级。
 - 如果 [愤怒水母](/upgrade/0289-Angry-Jelly) 和 [阿啾](/upgrade/sneezy) 跟随的英雄未被击倒，则不占用回溯法术的空间。
 
 </div>
@@ -121,7 +122,8 @@ onBeforeUnmount(() => {
 - 新战宠：[贪婪渡鸦](/upgrade/greedy-raven)
 - 新装备：[木棍马驹](/upgrade/stick-horse)、[烈焰之心](/upgrade/fire-heart)、[助燃器](/upgrade/flame-blower)、[爆震器](/upgrade/stun-blaster)
 - 新文章：
-    - [老版本 coc 的杯段是怎么分的？有相关数据留存吗？](/p/7029)
+    - [部落冲突19本「泰坦大战」2026年更新汇总](/p/7030)
+    - [老版本coc的杯段是怎么分的？有相关数据留存吗？](/p/7029)
     - [部落冲突2025年更新](/p/7005)
 
 </div>

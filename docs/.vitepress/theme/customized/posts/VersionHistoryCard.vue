@@ -1,4 +1,6 @@
 <script setup>
+import { getPostInfo } from "@/assets/posts/posts.js";
+
 const props = defineProps({
     link: {
         type: String,
@@ -16,11 +18,25 @@ const props = defineProps({
         type: String,
         default: null
     },
+    imgAlt: {
+        type: String,
+        default: null
+    },
     lazyLoading: {
         type: Boolean,
         default: false
     }
 });
+
+// 图片 alt：优先用显式传入的 imgAlt，其次用该文章标题；标题超过 25 字时回退到「X年部落冲突更新」
+function buildImgAlt() {
+    if (props.imgAlt) return props.imgAlt;
+    const postId = props.link ? parseInt(String(props.link).replace("/p/", "")) : NaN;
+    const postInfo = Number.isInteger(postId) ? getPostInfo(postId) : null;
+    const postTitle = postInfo && postInfo.title ? postInfo.title : "";
+    return postTitle && postTitle.length <= 25 ? postTitle : props.title + "年部落冲突更新";
+}
+const imgAltText = buildImgAlt();
 </script>
 
 <template>
@@ -28,7 +44,7 @@ const props = defineProps({
         <div class="cp-vh-card" :style="props.style">
             <div class="cp-vh-card-title">{{ props.title }}</div>
             <div class="cp-vh-card-img-container">
-                <Pic :src="props.src" :alt="props.title" width="720" height="480" />
+                <Pic :src="props.src" :alt="imgAltText" width="720" height="480" />
             </div>
         </div>
     </a>
