@@ -925,3 +925,12 @@ input[type=search] {
 .cp-theme-dark .cp-color-legendary {
     color: var(--cp-legendary-color-dark);
 }
+
+/* 斑马纹表格：在外层加 <div class="cp-table-zebra"> 即可 */
+.cp-table-zebra table tbody tr:nth-child(even):not(:hover) td {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.cp-theme-dark .cp-table-zebra table tbody tr:nth-child(even):not(:hover) td {
+    background-color: rgba(255, 255, 255, 0.04);
+}
