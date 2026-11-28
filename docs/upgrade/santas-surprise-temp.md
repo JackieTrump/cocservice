@@ -6,7 +6,7 @@ description: "向圣诞老人许个愿，让他把那些“爆炸性”的礼物
 module: upgrade-temp
 imgFolder: temp_others/0e80
 wiki: https://clashofclans.fandom.com/wiki/Santa%27s_Surprise
-canonical: /upgrade/0e80-Santas-Surpeise
+canonical: /upgrade/santas-surprise-temp
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Santas_Surprise.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />

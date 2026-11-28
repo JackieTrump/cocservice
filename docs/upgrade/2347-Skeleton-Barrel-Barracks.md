@@ -41,7 +41,7 @@ canonical: /upgrade/2347-Skeleton-Barrel-Barracks
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" />
-    <UnitProperty pKey="可训练的兵种" pValue="<a href='/upgrade/2007-Skeleton-Barrel'>骷髅飞桶</a>" />
+    <UnitProperty pKey="可训练的兵种" pValue="<a href='/upgrade/skeleton-barrel-capital'>骷髅飞桶</a>" />
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>

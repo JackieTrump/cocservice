@@ -38,7 +38,7 @@ if (activeTabCookieValue === "capital-buildings") {
         <ListItem name="亡灵大军" imgSrc="2004/Minion_Horde_thumb.png" link="minion-horde-capital" :lazyLoading="false" />
         <ListItem name="超级法师" imgSrc="2005/Super_Wizard_thumb.png" link="2005-Super-Wizard" :lazyLoading="false" />
         <ListItem name="火箭气球兵" imgSrc="2006/Rocket_Balloon_thumb.png" link="rocket-balloon-capital" :lazyLoading="false" />
-        <ListItem name="骷髅飞桶" imgSrc="2007/Skeleton_Barrel_thumb.png" link="2007-Skeleton-Barrel" :lazyLoading="false" />
+        <ListItem name="骷髅飞桶" imgSrc="2007/Skeleton_Barrel_thumb.png" link="skeleton-barrel-capital" :lazyLoading="false" />
         <ListItem name="飞行堡垒" imgSrc="2008/Flying_Fortress_thumb.png" link="2008-Flying-Fortress" :lazyLoading="false" />
         <ListItem name="突袭炮车" imgSrc="2009/Raid_Cart_thumb.png" link="2009-Raid-Cart" :lazyLoading="false" />
         <ListItem name="雷霆皮卡" imgSrc="200a/Power_P.E.K.K.A_thumb.png" link="200a-Power-P.E.K.K.A" :lazyLoading="false" />
@@ -74,7 +74,7 @@ if (activeTabCookieValue === "capital-buildings") {
         <ListItem name="加农炮" imgSrc="2201/Cannon5.png" link="2201-Cannon" />
         <ListItem name="投矛器" imgSrc="2202/Spear_Thrower5.png" link="spear-thrower-capital" />
         <ListItem name="防空火箭" imgSrc="2203/Air_Defense5.png" link="air-defense-capital" />
-        <ListItem name="多管加农炮" imgSrc="2204/Multi_Cannon5.png" link="2204-Multi-Cannon" />
+        <ListItem name="多管加农炮" imgSrc="2204/Multi_Cannon5.png" link="multi-cannon-capital" />
         <ListItem name="炸弹塔" imgSrc="2205/Bomb_Tower5.png" link="2205-Bomb-Tower" />
         <ListItem name="多管迫击炮" imgSrc="2206/Multi_Mortar5.png" link="2206-Multi-Mortar" />
         <ListItem name="超级法师塔" imgSrc="2207/Super_Wizard_Tower5.png" link="2207-Super-Wizard-Tower" />

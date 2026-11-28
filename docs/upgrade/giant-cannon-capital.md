@@ -10,7 +10,7 @@ canonical: /upgrade/giant-cannon-capital
 ---
 
 - *如想查看都城的加农炮，请访问：[都城加农炮](/upgrade/2201-Cannon)。*
-- *如想查看都城的多管加农炮，请访问：[都城多管加农炮](/upgrade/2204-Multi-Cannon)。*
+- *如想查看都城的多管加农炮，请访问：[都城多管加农炮](/upgrade/multi-cannon-capital)。*
 - *如想查看夜世界的巨型加农炮，请访问：[夜世界巨型加农炮](/upgrade/110a-Giant-Cannon)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giant_Cannon5.png" :imgAlt="$frontmatter.navTitle"

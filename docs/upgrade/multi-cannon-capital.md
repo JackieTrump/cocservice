@@ -6,7 +6,7 @@ description: "拥有多根炮管的加农炮！"
 module: upgrade-capital
 imgFolder: capital_buildings/2204
 wiki: https://clashofclans.fandom.com/wiki/Multi_Cannon
-canonical: /upgrade/2204-Cannon
+canonical: /upgrade/multi-cannon-capital
 ---
 
 - *如想查看家乡改装后的加农炮，请访问该页面后切换为“连发模式”：[加农炮](/upgrade/0301-Cannon)。*

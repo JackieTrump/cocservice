@@ -12,7 +12,7 @@ canonical: /upgrade/double-cannon-bh
 - *如想查看夜世界的加农炮，请访问：[夜世界加农炮](/upgrade/1100-Cannon)。*
 - *如想查看夜世界的巨型加农炮，请访问：[夜世界巨型加农炮](/upgrade/110a-Giant-Cannon)。*
 - *如想查看家乡改装后的加农炮，请访问该页面后切换为“连发模式”：[加农炮](/upgrade/0301-Cannon)。*
-- *如想查看都城的多管加农炮，请访问：[都城多管加农炮](/upgrade/2204-Multi-Cannon)。*
+- *如想查看都城的多管加农炮，请访问：[都城多管加农炮](/upgrade/multi-cannon-capital)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Double_Cannon10.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 

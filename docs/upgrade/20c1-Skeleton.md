@@ -19,7 +19,7 @@ canonical: /upgrade/20c1-Skeleton
 
 <SmallTitle>重要说明</SmallTitle>
 
-都城骷髅是 [骷髅飞桶](/upgrade/2007-Skeleton-Barrel) 和 [飞行堡垒](/upgrade/2008-Flying-Fortress) 的派生兵种，不能单独部署。
+都城骷髅是 [骷髅飞桶](/upgrade/skeleton-barrel-capital) 和 [飞行堡垒](/upgrade/2008-Flying-Fortress) 的派生兵种，不能单独部署。
 
 <SmallTitle>骷髅的属性</SmallTitle>
 

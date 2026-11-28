@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Skeleton_Barrel/Home_Village
 canonical: /upgrade/0e04-Skeleton-Barrel
 ---
 
-- *如想查看都城的同名临时兵种，请访问：[都城骷髅飞桶](/upgrade/2007-Skeleton-Barrel)。*
+- *如想查看都城的同名临时兵种，请访问：[都城骷髅飞桶](/upgrade/skeleton-barrel-capital)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Skeleton_Barrel_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 

@@ -137,3 +137,10 @@
 /upgrade/0400-Town-Hall    /upgrade/town-hall    301
 /upgrade/030c-Giga-Tesla    /upgrade/giga-tesla    301
 /upgrade/0315-Inferno-Artillery    /upgrade/inferno-artillery    301
+/upgrade/2204-Multi-Cannon  /upgrade/multi-cannon-capital  301
+/upgrade/2204-Cannon  /upgrade/multi-cannon-capital  301
+/upgrade/0e80-Santas-Surprise  /upgrade/santas-surprise-temp  301
+/upgrade/0e80-Santas-Surpeise  /upgrade/santas-surprise-temp  301
+/upgrade/2007-Skeleton-Barrel  /upgrade/skeleton-barrel-capital  301
+/upgrade/2007-Skeleton-Barrels  /upgrade/skeleton-barrel-capital  301
+/upgrade/minion-horde-capitalr  /upgrade/minion-horde-capital  301

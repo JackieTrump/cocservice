@@ -6,7 +6,7 @@ description: "是谁说飞桶嘉年华来着？这本来是一场空中骷髅派
 module: upgrade-capital
 imgFolder: capital_tech/2007
 wiki: https://clashofclans.fandom.com/wiki/Skeleton_Barrel/Clan_Capital
-canonical: /upgrade/2007-Skeleton-Barrels
+canonical: /upgrade/skeleton-barrel-capital
 ---
 
 - *如想查看家乡的同名临时兵种，请访问：[骷髅飞桶](/upgrade/0e04-Skeleton-Barrel)。*

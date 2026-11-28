@@ -6,7 +6,7 @@ description: "六个行动迅速、无护甲保护的飞行战士。三人为伍
 module: upgrade-capital
 imgFolder: capital_tech/2004
 wiki: https://clashofclans.fandom.com/wiki/Minion_Horde
-canonical: /upgrade/minion-horde-capitalr
+canonical: /upgrade/minion-horde-capital
 ---
 
 - *如想查看家乡的亡灵，请访问：[亡灵](/upgrade/0080-Minion)。*
