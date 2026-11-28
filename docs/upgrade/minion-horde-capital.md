@@ -2,7 +2,8 @@
 title: "部落冲突 coc 都城亡灵大军升级数据"
 navTitle: "亡灵大军"
 shownTitle: "亡灵大军"
-description: "六个行动迅速、无护甲保护的飞行战士。三人为伍，六人成军！"
+description: "部落冲突（COC）部落都城亡灵大军升级数据：包含各等级每秒伤害、每次伤害、生命值、每组兵数量与人口、解锁条件及详细属性参数。"
+flavorText: "六个行动迅速、无护甲保护的飞行战士。三人为伍，六人成军！"
 module: upgrade-capital
 imgFolder: capital_tech/2004
 wiki: https://clashofclans.fandom.com/wiki/Minion_Horde
@@ -12,7 +13,7 @@ canonical: /upgrade/minion-horde-capital
 - *如想查看家乡的亡灵，请访问：[亡灵](/upgrade/0080-Minion)。*
 - *如想查看夜世界的异变亡灵，请访问：[夜世界异变亡灵](/upgrade/beta-minion-bh)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Minion_Horde_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Minion_Horde_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.flavorText || $frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 

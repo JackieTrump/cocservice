@@ -2,7 +2,8 @@
 title: "部落冲突 coc 都城多管加农炮升级数据"
 navTitle: "多管加农炮"
 shownTitle: "多管加农炮"
-description: "拥有多根炮管的加农炮！"
+description: "部落冲突（COC）部落都城多管加农炮升级数据：包含各等级每秒伤害、每次伤害、生命值、升级费用、摧毁奖励、占地与判定面积及各子城建筑数量上限。"
+flavorText: "拥有多根炮管的加农炮！"
 module: upgrade-capital
 imgFolder: capital_buildings/2204
 wiki: https://clashofclans.fandom.com/wiki/Multi_Cannon
@@ -12,7 +13,7 @@ canonical: /upgrade/multi-cannon-capital
 - *如想查看家乡改装后的加农炮，请访问该页面后切换为“连发模式”：[加农炮](/upgrade/0301-Cannon)。*
 - *如想查看夜世界的加农炮，请访问：[夜世界双管加农炮](/upgrade/1100-Cannon)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi_Cannon5.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi_Cannon5.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.flavorText || $frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 

@@ -2,7 +2,8 @@
 title: "部落冲突 coc 都城骷髅飞桶升级数据"
 navTitle: "骷髅飞桶"
 shownTitle: "骷髅飞桶"
-description: "是谁说飞桶嘉年华来着？这本来是一场空中骷髅派对，直到飞桶上的气球都破了......然后就变成了地上的骷髅派对！"
+description: "部落冲突（COC）部落都城骷髅飞桶升级数据：包含各等级爆炸伤害、分裂骷髅数量、生命值、配兵人口、解锁条件及详细属性说明。"
+flavorText: "是谁说飞桶嘉年华来着？这本来是一场空中骷髅派对，直到飞桶上的气球都破了......然后就变成了地上的骷髅派对！"
 module: upgrade-capital
 imgFolder: capital_tech/2007
 wiki: https://clashofclans.fandom.com/wiki/Skeleton_Barrel/Clan_Capital
@@ -11,7 +12,7 @@ canonical: /upgrade/skeleton-barrel-capital
 
 - *如想查看家乡的同名临时兵种，请访问：[骷髅飞桶](/upgrade/0e04-Skeleton-Barrel)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Skeleton_Barrel_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Skeleton_Barrel_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.flavorText || $frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 

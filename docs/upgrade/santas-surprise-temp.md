@@ -2,14 +2,15 @@
 title: "部落冲突 coc 圣诞奇袭升级数据"
 navTitle: "圣诞奇袭"
 shownTitle: "圣诞奇袭"
-description: "向圣诞老人许个愿，让他把那些“爆炸性”的礼物砸向敌人的村庄吧！"
+description: "部落冲突（COC）临时法术圣诞奇袭升级数据：包含各等级总伤害、单个礼物伤害、对应大本营等级、法术空间、伤害半径及历年返场更新记录。"
+flavorText: "向圣诞老人许个愿，让他把那些“爆炸性”的礼物砸向敌人的村庄吧！"
 module: upgrade-temp
 imgFolder: temp_others/0e80
 wiki: https://clashofclans.fandom.com/wiki/Santa%27s_Surprise
 canonical: /upgrade/santas-surprise-temp
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Santas_Surprise.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Santas_Surprise.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.flavorText || $frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>重要说明</SmallTitle>
 
